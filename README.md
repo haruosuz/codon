@@ -23,7 +23,17 @@ Published on Nov 3, 2014
 
 ### Tools
 
+http://codonw.sourceforge.net
+Correspondence Analysis of Codon Usage
+CodonW
+15/Apr/2005
+
+http://pbil.univ-lyon1.fr/datasets/charif04/
+Online Synonymous Codon Usage Analyses with the ade4 and seqinR packages
+2004
+
 ### Temperature
+
 https://www.ncbi.nlm.nih.gov/pubmed/16989961
 Gene. 2006 Dec 30;385:128-36. 
 Synonymous codon usage and its potential link with optimal growth temperature in prokaryotes.
@@ -35,10 +45,23 @@ Synonymous codon usage is subject to selection in thermophilic bacteria.
 Lynn DJ1, Singer GA, Hickey DA.
 
 ### Amino acid usage
+
 https://www.ncbi.nlm.nih.gov/pubmed/8065933
 Nucleic Acids Res. 1994 Aug 11;22(15):3174-80.
 Hydrophobicity, expressivity and aromaticity are the major trends of amino-acid usage in 999 Escherichia coli chromosome-encoded genes.
 Lobry JR1, Gautier C.
+
+### Review
+http://www.ncbi.nlm.nih.gov/pubmed/21102527
+Nat Rev Genet. 2011 Jan;12(1):32-42. doi: 10.1038/nrg2899. Epub 2010 Nov 23.
+Synonymous but not the same: the causes and consequences of codon bias.
+Plotkin JB1, Kudla G.
+
+https://www.ncbi.nlm.nih.gov/pubmed/11719972
+Curr Issues Mol Biol. 2001 Oct;3(4):91-7.
+Synonymous codon usage in bacteria.
+Ermolaeva MD1.
+
 
 ### Unclassified
 
@@ -46,6 +69,11 @@ https://www.ncbi.nlm.nih.gov/pubmed/10075995
 Nucleic Acids Res. 1999 Apr 1;27(7):1642-9.
 Proteome composition and codon usage in spirochaetes: species-specific and DNA strand-specific mutational biases.
 Lafay B1, Lloyd AT, McLean MJ, Devine KM, Sharp PM, Wolfe KH.
+
+https://www.ncbi.nlm.nih.gov/pubmed/15537809
+Mol Biol Evol. 2005 Mar;22(3):547-61. Epub 2004 Nov 10.
+Codon bias signatures, organization of microorganisms in codon space, and lifestyle.
+Carbone A1, Képès F, Zinovyev A.
 
 https://www.ncbi.nlm.nih.gov/pubmed/14594704
 Bioinformatics. 2003 Nov 1;19(16):2005-15.
