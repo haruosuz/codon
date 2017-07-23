@@ -21,22 +21,6 @@ https://www.youtube.com/watch?v=P-fjZPf3Dnw
 Codon optimization: Why & how to design DNA sequences for optimal soluble protein expression - YouTube
 Published on Nov 3, 2014
 
-### Metagenome
-
-https://www.ncbi.nlm.nih.gov/pubmed/27115650
-Methods Mol Biol. 2016;1415:509-31. doi: 10.1007/978-1-4939-3572-7_26.
-Big Data, Evolution, and Metagenomes: Predicting Disease from Gut Microbiota Codon Usage Profiles.
-Fabijanić M1, Vlahoviček K2.
-
-https://phylogenomics.blogspot.jp/2013/08/great-use-of-metagenomic-data-community.html
-August 09, 2013
-Great use of metagenomic data: community wide adaptation signatures
-
-https://www.ncbi.nlm.nih.gov/pubmed/23921637
-Nucleic Acids Res. 2013 Oct;41(19):8842-52. doi: 10.1093/nar/gkt673. Epub 2013 Aug 5.
-Environmental shaping of codon usage and functional adaptation across microbial communities.
-Roller M1, Lucić V, Nagy I, Perica T, Vlahovicek K.
-
 ### Growth rate
 
 https://www.ncbi.nlm.nih.gov/pubmed/20308095
@@ -62,6 +46,22 @@ Codon usage bias from tRNA's point of view: redundancy, specialization, and effi
 Rocha EP1.
 - We show that as minimal generation times get shorter, the genomes contain more tRNA genes, but fewer anticodon species. 
 - It also provides new evidence that a selective force for the optimization of the translation machinery is the maximization of growth.
+
+### Metagenome
+
+https://www.ncbi.nlm.nih.gov/pubmed/27115650
+Methods Mol Biol. 2016;1415:509-31. doi: 10.1007/978-1-4939-3572-7_26.
+Big Data, Evolution, and Metagenomes: Predicting Disease from Gut Microbiota Codon Usage Profiles.
+Fabijanić M1, Vlahoviček K2.
+
+https://phylogenomics.blogspot.jp/2013/08/great-use-of-metagenomic-data-community.html
+August 09, 2013
+Great use of metagenomic data: community wide adaptation signatures
+
+https://www.ncbi.nlm.nih.gov/pubmed/23921637
+Nucleic Acids Res. 2013 Oct;41(19):8842-52. doi: 10.1093/nar/gkt673. Epub 2013 Aug 5.
+Environmental shaping of codon usage and functional adaptation across microbial communities.
+Roller M1, Lucić V, Nagy I, Perica T, Vlahovicek K.
 
 ### Database
 
@@ -113,6 +113,11 @@ Synonymous codon usage in bacteria.
 Ermolaeva MD1.
 
 ### Unclassified
+
+https://www.ncbi.nlm.nih.gov/pubmed/18983258
+Annu Rev Genet. 2008;42:287-99. doi: 10.1146/annurev.genet.42.110807.091442.
+Selection on codon bias.
+Hershberg R1, Petrov DA.
 
 https://www.ncbi.nlm.nih.gov/pubmed/22032172
 Genome Biol. 2011 Oct 27;12(10):R109. doi: 10.1186/gb-2011-12-10-r109.
