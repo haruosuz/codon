@@ -1,7 +1,7 @@
 ----------
 
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2017-07-10
+Last Update: 2017-08-17
 
 ----------
 
@@ -10,16 +10,6 @@ Last Update: 2017-07-10
 ----------
 
 ## References
-
-### Video
-
-https://www.youtube.com/watch?v=gzYCZ80OygU
-The Alien-Looking Codon Usages of Recently Acquired Genes Are Not Alien - Gary Olsen - YouTube
-Published on Oct 7, 2015
-
-https://www.youtube.com/watch?v=P-fjZPf3Dnw
-Codon optimization: Why & how to design DNA sequences for optimal soluble protein expression - YouTube
-Published on Nov 3, 2014
 
 ### Growth rate
 
@@ -112,6 +102,81 @@ Curr Issues Mol Biol. 2001 Oct;3(4):91-7.
 Synonymous codon usage in bacteria.
 Ermolaeva MD1.
 
+### Olsen
+
+https://www.youtube.com/watch?v=gzYCZ80OygU
+The Alien-Looking Codon Usages of Recently Acquired Genes Are Not Alien - Gary Olsen - YouTube
+Published on Oct 7, 2015
+
+https://www.ncbi.nlm.nih.gov/pubmed/22128332
+Proc Natl Acad Sci U S A. 2011 Dec 13;108(50):20154-9. doi: 10.1073/pnas.1109451108. Epub 2011 Nov 29.
+Similarity of genes horizontally acquired by Escherichia coli and Salmonella enterica is evidence of a supraspecies pangenome.
+Karberg KA1, Olsen GJ, Davis JJ.
+
+https://www.ncbi.nlm.nih.gov/pubmed/20679093
+Mol Biol Evol. 2011 Jan;28(1):211-21. doi: 10.1093/molbev/msq185. Epub 2010 Aug 2.
+Characterizing the native codon usages of a genome: an axis projection approach.
+Davis JJ1, Olsen GJ.
+
+https://www.ncbi.nlm.nih.gov/pubmed/20018979
+Mol Biol Evol. 2010 Apr;27(4):800-10. doi: 10.1093/molbev/msp281. Epub 2009 Dec 17.
+Modal codon usage: assessing the typical codon usage of a genome.
+Davis JJ1, Olsen GJ.
+
+### Plasmids
+
+https://www.ncbi.nlm.nih.gov/pubmed/19221094
+DNA Res. 2009 Apr;16(2):91-104. doi: 10.1093/dnares/dsp001. Epub 2009 Feb 15.
+Codon usages of genes on chromosome, and surprisingly, genes in plasmid are primarily affected by strand-specific mutational biases in Lawsonia intracellularis.
+Guo FB1, Yuan JB.
+
+https://www.ncbi.nlm.nih.gov/pubmed/18391244
+In Silico Biol. 2007;7(4-5):547-58.
+Analysis of codon usage patterns and predicted highly expressed genes for six phytopathogenic Xanthomonas genomes shows a high degree of conservation.
+Sen G1, Sur S, Bose D, Mondal U, Furnholm T, Bothra A, Tisa L, Sen A.
+
+https://www.ncbi.nlm.nih.gov/pubmed/14597394
+Gene. 2003 Nov 27;320:109-16.
+The strength of translational selection for codon usage varies in the three replicons of Sinorhizobium meliloti.
+Peixoto L1, Zavala A, Romero H, Musto H.
+
+https://www.ncbi.nlm.nih.gov/pubmed/9820537
+J Immunol. 1998 Nov 15;161(10):5594-9.
+Optimization of codon usage of plasmid DNA vaccine is required for the effective MHC class I-restricted T cell responses against an intracellular bacterium.
+Uchijima M1, Yoshida A, Nagata T, Koide Y.
+
+### Video
+
+https://www.youtube.com/watch?v=P-fjZPf3Dnw
+Codon optimization: Why & how to design DNA sequences for optimal soluble protein expression - YouTube
+Published on Nov 3, 2014
+
+### Musto
+
+https://www.ncbi.nlm.nih.gov/pubmed/23288542
+Microbiology. 2013 Mar;159(Pt 3):555-64.
+Evolution of optimal codon choices in the family Enterobacteriaceae.
+Iriarte A1, Baraibar JD, Romero H, Castro-Sowinski S, Musto H.
+
+### Sharp
+
+https://www.ncbi.nlm.nih.gov/pubmed/8662004
+J Mol Evol. 1996 May;42(5):525-36.
+Codon usage and base composition in Rickettsia prowazekii.
+Andersson SG1, Sharp PM.
+
+### Kanaya
+
+https://www.ncbi.nlm.nih.gov/pubmed/11591475
+Gene. 2001 Oct 3;276(1-2):89-99.
+Analysis of codon usage diversity of bacterial genes with a self-organizing map (SOM): characterization of horizontally transferred genes with emphasis on the E. coli O157 genome.
+Kanaya S1, Kinouchi M, Abe T, Kudo Y, Yamada Y, Nishi T, Mori H, Ikemura T.
+
+https://www.ncbi.nlm.nih.gov/pubmed/10570992
+Gene. 1999 Sep 30;238(1):143-55.
+Studies of codon usage and tRNA genes of 18 unicellular organisms and quantification of Bacillus subtilis tRNAs: gene expression level and species-specific diversity of codon usage based on multivariate analysis.
+Kanaya S1, Yamada Y, Kudo Y, Ikemura T.
+
 ### Unclassified
 
 https://www.ncbi.nlm.nih.gov/pubmed/18983258
@@ -144,19 +209,42 @@ Bioinformatics. 2003 Nov 1;19(16):2005-15.
 Codon adaptation index as a measure of dominating codon bias.
 Carbone A1, Zinovyev A, Képès F.
 
-
 https://www.ncbi.nlm.nih.gov/pubmed/10075995
 Nucleic Acids Res. 1999 Apr 1;27(7):1642-9.
 Proteome composition and codon usage in spirochaetes: species-specific and DNA strand-specific mutational biases.
 Lafay B1, Lloyd AT, McLean MJ, Devine KM, Sharp PM, Wolfe KH.
 
+### Japanese
 
+http://tenure5.vbl.okayama-u.ac.jp/HM_blog/?s=コドン
+コドン | 酵母とシステムバイオロジー
 
+2017/1/18
+http://yfuruta.sakura.ne.jp/blog/?p=824
+コドン最適化
 
-### Plasmids
-- [Davis JJ, Olsen GJ. Mol Biol Evol. 2010 Apr "Modal codon usage: assessing the typical codon usage of a genome."](https://www.ncbi.nlm.nih.gov/pubmed/20018979)
-- [Guo FB, Yuan JB. DNA Res. 2009 Apr "Codon usages of genes on chromosome, and surprisingly, genes in plasmid are primarily affected by strand-specific mutational biases in Lawsonia intracellularis."](https://www.ncbi.nlm.nih.gov/pubmed/19221094)
-- [Peixoto L et al. Gene. 2003 Nov 27 "The strength of translational selection for codon usage varies in the three replicons of Sinorhizobium meliloti."](https://www.ncbi.nlm.nih.gov/pubmed/14597394)
+2013年 第11号
+https://www.sbj.or.jp/wp-content/uploads/file/sbj/9111/9111_biomedia_2(1).pdf
+コドンが決め手!?組換えタンパク質の高発現法 今中 洋行
+
+2010-08-25
+http://d.hatena.ne.jp/morimori-08/20100825/1282745255
+コドンバイアスはタンパク質のフォールディングのエラーを少なくする
+
+https://www.nig.ac.jp/museum/evolution/04.html
+遺伝暗号(コドン）使用の種による多様性
+
+https://biowiki.edu-wiki.org/コドン表
+コドン表 [BioWiki]
+
+https://integbio.jp/dbcatalog/record/nbdc00033
+Codon Usage Database - Integbio データベースカタログ
+
+http://www.kazusa.or.jp/codon/
+Codon Usage Database
+
+http://www.genscript.jp/codon_opt.html
+OptimumGene™コドン最適化技術 - GenScript
 
 ----------
 
