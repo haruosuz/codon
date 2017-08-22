@@ -177,6 +177,43 @@ Gene. 1999 Sep 30;238(1):143-55.
 Studies of codon usage and tRNA genes of 18 unicellular organisms and quantification of Bacillus subtilis tRNAs: gene expression level and species-specific diversity of codon usage based on multivariate analysis.
 Kanaya S1, Yamada Y, Kudo Y, Ikemura T.
 
+### Suzuki
+
+http://www.ncbi.nlm.nih.gov/pubmed/27196606
+PLoS One. 2016 May 19;11(5):e0154306.
+Codon Adaptation of Plastid Genes.
+Suzuki H, Morton BR.
+
+http://www.ncbi.nlm.nih.gov/pubmed/26341535
+FEBS Lett. 2015 Oct 7;589(20 Pt B):3113-8.
+Analysis of amino acid and codon usage in Paramecium bursaria.
+Dohra H, Fujishima M, Suzuki H.
+
+http://www.ncbi.nlm.nih.gov/pubmed/19480720
+BMC Bioinformatics. 2009 Jun 1;10:167.
+Measure of synonymous codon usage diversity among genes in bacteria.
+Suzuki H1, Saito R, Tomita M.
+
+http://www.ncbi.nlm.nih.gov/pubmed/18940873
+DNA Res. 2008 Dec;15(6):357-65.
+Comparison of correspondence analysis methods for synonymous codon usage in bacteria.
+Suzuki H, Brown CJ, Forney LJ, Top EM.
+
+http://www.ncbi.nlm.nih.gov/pubmed/18350114
+EURASIP J Bioinform Syst Biol. 2007:61374.
+Variation in the correlation of G + C composition with synonymous codon usage bias among bacteria.
+Suzuki H1, Saito R, Tomita M.
+
+http://www.ncbi.nlm.nih.gov/pubmed/16289058
+FEBS Lett. 2005 Nov 21;579(28):6499-504.
+A problem in multivariate analysis of codon usage data and a possible solution.
+Suzuki H1, Saito R, Tomita M.
+
+http://www.ncbi.nlm.nih.gov/pubmed/15194186
+Gene. 2004 Jun 23;335:19-23.
+The 'weighted sum of relative entropy': a new index for synonymous codon usage bias.
+Suzuki H1, Saito R, Tomita M.
+
 ### Unclassified
 
 https://www.ncbi.nlm.nih.gov/pubmed/18983258
