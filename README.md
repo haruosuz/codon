@@ -11,6 +11,48 @@ Last Update: 2017-08-17
 
 ## References
 
+----------
+
+### Amino acid usage
+
+https://www.ncbi.nlm.nih.gov/pubmed/8065933
+Nucleic Acids Res. 1994 Aug 11;22(15):3174-80.
+Hydrophobicity, expressivity and aromaticity are the major trends of amino-acid usage in 999 Escherichia coli chromosome-encoded genes.
+Lobry JR1, Gautier C.
+
+Googled: "amino acid usage" mutational bias
+
+https://www.ncbi.nlm.nih.gov/pubmed/16936139
+Mol Biol Evol. 2006 Dec;23(12):2303-15. Epub 2006 Aug 25.
+The evolution of biased codon and amino acid usage in nematode genomes.
+Cutter AD1, Wasmuth JD, Blaxter ML.
+
+https://www.ncbi.nlm.nih.gov/pubmed/14672975
+Genome Res. 2004 Jan;14(1):44-53. Epub 2003 Dec 12.
+Mutational and selective pressures on codon and amino acid usage in Buchnera, endosymbiotic bacteria of aphids.
+Rispe C1, Delmotte F, van Ham RC, Moya A.
+
+https://www.ncbi.nlm.nih.gov/pubmed/12949182
+Microbiology. 2003 Sep;149(Pt 9):2585-96.
+Gene expression level influences amino acid usage, but not codon usage, in the tsetse fly endosymbiont Wigglesworthia.
+
+https://www.ncbi.nlm.nih.gov/pubmed/12200484
+Mol Biol Evol. 2002 Sep;19(9):1575-84.
+A strong effect of AT mutational bias on amino acid usage in Buchnera is mitigated at high-expression genes.
+Palacios C1, Wernegreen JJ.
+
+https://www.ncbi.nlm.nih.gov/pubmed/11305938
+Genome Biol. 2001;2(4):RESEARCH0010. Epub 2001 Mar 22.
+A simple model based on mutation and selection explains trends in codon and amino-acid usage and GC composition within and across genomes.
+Knight RD1, Freeland SJ, Landweber LF.
+
+https://www.ncbi.nlm.nih.gov/pubmed/11070046
+Mol Biol Evol. 2000 Nov;17(11):1581-8.
+Nucleotide bias causes a genomewide bias in the amino acid composition of proteins.
+Singer GA1, Hickey DA.
+
+----------
+
 ### Growth rate
 
 https://www.ncbi.nlm.nih.gov/pubmed/20308095
@@ -63,6 +105,11 @@ Hilterbrand A1, Saelens J, Putonti C.
 
 ### Tools
 
+https://www.ncbi.nlm.nih.gov/pubmed/15980527
+Nucleic Acids Res. 2005 Jul 1;33(Web Server issue):W526-31.
+JCat: a novel tool to adapt codon usage of a target gene to its potential expression host.
+Grote A1, Hiller K, Scheer M, Münch R, Nörtemann B, Hempel DC, Jahn D.
+
 http://codonw.sourceforge.net
 Correspondence Analysis of Codon Usage
 CodonW
@@ -83,13 +130,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/12364606
 Nucleic Acids Res. 2002 Oct 1;30(19):4272-7.
 Synonymous codon usage is subject to selection in thermophilic bacteria.
 Lynn DJ1, Singer GA, Hickey DA.
-
-### Amino acid usage
-
-https://www.ncbi.nlm.nih.gov/pubmed/8065933
-Nucleic Acids Res. 1994 Aug 11;22(15):3174-80.
-Hydrophobicity, expressivity and aromaticity are the major trends of amino-acid usage in 999 Escherichia coli chromosome-encoded genes.
-Lobry JR1, Gautier C.
 
 ### Review
 http://www.ncbi.nlm.nih.gov/pubmed/21102527
@@ -144,6 +184,26 @@ https://www.ncbi.nlm.nih.gov/pubmed/9820537
 J Immunol. 1998 Nov 15;161(10):5594-9.
 Optimization of codon usage of plasmid DNA vaccine is required for the effective MHC class I-restricted T cell responses against an intracellular bacterium.
 Uchijima M1, Yoshida A, Nagata T, Koide Y.
+
+
+### Virus
+
+https://www.ncbi.nlm.nih.gov/pubmed/27278133
+Sci Rep. 2016 Jun 9;6:27546. doi: 10.1038/srep27546.
+Codon optimization of the adenoviral fiber negatively impacts structural protein expression and viral fitness.
+Villanueva E1, Martí-Solano M2, Fillat C1,3.
+
+https://www.ncbi.nlm.nih.gov/pubmed/22016848
+Mob Genet Elements. 2011 May;1(1):75-77.
+Codon bias, tRNA pools and horizontal gene transfer.
+Tuller T1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/19888206
+Mol Syst Biol. 2009;5:311. doi: 10.1038/msb.2009.71. Epub 2009 Oct 13.
+Viral adaptation to host: a proteome-based analysis of codon usage and amino acid preferences.
+Bahir I1, Fromer M, Prat Y, Linial M.
+
+
 
 ### Video
 
