@@ -15,12 +15,17 @@ Last Update: 2017-08-17
 
 ### Amino acid usage
 
+https://www.ncbi.nlm.nih.gov/pubmed/11904428
+Proc Natl Acad Sci U S A. 2002 Mar 19;99(6):3695-700.
+Metabolic efficiency and amino acid composition in the proteomes of Escherichia coli and Bacillus subtilis.
+Akashi H1, Gojobori T.
+
 https://www.ncbi.nlm.nih.gov/pubmed/8065933
 Nucleic Acids Res. 1994 Aug 11;22(15):3174-80.
 Hydrophobicity, expressivity and aromaticity are the major trends of amino-acid usage in 999 Escherichia coli chromosome-encoded genes.
 Lobry JR1, Gautier C.
 
-Googled: "amino acid usage" mutational bias
+#### "amino acid usage" mutational bias
 
 https://www.ncbi.nlm.nih.gov/pubmed/16936139
 Mol Biol Evol. 2006 Dec;23(12):2303-15. Epub 2006 Aug 25.
@@ -42,7 +47,7 @@ A strong effect of AT mutational bias on amino acid usage in Buchnera is mitigat
 Palacios C1, Wernegreen JJ.
 
 https://www.ncbi.nlm.nih.gov/pubmed/11305938
-Genome Biol. 2001;2(4):RESEARCH0010. Epub 2001 Mar 22.
+Genome Biol. 2001;2(4):RESEARCH0010.
 A simple model based on mutation and selection explains trends in codon and amino-acid usage and GC composition within and across genomes.
 Knight RD1, Freeland SJ, Landweber LF.
 
@@ -185,7 +190,6 @@ J Immunol. 1998 Nov 15;161(10):5594-9.
 Optimization of codon usage of plasmid DNA vaccine is required for the effective MHC class I-restricted T cell responses against an intracellular bacterium.
 Uchijima M1, Yoshida A, Nagata T, Koide Y.
 
-
 ### Virus
 
 https://www.ncbi.nlm.nih.gov/pubmed/27278133
@@ -202,7 +206,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/19888206
 Mol Syst Biol. 2009;5:311. doi: 10.1038/msb.2009.71. Epub 2009 Oct 13.
 Viral adaptation to host: a proteome-based analysis of codon usage and amino acid preferences.
 Bahir I1, Fromer M, Prat Y, Linial M.
-
 
 
 ### Video
