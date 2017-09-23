@@ -1,7 +1,7 @@
 ----------
 
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2017-08-17
+Last Update: 2017-09-24
 
 ----------
 
@@ -87,7 +87,7 @@ Rocha EP1.
 ### Metagenome
 
 https://www.ncbi.nlm.nih.gov/pubmed/27115650
-Methods Mol Biol. 2016;1415:509-31. doi: 10.1007/978-1-4939-3572-7_26.
+Methods Mol Biol. 2016;1415:509-31.
 Big Data, Evolution, and Metagenomes: Predicting Disease from Gut Microbiota Codon Usage Profiles.
 Fabijanić M1, Vlahoviček K2.
 
@@ -96,7 +96,7 @@ August 09, 2013
 Great use of metagenomic data: community wide adaptation signatures
 
 https://www.ncbi.nlm.nih.gov/pubmed/23921637
-Nucleic Acids Res. 2013 Oct;41(19):8842-52. doi: 10.1093/nar/gkt673. Epub 2013 Aug 5.
+Nucleic Acids Res. 2013 Oct;41(19):8842-52.
 Environmental shaping of codon usage and functional adaptation across microbial communities.
 Roller M1, Lucić V, Nagy I, Perica T, Vlahovicek K.
 
@@ -208,6 +208,19 @@ Viral adaptation to host: a proteome-based analysis of codon usage and amino aci
 Bahir I1, Fromer M, Prat Y, Linial M.
 
 
+
+### Sharp
+
+https://www.ncbi.nlm.nih.gov/pubmed/8662004
+J Mol Evol. 1996 May;42(5):525-36.
+Codon usage and base composition in Rickettsia prowazekii.
+Andersson SG1, Sharp PM.
+
+https://www.ncbi.nlm.nih.gov/pubmed/3118331
+Nucleic Acids Res. 1987 Oct 12;15(19):8023-40.
+Synonymous codon usage in Bacillus subtilis reflects both translational selection and mutational biases.
+Shields DC1, Sharp PM.
+
 ### Video
 
 https://www.youtube.com/watch?v=P-fjZPf3Dnw
@@ -220,13 +233,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/23288542
 Microbiology. 2013 Mar;159(Pt 3):555-64.
 Evolution of optimal codon choices in the family Enterobacteriaceae.
 Iriarte A1, Baraibar JD, Romero H, Castro-Sowinski S, Musto H.
-
-### Sharp
-
-https://www.ncbi.nlm.nih.gov/pubmed/8662004
-J Mol Evol. 1996 May;42(5):525-36.
-Codon usage and base composition in Rickettsia prowazekii.
-Andersson SG1, Sharp PM.
 
 ### Kanaya
 
