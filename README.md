@@ -1,7 +1,7 @@
 ----------
 
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2017-09-24
+Last Update: 2017-10-19
 
 ----------
 
@@ -10,6 +10,16 @@ Last Update: 2017-09-24
 ----------
 
 ## References
+
+----------
+
+### 2017-10
+
+https://www.ncbi.nlm.nih.gov/pubmed/29018283
+Nat Rev Mol Cell Biol. 2017 Oct 11.
+Codon optimality, bias and usage in translation and mRNA decay.
+Hanson G1, Coller J1.
+
 
 ----------
 
@@ -207,9 +217,12 @@ Mol Syst Biol. 2009;5:311. doi: 10.1038/msb.2009.71. Epub 2009 Oct 13.
 Viral adaptation to host: a proteome-based analysis of codon usage and amino acid preferences.
 Bahir I1, Fromer M, Prat Y, Linial M.
 
-
-
 ### Sharp
+
+https://www.ncbi.nlm.nih.gov/pubmed/17038449
+Mol Biol Evol. 2007 Jan;24(1):10-2. Epub 2006 Oct 12.
+Predicting gene expression level from codon usage bias.
+Henry I, Sharp PM.
 
 https://www.ncbi.nlm.nih.gov/pubmed/8662004
 J Mol Evol. 1996 May;42(5):525-36.
