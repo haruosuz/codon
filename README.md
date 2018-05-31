@@ -1,25 +1,185 @@
-----------
-
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2017-10-19
+Last Update: 2018-06-01
 
 ----------
 
 # Codon usage
 
+## Table of Contents
+- [featuring](#featuring)
+- [Updates](#updates)
+  - [2018](#2018)
+  - [2017](#2017)
+
+----------
+## featuring
+
 ----------
 
-## References
+## Updates
 
-----------
+### 2018
 
-### 2017-10
+高度発現遺伝子群のコドンバイアスが、他の遺伝子群の翻訳に影響する。
+https://www.ncbi.nlm.nih.gov/pubmed/29735666
+Proc Natl Acad Sci U S A. 2018 May 22;115(21):E4940-E4949. doi: 10.1073/pnas.1719375115. Epub 2018 May 7.
+Codon usage of highly expressed genes affects proteome-wide translation efficiency.
+Frumkin I1, Lajoie MJ2, Gregg CJ2, Hornung G3, Church GM4, Pilpel Y5.
+
+### 2017
 
 https://www.ncbi.nlm.nih.gov/pubmed/29018283
 Nat Rev Mol Cell Biol. 2017 Oct 11.
 Codon optimality, bias and usage in translation and mRNA decay.
 Hanson G1, Coller J1.
 
+https://www.ncbi.nlm.nih.gov/pubmed/28206693
+Mol Ecol. 2017 Apr;26(7):1832-1847. doi: 10.1111/mec.14056. Epub 2017 Mar 13.
+Plasmid and clonal interference during post horizontal gene transfer evolution.
+Bedhomme S1,2, Perez Pantoja D3, Bravo IG2.
+KEYWORDS:
+antibiotic resistance; clonal interference; codon usage preferences; multilevel selection; plasmid
+
+----------
+### Review
+
+https://www.ncbi.nlm.nih.gov/pubmed/26186290
+Mol Cell. 2015 Jul 16;59(2):149-61. doi: 10.1016/j.molcel.2015.05.035.
+Codon Bias as a Means to Fine-Tune Gene Expression.
+Quax TE1, Claassens NJ2, Söll D3, van der Oost J4.
+ review 
+
+https://www.ncbi.nlm.nih.gov/pubmed/22921354
+Trends Genet. 2012 Nov;28(11):574-81. doi: 10.1016/j.tig.2012.07.006. Epub 2012 Aug 23.
+Speeding with control: codon usage, tRNAs, and ribosomes.
+Novoa EM1, Ribas de Pouplana L.
+REVIEW
+
+http://www.ncbi.nlm.nih.gov/pubmed/21102527
+Nat Rev Genet. 2011 Jan;12(1):32-42. doi: 10.1038/nrg2899. Epub 2010 Nov 23.
+Synonymous but not the same: the causes and consequences of codon bias.
+Plotkin JB1, Kudla G.
+http://mathbio.sas.upenn.edu/Papers/Plotkin_Kudla_NatRevGenetics_2011.pdf
+
+https://www.ncbi.nlm.nih.gov/pubmed/11719972
+Curr Issues Mol Biol. 2001 Oct;3(4):91-7.
+Synonymous codon usage in bacteria.
+Ermolaeva MD1.
+
+----------
+### Database
+
+https://www.ncbi.nlm.nih.gov/pubmed/22536831
+BMC Bioinformatics. 2012 Apr 26;13:62. doi: 10.1186/1471-2105-13-62.
+CBDB: the codon bias database.
+Hilterbrand A1, Saelens J, Putonti C.
+
+### Tools
+
+https://www.ncbi.nlm.nih.gov/pubmed/15980527
+Nucleic Acids Res. 2005 Jul 1;33(Web Server issue):W526-31.
+JCat: a novel tool to adapt codon usage of a target gene to its potential expression host.
+Grote A1, Hiller K, Scheer M, Münch R, Nörtemann B, Hempel DC, Jahn D.
+
+http://codonw.sourceforge.net
+Correspondence Analysis of Codon Usage
+CodonW
+15/Apr/2005
+
+http://pbil.univ-lyon1.fr/datasets/charif04/
+Online Synonymous Codon Usage Analyses with the ade4 and seqinR packages
+2004
+
+----------
+### Replication
+
+https://www.ncbi.nlm.nih.gov/pubmed/10075995
+Nucleic Acids Res. 1999 Apr 1;27(7):1642-9.
+Proteome composition and codon usage in spirochaetes: species-specific and DNA strand-specific mutational biases.
+Lafay B1, Lloyd AT, McLean MJ, Devine KM, Sharp PM, Wolfe KH.
+
+https://www.ncbi.nlm.nih.gov/pubmed/9724767
+Proc Natl Acad Sci U S A. 1998 Sep 1;95(18):10698-703.
+Replicational and transcriptional selection on codon usage in Borrelia burgdorferi.
+McInerney JO1.
+
+----------
+### Olsen
+
+http://www.life.illinois.edu/gary/programs/codon_usage.html
+Codon Usage Programs
+
+https://www.youtube.com/watch?v=gzYCZ80OygU
+The Alien-Looking Codon Usages of Recently Acquired Genes Are Not Alien - Gary Olsen - YouTube
+Published on Oct 7, 2015
+
+https://www.ncbi.nlm.nih.gov/pubmed/22128332
+Proc Natl Acad Sci U S A. 2011 Dec 13;108(50):20154-9. doi: 10.1073/pnas.1109451108. Epub 2011 Nov 29.
+Similarity of genes horizontally acquired by Escherichia coli and Salmonella enterica is evidence of a supraspecies pangenome.
+Karberg KA1, Olsen GJ, Davis JJ.
+
+https://www.ncbi.nlm.nih.gov/pubmed/20679093
+Mol Biol Evol. 2011 Jan;28(1):211-21. doi: 10.1093/molbev/msq185. Epub 2010 Aug 2.
+Characterizing the native codon usages of a genome: an axis projection approach.
+Davis JJ1, Olsen GJ.
+
+https://www.ncbi.nlm.nih.gov/pubmed/20018979
+Mol Biol Evol. 2010 Apr;27(4):800-10. doi: 10.1093/molbev/msp281. Epub 2009 Dec 17.
+Modal codon usage: assessing the typical codon usage of a genome.
+Davis JJ1, Olsen GJ.
+
+----------
+### Plasmids
+
+https://www.ncbi.nlm.nih.gov/pubmed/19221094
+DNA Res. 2009 Apr;16(2):91-104. doi: 10.1093/dnares/dsp001. Epub 2009 Feb 15.
+Codon usages of genes on chromosome, and surprisingly, genes in plasmid are primarily affected by strand-specific mutational biases in Lawsonia intracellularis.
+Guo FB1, Yuan JB.
+
+https://www.ncbi.nlm.nih.gov/pubmed/18391244
+In Silico Biol. 2007;7(4-5):547-58.
+Analysis of codon usage patterns and predicted highly expressed genes for six phytopathogenic Xanthomonas genomes shows a high degree of conservation.
+Sen G1, Sur S, Bose D, Mondal U, Furnholm T, Bothra A, Tisa L, Sen A.
+
+https://www.ncbi.nlm.nih.gov/pubmed/14597394
+Gene. 2003 Nov 27;320:109-16.
+The strength of translational selection for codon usage varies in the three replicons of Sinorhizobium meliloti.
+Peixoto L1, Zavala A, Romero H, Musto H.
+
+https://www.ncbi.nlm.nih.gov/pubmed/9820537
+J Immunol. 1998 Nov 15;161(10):5594-9.
+Optimization of codon usage of plasmid DNA vaccine is required for the effective MHC class I-restricted T cell responses against an intracellular bacterium.
+Uchijima M1, Yoshida A, Nagata T, Koide Y.
+
+### Virus
+
+https://www.ncbi.nlm.nih.gov/pubmed/27278133
+Sci Rep. 2016 Jun 9;6:27546. doi: 10.1038/srep27546.
+Codon optimization of the adenoviral fiber negatively impacts structural protein expression and viral fitness.
+Villanueva E1, Martí-Solano M2, Fillat C1,3.
+
+https://www.ncbi.nlm.nih.gov/pubmed/22016848
+Mob Genet Elements. 2011 May;1(1):75-77.
+Codon bias, tRNA pools and horizontal gene transfer.
+Tuller T1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/19888206
+Mol Syst Biol. 2009;5:311. doi: 10.1038/msb.2009.71. Epub 2009 Oct 13.
+Viral adaptation to host: a proteome-based analysis of codon usage and amino acid preferences.
+Bahir I1, Fromer M, Prat Y, Linial M.
+
+https://www.ncbi.nlm.nih.gov/pubmed/18463708
+PLoS Comput Biol. 2008 Feb 29;4(2):e1000001. doi: 10.1371/journal.pcbi.1000001.
+Genome landscapes and bacteriophage codon usage.
+Lucks JB1, Nelson DR, Kudla GR, Plotkin JB.
+
+### Karlin
+https://www.ncbi.nlm.nih.gov/pubmed/9928479
+Annu Rev Genet. 1998;32:185-225.
+Comparative DNA analysis across diverse genomes.
+Karlin S1, Campbell AM, Mrázek J.
+- CODON BIASES IN BACTERIAL GENOMES
+- Anomalies of Ribosomal Proteins
 
 ----------
 
@@ -29,6 +189,11 @@ https://www.ncbi.nlm.nih.gov/pubmed/11904428
 Proc Natl Acad Sci U S A. 2002 Mar 19;99(6):3695-700.
 Metabolic efficiency and amino acid composition in the proteomes of Escherichia coli and Bacillus subtilis.
 Akashi H1, Gojobori T.
+
+https://www.ncbi.nlm.nih.gov/pubmed/9461405
+Gene. 1997 Dec 31;205(1-2):309-16.
+Influence of genomic G+C content on average amino-acid composition of proteins from 59 bacterial species.
+Lobry JR1.
 
 https://www.ncbi.nlm.nih.gov/pubmed/8065933
 Nucleic Acids Res. 1994 Aug 11;22(15):3174-80.
@@ -110,30 +275,6 @@ Nucleic Acids Res. 2013 Oct;41(19):8842-52.
 Environmental shaping of codon usage and functional adaptation across microbial communities.
 Roller M1, Lucić V, Nagy I, Perica T, Vlahovicek K.
 
-### Database
-
-https://www.ncbi.nlm.nih.gov/pubmed/22536831
-BMC Bioinformatics. 2012 Apr 26;13:62. doi: 10.1186/1471-2105-13-62.
-CBDB: the codon bias database.
-Hilterbrand A1, Saelens J, Putonti C.
-
-
-### Tools
-
-https://www.ncbi.nlm.nih.gov/pubmed/15980527
-Nucleic Acids Res. 2005 Jul 1;33(Web Server issue):W526-31.
-JCat: a novel tool to adapt codon usage of a target gene to its potential expression host.
-Grote A1, Hiller K, Scheer M, Münch R, Nörtemann B, Hempel DC, Jahn D.
-
-http://codonw.sourceforge.net
-Correspondence Analysis of Codon Usage
-CodonW
-15/Apr/2005
-
-http://pbil.univ-lyon1.fr/datasets/charif04/
-Online Synonymous Codon Usage Analyses with the ade4 and seqinR packages
-2004
-
 ### Temperature
 
 https://www.ncbi.nlm.nih.gov/pubmed/16989961
@@ -146,78 +287,12 @@ Nucleic Acids Res. 2002 Oct 1;30(19):4272-7.
 Synonymous codon usage is subject to selection in thermophilic bacteria.
 Lynn DJ1, Singer GA, Hickey DA.
 
-### Review
-http://www.ncbi.nlm.nih.gov/pubmed/21102527
-Nat Rev Genet. 2011 Jan;12(1):32-42. doi: 10.1038/nrg2899. Epub 2010 Nov 23.
-Synonymous but not the same: the causes and consequences of codon bias.
-Plotkin JB1, Kudla G.
-
-https://www.ncbi.nlm.nih.gov/pubmed/11719972
-Curr Issues Mol Biol. 2001 Oct;3(4):91-7.
-Synonymous codon usage in bacteria.
-Ermolaeva MD1.
-
-### Olsen
-
-https://www.youtube.com/watch?v=gzYCZ80OygU
-The Alien-Looking Codon Usages of Recently Acquired Genes Are Not Alien - Gary Olsen - YouTube
-Published on Oct 7, 2015
-
-https://www.ncbi.nlm.nih.gov/pubmed/22128332
-Proc Natl Acad Sci U S A. 2011 Dec 13;108(50):20154-9. doi: 10.1073/pnas.1109451108. Epub 2011 Nov 29.
-Similarity of genes horizontally acquired by Escherichia coli and Salmonella enterica is evidence of a supraspecies pangenome.
-Karberg KA1, Olsen GJ, Davis JJ.
-
-https://www.ncbi.nlm.nih.gov/pubmed/20679093
-Mol Biol Evol. 2011 Jan;28(1):211-21. doi: 10.1093/molbev/msq185. Epub 2010 Aug 2.
-Characterizing the native codon usages of a genome: an axis projection approach.
-Davis JJ1, Olsen GJ.
-
-https://www.ncbi.nlm.nih.gov/pubmed/20018979
-Mol Biol Evol. 2010 Apr;27(4):800-10. doi: 10.1093/molbev/msp281. Epub 2009 Dec 17.
-Modal codon usage: assessing the typical codon usage of a genome.
-Davis JJ1, Olsen GJ.
-
-### Plasmids
-
-https://www.ncbi.nlm.nih.gov/pubmed/19221094
-DNA Res. 2009 Apr;16(2):91-104. doi: 10.1093/dnares/dsp001. Epub 2009 Feb 15.
-Codon usages of genes on chromosome, and surprisingly, genes in plasmid are primarily affected by strand-specific mutational biases in Lawsonia intracellularis.
-Guo FB1, Yuan JB.
-
-https://www.ncbi.nlm.nih.gov/pubmed/18391244
-In Silico Biol. 2007;7(4-5):547-58.
-Analysis of codon usage patterns and predicted highly expressed genes for six phytopathogenic Xanthomonas genomes shows a high degree of conservation.
-Sen G1, Sur S, Bose D, Mondal U, Furnholm T, Bothra A, Tisa L, Sen A.
-
-https://www.ncbi.nlm.nih.gov/pubmed/14597394
-Gene. 2003 Nov 27;320:109-16.
-The strength of translational selection for codon usage varies in the three replicons of Sinorhizobium meliloti.
-Peixoto L1, Zavala A, Romero H, Musto H.
-
-https://www.ncbi.nlm.nih.gov/pubmed/9820537
-J Immunol. 1998 Nov 15;161(10):5594-9.
-Optimization of codon usage of plasmid DNA vaccine is required for the effective MHC class I-restricted T cell responses against an intracellular bacterium.
-Uchijima M1, Yoshida A, Nagata T, Koide Y.
-
-### Virus
-
-https://www.ncbi.nlm.nih.gov/pubmed/27278133
-Sci Rep. 2016 Jun 9;6:27546. doi: 10.1038/srep27546.
-Codon optimization of the adenoviral fiber negatively impacts structural protein expression and viral fitness.
-Villanueva E1, Martí-Solano M2, Fillat C1,3.
-
-https://www.ncbi.nlm.nih.gov/pubmed/22016848
-Mob Genet Elements. 2011 May;1(1):75-77.
-Codon bias, tRNA pools and horizontal gene transfer.
-Tuller T1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/19888206
-Mol Syst Biol. 2009;5:311. doi: 10.1038/msb.2009.71. Epub 2009 Oct 13.
-Viral adaptation to host: a proteome-based analysis of codon usage and amino acid preferences.
-Bahir I1, Fromer M, Prat Y, Linial M.
-
 ### Sharp
+
+2011
+https://www.era.lib.ed.ac.uk/handle/1842/4893
+Codon usage bias in Archaea
+Emery, Laura R.
 
 https://www.ncbi.nlm.nih.gov/pubmed/17038449
 Mol Biol Evol. 2007 Jan;24(1):10-2. Epub 2006 Oct 12.
@@ -270,6 +345,7 @@ http://www.ncbi.nlm.nih.gov/pubmed/26341535
 FEBS Lett. 2015 Oct 7;589(20 Pt B):3113-8.
 Analysis of amino acid and codon usage in Paramecium bursaria.
 Dohra H, Fujishima M, Suzuki H.
+ミドリゾウリムシのトランスクリプトーム（RNA-seq）データを用いて、クロレラ共生下でdown-regulatedしている遺伝子群では発現量とアミノ酸・同義コドン使用との間の相関が高い（P. bursaria-Chlorella共生に関わる自然選択？）ことを報告
 
 http://www.ncbi.nlm.nih.gov/pubmed/19480720
 BMC Bioinformatics. 2009 Jun 1;10:167.
@@ -313,11 +389,6 @@ Nucleic Acids Res. 2011 Jun;39(11):4743-55. doi: 10.1093/nar/gkr054. Epub 2011 F
 Association between translation efficiency and horizontal gene transfer within microbial communities.
 Tuller T1, Girshovich Y, Sella Y, Kreimer A, Freilich S, Kupiec M, Gophna U, Ruppin E.
 
-https://www.ncbi.nlm.nih.gov/pubmed/10075995
-Nucleic Acids Res. 1999 Apr 1;27(7):1642-9.
-Proteome composition and codon usage in spirochaetes: species-specific and DNA strand-specific mutational biases.
-Lafay B1, Lloyd AT, McLean MJ, Devine KM, Sharp PM, Wolfe KH.
-
 https://www.ncbi.nlm.nih.gov/pubmed/15537809
 Mol Biol Evol. 2005 Mar;22(3):547-61. Epub 2004 Nov 10.
 Codon bias signatures, organization of microorganisms in codon space, and lifestyle.
@@ -328,15 +399,14 @@ Bioinformatics. 2003 Nov 1;19(16):2005-15.
 Codon adaptation index as a measure of dominating codon bias.
 Carbone A1, Zinovyev A, Képès F.
 
-https://www.ncbi.nlm.nih.gov/pubmed/10075995
-Nucleic Acids Res. 1999 Apr 1;27(7):1642-9.
-Proteome composition and codon usage in spirochaetes: species-specific and DNA strand-specific mutational biases.
-Lafay B1, Lloyd AT, McLean MJ, Devine KM, Sharp PM, Wolfe KH.
+
 
 ### Japanese
 
 http://tenure5.vbl.okayama-u.ac.jp/HM_blog/?s=コドン
 コドン | 酵母とシステムバイオロジー
+- 2015-03-20 コドンの最適度はmRNAの安定性を決める主要な要因である。
+- 2011-08-31 合成遺伝子で「コドンの最適化」をどう行なうのか？
 
 2017/1/18
 http://yfuruta.sakura.ne.jp/blog/?p=824
@@ -373,4 +443,11 @@ OptimumGene™コドン最適化技術 - GenScript
 
 http://www.kri.sfc.keio.ac.jp/report/mori/2005/b-13.html
 研究課題名        バイオインフォマティックスによる遺伝暗号解析
+
+----------
+### WCA
+within-group correspondence analysis (WCA) of codon usage
+
+Synonymous codon usage was investigated by within-group correspondence analysis (WCA) of codon counts [22, 23] and by correspondence analysis of relative synonymous codon usage (CA-RSCU). The latter is the most widely used method for codon usage analysis, whereas the former has been recently demonstrated to produce more unbiased results because it takes into account both amino acid composition and codon degeneracy information [48]. 
+
 
