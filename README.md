@@ -7,18 +7,42 @@ Last Update: 2018-06-01
 
 ## Table of Contents
 - [featuring](#featuring)
-- [Updates](#updates)
+- [updates](#updates)
   - [2018](#2018)
   - [2017](#2017)
 
 ----------
 ## featuring
 
+https://www.ncbi.nlm.nih.gov/pubmed/17156429
+Genome Biol. 2006;7(12):R114.
+An environmental signature for 323 microbial genomes based on codon adaptation indices.
+Willenbrock H1, Friis C, Juncker AS, Ussery DW.
+
+https://www.ncbi.nlm.nih.gov/pubmed/15479947
+Genome Res. 2004 Nov;14(11):2279-86. Epub 2004 Oct 12.
+Codon usage bias from tRNA's point of view: redundancy, specialization, and efficient decoding for translation optimization.
+Rocha EP1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/15448185
+Nucleic Acids Res. 2004 Sep 24;32(17):5036-44. Print 2004.
+Solving the riddle of codon usage preferences: a test for translational selection.
+dos Reis M1, Savva R, Wernisch L.
+
 ----------
 
-## Updates
+## updates
 
 ### 2018
+
+https://twitter.com/kfuku0502/status/1003768475871875072
+Kenji Fukushima on Twitter: "高発現遺伝子だけでなく低発現遺伝子でもコドン使用頻度は選択を受けているらしい。大腸菌でそういうサイトの同義置換を入れて適応度が下がるケースを発見している。 https://t.co/nFGnUi3m2A"
+
+https://www.ncbi.nlm.nih.gov/pubmed/29688501
+Genome Biol Evol. 2018 Apr 1;10(5):1237-1246. doi: 10.1093/gbe/evy084.
+The Codon Usage of Lowly Expressed Genes Is Subject to Natural Selection.
+Yannai A1, Katz S1, Hershberg R1.
+
 
 高度発現遺伝子群のコドンバイアスが、他の遺伝子群の翻訳に影響する。
 https://www.ncbi.nlm.nih.gov/pubmed/29735666
