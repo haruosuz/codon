@@ -1,5 +1,5 @@
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2018-06-01
+Last Update: 2018-06-28
 
 ----------
 
@@ -13,6 +13,21 @@ Last Update: 2018-06-01
 
 ----------
 ## featuring
+
+https://www.ncbi.nlm.nih.gov/pubmed/23024607
+Curr Genomics. 2012 Apr;13(2):153-62.
+Microbial lifestyle and genome signatures.
+Dutta C1, Paul S.
+
+http://www.oxfordscholarship.com/view/10.1093/acprof:osobl/9780199601165.001.0001/acprof-9780199601165
+Codon Evolution: Mechanisms and Models - Oxford Scholarship
+http://wp.biota.utoronto.ca/chang/files/2016/02/Chang-et-al-Codon-Evolution-Chapter11.pdf
+
+https://www.ncbi.nlm.nih.gov/pubmed/20369015
+PLoS Comput Biol. 2010 Apr 1;6(4):e1000732. doi: 10.1371/journal.pcbi.1000732.
+Why genes evolve faster on secondary chromosomes in bacteria.
+Cooper VS1, Vohr SH, Wrocklage SC, Hatcher PJ.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2848543/
 
 https://www.ncbi.nlm.nih.gov/pubmed/17156429
 Genome Biol. 2006;7(12):R114.
@@ -28,6 +43,35 @@ https://www.ncbi.nlm.nih.gov/pubmed/15448185
 Nucleic Acids Res. 2004 Sep 24;32(17):5036-44. Print 2004.
 Solving the riddle of codon usage preferences: a test for translational selection.
 dos Reis M1, Savva R, Wernisch L.
+
+----------
+### review
+
+https://www.ncbi.nlm.nih.gov/pubmed/29018283
+Nat Rev Mol Cell Biol. 2017 Oct 11.
+Codon optimality, bias and usage in translation and mRNA decay.
+Hanson G1, Coller J1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/26186290
+Mol Cell. 2015 Jul 16;59(2):149-61. doi: 10.1016/j.molcel.2015.05.035.
+Codon Bias as a Means to Fine-Tune Gene Expression.
+Quax TE1, Claassens NJ2, Söll D3, van der Oost J4.
+
+https://www.ncbi.nlm.nih.gov/pubmed/22921354
+Trends Genet. 2012 Nov;28(11):574-81. doi: 10.1016/j.tig.2012.07.006. Epub 2012 Aug 23.
+Speeding with control: codon usage, tRNAs, and ribosomes.
+Novoa EM1, Ribas de Pouplana L.
+
+http://www.ncbi.nlm.nih.gov/pubmed/21102527
+Nat Rev Genet. 2011 Jan;12(1):32-42. doi: 10.1038/nrg2899. Epub 2010 Nov 23.
+Synonymous but not the same: the causes and consequences of codon bias.
+Plotkin JB1, Kudla G.
+http://mathbio.sas.upenn.edu/Papers/Plotkin_Kudla_NatRevGenetics_2011.pdf
+
+https://www.ncbi.nlm.nih.gov/pubmed/11719972
+Curr Issues Mol Biol. 2001 Oct;3(4):91-7.
+Synonymous codon usage in bacteria.
+Ermolaeva MD1.
 
 ----------
 
@@ -52,11 +96,6 @@ Frumkin I1, Lajoie MJ2, Gregg CJ2, Hornung G3, Church GM4, Pilpel Y5.
 
 ### 2017
 
-https://www.ncbi.nlm.nih.gov/pubmed/29018283
-Nat Rev Mol Cell Biol. 2017 Oct 11.
-Codon optimality, bias and usage in translation and mRNA decay.
-Hanson G1, Coller J1.
-
 https://www.ncbi.nlm.nih.gov/pubmed/28206693
 Mol Ecol. 2017 Apr;26(7):1832-1847. doi: 10.1111/mec.14056. Epub 2017 Mar 13.
 Plasmid and clonal interference during post horizontal gene transfer evolution.
@@ -64,31 +103,6 @@ Bedhomme S1,2, Perez Pantoja D3, Bravo IG2.
 KEYWORDS:
 antibiotic resistance; clonal interference; codon usage preferences; multilevel selection; plasmid
 
-----------
-### Review
-
-https://www.ncbi.nlm.nih.gov/pubmed/26186290
-Mol Cell. 2015 Jul 16;59(2):149-61. doi: 10.1016/j.molcel.2015.05.035.
-Codon Bias as a Means to Fine-Tune Gene Expression.
-Quax TE1, Claassens NJ2, Söll D3, van der Oost J4.
- review 
-
-https://www.ncbi.nlm.nih.gov/pubmed/22921354
-Trends Genet. 2012 Nov;28(11):574-81. doi: 10.1016/j.tig.2012.07.006. Epub 2012 Aug 23.
-Speeding with control: codon usage, tRNAs, and ribosomes.
-Novoa EM1, Ribas de Pouplana L.
-REVIEW
-
-http://www.ncbi.nlm.nih.gov/pubmed/21102527
-Nat Rev Genet. 2011 Jan;12(1):32-42. doi: 10.1038/nrg2899. Epub 2010 Nov 23.
-Synonymous but not the same: the causes and consequences of codon bias.
-Plotkin JB1, Kudla G.
-http://mathbio.sas.upenn.edu/Papers/Plotkin_Kudla_NatRevGenetics_2011.pdf
-
-https://www.ncbi.nlm.nih.gov/pubmed/11719972
-Curr Issues Mol Biol. 2001 Oct;3(4):91-7.
-Synonymous codon usage in bacteria.
-Ermolaeva MD1.
 
 ----------
 ### Database
@@ -205,6 +219,18 @@ Karlin S1, Campbell AM, Mrázek J.
 - CODON BIASES IN BACTERIAL GENOMES
 - Anomalies of Ribosomal Proteins
 
+https://www.ncbi.nlm.nih.gov/pubmed/15883368
+Proc Natl Acad Sci U S A. 2005 May 17;102(20):7303-8. Epub 2005 May 9.
+Predicted highly expressed genes in archaeal genomes.
+Karlin S1, Mrázek J, Ma J, Brocchieri L.
+
+http://www.cmbl.uga.edu/software/ASeqH.htm
+PHX/PA user guide
+Analysis of sequence heterogeneity by sliding window plots
+
+http://www.cmbl.uga.edu/software/PHX-PA-guide.htm
+CMBL- PHX/PA user guide
+
 ----------
 
 ### Amino acid usage
@@ -265,12 +291,6 @@ Forces that influence the evolution of codon bias.
 Sharp PM1, Emery LR, Zeng K.
 - Here we show that the strength of selected codon usage bias is highly correlated with bacterial growth rate, suggesting that selection has favoured translational efficiency. 
 
-https://www.ncbi.nlm.nih.gov/pubmed/15728743
-Nucleic Acids Res. 2005 Feb 23;33(4):1141-53. Print 2005.
-Variation in the strength of selected codon usage bias among bacteria.
-Sharp PM1, Bailes E, Grocock RJ, Peden JF, Sockett RE.
-- These results are consistent with the hypothesis that species exposed to selection for rapid growth have more rRNA operons, more tRNA genes and more strongly selected codon usage bias. For example, Clostridium perfringens, the species with the highest value of S, can have a generation time as short as 7 min.
-
 https://www.ncbi.nlm.nih.gov/pubmed/20090831
 PLoS Genet. 2010 Jan 15;6(1):e1000808. doi: 10.1371/journal.pgen.1000808.
 The systemic imprint of growth and its uses in ecological (meta)genomics.
@@ -322,6 +342,13 @@ https://www.ncbi.nlm.nih.gov/pubmed/17038449
 Mol Biol Evol. 2007 Jan;24(1):10-2. Epub 2006 Oct 12.
 Predicting gene expression level from codon usage bias.
 Henry I, Sharp PM.
+
+https://www.ncbi.nlm.nih.gov/pubmed/15728743
+Nucleic Acids Res. 2005 Feb 23;33(4):1141-53. Print 2005.
+Variation in the strength of selected codon usage bias among bacteria.
+Sharp PM1, Bailes E, Grocock RJ, Peden JF, Sockett RE.
+These results are consistent with the hypothesis that species exposed to selection for rapid growth have more rRNA operons, more tRNA genes and more strongly selected codon usage bias. For example, Clostridium perfringens, the species with the highest value of S, can have a generation time as short as 7 min.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549432/
 
 https://www.ncbi.nlm.nih.gov/pubmed/8662004
 J Mol Evol. 1996 May;42(5):525-36.
@@ -375,6 +402,7 @@ http://www.ncbi.nlm.nih.gov/pubmed/19480720
 BMC Bioinformatics. 2009 Jun 1;10:167.
 Measure of synonymous codon usage diversity among genes in bacteria.
 Suzuki H1, Saito R, Tomita M.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2697163/
 
 http://www.ncbi.nlm.nih.gov/pubmed/18940873
 DNA Res. 2008 Dec;15(6):357-65.
