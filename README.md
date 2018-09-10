@@ -1,11 +1,13 @@
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2018-07-15
+Last Update: 2018-09
 
 ----------
 
 # Codon usage
 
 ## Table of Contents
+- [database](#database)
+- [tools](#tools)
 - [featuring](#featuring)
 - [review](#review)
 - [updates](#updates)
@@ -18,6 +20,34 @@ Last Update: 2018-07-15
   - [Musto](#Kanaya)
   - [Sharp](#Sharp)
 - [unclassified](#unclassified)
+
+----------
+## database
+
+https://www.ncbi.nlm.nih.gov/pubmed/22536831
+BMC Bioinformatics. 2012 Apr 26;13:62. doi: 10.1186/1471-2105-13-62.
+CBDB: the codon bias database.
+Hilterbrand A1, Saelens J, Putonti C.
+
+## tools
+
+22 Aug 2018
+https://arxiv.org/abs/1808.07259
+[1808.07259] SSCU: an R/Bioconductor package for analyzing selective profile in synonymous codon usage
+
+https://www.ncbi.nlm.nih.gov/pubmed/15980527
+Nucleic Acids Res. 2005 Jul 1;33(Web Server issue):W526-31.
+JCat: a novel tool to adapt codon usage of a target gene to its potential expression host.
+Grote A1, Hiller K, Scheer M, Münch R, Nörtemann B, Hempel DC, Jahn D.
+
+http://codonw.sourceforge.net
+Correspondence Analysis of Codon Usage
+CodonW
+15/Apr/2005
+
+http://pbil.univ-lyon1.fr/datasets/charif04/
+Online Synonymous Codon Usage Analyses with the ade4 and seqinR packages
+2004
 
 ----------
 ## featuring
@@ -110,30 +140,6 @@ Plasmid and clonal interference during post horizontal gene transfer evolution.
 Bedhomme S1,2, Perez Pantoja D3, Bravo IG2.
 KEYWORDS:
 antibiotic resistance; clonal interference; codon usage preferences; multilevel selection; plasmid
-
-----------
-### database
-
-https://www.ncbi.nlm.nih.gov/pubmed/22536831
-BMC Bioinformatics. 2012 Apr 26;13:62. doi: 10.1186/1471-2105-13-62.
-CBDB: the codon bias database.
-Hilterbrand A1, Saelens J, Putonti C.
-
-### tools
-
-https://www.ncbi.nlm.nih.gov/pubmed/15980527
-Nucleic Acids Res. 2005 Jul 1;33(Web Server issue):W526-31.
-JCat: a novel tool to adapt codon usage of a target gene to its potential expression host.
-Grote A1, Hiller K, Scheer M, Münch R, Nörtemann B, Hempel DC, Jahn D.
-
-http://codonw.sourceforge.net
-Correspondence Analysis of Codon Usage
-CodonW
-15/Apr/2005
-
-http://pbil.univ-lyon1.fr/datasets/charif04/
-Online Synonymous Codon Usage Analyses with the ade4 and seqinR packages
-2004
 
 ----------
 
