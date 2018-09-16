@@ -6,48 +6,53 @@ Last Update: 2018-09
 # Codon usage
 
 ## Table of Contents
-- [database](#database)
-- [tools](#tools)
-- [featuring](#featuring)
-- [review](#review)
 - [updates](#updates)
   - [2018](#2018)
   - [2017](#2017)
+- [review](#review)
+- [database](#database)
+- [tools](#tools)
+- [featuring](#featuring)
 - [metagenome](#metagenome)
-- [growth rate](#growth rate)
+- [growth rate](#growth-rate)
+- [temperature](#temperature)
+- [replication](#replication)
 - [people](#people)
   - [Kanaya](#Musto)
   - [Musto](#Kanaya)
   - [Sharp](#Sharp)
 - [unclassified](#unclassified)
 
+
 ----------
-## database
 
-https://www.ncbi.nlm.nih.gov/pubmed/22536831
-BMC Bioinformatics. 2012 Apr 26;13:62. doi: 10.1186/1471-2105-13-62.
-CBDB: the codon bias database.
-Hilterbrand A1, Saelens J, Putonti C.
+## updates
 
-## tools
+### 2018
 
-22 Aug 2018
-https://arxiv.org/abs/1808.07259
-[1808.07259] SSCU: an R/Bioconductor package for analyzing selective profile in synonymous codon usage
+https://twitter.com/kfuku0502/status/1003768475871875072
+Kenji Fukushima on Twitter: "高発現遺伝子だけでなく低発現遺伝子でもコドン使用頻度は選択を受けているらしい。大腸菌でそういうサイトの同義置換を入れて適応度が下がるケースを発見している。 https://t.co/nFGnUi3m2A"
 
-https://www.ncbi.nlm.nih.gov/pubmed/15980527
-Nucleic Acids Res. 2005 Jul 1;33(Web Server issue):W526-31.
-JCat: a novel tool to adapt codon usage of a target gene to its potential expression host.
-Grote A1, Hiller K, Scheer M, Münch R, Nörtemann B, Hempel DC, Jahn D.
+https://www.ncbi.nlm.nih.gov/pubmed/29688501
+Genome Biol Evol. 2018 Apr 1;10(5):1237-1246. doi: 10.1093/gbe/evy084.
+The Codon Usage of Lowly Expressed Genes Is Subject to Natural Selection.
+Yannai A1, Katz S1, Hershberg R1.
 
-http://codonw.sourceforge.net
-Correspondence Analysis of Codon Usage
-CodonW
-15/Apr/2005
 
-http://pbil.univ-lyon1.fr/datasets/charif04/
-Online Synonymous Codon Usage Analyses with the ade4 and seqinR packages
-2004
+高度発現遺伝子群のコドンバイアスが、他の遺伝子群の翻訳に影響する。
+https://www.ncbi.nlm.nih.gov/pubmed/29735666
+Proc Natl Acad Sci U S A. 2018 May 22;115(21):E4940-E4949. doi: 10.1073/pnas.1719375115. Epub 2018 May 7.
+Codon usage of highly expressed genes affects proteome-wide translation efficiency.
+Frumkin I1, Lajoie MJ2, Gregg CJ2, Hornung G3, Church GM4, Pilpel Y5.
+
+### 2017
+
+https://www.ncbi.nlm.nih.gov/pubmed/28206693
+Mol Ecol. 2017 Apr;26(7):1832-1847. doi: 10.1111/mec.14056. Epub 2017 Mar 13.
+Plasmid and clonal interference during post horizontal gene transfer evolution.
+Bedhomme S1,2, Perez Pantoja D3, Bravo IG2.
+KEYWORDS:
+antibiotic resistance; clonal interference; codon usage preferences; multilevel selection; plasmid
 
 ----------
 ## featuring
@@ -61,21 +66,6 @@ PLoS Comput Biol. 2010 Apr 1;6(4):e1000732. doi: 10.1371/journal.pcbi.1000732.
 Why genes evolve faster on secondary chromosomes in bacteria.
 Cooper VS1, Vohr SH, Wrocklage SC, Hatcher PJ.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2848543/
-
-https://www.ncbi.nlm.nih.gov/pubmed/17156429
-Genome Biol. 2006;7(12):R114.
-An environmental signature for 323 microbial genomes based on codon adaptation indices.
-Willenbrock H1, Friis C, Juncker AS, Ussery DW.
-
-https://www.ncbi.nlm.nih.gov/pubmed/15479947
-Genome Res. 2004 Nov;14(11):2279-86. Epub 2004 Oct 12.
-Codon usage bias from tRNA's point of view: redundancy, specialization, and efficient decoding for translation optimization.
-Rocha EP1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/15448185
-Nucleic Acids Res. 2004 Sep 24;32(17):5036-44. Print 2004.
-Solving the riddle of codon usage preferences: a test for translational selection.
-dos Reis M1, Savva R, Wernisch L.
 
 ----------
 ### review
@@ -112,38 +102,51 @@ Synonymous codon usage in bacteria.
 Ermolaeva MD1.
 
 ----------
+## database
 
-## updates
+https://www.ncbi.nlm.nih.gov/pubmed/22536831
+BMC Bioinformatics. 2012 Apr 26;13:62. doi: 10.1186/1471-2105-13-62.
+CBDB: the codon bias database.
+Hilterbrand A1, Saelens J, Putonti C.
 
-### 2018
+## tools
 
-https://twitter.com/kfuku0502/status/1003768475871875072
-Kenji Fukushima on Twitter: "高発現遺伝子だけでなく低発現遺伝子でもコドン使用頻度は選択を受けているらしい。大腸菌でそういうサイトの同義置換を入れて適応度が下がるケースを発見している。 https://t.co/nFGnUi3m2A"
+22 Aug 2018
+https://arxiv.org/abs/1808.07259
+[1808.07259] SSCU: an R/Bioconductor package for analyzing selective profile in synonymous codon usage
 
-https://www.ncbi.nlm.nih.gov/pubmed/29688501
-Genome Biol Evol. 2018 Apr 1;10(5):1237-1246. doi: 10.1093/gbe/evy084.
-The Codon Usage of Lowly Expressed Genes Is Subject to Natural Selection.
-Yannai A1, Katz S1, Hershberg R1.
+https://www.ncbi.nlm.nih.gov/pubmed/17439967
+Nucleic Acids Res. 2007 Jul;35(Web Server issue):W126-31. Epub 2007 Apr 16.
+OPTIMIZER: a web server for optimizing the codon usage of DNA sequences.
+Puigbò P1, Guzmán E, Romeu A, Garcia-Vallvé S.
 
+https://www.ncbi.nlm.nih.gov/pubmed/15980527
+Nucleic Acids Res. 2005 Jul 1;33(Web Server issue):W526-31.
+JCat: a novel tool to adapt codon usage of a target gene to its potential expression host.
+Grote A1, Hiller K, Scheer M, Münch R, Nörtemann B, Hempel DC, Jahn D.
 
-高度発現遺伝子群のコドンバイアスが、他の遺伝子群の翻訳に影響する。
-https://www.ncbi.nlm.nih.gov/pubmed/29735666
-Proc Natl Acad Sci U S A. 2018 May 22;115(21):E4940-E4949. doi: 10.1073/pnas.1719375115. Epub 2018 May 7.
-Codon usage of highly expressed genes affects proteome-wide translation efficiency.
-Frumkin I1, Lajoie MJ2, Gregg CJ2, Hornung G3, Church GM4, Pilpel Y5.
+http://codonw.sourceforge.net
+Correspondence Analysis of Codon Usage
+CodonW
+15/Apr/2005
 
-### 2017
-
-https://www.ncbi.nlm.nih.gov/pubmed/28206693
-Mol Ecol. 2017 Apr;26(7):1832-1847. doi: 10.1111/mec.14056. Epub 2017 Mar 13.
-Plasmid and clonal interference during post horizontal gene transfer evolution.
-Bedhomme S1,2, Perez Pantoja D3, Bravo IG2.
-KEYWORDS:
-antibiotic resistance; clonal interference; codon usage preferences; multilevel selection; plasmid
+http://pbil.univ-lyon1.fr/datasets/charif04/
+Online Synonymous Codon Usage Analyses with the ade4 and seqinR packages
+2004
 
 ----------
 
 ### metagenome
+
+https://www.ncbi.nlm.nih.gov/pubmed/29947757
+Bioinformatics. 2018 Jun 27. doi: 10.1093/bioinformatics/bty519. [Epub ahead of print]
+BMC3C: Binning Metagenomic Contigs using Codon usage, sequence Composition and read Coverage.
+Yu G1, Jiang Y1, Wang J1, Zhang H2, Luo H2.
+
+https://www.ncbi.nlm.nih.gov/pubmed/29742107
+PLoS One. 2018 May 9;13(5):e0195869. doi: 10.1371/journal.pone.0195869. eCollection 2018.
+Codon usage bias reveals genomic adaptations to environmental conditions in an acidophilic consortium.
+Hart A1, Cortés MP2,3, Latorre M2,3,4,5, Martinez S6.
 
 https://www.ncbi.nlm.nih.gov/pubmed/27115650
 Methods Mol Biol. 2016;1415:509-31.
@@ -159,6 +162,11 @@ Nucleic Acids Res. 2013 Oct;41(19):8842-52.
 Environmental shaping of codon usage and functional adaptation across microbial communities.
 Roller M1, Lucić V, Nagy I, Perica T, Vlahovicek K.
 
+https://www.ncbi.nlm.nih.gov/pubmed/20090831
+PLoS Genet. 2010 Jan 15;6(1):e1000808. doi: 10.1371/journal.pgen.1000808.
+The systemic imprint of growth and its uses in ecological (meta)genomics.
+Vieira-Silva S1, Rocha EP.
+
 https://www.ncbi.nlm.nih.gov/pubmed/16200051
 EMBO Rep. 2005 Dec;6(12):1208-13.
 Environments shape the nucleotide composition of genomes.
@@ -172,11 +180,6 @@ Forces that influence the evolution of codon bias.
 Sharp PM1, Emery LR, Zeng K.
 - Here we show that the strength of selected codon usage bias is highly correlated with bacterial growth rate, suggesting that selection has favoured translational efficiency. 
 
-https://www.ncbi.nlm.nih.gov/pubmed/20090831
-PLoS Genet. 2010 Jan 15;6(1):e1000808. doi: 10.1371/journal.pgen.1000808.
-The systemic imprint of growth and its uses in ecological (meta)genomics.
-Vieira-Silva S1, Rocha EP.
-
 https://www.ncbi.nlm.nih.gov/pubmed/15479947
 Genome Res. 2004 Nov;14(11):2279-86. Epub 2004 Oct 12.
 Codon usage bias from tRNA's point of view: redundancy, specialization, and efficient decoding for translation optimization.
@@ -184,7 +187,23 @@ Rocha EP1.
 - We show that as minimal generation times get shorter, the genomes contain more tRNA genes, but fewer anticodon species. 
 - It also provides new evidence that a selective force for the optimization of the translation machinery is the maximization of growth.
 
-### Temperature
+### tRNA
+
+https://www.ncbi.nlm.nih.gov/pubmed/17156429
+Genome Biol. 2006;7(12):R114.
+An environmental signature for 323 microbial genomes based on codon adaptation indices.
+Willenbrock H1, Friis C, Juncker AS, Ussery DW.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1794427/
+Here, we calculate and compare a translational CAI (tCAI) based on that proposed by Sharp and Li [1] with a purely mathematical dominant CAI (dCAI) [8] for 318 bacterial and 5 fungal genomes for which full sequences are deposited in Genbank and available from the Genome Atlas Database (version 19.1) [11].
+It was previously postulated that fast-growing bacteria share codon usage preferences because they have more abundant and similar tRNAs [12]. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/15448185
+Nucleic Acids Res. 2004 Sep 24;32(17):5036-44. Print 2004.
+Solving the riddle of codon usage preferences: a test for translational selection.
+dos Reis M1, Savva R, Wernisch L.
+
+
+### temperature
 
 https://www.ncbi.nlm.nih.gov/pubmed/16989961
 Gene. 2006 Dec 30;385:128-36. 
@@ -196,10 +215,8 @@ Nucleic Acids Res. 2002 Oct 1;30(19):4272-7.
 Synonymous codon usage is subject to selection in thermophilic bacteria.
 Lynn DJ1, Singer GA, Hickey DA.
 
-
-
 ----------
-### Replication
+### replication
 
 https://www.ncbi.nlm.nih.gov/pubmed/10075995
 Nucleic Acids Res. 1999 Apr 1;27(7):1642-9.
@@ -213,7 +230,7 @@ McInerney JO1.
 
 
 ----------
-### Plasmids
+### plasmids
 
 https://www.ncbi.nlm.nih.gov/pubmed/19221094
 DNA Res. 2009 Apr;16(2):91-104. doi: 10.1093/dnares/dsp001. Epub 2009 Feb 15.
