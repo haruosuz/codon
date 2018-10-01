@@ -1,17 +1,17 @@
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2018-09
+Last Update: 2018-10
 
 ----------
 
 # Codon usage
 
 ## Table of Contents
+- [database](#database)
+- [tools](#tools)
 - [updates](#updates)
   - [2018](#2018)
   - [2017](#2017)
 - [review](#review)
-- [database](#database)
-- [tools](#tools)
 - [featuring](#featuring)
 - [metagenome](#metagenome)
 - [growth rate](#growth-rate)
@@ -22,6 +22,46 @@ Last Update: 2018-09
   - [Musto](#Kanaya)
   - [Sharp](#Sharp)
 - [unclassified](#unclassified)
+
+----------
+## database
+
+https://www.ncbi.nlm.nih.gov/pubmed/22536831
+BMC Bioinformatics. 2012 Apr 26;13:62. doi: 10.1186/1471-2105-13-62.
+CBDB: the codon bias database.
+Hilterbrand A1, Saelens J, Putonti C.
+
+## tools
+
+22 Aug 2018
+https://arxiv.org/abs/1808.07259
+[1808.07259] SSCU: an R/Bioconductor package for analyzing selective profile in synonymous codon usage
+
+異種遺伝子発現のためのコドン改変
+https://galaxyproject.org/public-galaxy-servers/codon-harmonizer/
+Codon Harmonizer
+https://www.ncbi.nlm.nih.gov/pubmed/28902855
+PLoS One. 2017 Sep 13;12(9):e0184355. doi: 10.1371/journal.pone.0184355. eCollection 2017.
+Improving heterologous membrane protein production in Escherichia coli by combining transcriptional tuning and codon usage algorithms.
+
+https://www.ncbi.nlm.nih.gov/pubmed/17439967
+Nucleic Acids Res. 2007 Jul;35(Web Server issue):W126-31. Epub 2007 Apr 16.
+OPTIMIZER: a web server for optimizing the codon usage of DNA sequences.
+Puigbò P1, Guzmán E, Romeu A, Garcia-Vallvé S.
+
+https://www.ncbi.nlm.nih.gov/pubmed/15980527
+Nucleic Acids Res. 2005 Jul 1;33(Web Server issue):W526-31.
+JCat: a novel tool to adapt codon usage of a target gene to its potential expression host.
+Grote A1, Hiller K, Scheer M, Münch R, Nörtemann B, Hempel DC, Jahn D.
+
+http://codonw.sourceforge.net
+Correspondence Analysis of Codon Usage
+CodonW
+15/Apr/2005
+
+http://pbil.univ-lyon1.fr/datasets/charif04/
+Online Synonymous Codon Usage Analyses with the ade4 and seqinR packages
+2004
 
 
 ----------
@@ -100,39 +140,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/11719972
 Curr Issues Mol Biol. 2001 Oct;3(4):91-7.
 Synonymous codon usage in bacteria.
 Ermolaeva MD1.
-
-----------
-## database
-
-https://www.ncbi.nlm.nih.gov/pubmed/22536831
-BMC Bioinformatics. 2012 Apr 26;13:62. doi: 10.1186/1471-2105-13-62.
-CBDB: the codon bias database.
-Hilterbrand A1, Saelens J, Putonti C.
-
-## tools
-
-22 Aug 2018
-https://arxiv.org/abs/1808.07259
-[1808.07259] SSCU: an R/Bioconductor package for analyzing selective profile in synonymous codon usage
-
-https://www.ncbi.nlm.nih.gov/pubmed/17439967
-Nucleic Acids Res. 2007 Jul;35(Web Server issue):W126-31. Epub 2007 Apr 16.
-OPTIMIZER: a web server for optimizing the codon usage of DNA sequences.
-Puigbò P1, Guzmán E, Romeu A, Garcia-Vallvé S.
-
-https://www.ncbi.nlm.nih.gov/pubmed/15980527
-Nucleic Acids Res. 2005 Jul 1;33(Web Server issue):W526-31.
-JCat: a novel tool to adapt codon usage of a target gene to its potential expression host.
-Grote A1, Hiller K, Scheer M, Münch R, Nörtemann B, Hempel DC, Jahn D.
-
-http://codonw.sourceforge.net
-Correspondence Analysis of Codon Usage
-CodonW
-15/Apr/2005
-
-http://pbil.univ-lyon1.fr/datasets/charif04/
-Online Synonymous Codon Usage Analyses with the ade4 and seqinR packages
-2004
 
 ----------
 
