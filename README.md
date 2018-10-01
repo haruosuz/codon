@@ -6,11 +6,14 @@ Last Update: 2018-10
 # Codon usage
 
 ## Table of Contents
-- [database](#database)
-- [tools](#tools)
 - [updates](#updates)
   - [2018](#2018)
   - [2017](#2017)
+- [database](#database)
+- [tools](#tools)
+- [mge](#mge)
+  - [plasmids](#plasmids)
+  - [virus](#virus)
 - [review](#review)
 - [featuring](#featuring)
 - [metagenome](#metagenome)
@@ -22,6 +25,36 @@ Last Update: 2018-10
   - [Musto](#Kanaya)
   - [Sharp](#Sharp)
 - [unclassified](#unclassified)
+
+----------
+
+## updates
+
+### 2018
+
+https://www.ncbi.nlm.nih.gov/pubmed/30247489
+Nat Biotechnol. 2018 Sep 24. doi: 10.1038/nbt.4238. [Epub ahead of print]
+Evaluation of 244,000 synthetic sequences reveals design principles to optimize translation in Escherichia coli.
+Cambray G1,2, Guimaraes JC1,3, Arkin AP3,4.
+
+Codon composition has a sizable impact on translatability, but only in comparatively rare elongation-limited transcripts.
+
+https://twitter.com/kfuku0502/status/1003768475871875072
+Kenji Fukushima on Twitter: "高発現遺伝子だけでなく低発現遺伝子でもコドン使用頻度は選択を受けているらしい。大腸菌でそういうサイトの同義置換を入れて適応度が下がるケースを発見している。 https://t.co/nFGnUi3m2A"
+
+https://www.ncbi.nlm.nih.gov/pubmed/29688501
+Genome Biol Evol. 2018 Apr 1;10(5):1237-1246. doi: 10.1093/gbe/evy084.
+The Codon Usage of Lowly Expressed Genes Is Subject to Natural Selection.
+Yannai A1, Katz S1, Hershberg R1.
+
+
+高度発現遺伝子群のコドンバイアスが、他の遺伝子群の翻訳に影響する。
+https://www.ncbi.nlm.nih.gov/pubmed/29735666
+Proc Natl Acad Sci U S A. 2018 May 22;115(21):E4940-E4949. doi: 10.1073/pnas.1719375115. Epub 2018 May 7.
+Codon usage of highly expressed genes affects proteome-wide translation efficiency.
+Frumkin I1, Lajoie MJ2, Gregg CJ2, Hornung G3, Church GM4, Pilpel Y5.
+
+### 2017
 
 ----------
 ## database
@@ -63,29 +96,12 @@ http://pbil.univ-lyon1.fr/datasets/charif04/
 Online Synonymous Codon Usage Analyses with the ade4 and seqinR packages
 2004
 
-
 ----------
+## mge
+Mobile genetic elements (MGEs)
+https://ja.wikipedia.org/wiki/可動遺伝因子
 
-## updates
-
-### 2018
-
-https://twitter.com/kfuku0502/status/1003768475871875072
-Kenji Fukushima on Twitter: "高発現遺伝子だけでなく低発現遺伝子でもコドン使用頻度は選択を受けているらしい。大腸菌でそういうサイトの同義置換を入れて適応度が下がるケースを発見している。 https://t.co/nFGnUi3m2A"
-
-https://www.ncbi.nlm.nih.gov/pubmed/29688501
-Genome Biol Evol. 2018 Apr 1;10(5):1237-1246. doi: 10.1093/gbe/evy084.
-The Codon Usage of Lowly Expressed Genes Is Subject to Natural Selection.
-Yannai A1, Katz S1, Hershberg R1.
-
-
-高度発現遺伝子群のコドンバイアスが、他の遺伝子群の翻訳に影響する。
-https://www.ncbi.nlm.nih.gov/pubmed/29735666
-Proc Natl Acad Sci U S A. 2018 May 22;115(21):E4940-E4949. doi: 10.1073/pnas.1719375115. Epub 2018 May 7.
-Codon usage of highly expressed genes affects proteome-wide translation efficiency.
-Frumkin I1, Lajoie MJ2, Gregg CJ2, Hornung G3, Church GM4, Pilpel Y5.
-
-### 2017
+### plasmids
 
 https://www.ncbi.nlm.nih.gov/pubmed/28206693
 Mol Ecol. 2017 Apr;26(7):1832-1847. doi: 10.1111/mec.14056. Epub 2017 Mar 13.
@@ -93,6 +109,54 @@ Plasmid and clonal interference during post horizontal gene transfer evolution.
 Bedhomme S1,2, Perez Pantoja D3, Bravo IG2.
 KEYWORDS:
 antibiotic resistance; clonal interference; codon usage preferences; multilevel selection; plasmid
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5392415/
+Plasmid carriage costs are not the only costs to plasmid-mediated HGT. Another potentially important one is the mismatch in codon usage preferences between the transferred gene and the receiving genome (Baltrus 2013). Each species is indeed characterized by specific frequencies of use of the different codons within a synonymous codon family. An important evolutionary force shaping codon usage preferences is coevolution with the translation machinery: codon usage frequencies are strongly related with the copy number of corresponding tRNA genes, especially for highly expressed genes and for rapidly growing organisms (Rocha 2004). Genes transferred horizontally from a different organism can present a mismatch in codon usage preferences with the receiving genome, and such mismatch is known to affect translation accuracy and speed (Komar et al. 1999, Burgess-Brown et al. 2008). 
+
+and comparative approaches demonstrate that HGT is more likely to be successful between genomes with similar codon usage preferences (Tuller et al. 2011, Medrano-Soto 2004).
+
+The cost of plasmid carriage was quantified and we showed that mismatches in codon usage preferences generate differences in chloramphenicol resistance. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/19221094
+DNA Res. 2009 Apr;16(2):91-104. doi: 10.1093/dnares/dsp001. Epub 2009 Feb 15.
+Codon usages of genes on chromosome, and surprisingly, genes in plasmid are primarily affected by strand-specific mutational biases in Lawsonia intracellularis.
+Guo FB1, Yuan JB.
+
+https://www.ncbi.nlm.nih.gov/pubmed/18391244
+In Silico Biol. 2007;7(4-5):547-58.
+Analysis of codon usage patterns and predicted highly expressed genes for six phytopathogenic Xanthomonas genomes shows a high degree of conservation.
+Sen G1, Sur S, Bose D, Mondal U, Furnholm T, Bothra A, Tisa L, Sen A.
+
+https://www.ncbi.nlm.nih.gov/pubmed/14597394
+Gene. 2003 Nov 27;320:109-16.
+The strength of translational selection for codon usage varies in the three replicons of Sinorhizobium meliloti.
+Peixoto L1, Zavala A, Romero H, Musto H.
+
+https://www.ncbi.nlm.nih.gov/pubmed/9820537
+J Immunol. 1998 Nov 15;161(10):5594-9.
+Optimization of codon usage of plasmid DNA vaccine is required for the effective MHC class I-restricted T cell responses against an intracellular bacterium.
+Uchijima M1, Yoshida A, Nagata T, Koide Y.
+
+### virus
+
+https://www.ncbi.nlm.nih.gov/pubmed/27278133
+Sci Rep. 2016 Jun 9;6:27546. doi: 10.1038/srep27546.
+Codon optimization of the adenoviral fiber negatively impacts structural protein expression and viral fitness.
+Villanueva E1, Martí-Solano M2, Fillat C1,3.
+
+https://www.ncbi.nlm.nih.gov/pubmed/22016848
+Mob Genet Elements. 2011 May;1(1):75-77.
+Codon bias, tRNA pools and horizontal gene transfer.
+Tuller T1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/19888206
+Mol Syst Biol. 2009;5:311. doi: 10.1038/msb.2009.71. Epub 2009 Oct 13.
+Viral adaptation to host: a proteome-based analysis of codon usage and amino acid preferences.
+Bahir I1, Fromer M, Prat Y, Linial M.
+
+https://www.ncbi.nlm.nih.gov/pubmed/18463708
+PLoS Comput Biol. 2008 Feb 29;4(2):e1000001. doi: 10.1371/journal.pcbi.1000001.
+Genome landscapes and bacteriophage codon usage.
+Lucks JB1, Nelson DR, Kudla GR, Plotkin JB.
 
 ----------
 ## featuring
@@ -235,51 +299,6 @@ Proc Natl Acad Sci U S A. 1998 Sep 1;95(18):10698-703.
 Replicational and transcriptional selection on codon usage in Borrelia burgdorferi.
 McInerney JO1.
 
-
-----------
-### plasmids
-
-https://www.ncbi.nlm.nih.gov/pubmed/19221094
-DNA Res. 2009 Apr;16(2):91-104. doi: 10.1093/dnares/dsp001. Epub 2009 Feb 15.
-Codon usages of genes on chromosome, and surprisingly, genes in plasmid are primarily affected by strand-specific mutational biases in Lawsonia intracellularis.
-Guo FB1, Yuan JB.
-
-https://www.ncbi.nlm.nih.gov/pubmed/18391244
-In Silico Biol. 2007;7(4-5):547-58.
-Analysis of codon usage patterns and predicted highly expressed genes for six phytopathogenic Xanthomonas genomes shows a high degree of conservation.
-Sen G1, Sur S, Bose D, Mondal U, Furnholm T, Bothra A, Tisa L, Sen A.
-
-https://www.ncbi.nlm.nih.gov/pubmed/14597394
-Gene. 2003 Nov 27;320:109-16.
-The strength of translational selection for codon usage varies in the three replicons of Sinorhizobium meliloti.
-Peixoto L1, Zavala A, Romero H, Musto H.
-
-https://www.ncbi.nlm.nih.gov/pubmed/9820537
-J Immunol. 1998 Nov 15;161(10):5594-9.
-Optimization of codon usage of plasmid DNA vaccine is required for the effective MHC class I-restricted T cell responses against an intracellular bacterium.
-Uchijima M1, Yoshida A, Nagata T, Koide Y.
-
-### Virus
-
-https://www.ncbi.nlm.nih.gov/pubmed/27278133
-Sci Rep. 2016 Jun 9;6:27546. doi: 10.1038/srep27546.
-Codon optimization of the adenoviral fiber negatively impacts structural protein expression and viral fitness.
-Villanueva E1, Martí-Solano M2, Fillat C1,3.
-
-https://www.ncbi.nlm.nih.gov/pubmed/22016848
-Mob Genet Elements. 2011 May;1(1):75-77.
-Codon bias, tRNA pools and horizontal gene transfer.
-Tuller T1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/19888206
-Mol Syst Biol. 2009;5:311. doi: 10.1038/msb.2009.71. Epub 2009 Oct 13.
-Viral adaptation to host: a proteome-based analysis of codon usage and amino acid preferences.
-Bahir I1, Fromer M, Prat Y, Linial M.
-
-https://www.ncbi.nlm.nih.gov/pubmed/18463708
-PLoS Comput Biol. 2008 Feb 29;4(2):e1000001. doi: 10.1371/journal.pcbi.1000001.
-Genome landscapes and bacteriophage codon usage.
-Lucks JB1, Nelson DR, Kudla GR, Plotkin JB.
 
 ### Karlin
 https://www.ncbi.nlm.nih.gov/pubmed/9928479
