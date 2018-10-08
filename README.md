@@ -6,6 +6,8 @@ Last Update: 2018-10
 # Codon usage
 
 ## Table of Contents
+- [featuring](#featuring)
+- [lifestyle](#lifestyle)
 - [updates](#updates)
   - [2018](#2018)
   - [2017](#2017)
@@ -15,16 +17,66 @@ Last Update: 2018-10
   - [plasmids](#plasmids)
   - [virus](#virus)
 - [review](#review)
-- [featuring](#featuring)
 - [metagenome](#metagenome)
 - [growth rate](#growth-rate)
 - [temperature](#temperature)
 - [replication](#replication)
 - [people](#people)
-  - [Kanaya](#Musto)
-  - [Musto](#Kanaya)
-  - [Sharp](#Sharp)
+  - [Kanaya](#kanaya)
+  - [Musto](#musto)
+  - [Olsen](#olsen)
+  - [Sharp](#sharp)
+  - [Suzuki](#suzuki)
 - [unclassified](#unclassified)
+
+----------
+## featuring
+
+http://www.oxfordscholarship.com/view/10.1093/acprof:osobl/9780199601165.001.0001/acprof-9780199601165
+Codon Evolution: Mechanisms and Models - Oxford Scholarship
+http://wp.biota.utoronto.ca/chang/files/2016/02/Chang-et-al-Codon-Evolution-Chapter11.pdf
+
+https://www.ncbi.nlm.nih.gov/pubmed/20369015
+PLoS Comput Biol. 2010 Apr 1;6(4):e1000732. doi: 10.1371/journal.pcbi.1000732.
+Why genes evolve faster on secondary chromosomes in bacteria.
+Cooper VS1, Vohr SH, Wrocklage SC, Hatcher PJ.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2848543/
+
+----------
+
+### lifestyle
+
+https://www.ncbi.nlm.nih.gov/pubmed/22032172
+Genome Biol. 2011 Oct 27;12(10):R109. doi: 10.1186/gb-2011-12-10-r109.
+Variation in global codon usage bias among prokaryotic organisms is associated with their lifestyles.
+Botzman M1, Margalit H.
+
+https://www.ncbi.nlm.nih.gov/pubmed/23024607
+Curr Genomics. 2012 Apr;13(2):153-62.
+Microbial lifestyle and genome signatures.
+Dutta C1, Paul S.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3308326/
+c) Codon Usage
+Distinct niche-specific trends in synonymous codon usage have also been observed in microbes thriving at high salinity [24]. An analysis of synonymous codon usage patterns in bacterial and fungal genomes by Willenbrok et al. [49] demonstrated that differences in codon preferences of translational codon adaptation and dominant codon adaptation provide an environmental signature that can segregate bacteria according to their lifestyle, for instance soil bacteria and soil symbionts, spore formers, enteric bacteria, aquatic bacteria, and small intercellular and extracellular pathogens.
+
+https://www.ncbi.nlm.nih.gov/pubmed/17156429
+Genome Biol. 2006;7(12):R114.
+An environmental signature for 323 microbial genomes based on codon adaptation indices.
+Willenbrock H1, Friis C, Juncker AS, Ussery DW.
+group bacteria according to their lifestyle, 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1794427/
+Here, we calculate and compare a translational CAI (tCAI) based on that proposed by Sharp and Li [1] with a purely mathematical dominant CAI (dCAI) [8] for 318 bacterial and 5 fungal genomes for which full sequences are deposited in Genbank and available from the Genome Atlas Database (version 19.1) [11].
+It was previously postulated that fast-growing bacteria share codon usage preferences because they have more abundant and similar tRNAs [12]. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/15537809
+Mol Biol Evol. 2005 Mar;22(3):547-61. Epub 2004 Nov 10.
+Codon bias signatures, organization of microorganisms in codon space, and lifestyle.
+Carbone A1, Képès F, Zinovyev A.
+
+https://www.ncbi.nlm.nih.gov/pubmed/14594704
+Bioinformatics. 2003 Nov 1;19(16):2005-15.
+Codon adaptation index as a measure of dominating codon bias.
+Carbone A1, Zinovyev A, Képès F.
 
 ----------
 
@@ -158,18 +210,15 @@ PLoS Comput Biol. 2008 Feb 29;4(2):e1000001. doi: 10.1371/journal.pcbi.1000001.
 Genome landscapes and bacteriophage codon usage.
 Lucks JB1, Nelson DR, Kudla GR, Plotkin JB.
 
+
 ----------
-## featuring
+### Unclassified
 
-http://www.oxfordscholarship.com/view/10.1093/acprof:osobl/9780199601165.001.0001/acprof-9780199601165
-Codon Evolution: Mechanisms and Models - Oxford Scholarship
-http://wp.biota.utoronto.ca/chang/files/2016/02/Chang-et-al-Codon-Evolution-Chapter11.pdf
+https://www.ncbi.nlm.nih.gov/pubmed/21343180
+Nucleic Acids Res. 2011 Jun;39(11):4743-55. doi: 10.1093/nar/gkr054. Epub 2011 Feb 22.
+Association between translation efficiency and horizontal gene transfer within microbial communities.
+Tuller T1, Girshovich Y, Sella Y, Kreimer A, Freilich S, Kupiec M, Gophna U, Ruppin E.
 
-https://www.ncbi.nlm.nih.gov/pubmed/20369015
-PLoS Comput Biol. 2010 Apr 1;6(4):e1000732. doi: 10.1371/journal.pcbi.1000732.
-Why genes evolve faster on secondary chromosomes in bacteria.
-Cooper VS1, Vohr SH, Wrocklage SC, Hatcher PJ.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2848543/
 
 ----------
 ### review
@@ -200,6 +249,11 @@ Synonymous but not the same: the causes and consequences of codon bias.
 Plotkin JB1, Kudla G.
 http://mathbio.sas.upenn.edu/Papers/Plotkin_Kudla_NatRevGenetics_2011.pdf
 
+https://www.ncbi.nlm.nih.gov/pubmed/18983258
+Annu Rev Genet. 2008;42:287-99. doi: 10.1146/annurev.genet.42.110807.091442.
+Selection on codon bias.
+Hershberg R1, Petrov DA.
+
 https://www.ncbi.nlm.nih.gov/pubmed/11719972
 Curr Issues Mol Biol. 2001 Oct;3(4):91-7.
 Synonymous codon usage in bacteria.
@@ -218,6 +272,10 @@ https://www.ncbi.nlm.nih.gov/pubmed/29742107
 PLoS One. 2018 May 9;13(5):e0195869. doi: 10.1371/journal.pone.0195869. eCollection 2018.
 Codon usage bias reveals genomic adaptations to environmental conditions in an acidophilic consortium.
 Hart A1, Cortés MP2,3, Latorre M2,3,4,5, Martinez S6.
+
+Anamaria Elek (2018)
+https://repozitorij.unizg.hr/en/islandora/object/pmf%3A4815
+coRdon: an R package for codon usage analysis and prediction of gene expressivity | University of Zagreb Repository
 
 https://www.ncbi.nlm.nih.gov/pubmed/27115650
 Methods Mol Biol. 2016;1415:509-31.
@@ -260,13 +318,6 @@ Rocha EP1.
 
 ### tRNA
 
-https://www.ncbi.nlm.nih.gov/pubmed/17156429
-Genome Biol. 2006;7(12):R114.
-An environmental signature for 323 microbial genomes based on codon adaptation indices.
-Willenbrock H1, Friis C, Juncker AS, Ussery DW.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1794427/
-Here, we calculate and compare a translational CAI (tCAI) based on that proposed by Sharp and Li [1] with a purely mathematical dominant CAI (dCAI) [8] for 318 bacterial and 5 fungal genomes for which full sequences are deposited in Genbank and available from the Genome Atlas Database (version 19.1) [11].
-It was previously postulated that fast-growing bacteria share codon usage preferences because they have more abundant and similar tRNAs [12]. 
 
 https://www.ncbi.nlm.nih.gov/pubmed/15448185
 Nucleic Acids Res. 2004 Sep 24;32(17):5036-44. Print 2004.
@@ -388,37 +439,6 @@ Gene. 1999 Sep 30;238(1):143-55.
 Studies of codon usage and tRNA genes of 18 unicellular organisms and quantification of Bacillus subtilis tRNAs: gene expression level and species-specific diversity of codon usage based on multivariate analysis.
 Kanaya S1, Yamada Y, Kudo Y, Ikemura T.
 
-
-
-### Sharp
-
-2011
-https://www.era.lib.ed.ac.uk/handle/1842/4893
-Codon usage bias in Archaea
-Emery, Laura R.
-
-https://www.ncbi.nlm.nih.gov/pubmed/17038449
-Mol Biol Evol. 2007 Jan;24(1):10-2. Epub 2006 Oct 12.
-Predicting gene expression level from codon usage bias.
-Henry I, Sharp PM.
-
-https://www.ncbi.nlm.nih.gov/pubmed/15728743
-Nucleic Acids Res. 2005 Feb 23;33(4):1141-53. Print 2005.
-Variation in the strength of selected codon usage bias among bacteria.
-Sharp PM1, Bailes E, Grocock RJ, Peden JF, Sockett RE.
-These results are consistent with the hypothesis that species exposed to selection for rapid growth have more rRNA operons, more tRNA genes and more strongly selected codon usage bias. For example, Clostridium perfringens, the species with the highest value of S, can have a generation time as short as 7 min.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549432/
-
-https://www.ncbi.nlm.nih.gov/pubmed/8662004
-J Mol Evol. 1996 May;42(5):525-36.
-Codon usage and base composition in Rickettsia prowazekii.
-Andersson SG1, Sharp PM.
-
-https://www.ncbi.nlm.nih.gov/pubmed/3118331
-Nucleic Acids Res. 1987 Oct 12;15(19):8023-40.
-Synonymous codon usage in Bacillus subtilis reflects both translational selection and mutational biases.
-Shields DC1, Sharp PM.
-
 ### Musto
 
 https://www.ncbi.nlm.nih.gov/pubmed/23288542
@@ -454,6 +474,35 @@ https://www.ncbi.nlm.nih.gov/pubmed/20018979
 Mol Biol Evol. 2010 Apr;27(4):800-10. doi: 10.1093/molbev/msp281. Epub 2009 Dec 17.
 Modal codon usage: assessing the typical codon usage of a genome.
 Davis JJ1, Olsen GJ.
+
+### Sharp
+
+2011
+https://www.era.lib.ed.ac.uk/handle/1842/4893
+Codon usage bias in Archaea
+Emery, Laura R.
+
+https://www.ncbi.nlm.nih.gov/pubmed/17038449
+Mol Biol Evol. 2007 Jan;24(1):10-2. Epub 2006 Oct 12.
+Predicting gene expression level from codon usage bias.
+Henry I, Sharp PM.
+
+https://www.ncbi.nlm.nih.gov/pubmed/15728743
+Nucleic Acids Res. 2005 Feb 23;33(4):1141-53. Print 2005.
+Variation in the strength of selected codon usage bias among bacteria.
+Sharp PM1, Bailes E, Grocock RJ, Peden JF, Sockett RE.
+These results are consistent with the hypothesis that species exposed to selection for rapid growth have more rRNA operons, more tRNA genes and more strongly selected codon usage bias. For example, Clostridium perfringens, the species with the highest value of S, can have a generation time as short as 7 min.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549432/
+
+https://www.ncbi.nlm.nih.gov/pubmed/8662004
+J Mol Evol. 1996 May;42(5):525-36.
+Codon usage and base composition in Rickettsia prowazekii.
+Andersson SG1, Sharp PM.
+
+https://www.ncbi.nlm.nih.gov/pubmed/3118331
+Nucleic Acids Res. 1987 Oct 12;15(19):8023-40.
+Synonymous codon usage in Bacillus subtilis reflects both translational selection and mutational biases.
+Shields DC1, Sharp PM.
 
 ### Suzuki
 
@@ -494,6 +543,7 @@ Gene. 2004 Jun 23;335:19-23.
 The 'weighted sum of relative entropy': a new index for synonymous codon usage bias.
 Suzuki H1, Saito R, Tomita M.
 
+----------
 
 ### Video
 
@@ -502,34 +552,7 @@ Codon optimization: Why & how to design DNA sequences for optimal soluble protei
 Published on Nov 3, 2014
 
 
-
-### Unclassified
-
-https://www.ncbi.nlm.nih.gov/pubmed/18983258
-Annu Rev Genet. 2008;42:287-99. doi: 10.1146/annurev.genet.42.110807.091442.
-Selection on codon bias.
-Hershberg R1, Petrov DA.
-
-https://www.ncbi.nlm.nih.gov/pubmed/22032172
-Genome Biol. 2011 Oct 27;12(10):R109. doi: 10.1186/gb-2011-12-10-r109.
-Variation in global codon usage bias among prokaryotic organisms is associated with their lifestyles.
-Botzman M1, Margalit H.
-
-https://www.ncbi.nlm.nih.gov/pubmed/21343180
-Nucleic Acids Res. 2011 Jun;39(11):4743-55. doi: 10.1093/nar/gkr054. Epub 2011 Feb 22.
-Association between translation efficiency and horizontal gene transfer within microbial communities.
-Tuller T1, Girshovich Y, Sella Y, Kreimer A, Freilich S, Kupiec M, Gophna U, Ruppin E.
-
-https://www.ncbi.nlm.nih.gov/pubmed/15537809
-Mol Biol Evol. 2005 Mar;22(3):547-61. Epub 2004 Nov 10.
-Codon bias signatures, organization of microorganisms in codon space, and lifestyle.
-Carbone A1, Képès F, Zinovyev A.
-
-https://www.ncbi.nlm.nih.gov/pubmed/14594704
-Bioinformatics. 2003 Nov 1;19(16):2005-15.
-Codon adaptation index as a measure of dominating codon bias.
-Carbone A1, Zinovyev A, Képès F.
-
+----------
 
 
 ### Japanese
@@ -567,6 +590,9 @@ http://www.genscript.jp/codon_opt.html
 OptimumGene™コドン最適化技術 - GenScript
 
 ----------
+
+----------
+
 
 [コドン - Haruo Suzuki / Bioinformatics](http://d.hatena.ne.jp/haruosuz/20130122)
 
