@@ -148,6 +148,12 @@ http://pbil.univ-lyon1.fr/datasets/charif04/
 Online Synonymous Codon Usage Analyses with the ade4 and seqinR packages
 2004
 
+http://bioinfo.ie.niigata-u.ac.jp/?Codon%20Usage%20Generator
+Codon Usage Generator (CUG) †
+本プログラムは，コドン組成を計算するためのソフトウェアです．
+
+http://bioinfo.ie.niigata-u.ac.jp/?遺伝子発現量予測
+
 ----------
 ## mge
 Mobile genetic elements (MGEs)
@@ -427,7 +433,18 @@ Singer GA1, Hickey DA.
 ----------
 ## people
 
+### Ikemura
 ### Kanaya
+
+https://www.ncbi.nlm.nih.gov/pubmed/3916708
+Mol Biol Evol. 1985 Jan;2(1):13-34.
+Codon usage and tRNA content in unicellular and multicellular organisms.
+Ikemura T1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/11675589
+J Mol Evol. 2001 Oct-Nov;53(4-5):290-8.
+Codon usage and tRNA genes in eukaryotes: correlation of codon usage diversity with translation efficiency and with CG-dinucleotide usage as assessed by multivariate analysis.
+Kanaya S1, Yamada Y, Kinouchi M, Kudo Y, Ikemura T.
 
 https://www.ncbi.nlm.nih.gov/pubmed/11591475
 Gene. 2001 Oct 3;276(1-2):89-99.
