@@ -44,6 +44,66 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2848543/
 
 ----------
 
+### tRNA
+### H.pylori
+ピロリ菌のコドン使用
+
+https://www.ncbi.nlm.nih.gov/pubmed/20308095
+Philos Trans R Soc Lond B Biol Sci. 2010 Apr 27;365(1544):1203-12. doi: 10.1098/rstb.2009.0305.
+Forces that influence the evolution of codon bias.
+Sharp PM1, Emery LR, Zeng K.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2871821/
+Table 2.
+Estimates of the strength of selection for optimal codons from polymorphism data from E. coli and H. pylori.
+
+http://www.ncbi.nlm.nih.gov/pubmed/18940873
+DNA Res. 2008 Dec;15(6):357-65.
+Comparison of correspondence analysis methods for synonymous codon usage in bacteria.
+Suzuki H, Brown CJ, Forney LJ, Top EM.
+```
+Bacterial strain	Axis 1	Axis 2	Axis 3
+H. pylori 26695	GC3content	GC3skew	nd
+```
+
+最尤推定
+https://www.ncbi.nlm.nih.gov/pubmed/18495752
+Nucleic Acids Res. 2008 Jun;36(11):3819-27. doi: 10.1093/nar/gkn288. Epub 2008 May 21.
+SCUMBLE: a method for systematic and accurate detection of codon usage bias by maximum likelihood estimation.
+Kloster M1, Tang C.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2441815/
+The algorithm's; ability to detect weak biases is well illustrated by the genome of Helicobacter pylori, which has been claimed to contain no codon bias for highly expressed genes (31). 
+
+We found that SCUMBLE performs better than WCA or CA/RSCU in detecting GC or GT biases in prokaryote genomes. SCUMBLE is also able to detect far more biases in prokaryote genomes than a variety of other approaches using PCA (37) (Supplementary Tables S1 and S2). Unlike PCA, SCUMBLE shows a clear signature for the strength of the different biases: GC bias is most often the dominant bias, followed by expression bias and GT bias.
+
+https://www.ncbi.nlm.nih.gov/pubmed/15728743
+Nucleic Acids Res. 2005 Feb 23;33(4):1141-53. Print 2005.
+Variation in the strength of selected codon usage bias among bacteria.
+Sharp PM1, Bailes E, Grocock RJ, Peden JF, Sockett RE.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549432/
+It is clear that a high recombination rate alone is not enough to promote codon selection: H.pylori has perhaps the highest rate of recombination known among bacteria (61), and yet an S-value close to zero. In this case, the lack of selected codon usage bias has been interpreted as a consequence of the unimportance of competitive growth in the isolated acidic niche of this species (24).
+
+https://www.ncbi.nlm.nih.gov/pubmed/15448185
+Nucleic Acids Res. 2004 Sep 24;32(17):5036-44. Print 2004.
+Solving the riddle of codon usage preferences: a test for translational selection.
+dos Reis M1, Savva R, Wernisch L.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC521650/
+As expected (Figure ​(Figure3),3), S.cerevisiae and E.coli show the highest S-values, C.elegans shows a moderate S-value, while H.pylori and H.sapiens show no sign of translational selection acting on their genomes.
+
+https://www.ncbi.nlm.nih.gov/pubmed/10784043
+Microbiology. 2000 Apr;146 ( Pt 4):851-60.
+Absence of translationally selected synonymous codon usage bias in Helicobacter pylori.
+Lafay B1, Atherton JC, Sharp PM.
+
+----------
+https://www.ncbi.nlm.nih.gov/pubmed/28855614
+
+Sci Rep. 2017 Aug 30;7(1):9926. doi: 10.1038/s41598-017-10546-0.
+Predicting synonymous codon usage and optimizing the heterologous gene for expression in E. coli.
+Tian J1, Yan Y1,2, Yue Q1,3, Liu X1, Chu X1, Wu N4, Fan Y1.
+
+
+----------
+
 ### lifestyle
 
 https://www.ncbi.nlm.nih.gov/pubmed/22032172
@@ -128,6 +188,8 @@ Codon Harmonizer
 https://www.ncbi.nlm.nih.gov/pubmed/28902855
 PLoS One. 2017 Sep 13;12(9):e0184355. doi: 10.1371/journal.pone.0184355. eCollection 2017.
 Improving heterologous membrane protein production in Escherichia coli by combining transcriptional tuning and codon usage algorithms.
+Claassens NJ1, Siliakus MF1, Spaans SK1, Creutzburg SCA1, Nijsse B2, Schaap PJ2, Quax TEF3, van der Oost J1.
+
 
 https://www.ncbi.nlm.nih.gov/pubmed/17439967
 Nucleic Acids Res. 2007 Jul;35(Web Server issue):W126-31. Epub 2007 Apr 16.
@@ -322,15 +384,6 @@ Rocha EP1.
 - We show that as minimal generation times get shorter, the genomes contain more tRNA genes, but fewer anticodon species. 
 - It also provides new evidence that a selective force for the optimization of the translation machinery is the maximization of growth.
 
-### tRNA
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/15448185
-Nucleic Acids Res. 2004 Sep 24;32(17):5036-44. Print 2004.
-Solving the riddle of codon usage preferences: a test for translational selection.
-dos Reis M1, Savva R, Wernisch L.
-
-
 ### temperature
 
 https://www.ncbi.nlm.nih.gov/pubmed/16989961
@@ -523,38 +576,44 @@ Shields DC1, Sharp PM.
 
 ### Suzuki
 
+葉緑体のコドン適応
 http://www.ncbi.nlm.nih.gov/pubmed/27196606
 PLoS One. 2016 May 19;11(5):e0154306.
 Codon Adaptation of Plastid Genes.
 Suzuki H, Morton BR.
 
+ミドリゾウリムシのトランスクリプトーム（RNA-seq）データを用いて、クロレラ共生下で発現低下した遺伝子群では発現量とアミノ酸・同義コドン使用との間の相関が高いこと（ミドリゾウリムシとクロレラの共生に関わる自然選択？）を明らかにした。
 http://www.ncbi.nlm.nih.gov/pubmed/26341535
 FEBS Lett. 2015 Oct 7;589(20 Pt B):3113-8.
 Analysis of amino acid and codon usage in Paramecium bursaria.
 Dohra H, Fujishima M, Suzuki H.
-ミドリゾウリムシのトランスクリプトーム（RNA-seq）データを用いて、クロレラ共生下でdown-regulatedしている遺伝子群では発現量とアミノ酸・同義コドン使用との間の相関が高い（P. bursaria-Chlorella共生に関わる自然選択？）ことを報告
 
+同義コドン使用の多様性
 http://www.ncbi.nlm.nih.gov/pubmed/19480720
 BMC Bioinformatics. 2009 Jun 1;10:167.
 Measure of synonymous codon usage diversity among genes in bacteria.
 Suzuki H1, Saito R, Tomita M.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2697163/
 
+対応分析
 http://www.ncbi.nlm.nih.gov/pubmed/18940873
 DNA Res. 2008 Dec;15(6):357-65.
 Comparison of correspondence analysis methods for synonymous codon usage in bacteria.
 Suzuki H, Brown CJ, Forney LJ, Top EM.
+
 
 http://www.ncbi.nlm.nih.gov/pubmed/18350114
 EURASIP J Bioinform Syst Biol. 2007:61374.
 Variation in the correlation of G + C composition with synonymous codon usage bias among bacteria.
 Suzuki H1, Saito R, Tomita M.
 
+主成分分析
 http://www.ncbi.nlm.nih.gov/pubmed/16289058
 FEBS Lett. 2005 Nov 21;579(28):6499-504.
 A problem in multivariate analysis of codon usage data and a possible solution.
 Suzuki H1, Saito R, Tomita M.
 
+同義コドン使用の均等度
 http://www.ncbi.nlm.nih.gov/pubmed/15194186
 Gene. 2004 Jun 23;335:19-23.
 The 'weighted sum of relative entropy': a new index for synonymous codon usage bias.
