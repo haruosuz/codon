@@ -43,7 +43,24 @@ Cooper VS1, Vohr SH, Wrocklage SC, Hatcher PJ.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2848543/
 
 ----------
+### RSCU
+relative synonymous codon usage
 
+https://www.biorxiv.org/content/early/2018/09/26/421487
+Elucidation of Codon Usage Signatures across the Domains of Life | bioRxiv
+
+https://www.ncbi.nlm.nih.gov/pubmed/29596640
+Mol Biol Evol. 2018 Jun 1;35(6):1463-1472. doi: 10.1093/molbev/msy047.
+Multiple Factors Confounding Phylogenetic Detection of Selection on Codon Usage.
+Laurin-Lemay S1, Philippe H1,2, Rodrigue N3.
+
+review
+https://www.ncbi.nlm.nih.gov/pubmed/26029354
+Comput Struct Biotechnol J. 2015 May 4;13:352-7. doi: 10.1016/j.csbj.2015.04.005. eCollection 2015.
+Homology-independent metrics for comparative genomics.
+Coutinho TJ1, Franco GR1, Lobo FP2.
+
+----------
 ### tRNA
 ### H.pylori
 ピロリ菌のコドン使用
@@ -93,14 +110,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/10784043
 Microbiology. 2000 Apr;146 ( Pt 4):851-60.
 Absence of translationally selected synonymous codon usage bias in Helicobacter pylori.
 Lafay B1, Atherton JC, Sharp PM.
-
-----------
-https://www.ncbi.nlm.nih.gov/pubmed/28855614
-
-Sci Rep. 2017 Aug 30;7(1):9926. doi: 10.1038/s41598-017-10546-0.
-Predicting synonymous codon usage and optimizing the heterologous gene for expression in E. coli.
-Tian J1, Yan Y1,2, Yue Q1,3, Liu X1, Chu X1, Wu N4, Fan Y1.
-
 
 ----------
 
@@ -169,6 +178,29 @@ Frumkin I1, Lajoie MJ2, Gregg CJ2, Hornung G3, Church GM4, Pilpel Y5.
 ### 2017
 
 ----------
+## heterologous gene
+
+https://www.ncbi.nlm.nih.gov/pubmed/29410400
+Nat Commun. 2018 Feb 6;9(1):522. doi: 10.1038/s41467-018-02944-3.
+Biochemical mechanisms determine the functional compatibility of heterologous genes.
+Porse A1, Schou TS1, Munck C1, Ellabaan MMH1, Sommer MOA2.
+In contrast to previous work, we find that GC content, codon usage, and mRNA-folding energy are of minor importance for the compatibility of mechanistically diverse gene products at moderate expression. 
+
+異種遺伝子発現のためのコドン改変
+https://galaxyproject.org/public-galaxy-servers/codon-harmonizer/
+Codon Harmonizer
+https://www.ncbi.nlm.nih.gov/pubmed/28902855
+PLoS One. 2017 Sep 13;12(9):e0184355. doi: 10.1371/journal.pone.0184355. eCollection 2017.
+Improving heterologous membrane protein production in Escherichia coli by combining transcriptional tuning and codon usage algorithms.
+Claassens NJ1, Siliakus MF1, Spaans SK1, Creutzburg SCA1, Nijsse B2, Schaap PJ2, Quax TEF3, van der Oost J1.
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/28855614
+Sci Rep. 2017 Aug 30;7(1):9926. doi: 10.1038/s41598-017-10546-0.
+Predicting synonymous codon usage and optimizing the heterologous gene for expression in E. coli.
+Tian J1, Yan Y1,2, Yue Q1,3, Liu X1, Chu X1, Wu N4, Fan Y1.
+
+----------
 ## database
 
 https://www.ncbi.nlm.nih.gov/pubmed/22536831
@@ -181,15 +213,6 @@ Hilterbrand A1, Saelens J, Putonti C.
 22 Aug 2018
 https://arxiv.org/abs/1808.07259
 [1808.07259] SSCU: an R/Bioconductor package for analyzing selective profile in synonymous codon usage
-
-異種遺伝子発現のためのコドン改変
-https://galaxyproject.org/public-galaxy-servers/codon-harmonizer/
-Codon Harmonizer
-https://www.ncbi.nlm.nih.gov/pubmed/28902855
-PLoS One. 2017 Sep 13;12(9):e0184355. doi: 10.1371/journal.pone.0184355. eCollection 2017.
-Improving heterologous membrane protein production in Escherichia coli by combining transcriptional tuning and codon usage algorithms.
-Claassens NJ1, Siliakus MF1, Spaans SK1, Creutzburg SCA1, Nijsse B2, Schaap PJ2, Quax TEF3, van der Oost J1.
-
 
 https://www.ncbi.nlm.nih.gov/pubmed/17439967
 Nucleic Acids Res. 2007 Jul;35(Web Server issue):W126-31. Epub 2007 Apr 16.
@@ -364,10 +387,19 @@ PLoS Genet. 2010 Jan 15;6(1):e1000808. doi: 10.1371/journal.pgen.1000808.
 The systemic imprint of growth and its uses in ecological (meta)genomics.
 Vieira-Silva S1, Rocha EP.
 
+### nucleotide composition
+GC content
+
 https://www.ncbi.nlm.nih.gov/pubmed/16200051
 EMBO Rep. 2005 Dec;6(12):1208-13.
 Environments shape the nucleotide composition of genomes.
 Foerstner KU1, von Mering C, Hooper SD, Bork P.
+
+https://www.ncbi.nlm.nih.gov/pubmed/25861819
+Genome Biol Evol. 2015 Apr 9;7(5):1380-9. doi: 10.1093/gbe/evv063.
+Prokaryotic nucleotide composition is shaped by both phylogeny and the environment.
+Reichenberger ER1, Rosen G2, Hershberg U3, Hershberg R4.
+we show that GC-content varies greatly as a function of environment, in a manner that cannot be entirely explained by disparities in phylogenetic composition. 
 
 ### growth rate
 
