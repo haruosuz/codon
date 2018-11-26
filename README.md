@@ -42,6 +42,50 @@ Why genes evolve faster on secondary chromosomes in bacteria.
 Cooper VS1, Vohr SH, Wrocklage SC, Hatcher PJ.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2848543/
 
+
+----------
+
+## updates
+
+### 2018
+
+https://www.biorxiv.org/content/early/2018/11/24/478016
+Hidden patterns of codon usage bias across kingdoms | bioRxiv
+
+https://www.ncbi.nlm.nih.gov/pubmed/30247489
+Nat Biotechnol. 2018 Sep 24. doi: 10.1038/nbt.4238. [Epub ahead of print]
+Evaluation of 244,000 synthetic sequences reveals design principles to optimize translation in Escherichia coli.
+Cambray G1,2, Guimaraes JC1,3, Arkin AP3,4.
+
+Codon composition has a sizable impact on translatability, but only in comparatively rare elongation-limited transcripts.
+
+https://twitter.com/kfuku0502/status/1003768475871875072
+Kenji Fukushima on Twitter: "高発現遺伝子だけでなく低発現遺伝子でもコドン使用頻度は選択を受けているらしい。大腸菌でそういうサイトの同義置換を入れて適応度が下がるケースを発見している。 https://t.co/nFGnUi3m2A"
+
+https://www.ncbi.nlm.nih.gov/pubmed/29688501
+Genome Biol Evol. 2018 Apr 1;10(5):1237-1246. doi: 10.1093/gbe/evy084.
+The Codon Usage of Lowly Expressed Genes Is Subject to Natural Selection.
+Yannai A1, Katz S1, Hershberg R1.
+
+
+高度発現遺伝子群のコドンバイアスが、他の遺伝子群の翻訳に影響する。
+https://www.ncbi.nlm.nih.gov/pubmed/29735666
+Proc Natl Acad Sci U S A. 2018 May 22;115(21):E4940-E4949. doi: 10.1073/pnas.1719375115. Epub 2018 May 7.
+Codon usage of highly expressed genes affects proteome-wide translation efficiency.
+Frumkin I1, Lajoie MJ2, Gregg CJ2, Hornung G3, Church GM4, Pilpel Y5.
+
+### 2017
+
+
+----------
+### R
+
+http://rstudio-pubs-static.s3.amazonaws.com/3351_05a20138b81646829d8965c4a1ac76cd.html
+Step 10 - Looking at amino acid and codon usage
+
+load_genomic_codon_data <- function(codon_filename = paste(getwd(), "/data/codon_usage.txt", 
+    sep = "")) {
+
 ----------
 ### RSCU
 relative synonymous codon usage
@@ -59,6 +103,7 @@ https://www.ncbi.nlm.nih.gov/pubmed/26029354
 Comput Struct Biotechnol J. 2015 May 4;13:352-7. doi: 10.1016/j.csbj.2015.04.005. eCollection 2015.
 Homology-independent metrics for comparative genomics.
 Coutinho TJ1, Franco GR1, Lobo FP2.
+In this review we compile several sequence metrics that do not rely on homology inference and can be used to compare nucleotide sequences and extract biologically meaningful information from them. These metrics comprise several compositional parameters calculated from sequence data alone, such as GC content, dinucleotide odds ratio, and several codon bias metrics. 
 
 ----------
 ### tRNA
@@ -147,35 +192,6 @@ Bioinformatics. 2003 Nov 1;19(16):2005-15.
 Codon adaptation index as a measure of dominating codon bias.
 Carbone A1, Zinovyev A, Képès F.
 
-----------
-
-## updates
-
-### 2018
-
-https://www.ncbi.nlm.nih.gov/pubmed/30247489
-Nat Biotechnol. 2018 Sep 24. doi: 10.1038/nbt.4238. [Epub ahead of print]
-Evaluation of 244,000 synthetic sequences reveals design principles to optimize translation in Escherichia coli.
-Cambray G1,2, Guimaraes JC1,3, Arkin AP3,4.
-
-Codon composition has a sizable impact on translatability, but only in comparatively rare elongation-limited transcripts.
-
-https://twitter.com/kfuku0502/status/1003768475871875072
-Kenji Fukushima on Twitter: "高発現遺伝子だけでなく低発現遺伝子でもコドン使用頻度は選択を受けているらしい。大腸菌でそういうサイトの同義置換を入れて適応度が下がるケースを発見している。 https://t.co/nFGnUi3m2A"
-
-https://www.ncbi.nlm.nih.gov/pubmed/29688501
-Genome Biol Evol. 2018 Apr 1;10(5):1237-1246. doi: 10.1093/gbe/evy084.
-The Codon Usage of Lowly Expressed Genes Is Subject to Natural Selection.
-Yannai A1, Katz S1, Hershberg R1.
-
-
-高度発現遺伝子群のコドンバイアスが、他の遺伝子群の翻訳に影響する。
-https://www.ncbi.nlm.nih.gov/pubmed/29735666
-Proc Natl Acad Sci U S A. 2018 May 22;115(21):E4940-E4949. doi: 10.1073/pnas.1719375115. Epub 2018 May 7.
-Codon usage of highly expressed genes affects proteome-wide translation efficiency.
-Frumkin I1, Lajoie MJ2, Gregg CJ2, Hornung G3, Church GM4, Pilpel Y5.
-
-### 2017
 
 ----------
 ## heterologous gene
@@ -239,6 +255,8 @@ Codon Usage Generator (CUG) †
 
 http://bioinfo.ie.niigata-u.ac.jp/?遺伝子発現量予測
 
+http://bioinfo.ie.niigata-u.ac.jp/?コドン組成に基づくBLSOM解析
+
 ----------
 ## mge
 Mobile genetic elements (MGEs)
@@ -258,6 +276,25 @@ Plasmid carriage costs are not the only costs to plasmid-mediated HGT. Another p
 and comparative approaches demonstrate that HGT is more likely to be successful between genomes with similar codon usage preferences (Tuller et al. 2011, Medrano-Soto 2004).
 
 The cost of plasmid carriage was quantified and we showed that mismatches in codon usage preferences generate differences in chloramphenicol resistance. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/20369015
+PLoS Comput Biol. 2010 Apr 1;6(4):e1000732. doi: 10.1371/journal.pcbi.1000732.
+Why genes evolve faster on secondary chromosomes in bacteria.
+Cooper VS1, Vohr SH, Wrocklage SC, Hatcher PJ.
+
+Further, in every bacterial genome with multiple chromosomes that we studied, genes on secondary chromosomes exhibited significantly weaker codon usage bias than those on primary chromosomes. Faster evolution and reduced codon bias
+
+https://www.ncbi.nlm.nih.gov/pubmed/20080407
+Trends Microbiol. 2010 Apr;18(4):141-8. doi: 10.1016/j.tim.2009.12.010. Epub 2010 Jan 18.
+Introducing the bacterial 'chromid': not a chromosome, not a plasmid.
+Harrison PW1, Lower RP, Kim NK, Young JP.
+
+Chromids carry some core genes, and their nucleotide composition and codon usage are very similar to those of the chromosomes they are associated with.
+
+https://linkinghub.elsevier.com/retrieve/pii/S0966-842X(09)00269-8
+
+Chromid genes have a similar codon usage to chromosomal genes
+A large number of studies (reviewed by Lynn et al.[11]) have investigated synonymous codon usage and demonstrated that it is highly patterned. It is known that individual genomes have characteristic synonymous codon usage signatures [12]. Our analysis demonstrates that individual replicons also have distinct codon usage characteristics, and chromids are much more similar to chromosomes than to the plasmids that are found in the same organisms. For example, in the genome of Agrobacterium tumefaciens C58 the chromosome and chromid are very similar in average codon usage but rather distinct from the two plasmids (Figure 1). 
 
 https://www.ncbi.nlm.nih.gov/pubmed/19221094
 DNA Res. 2009 Apr;16(2):91-104. doi: 10.1093/dnares/dsp001. Epub 2009 Feb 15.
@@ -381,11 +418,22 @@ https://www.ncbi.nlm.nih.gov/pubmed/23921637
 Nucleic Acids Res. 2013 Oct;41(19):8842-52.
 Environmental shaping of codon usage and functional adaptation across microbial communities.
 Roller M1, Lucić V, Nagy I, Perica T, Vlahovicek K.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3799439/
+Single bacterial species’ genomes and annotation
+Codon usage within metagenomes follows similar patterns as in single microbial genomes
 
 https://www.ncbi.nlm.nih.gov/pubmed/20090831
 PLoS Genet. 2010 Jan 15;6(1):e1000808. doi: 10.1371/journal.pgen.1000808.
 The systemic imprint of growth and its uses in ecological (meta)genomics.
 Vieira-Silva S1, Rocha EP.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2797632/
+
+Figure 7
+Average predicted minimum generation time for 3 environmental metagenomes.
+
+Figure 8
+Average predicted minimum generation time for the gut metagenomes of humans of different age groups.
+
 
 ### nucleotide composition
 GC content
