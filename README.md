@@ -42,6 +42,33 @@ Why genes evolve faster on secondary chromosomes in bacteria.
 Cooper VS1, Vohr SH, Wrocklage SC, Hatcher PJ.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2848543/
 
+----------
+### R
+
+http://rstudio-pubs-static.s3.amazonaws.com/3351_05a20138b81646829d8965c4a1ac76cd.html
+Step 10 - Looking at amino acid and codon usage
+
+load_genomic_codon_data <- function(codon_filename = paste(getwd(), "/data/codon_usage.txt", 
+    sep = "")) {
+
+----------
+### RSCU
+relative synonymous codon usage
+
+https://www.biorxiv.org/content/early/2018/09/26/421487
+Elucidation of Codon Usage Signatures across the Domains of Life | bioRxiv
+
+https://www.ncbi.nlm.nih.gov/pubmed/29596640
+Mol Biol Evol. 2018 Jun 1;35(6):1463-1472. doi: 10.1093/molbev/msy047.
+Multiple Factors Confounding Phylogenetic Detection of Selection on Codon Usage.
+Laurin-Lemay S1, Philippe H1,2, Rodrigue N3.
+
+review
+https://www.ncbi.nlm.nih.gov/pubmed/26029354
+Comput Struct Biotechnol J. 2015 May 4;13:352-7. doi: 10.1016/j.csbj.2015.04.005. eCollection 2015.
+Homology-independent metrics for comparative genomics.
+Coutinho TJ1, Franco GR1, Lobo FP2.
+In this review we compile several sequence metrics that do not rely on homology inference and can be used to compare nucleotide sequences and extract biologically meaningful information from them. These metrics comprise several compositional parameters calculated from sequence data alone, such as GC content, dinucleotide odds ratio, and several codon bias metrics. 
 
 ----------
 
@@ -76,34 +103,54 @@ Frumkin I1, Lajoie MJ2, Gregg CJ2, Hornung G3, Church GM4, Pilpel Y5.
 
 ### 2017
 
+### 2016
+
+https://www.ncbi.nlm.nih.gov/pubmed/27671647
+Proc Natl Acad Sci U S A. 2016 Oct 11;113(41):E6117-E6125. Epub 2016 Sep 26.
+Codon usage is an important determinant of gene expression levels largely through its effects on transcription.
+Zhou Z1, Dang Y1, Zhou M2, Li L3, Yu CH1, Fu J1, Chen S3, Liu Y4.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5068308/
+Codon Optimization, Plasmid Constructs, and Neurospora Transformation.
 
 ----------
-### R
+## heterologous gene expression
 
-http://rstudio-pubs-static.s3.amazonaws.com/3351_05a20138b81646829d8965c4a1ac76cd.html
-Step 10 - Looking at amino acid and codon usage
+https://www.ncbi.nlm.nih.gov/pubmed/29410400
+Nat Commun. 2018 Feb 6;9(1):522. doi: 10.1038/s41467-018-02944-3.
+Biochemical mechanisms determine the functional compatibility of heterologous genes.
+Porse A1, Schou TS1, Munck C1, Ellabaan MMH1, Sommer MOA2.
+In contrast to previous work, we find that GC content, codon usage, and mRNA-folding energy are of minor importance for the compatibility of mechanistically diverse gene products at moderate expression. 
 
-load_genomic_codon_data <- function(codon_filename = paste(getwd(), "/data/codon_usage.txt", 
-    sep = "")) {
+異種遺伝子発現のためのコドン改変
+https://galaxyproject.org/public-galaxy-servers/codon-harmonizer/
+Codon Harmonizer
+https://www.ncbi.nlm.nih.gov/pubmed/28902855
+PLoS One. 2017 Sep 13;12(9):e0184355. doi: 10.1371/journal.pone.0184355. eCollection 2017.
+Improving heterologous membrane protein production in Escherichia coli by combining transcriptional tuning and codon usage algorithms.
+Claassens NJ1, Siliakus MF1, Spaans SK1, Creutzburg SCA1, Nijsse B2, Schaap PJ2, Quax TEF3, van der Oost J1.
 
-----------
-### RSCU
-relative synonymous codon usage
+https://www.ncbi.nlm.nih.gov/pubmed/28855614
+Sci Rep. 2017 Aug 30;7(1):9926. doi: 10.1038/s41598-017-10546-0.
+Predicting synonymous codon usage and optimizing the heterologous gene for expression in E. coli.
+Tian J1, Yan Y1,2, Yue Q1,3, Liu X1, Chu X1, Wu N4, Fan Y1.
 
-https://www.biorxiv.org/content/early/2018/09/26/421487
-Elucidation of Codon Usage Signatures across the Domains of Life | bioRxiv
+https://www.ncbi.nlm.nih.gov/pubmed/19696103
+Microbiology. 2009 Nov;155(Pt 11):3581-8. doi: 10.1099/mic.0.030064-0. Epub 2009 Aug 20.
+Overcoming codon-usage bias in heterologous protein expression in Streptococcus gordonii.
+Lee SF1, Li YJ, Halperin SA.
+tRNA genes encoding 10 of the 12 rare codons were cloned into a plasmid. The plasmid was transformed into strains of S. gordonii expressing the fusion protein SpaP/S1, the anti-complement receptor 1 (CR1) single-chain variable fragment (scFv) antibody, or the Toxoplasma gondii cyclophilin C18 protein. 
 
-https://www.ncbi.nlm.nih.gov/pubmed/29596640
-Mol Biol Evol. 2018 Jun 1;35(6):1463-1472. doi: 10.1093/molbev/msy047.
-Multiple Factors Confounding Phylogenetic Detection of Selection on Codon Usage.
-Laurin-Lemay S1, Philippe H1,2, Rodrigue N3.
-
-review
-https://www.ncbi.nlm.nih.gov/pubmed/26029354
-Comput Struct Biotechnol J. 2015 May 4;13:352-7. doi: 10.1016/j.csbj.2015.04.005. eCollection 2015.
-Homology-independent metrics for comparative genomics.
-Coutinho TJ1, Franco GR1, Lobo FP2.
-In this review we compile several sequence metrics that do not rely on homology inference and can be used to compare nucleotide sequences and extract biologically meaningful information from them. These metrics comprise several compositional parameters calculated from sequence data alone, such as GC content, dinucleotide odds ratio, and several codon bias metrics. 
+2001
+http://wolfson.huji.ac.il/expression/rosetta.pdf
+Overcoming the codon bias of E. coli for enhanced protein expression
+tRNA levels can be
+elevated by increasing the copy number of
+the respective tRNA gene. This is typically
+accomplished by inserting the wild type
+tRNA gene on a multiple copy plasmid.
+The tRNA gene is either inserted into the
+expression vector itself or placed on a compatible
+plasmid. 
 
 ----------
 ### tRNA
@@ -192,38 +239,25 @@ Bioinformatics. 2003 Nov 1;19(16):2005-15.
 Codon adaptation index as a measure of dominating codon bias.
 Carbone A1, Zinovyev A, Képès F.
 
-
 ----------
-## heterologous gene
 
-https://www.ncbi.nlm.nih.gov/pubmed/29410400
-Nat Commun. 2018 Feb 6;9(1):522. doi: 10.1038/s41467-018-02944-3.
-Biochemical mechanisms determine the functional compatibility of heterologous genes.
-Porse A1, Schou TS1, Munck C1, Ellabaan MMH1, Sommer MOA2.
-In contrast to previous work, we find that GC content, codon usage, and mRNA-folding energy are of minor importance for the compatibility of mechanistically diverse gene products at moderate expression. 
-
-異種遺伝子発現のためのコドン改変
-https://galaxyproject.org/public-galaxy-servers/codon-harmonizer/
-Codon Harmonizer
-https://www.ncbi.nlm.nih.gov/pubmed/28902855
-PLoS One. 2017 Sep 13;12(9):e0184355. doi: 10.1371/journal.pone.0184355. eCollection 2017.
-Improving heterologous membrane protein production in Escherichia coli by combining transcriptional tuning and codon usage algorithms.
-Claassens NJ1, Siliakus MF1, Spaans SK1, Creutzburg SCA1, Nijsse B2, Schaap PJ2, Quax TEF3, van der Oost J1.
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/28855614
-Sci Rep. 2017 Aug 30;7(1):9926. doi: 10.1038/s41598-017-10546-0.
-Predicting synonymous codon usage and optimizing the heterologous gene for expression in E. coli.
-Tian J1, Yan Y1,2, Yue Q1,3, Liu X1, Chu X1, Wu N4, Fan Y1.
-
-----------
 ## database
+
+https://www.ncbi.nlm.nih.gov/pubmed/28865429
+BMC Bioinformatics. 2017 Sep 2;18(1):391. doi: 10.1186/s12859-017-1793-7.
+A new and updated resource for codon usage tables.
+Athey J1, Alexaki A1, Osipova E2, Rostovtsev A2, Santana-Quintero LV2, Katneni U1, Simonyan V2, Kimchi-Sarfaty C3.
+High-performance Integrated Virtual Environment-Codon Usage Tables (HIVE-CUTs)
+http://hive.biochemistry.gwu.edu/review/codon
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5581930/
+However, as plasmids are located in the same area as the genome, draw from the same tRNA pools, and use the same genetic code as the genome, plasmid coding sequences are not separated from the organism’s genomic codon usage table. 
 
 https://www.ncbi.nlm.nih.gov/pubmed/22536831
 BMC Bioinformatics. 2012 Apr 26;13:62. doi: 10.1186/1471-2105-13-62.
 CBDB: the codon bias database.
 Hilterbrand A1, Saelens J, Putonti C.
 
+----------
 ## tools
 
 22 Aug 2018
