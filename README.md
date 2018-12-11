@@ -555,6 +555,11 @@ Proc Natl Acad Sci U S A. 2002 Mar 19;99(6):3695-700.
 Metabolic efficiency and amino acid composition in the proteomes of Escherichia coli and Bacillus subtilis.
 Akashi H1, Gojobori T.
 
+https://www.ncbi.nlm.nih.gov/pubmed/11965430
+J Mol Evol. 2002 May;54(5):563-8.
+Trends in codon and amino acid usage in Thermotoga maritima.
+Zavala A1, Naya H, Romero H, Musto H.
+
 https://www.ncbi.nlm.nih.gov/pubmed/9461405
 Gene. 1997 Dec 31;205(1-2):309-16.
 Influence of genomic G+C content on average amino-acid composition of proteins from 59 bacterial species.
