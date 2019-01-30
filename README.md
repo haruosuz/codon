@@ -10,6 +10,7 @@ Last Update: 2018-10
 - [updates](#updates)
   - [2018](#2018)
   - [2017](#2017)
+- [H.pylori](#h.pylori) ピロリ菌
 - [heterologous gene expression](#heterologous gene expression)
 - [database](#database)
 - [tools](#tools)
@@ -22,6 +23,7 @@ Last Update: 2018-10
 - [R](#r)
 - [RSCU](#rscu)
 - [tRNA](#trna)
+- [tRNA](#trna-gene-cluster)
 - [temperature](#temperature)
 - [replication](#replication)
 - [people](#people)
@@ -30,7 +32,6 @@ Last Update: 2018-10
   - [Olsen](#olsen)
   - [Sharp](#sharp)
   - [Suzuki](#suzuki)
-
 - [lifestyle](#lifestyle)
 - [unclassified](#unclassified)
 
@@ -46,6 +47,90 @@ PLoS Comput Biol. 2010 Apr 1;6(4):e1000732. doi: 10.1371/journal.pcbi.1000732.
 Why genes evolve faster on secondary chromosomes in bacteria.
 Cooper VS1, Vohr SH, Wrocklage SC, Hatcher PJ.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2848543/
+
+https://www.ncbi.nlm.nih.gov/pubmed/21343180
+Nucleic Acids Res. 2011 Jun;39(11):4743-55. doi: 10.1093/nar/gkr054. Epub 2011 Feb 22.
+Association between translation efficiency and horizontal gene transfer within microbial communities.
+Tuller T1, Girshovich Y, Sella Y, Kreimer A, Freilich S, Kupiec M, Gophna U, Ruppin E.
+
+
+----------
+## review
+
+https://www.ncbi.nlm.nih.gov/pubmed/29018283
+Nat Rev Mol Cell Biol. 2017 Oct 11.
+Codon optimality, bias and usage in translation and mRNA decay.
+Hanson G1, Coller J1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/26186290
+Mol Cell. 2015 Jul 16;59(2):149-61. doi: 10.1016/j.molcel.2015.05.035.
+Codon Bias as a Means to Fine-Tune Gene Expression.
+Quax TE1, Claassens NJ2, Söll D3, van der Oost J4.
+
+https://www.ncbi.nlm.nih.gov/pubmed/22889422
+Biol Rev Camb Philos Soc. 2013 Feb;88(1):49-61. doi: 10.1111/j.1469-185X.2012.00242.x. Epub 2012 Aug 14.
+Codon usage bias: causative factors, quantification methods and genome-wide patterns: with emphasis on insect genomes.
+Behura SK1, Severson DW.
+
+https://www.ncbi.nlm.nih.gov/pubmed/22921354
+Trends Genet. 2012 Nov;28(11):574-81. doi: 10.1016/j.tig.2012.07.006. Epub 2012 Aug 23.
+Speeding with control: codon usage, tRNAs, and ribosomes.
+Novoa EM1, Ribas de Pouplana L.
+
+http://www.ncbi.nlm.nih.gov/pubmed/21102527
+Nat Rev Genet. 2011 Jan;12(1):32-42. doi: 10.1038/nrg2899. Epub 2010 Nov 23.
+Synonymous but not the same: the causes and consequences of codon bias.
+Plotkin JB1, Kudla G.
+http://mathbio.sas.upenn.edu/Papers/Plotkin_Kudla_NatRevGenetics_2011.pdf
+
+https://www.ncbi.nlm.nih.gov/pubmed/18983258
+Annu Rev Genet. 2008;42:287-99. doi: 10.1146/annurev.genet.42.110807.091442.
+Selection on codon bias.
+Hershberg R1, Petrov DA.
+
+https://www.ncbi.nlm.nih.gov/pubmed/11719972
+Curr Issues Mol Biol. 2001 Oct;3(4):91-7.
+Synonymous codon usage in bacteria.
+Ermolaeva MD1.
+
+----------
+## Video
+
+https://www.youtube.com/watch?v=P-fjZPf3Dnw
+Codon optimization: Why & how to design DNA sequences for optimal soluble protein expression - YouTube
+Published on Nov 3, 2014
+
+
+----------
+## Japanese
+
+http://tenure5.vbl.okayama-u.ac.jp/HM_blog/?s=コドン
+コドン | 酵母とシステムバイオロジー
+- 2015-03-20 コドンの最適度はmRNAの安定性を決める主要な要因である。
+- 2011-08-31 合成遺伝子で「コドンの最適化」をどう行なうのか？
+
+2017/1/18
+http://yfuruta.sakura.ne.jp/blog/?p=824
+コドン最適化
+
+2013年 第11号
+https://www.sbj.or.jp/wp-content/uploads/file/sbj/9111/9111_biomedia_2(1).pdf
+コドンが決め手!?組換えタンパク質の高発現法 今中 洋行
+
+2010-08-25
+http://d.hatena.ne.jp/morimori-08/20100825/1282745255
+コドンバイアスはタンパク質のフォールディングのエラーを少なくする
+
+https://www.nig.ac.jp/museum/evolution/04.html
+遺伝暗号(コドン）使用の種による多様性
+
+https://biowiki.edu-wiki.org/コドン表
+コドン表 [BioWiki]
+
+http://www.genscript.jp/codon_opt.html
+OptimumGene™コドン最適化技術 - GenScript
+
+
 
 
 ----------
@@ -90,105 +175,8 @@ Zhou Z1, Dang Y1, Zhou M2, Li L3, Yu CH1, Fu J1, Chen S3, Liu Y4.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5068308/
 Codon Optimization, Plasmid Constructs, and Neurospora Transformation.
 
-----------
-## heterologous gene expression
-
-https://www.ncbi.nlm.nih.gov/pubmed/29410400
-Nat Commun. 2018 Feb 6;9(1):522. doi: 10.1038/s41467-018-02944-3.
-Biochemical mechanisms determine the functional compatibility of heterologous genes.
-Porse A1, Schou TS1, Munck C1, Ellabaan MMH1, Sommer MOA2.
-In contrast to previous work, we find that GC content, codon usage, and mRNA-folding energy are of minor importance for the compatibility of mechanistically diverse gene products at moderate expression. 
-
-異種遺伝子発現のためのコドン改変
-https://galaxyproject.org/public-galaxy-servers/codon-harmonizer/
-Codon Harmonizer
-https://www.ncbi.nlm.nih.gov/pubmed/28902855
-PLoS One. 2017 Sep 13;12(9):e0184355. doi: 10.1371/journal.pone.0184355. eCollection 2017.
-Improving heterologous membrane protein production in Escherichia coli by combining transcriptional tuning and codon usage algorithms.
-Claassens NJ1, Siliakus MF1, Spaans SK1, Creutzburg SCA1, Nijsse B2, Schaap PJ2, Quax TEF3, van der Oost J1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/28855614
-Sci Rep. 2017 Aug 30;7(1):9926. doi: 10.1038/s41598-017-10546-0.
-Predicting synonymous codon usage and optimizing the heterologous gene for expression in E. coli.
-Tian J1, Yan Y1,2, Yue Q1,3, Liu X1, Chu X1, Wu N4, Fan Y1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/19696103
-Microbiology. 2009 Nov;155(Pt 11):3581-8. doi: 10.1099/mic.0.030064-0. Epub 2009 Aug 20.
-Overcoming codon-usage bias in heterologous protein expression in Streptococcus gordonii.
-Lee SF1, Li YJ, Halperin SA.
-tRNA genes encoding 10 of the 12 rare codons were cloned into a plasmid. The plasmid was transformed into strains of S. gordonii expressing the fusion protein SpaP/S1, the anti-complement receptor 1 (CR1) single-chain variable fragment (scFv) antibody, or the Toxoplasma gondii cyclophilin C18 protein. 
-
-2001
-http://wolfson.huji.ac.il/expression/rosetta.pdf
-Overcoming the codon bias of E. coli for enhanced protein expression
-tRNA levels can be
-elevated by increasing the copy number of
-the respective tRNA gene. This is typically
-accomplished by inserting the wild type
-tRNA gene on a multiple copy plasmid.
-The tRNA gene is either inserted into the
-expression vector itself or placed on a compatible
-plasmid. 
-
 
 ----------
-## R
-
-http://rstudio-pubs-static.s3.amazonaws.com/3351_05a20138b81646829d8965c4a1ac76cd.html
-Step 10 - Looking at amino acid and codon usage
-
-load_genomic_codon_data <- function(codon_filename = paste(getwd(), "/data/codon_usage.txt", 
-    sep = "")) {
-
-----------
-## RSCU
-relative synonymous codon usage
-
-https://www.biorxiv.org/content/early/2018/09/26/421487
-Elucidation of Codon Usage Signatures across the Domains of Life | bioRxiv
-
-https://www.ncbi.nlm.nih.gov/pubmed/29596640
-Mol Biol Evol. 2018 Jun 1;35(6):1463-1472. doi: 10.1093/molbev/msy047.
-Multiple Factors Confounding Phylogenetic Detection of Selection on Codon Usage.
-Laurin-Lemay S1, Philippe H1,2, Rodrigue N3.
-
-review
-https://www.ncbi.nlm.nih.gov/pubmed/26029354
-Comput Struct Biotechnol J. 2015 May 4;13:352-7. doi: 10.1016/j.csbj.2015.04.005. eCollection 2015.
-Homology-independent metrics for comparative genomics.
-Coutinho TJ1, Franco GR1, Lobo FP2.
-In this review we compile several sequence metrics that do not rely on homology inference and can be used to compare nucleotide sequences and extract biologically meaningful information from them. These metrics comprise several compositional parameters calculated from sequence data alone, such as GC content, dinucleotide odds ratio, and several codon bias metrics. 
-
-----------
-## tRNA gene cluster
-
-https://www.ncbi.nlm.nih.gov/pubmed/30624459
-Mem Inst Oswaldo Cruz. 2019 Jan 7;114:e180348. doi: 10.1590/0074-02760180348.
-Exploring tRNA gene cluster in archaea.
-Morgado SM1, Vicente ACP1.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6333295/
-In prokaryotes, tRNA gene clusters were characterised in some bacteria, being prevalent in Firmicutes phylum and Mycobacterium genus, 6 , 7 
-
-https://www.ncbi.nlm.nih.gov/pubmed/29867913
-Front Microbiol. 2018 May 17;9:1042. doi: 10.3389/fmicb.2018.01042. eCollection 2018.
-Beyond the Limits: tRNA Array Units in Mycobacterium Genomes.
-Morgado SM1, Vicente ACP1.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5966550/
-- In high GC content phyla, as Actinobacteria, they were found only in few genomes but none from Mycobacterium genus (Tran et al., 2016).
-- Each tRNA predicted by ARAGORN provides information about its genomic coordinate and contig number, which were accessed by our in-house script. tRNA array units were defined as genomic regions with 20 or more tRNAs and a minimum density of two tRNA/kb (Tran et al., 2016). 
-- The Acidithiobacillus ferrooxidans ATCC 23270 genome was used as positive control to the identification of tRNA array unit (Tran et al., 2016).
-- In order to identify the presence of any tRNA array unit in these genomes we used our in-house script that was based on the tRNA array unit definition: a genomic region containing at least 20 tRNA genes with a minimal density of two tRNA genes per kilobase (Tran et al., 2016). 
-- Types of tRNA array
-Tran et al. (2016), based on the tRNA amino acid isotypes and organization of each array, assigned the arrays in seven groups. 
-
-https://www.ncbi.nlm.nih.gov/pubmed/26710853
-Genome Biol Evol. 2015 Dec 28;8(1):282-95. doi: 10.1093/gbe/evv254.
-A Comprehensive tRNA Genomic Survey Unravels the Evolutionary History of tRNA Arrays in Prokaryotes.
-Tran TT1, Belahbib H1, Bonnefoy V1, Talla E2.
-
-----------
-## tRNA
-
 ## H.pylori
 ピロリ菌のコドン使用
 
@@ -239,8 +227,129 @@ Absence of translationally selected synonymous codon usage bias in Helicobacter 
 Lafay B1, Atherton JC, Sharp PM.
 
 ----------
+## heterologous gene expression
 
+https://www.ncbi.nlm.nih.gov/pubmed/29410400
+Nat Commun. 2018 Feb 6;9(1):522. doi: 10.1038/s41467-018-02944-3.
+Biochemical mechanisms determine the functional compatibility of heterologous genes.
+Porse A1, Schou TS1, Munck C1, Ellabaan MMH1, Sommer MOA2.
+In contrast to previous work, we find that GC content, codon usage, and mRNA-folding energy are of minor importance for the compatibility of mechanistically diverse gene products at moderate expression. 
+
+異種遺伝子発現のためのコドン改変
+https://galaxyproject.org/public-galaxy-servers/codon-harmonizer/
+Codon Harmonizer
+https://www.ncbi.nlm.nih.gov/pubmed/28902855
+PLoS One. 2017 Sep 13;12(9):e0184355. doi: 10.1371/journal.pone.0184355. eCollection 2017.
+Improving heterologous membrane protein production in Escherichia coli by combining transcriptional tuning and codon usage algorithms.
+Claassens NJ1, Siliakus MF1, Spaans SK1, Creutzburg SCA1, Nijsse B2, Schaap PJ2, Quax TEF3, van der Oost J1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/28855614
+Sci Rep. 2017 Aug 30;7(1):9926. doi: 10.1038/s41598-017-10546-0.
+Predicting synonymous codon usage and optimizing the heterologous gene for expression in E. coli.
+Tian J1, Yan Y1,2, Yue Q1,3, Liu X1, Chu X1, Wu N4, Fan Y1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/19696103
+Microbiology. 2009 Nov;155(Pt 11):3581-8. doi: 10.1099/mic.0.030064-0. Epub 2009 Aug 20.
+Overcoming codon-usage bias in heterologous protein expression in Streptococcus gordonii.
+Lee SF1, Li YJ, Halperin SA.
+tRNA genes encoding 10 of the 12 rare codons were cloned into a plasmid. The plasmid was transformed into strains of S. gordonii expressing the fusion protein SpaP/S1, the anti-complement receptor 1 (CR1) single-chain variable fragment (scFv) antibody, or the Toxoplasma gondii cyclophilin C18 protein. 
+
+2001
+http://wolfson.huji.ac.il/expression/rosetta.pdf
+Overcoming the codon bias of E. coli for enhanced protein expression
+tRNA levels can be
+elevated by increasing the copy number of
+the respective tRNA gene. This is typically
+accomplished by inserting the wild type
+tRNA gene on a multiple copy plasmid.
+The tRNA gene is either inserted into the
+expression vector itself or placed on a compatible
+plasmid. 
+
+----------
+## growth rate
+増殖速度
+
+https://www.ncbi.nlm.nih.gov/pubmed/20090831
+PLoS Genet. 2010 Jan 15;6(1):e1000808. doi: 10.1371/journal.pgen.1000808.
+The systemic imprint of growth and its uses in ecological (meta)genomics.
+Vieira-Silva S1, Rocha EP.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2797632/
+Figure 1
+Genomic signatures correlated to minimum generation time (d) for 214 prokaryotes.
+Correlation between d and (A) the number of rRNA operons in the genome, (B) the relative distance from the origin of replication to rRNA genes (excluding species with no retrievable origin), 0.5 corresponds to half the replicon, (C,D) codon usage bias indices ΔENC′ [35] and S [46]. Spearman correlations are given (ρ) with all p-values<0.0001. Dashed lines represent the trend of the correlation.
+
+- As expected, we found an increase in copy number of rRNA (Figure 1) and tRNA genes (Figure S1) with decreasing minimal generation times (ρ = −0.59 and ρ = −0.51, all p-value<0.0001). 
+- As described above, gene dosage of highly expressed genes can be increased transiently when these genes are located near the origin of replication in fast growing cells. Indeed, a positive correlation was found between minimum generation time and the relative distance to the origin of replication of rRNA genes (ρ = 0.36, Figure 1), RNA polymerase genes (ρ = 0.42), ribosomal proteins coding genes (ρ = 0.42), tRNA (ρ = 0.35) and ubi-tRNA (ρ = 0.41) genes (Figure S2) (all p-values<0.0001).
+- Finally, two previously proposed indices of codon usage bias in highly expressed genes ΔENC′ [35] and S [46] correlate negatively with d (respectively, ρ = −0.64 and ρ = −0.54, p-value<0.0001, Figure 1). 
+
+rRNA/tRNA遺伝子コピー数が多いほど、
+rRNA遺伝子の複製起点からの距離が小さいほど、
+高発現遺伝子の同義コドン使用バイアスが強い（方言がきつい）ほど、
+原核生物の最小倍加時間が小さい（増殖速度が速い）
+
+https://www.ncbi.nlm.nih.gov/pubmed/20308095
+Philos Trans R Soc Lond B Biol Sci. 2010 Apr 27;365(1544):1203-12. doi: 10.1098/rstb.2009.0305.
+Forces that influence the evolution of codon bias.
+Sharp PM1, Emery LR, Zeng K.
+- Here we show that the strength of selected codon usage bias is highly correlated with bacterial growth rate, suggesting that selection has favoured translational efficiency. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/15728743
+Nucleic Acids Res. 2005 Feb 23;33(4):1141-53. Print 2005.
+Variation in the strength of selected codon usage bias among bacteria.
+Sharp PM1, Bailes E, Grocock RJ, Peden JF, Sockett RE.
+These results are consistent with the hypothesis that species exposed to selection for rapid growth have more rRNA operons, more tRNA genes and more strongly selected codon usage bias. For example, Clostridium perfringens, the species with the highest value of S, can have a generation time as short as 7 min.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549432/
+
+細菌の増殖速度、rRNAオペロン数、tRNA遺伝子コピー数、（翻訳の効率と正確度に関連する）高発現遺伝子の同義コドン使用バイアスの相関
+
+https://www.ncbi.nlm.nih.gov/pubmed/15479947
+Genome Res. 2004 Nov;14(11):2279-86. Epub 2004 Oct 12.
+Codon usage bias from tRNA's point of view: redundancy, specialization, and efficient decoding for translation optimization.
+Rocha EP1.
+- We show that as minimal generation times get shorter, the genomes contain more tRNA genes, but fewer anticodon species. 
+- It also provides new evidence that a selective force for the optimization of the translation machinery is the maximization of growth.
+
+----------
+## tRNA
+
+https://integbio.jp/dbcatalog/record/nbdc00720
+tRNADB-CE - Integbio データベースカタログ
+
+https://dbarchive.biosciencedbc.jp/jp/trnadb-ce/data-1.html
+tRNA配列、アノテーション及びキュレーションのデータ - tRNADB-CE | LSDB Archive
+
+----------
+## tRNA gene cluster
+tRNA遺伝子クラスター
+
+https://www.ncbi.nlm.nih.gov/pubmed/30624459
+Mem Inst Oswaldo Cruz. 2019 Jan 7;114:e180348. doi: 10.1590/0074-02760180348.
+Exploring tRNA gene cluster in archaea.
+Morgado SM1, Vicente ACP1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6333295/
+In prokaryotes, tRNA gene clusters were characterised in some bacteria, being prevalent in Firmicutes phylum and Mycobacterium genus, 6 , 7 
+
+https://www.ncbi.nlm.nih.gov/pubmed/29867913
+Front Microbiol. 2018 May 17;9:1042. doi: 10.3389/fmicb.2018.01042. eCollection 2018.
+Beyond the Limits: tRNA Array Units in Mycobacterium Genomes.
+Morgado SM1, Vicente ACP1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5966550/
+- In high GC content phyla, as Actinobacteria, they were found only in few genomes but none from Mycobacterium genus (Tran et al., 2016).
+- Each tRNA predicted by ARAGORN provides information about its genomic coordinate and contig number, which were accessed by our in-house script. tRNA array units were defined as genomic regions with 20 or more tRNAs and a minimum density of two tRNA/kb (Tran et al., 2016). 
+- The Acidithiobacillus ferrooxidans ATCC 23270 genome was used as positive control to the identification of tRNA array unit (Tran et al., 2016).
+- In order to identify the presence of any tRNA array unit in these genomes we used our in-house script that was based on the tRNA array unit definition: a genomic region containing at least 20 tRNA genes with a minimal density of two tRNA genes per kilobase (Tran et al., 2016). 
+- Types of tRNA array
+Tran et al. (2016), based on the tRNA amino acid isotypes and organization of each array, assigned the arrays in seven groups. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/26710853
+Genome Biol Evol. 2015 Dec 28;8(1):282-95. doi: 10.1093/gbe/evv254.
+A Comprehensive tRNA Genomic Survey Unravels the Evolutionary History of tRNA Arrays in Prokaryotes.
+Tran TT1, Belahbib H1, Bonnefoy V1, Talla E2.
+
+----------
 ## lifestyle
+ライフスタイル
 
 https://www.ncbi.nlm.nih.gov/pubmed/22032172
 Genome Biol. 2011 Oct 27;12(10):R109. doi: 10.1186/gb-2011-12-10-r109.
@@ -274,6 +383,38 @@ Bioinformatics. 2003 Nov 1;19(16):2005-15.
 Codon adaptation index as a measure of dominating codon bias.
 Carbone A1, Zinovyev A, Képès F.
 
+
+----------
+## methods
+
+### RSCU
+relative synonymous codon usage
+
+https://www.biorxiv.org/content/early/2018/09/26/421487
+Elucidation of Codon Usage Signatures across the Domains of Life | bioRxiv
+
+https://www.ncbi.nlm.nih.gov/pubmed/29596640
+Mol Biol Evol. 2018 Jun 1;35(6):1463-1472. doi: 10.1093/molbev/msy047.
+Multiple Factors Confounding Phylogenetic Detection of Selection on Codon Usage.
+Laurin-Lemay S1, Philippe H1,2, Rodrigue N3.
+
+review
+https://www.ncbi.nlm.nih.gov/pubmed/26029354
+Comput Struct Biotechnol J. 2015 May 4;13:352-7. doi: 10.1016/j.csbj.2015.04.005. eCollection 2015.
+Homology-independent metrics for comparative genomics.
+Coutinho TJ1, Franco GR1, Lobo FP2.
+In this review we compile several sequence metrics that do not rely on homology inference and can be used to compare nucleotide sequences and extract biologically meaningful information from them. These metrics comprise several compositional parameters calculated from sequence data alone, such as GC content, dinucleotide odds ratio, and several codon bias metrics. 
+
+### WCA
+within-group correspondence analysis (WCA) of codon usage
+
+Synonymous codon usage was investigated by within-group correspondence analysis (WCA) of codon counts [22, 23] and by correspondence analysis of relative synonymous codon usage (CA-RSCU). The latter is the most widely used method for codon usage analysis, whereas the former has been recently demonstrated to produce more unbiased results because it takes into account both amino acid composition and codon degeneracy information [48]. 
+
+
+
+
+
+
 ----------
 
 ## database
@@ -291,6 +432,22 @@ https://www.ncbi.nlm.nih.gov/pubmed/22536831
 BMC Bioinformatics. 2012 Apr 26;13:62. doi: 10.1186/1471-2105-13-62.
 CBDB: the codon bias database.
 Hilterbrand A1, Saelens J, Putonti C.
+
+
+
+https://integbio.jp/dbcatalog/record/nbdc00033
+Codon Usage Database - Integbio データベースカタログ
+http://www.kazusa.or.jp/codon/
+Codon Usage Database
+
+----------
+## R
+
+http://rstudio-pubs-static.s3.amazonaws.com/3351_05a20138b81646829d8965c4a1ac76cd.html
+Step 10 - Looking at amino acid and codon usage
+
+load_genomic_codon_data <- function(codon_filename = paste(getwd(), "/data/codon_usage.txt", 
+    sep = "")) {
 
 ----------
 ## tools
@@ -408,57 +565,9 @@ Genome landscapes and bacteriophage codon usage.
 Lucks JB1, Nelson DR, Kudla GR, Plotkin JB.
 
 
-----------
-### Unclassified
-
-https://www.ncbi.nlm.nih.gov/pubmed/21343180
-Nucleic Acids Res. 2011 Jun;39(11):4743-55. doi: 10.1093/nar/gkr054. Epub 2011 Feb 22.
-Association between translation efficiency and horizontal gene transfer within microbial communities.
-Tuller T1, Girshovich Y, Sella Y, Kreimer A, Freilich S, Kupiec M, Gophna U, Ruppin E.
-
 
 ----------
-### review
-
-https://www.ncbi.nlm.nih.gov/pubmed/29018283
-Nat Rev Mol Cell Biol. 2017 Oct 11.
-Codon optimality, bias and usage in translation and mRNA decay.
-Hanson G1, Coller J1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/26186290
-Mol Cell. 2015 Jul 16;59(2):149-61. doi: 10.1016/j.molcel.2015.05.035.
-Codon Bias as a Means to Fine-Tune Gene Expression.
-Quax TE1, Claassens NJ2, Söll D3, van der Oost J4.
-
-https://www.ncbi.nlm.nih.gov/pubmed/22889422
-Biol Rev Camb Philos Soc. 2013 Feb;88(1):49-61. doi: 10.1111/j.1469-185X.2012.00242.x. Epub 2012 Aug 14.
-Codon usage bias: causative factors, quantification methods and genome-wide patterns: with emphasis on insect genomes.
-Behura SK1, Severson DW.
-
-https://www.ncbi.nlm.nih.gov/pubmed/22921354
-Trends Genet. 2012 Nov;28(11):574-81. doi: 10.1016/j.tig.2012.07.006. Epub 2012 Aug 23.
-Speeding with control: codon usage, tRNAs, and ribosomes.
-Novoa EM1, Ribas de Pouplana L.
-
-http://www.ncbi.nlm.nih.gov/pubmed/21102527
-Nat Rev Genet. 2011 Jan;12(1):32-42. doi: 10.1038/nrg2899. Epub 2010 Nov 23.
-Synonymous but not the same: the causes and consequences of codon bias.
-Plotkin JB1, Kudla G.
-http://mathbio.sas.upenn.edu/Papers/Plotkin_Kudla_NatRevGenetics_2011.pdf
-
-https://www.ncbi.nlm.nih.gov/pubmed/18983258
-Annu Rev Genet. 2008;42:287-99. doi: 10.1146/annurev.genet.42.110807.091442.
-Selection on codon bias.
-Hershberg R1, Petrov DA.
-
-https://www.ncbi.nlm.nih.gov/pubmed/11719972
-Curr Issues Mol Biol. 2001 Oct;3(4):91-7.
-Synonymous codon usage in bacteria.
-Ermolaeva MD1.
-
-----------
-
-### metagenome
+## metagenome
 
 https://www.ncbi.nlm.nih.gov/pubmed/29947757
 Bioinformatics. 2018 Jun 27. doi: 10.1093/bioinformatics/bty519. [Epub ahead of print]
@@ -496,14 +605,14 @@ PLoS Genet. 2010 Jan 15;6(1):e1000808. doi: 10.1371/journal.pgen.1000808.
 The systemic imprint of growth and its uses in ecological (meta)genomics.
 Vieira-Silva S1, Rocha EP.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2797632/
-
 Figure 7
 Average predicted minimum generation time for 3 environmental metagenomes.
 
 Figure 8
 Average predicted minimum generation time for the gut metagenomes of humans of different age groups.
 
-### nucleotide composition
+----------
+## nucleotide composition
 GC content
 
 https://www.ncbi.nlm.nih.gov/pubmed/28261263
@@ -532,22 +641,8 @@ Prokaryotic nucleotide composition is shaped by both phylogeny and the environme
 Reichenberger ER1, Rosen G2, Hershberg U3, Hershberg R4.
 we show that GC-content varies greatly as a function of environment, in a manner that cannot be entirely explained by disparities in phylogenetic composition. 
 
-### growth rate
-
-https://www.ncbi.nlm.nih.gov/pubmed/20308095
-Philos Trans R Soc Lond B Biol Sci. 2010 Apr 27;365(1544):1203-12. doi: 10.1098/rstb.2009.0305.
-Forces that influence the evolution of codon bias.
-Sharp PM1, Emery LR, Zeng K.
-- Here we show that the strength of selected codon usage bias is highly correlated with bacterial growth rate, suggesting that selection has favoured translational efficiency. 
-
-https://www.ncbi.nlm.nih.gov/pubmed/15479947
-Genome Res. 2004 Nov;14(11):2279-86. Epub 2004 Oct 12.
-Codon usage bias from tRNA's point of view: redundancy, specialization, and efficient decoding for translation optimization.
-Rocha EP1.
-- We show that as minimal generation times get shorter, the genomes contain more tRNA genes, but fewer anticodon species. 
-- It also provides new evidence that a selective force for the optimization of the translation machinery is the maximization of growth.
-
-### temperature
+----------
+## temperature
 
 https://www.ncbi.nlm.nih.gov/pubmed/16989961
 Gene. 2006 Dec 30;385:128-36. 
@@ -560,7 +655,7 @@ Synonymous codon usage is subject to selection in thermophilic bacteria.
 Lynn DJ1, Singer GA, Hickey DA.
 
 ----------
-### replication
+## replication
 
 https://www.ncbi.nlm.nih.gov/pubmed/10075995
 Nucleic Acids Res. 1999 Apr 1;27(7):1642-9.
@@ -787,57 +882,6 @@ Gene. 2004 Jun 23;335:19-23.
 The 'weighted sum of relative entropy': a new index for synonymous codon usage bias.
 Suzuki H1, Saito R, Tomita M.
 
-----------
-
-### Video
-
-https://www.youtube.com/watch?v=P-fjZPf3Dnw
-Codon optimization: Why & how to design DNA sequences for optimal soluble protein expression - YouTube
-Published on Nov 3, 2014
-
-
-----------
-
-
-### Japanese
-
-http://tenure5.vbl.okayama-u.ac.jp/HM_blog/?s=コドン
-コドン | 酵母とシステムバイオロジー
-- 2015-03-20 コドンの最適度はmRNAの安定性を決める主要な要因である。
-- 2011-08-31 合成遺伝子で「コドンの最適化」をどう行なうのか？
-
-2017/1/18
-http://yfuruta.sakura.ne.jp/blog/?p=824
-コドン最適化
-
-2013年 第11号
-https://www.sbj.or.jp/wp-content/uploads/file/sbj/9111/9111_biomedia_2(1).pdf
-コドンが決め手!?組換えタンパク質の高発現法 今中 洋行
-
-2010-08-25
-http://d.hatena.ne.jp/morimori-08/20100825/1282745255
-コドンバイアスはタンパク質のフォールディングのエラーを少なくする
-
-https://www.nig.ac.jp/museum/evolution/04.html
-遺伝暗号(コドン）使用の種による多様性
-
-https://biowiki.edu-wiki.org/コドン表
-コドン表 [BioWiki]
-
-https://integbio.jp/dbcatalog/record/nbdc00033
-Codon Usage Database - Integbio データベースカタログ
-
-http://www.kazusa.or.jp/codon/
-Codon Usage Database
-
-http://www.genscript.jp/codon_opt.html
-OptimumGene™コドン最適化技術 - GenScript
-
-----------
-
-----------
-
-
 [コドン - Haruo Suzuki / Bioinformatics](http://d.hatena.ne.jp/haruosuz/20130122)
 
 [論文 - Haruo Suzuki / Bioinformatics](http://d.hatena.ne.jp/haruosuz/20090605)
@@ -845,10 +889,15 @@ OptimumGene™コドン最適化技術 - GenScript
 http://www.kri.sfc.keio.ac.jp/report/mori/2005/b-13.html
 研究課題名        バイオインフォマティックスによる遺伝暗号解析
 
-----------
-### WCA
-within-group correspondence analysis (WCA) of codon usage
 
-Synonymous codon usage was investigated by within-group correspondence analysis (WCA) of codon counts [22, 23] and by correspondence analysis of relative synonymous codon usage (CA-RSCU). The latter is the most widely used method for codon usage analysis, whereas the former has been recently demonstrated to produce more unbiased results because it takes into account both amino acid composition and codon degeneracy information [48]. 
+----------
+## Unclassified
+
+----------
+
+
+
+
+
 
 
