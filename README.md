@@ -1,5 +1,5 @@
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2018-10
+Last Update: 2019-01
 
 ----------
 
@@ -12,27 +12,29 @@ Last Update: 2018-10
   - [2017](#2017)
 - [H.pylori](#h.pylori) ピロリ菌
 - [heterologous gene expression](#heterologous gene expression)
-- [database](#database)
+- [growth rate](#growth-rate)
+- [tRNA](#trna)
+- [tRNA gene cluster](#trna-gene-cluster)
+- [lifestyle](#lifestyle) ライフスタイル
+- [methods](#methods)
+  - [RSCU](#rscu)
+- [R](#r)
 - [tools](#tools)
+- [database](#database)
 - [mge](#mge)
   - [plasmids](#plasmids)
   - [virus](#virus)
 - [review](#review)
 - [metagenome](#metagenome)
-- [growth rate](#growth-rate)
-- [R](#r)
-- [RSCU](#rscu)
-- [tRNA](#trna)
-- [tRNA](#trna-gene-cluster)
-- [temperature](#temperature)
-- [replication](#replication)
+- [nucleotide compositio](#nucleotide-compositio) 塩基組成、GC含量
+- [temperature](#temperature) 温度
+- [replication](#replication) 複製
 - [people](#people)
   - [Kanaya](#kanaya)
   - [Musto](#musto)
   - [Olsen](#olsen)
   - [Sharp](#sharp)
   - [Suzuki](#suzuki)
-- [lifestyle](#lifestyle)
 - [unclassified](#unclassified)
 
 ----------
@@ -410,36 +412,6 @@ within-group correspondence analysis (WCA) of codon usage
 
 Synonymous codon usage was investigated by within-group correspondence analysis (WCA) of codon counts [22, 23] and by correspondence analysis of relative synonymous codon usage (CA-RSCU). The latter is the most widely used method for codon usage analysis, whereas the former has been recently demonstrated to produce more unbiased results because it takes into account both amino acid composition and codon degeneracy information [48]. 
 
-
-
-
-
-
-----------
-
-## database
-
-https://www.ncbi.nlm.nih.gov/pubmed/28865429
-BMC Bioinformatics. 2017 Sep 2;18(1):391. doi: 10.1186/s12859-017-1793-7.
-A new and updated resource for codon usage tables.
-Athey J1, Alexaki A1, Osipova E2, Rostovtsev A2, Santana-Quintero LV2, Katneni U1, Simonyan V2, Kimchi-Sarfaty C3.
-High-performance Integrated Virtual Environment-Codon Usage Tables (HIVE-CUTs)
-http://hive.biochemistry.gwu.edu/review/codon
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5581930/
-However, as plasmids are located in the same area as the genome, draw from the same tRNA pools, and use the same genetic code as the genome, plasmid coding sequences are not separated from the organism’s genomic codon usage table. 
-
-https://www.ncbi.nlm.nih.gov/pubmed/22536831
-BMC Bioinformatics. 2012 Apr 26;13:62. doi: 10.1186/1471-2105-13-62.
-CBDB: the codon bias database.
-Hilterbrand A1, Saelens J, Putonti C.
-
-
-
-https://integbio.jp/dbcatalog/record/nbdc00033
-Codon Usage Database - Integbio データベースカタログ
-http://www.kazusa.or.jp/codon/
-Codon Usage Database
-
 ----------
 ## R
 
@@ -448,6 +420,7 @@ Step 10 - Looking at amino acid and codon usage
 
 load_genomic_codon_data <- function(codon_filename = paste(getwd(), "/data/codon_usage.txt", 
     sep = "")) {
+
 
 ----------
 ## tools
@@ -482,6 +455,29 @@ Codon Usage Generator (CUG) †
 http://bioinfo.ie.niigata-u.ac.jp/?遺伝子発現量予測
 
 http://bioinfo.ie.niigata-u.ac.jp/?コドン組成に基づくBLSOM解析
+
+----------
+
+## database
+
+https://www.ncbi.nlm.nih.gov/pubmed/28865429
+BMC Bioinformatics. 2017 Sep 2;18(1):391. doi: 10.1186/s12859-017-1793-7.
+A new and updated resource for codon usage tables.
+Athey J1, Alexaki A1, Osipova E2, Rostovtsev A2, Santana-Quintero LV2, Katneni U1, Simonyan V2, Kimchi-Sarfaty C3.
+High-performance Integrated Virtual Environment-Codon Usage Tables (HIVE-CUTs)
+http://hive.biochemistry.gwu.edu/review/codon
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5581930/
+However, as plasmids are located in the same area as the genome, draw from the same tRNA pools, and use the same genetic code as the genome, plasmid coding sequences are not separated from the organism’s genomic codon usage table. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/22536831
+BMC Bioinformatics. 2012 Apr 26;13:62. doi: 10.1186/1471-2105-13-62.
+CBDB: the codon bias database.
+Hilterbrand A1, Saelens J, Putonti C.
+
+https://integbio.jp/dbcatalog/record/nbdc00033
+Codon Usage Database - Integbio データベースカタログ
+http://www.kazusa.or.jp/codon/
+Codon Usage Database
 
 ----------
 ## mge
@@ -563,8 +559,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/18463708
 PLoS Comput Biol. 2008 Feb 29;4(2):e1000001. doi: 10.1371/journal.pcbi.1000001.
 Genome landscapes and bacteriophage codon usage.
 Lucks JB1, Nelson DR, Kudla GR, Plotkin JB.
-
-
 
 ----------
 ## metagenome
