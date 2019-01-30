@@ -7,10 +7,10 @@ Last Update: 2018-10
 
 ## Table of Contents
 - [featuring](#featuring)
-- [lifestyle](#lifestyle)
 - [updates](#updates)
   - [2018](#2018)
   - [2017](#2017)
+- [heterologous gene expression](#heterologous gene expression)
 - [database](#database)
 - [tools](#tools)
 - [mge](#mge)
@@ -19,6 +19,9 @@ Last Update: 2018-10
 - [review](#review)
 - [metagenome](#metagenome)
 - [growth rate](#growth-rate)
+- [R](#r)
+- [RSCU](#rscu)
+- [tRNA](#trna)
 - [temperature](#temperature)
 - [replication](#replication)
 - [people](#people)
@@ -27,6 +30,8 @@ Last Update: 2018-10
   - [Olsen](#olsen)
   - [Sharp](#sharp)
   - [Suzuki](#suzuki)
+
+- [lifestyle](#lifestyle)
 - [unclassified](#unclassified)
 
 ----------
@@ -42,33 +47,6 @@ Why genes evolve faster on secondary chromosomes in bacteria.
 Cooper VS1, Vohr SH, Wrocklage SC, Hatcher PJ.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2848543/
 
-----------
-### R
-
-http://rstudio-pubs-static.s3.amazonaws.com/3351_05a20138b81646829d8965c4a1ac76cd.html
-Step 10 - Looking at amino acid and codon usage
-
-load_genomic_codon_data <- function(codon_filename = paste(getwd(), "/data/codon_usage.txt", 
-    sep = "")) {
-
-----------
-### RSCU
-relative synonymous codon usage
-
-https://www.biorxiv.org/content/early/2018/09/26/421487
-Elucidation of Codon Usage Signatures across the Domains of Life | bioRxiv
-
-https://www.ncbi.nlm.nih.gov/pubmed/29596640
-Mol Biol Evol. 2018 Jun 1;35(6):1463-1472. doi: 10.1093/molbev/msy047.
-Multiple Factors Confounding Phylogenetic Detection of Selection on Codon Usage.
-Laurin-Lemay S1, Philippe H1,2, Rodrigue N3.
-
-review
-https://www.ncbi.nlm.nih.gov/pubmed/26029354
-Comput Struct Biotechnol J. 2015 May 4;13:352-7. doi: 10.1016/j.csbj.2015.04.005. eCollection 2015.
-Homology-independent metrics for comparative genomics.
-Coutinho TJ1, Franco GR1, Lobo FP2.
-In this review we compile several sequence metrics that do not rely on homology inference and can be used to compare nucleotide sequences and extract biologically meaningful information from them. These metrics comprise several compositional parameters calculated from sequence data alone, such as GC content, dinucleotide odds ratio, and several codon bias metrics. 
 
 ----------
 
@@ -152,9 +130,66 @@ The tRNA gene is either inserted into the
 expression vector itself or placed on a compatible
 plasmid. 
 
+
 ----------
-### tRNA
-### H.pylori
+## R
+
+http://rstudio-pubs-static.s3.amazonaws.com/3351_05a20138b81646829d8965c4a1ac76cd.html
+Step 10 - Looking at amino acid and codon usage
+
+load_genomic_codon_data <- function(codon_filename = paste(getwd(), "/data/codon_usage.txt", 
+    sep = "")) {
+
+----------
+## RSCU
+relative synonymous codon usage
+
+https://www.biorxiv.org/content/early/2018/09/26/421487
+Elucidation of Codon Usage Signatures across the Domains of Life | bioRxiv
+
+https://www.ncbi.nlm.nih.gov/pubmed/29596640
+Mol Biol Evol. 2018 Jun 1;35(6):1463-1472. doi: 10.1093/molbev/msy047.
+Multiple Factors Confounding Phylogenetic Detection of Selection on Codon Usage.
+Laurin-Lemay S1, Philippe H1,2, Rodrigue N3.
+
+review
+https://www.ncbi.nlm.nih.gov/pubmed/26029354
+Comput Struct Biotechnol J. 2015 May 4;13:352-7. doi: 10.1016/j.csbj.2015.04.005. eCollection 2015.
+Homology-independent metrics for comparative genomics.
+Coutinho TJ1, Franco GR1, Lobo FP2.
+In this review we compile several sequence metrics that do not rely on homology inference and can be used to compare nucleotide sequences and extract biologically meaningful information from them. These metrics comprise several compositional parameters calculated from sequence data alone, such as GC content, dinucleotide odds ratio, and several codon bias metrics. 
+
+----------
+## tRNA gene cluster
+
+https://www.ncbi.nlm.nih.gov/pubmed/30624459
+Mem Inst Oswaldo Cruz. 2019 Jan 7;114:e180348. doi: 10.1590/0074-02760180348.
+Exploring tRNA gene cluster in archaea.
+Morgado SM1, Vicente ACP1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6333295/
+In prokaryotes, tRNA gene clusters were characterised in some bacteria, being prevalent in Firmicutes phylum and Mycobacterium genus, 6 , 7 
+
+https://www.ncbi.nlm.nih.gov/pubmed/29867913
+Front Microbiol. 2018 May 17;9:1042. doi: 10.3389/fmicb.2018.01042. eCollection 2018.
+Beyond the Limits: tRNA Array Units in Mycobacterium Genomes.
+Morgado SM1, Vicente ACP1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5966550/
+- In high GC content phyla, as Actinobacteria, they were found only in few genomes but none from Mycobacterium genus (Tran et al., 2016).
+- Each tRNA predicted by ARAGORN provides information about its genomic coordinate and contig number, which were accessed by our in-house script. tRNA array units were defined as genomic regions with 20 or more tRNAs and a minimum density of two tRNA/kb (Tran et al., 2016). 
+- The Acidithiobacillus ferrooxidans ATCC 23270 genome was used as positive control to the identification of tRNA array unit (Tran et al., 2016).
+- In order to identify the presence of any tRNA array unit in these genomes we used our in-house script that was based on the tRNA array unit definition: a genomic region containing at least 20 tRNA genes with a minimal density of two tRNA genes per kilobase (Tran et al., 2016). 
+- Types of tRNA array
+Tran et al. (2016), based on the tRNA amino acid isotypes and organization of each array, assigned the arrays in seven groups. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/26710853
+Genome Biol Evol. 2015 Dec 28;8(1):282-95. doi: 10.1093/gbe/evv254.
+A Comprehensive tRNA Genomic Survey Unravels the Evolutionary History of tRNA Arrays in Prokaryotes.
+Tran TT1, Belahbib H1, Bonnefoy V1, Talla E2.
+
+----------
+## tRNA
+
+## H.pylori
 ピロリ菌のコドン使用
 
 https://www.ncbi.nlm.nih.gov/pubmed/20308095
@@ -205,7 +240,7 @@ Lafay B1, Atherton JC, Sharp PM.
 
 ----------
 
-### lifestyle
+## lifestyle
 
 https://www.ncbi.nlm.nih.gov/pubmed/22032172
 Genome Biol. 2011 Oct 27;12(10):R109. doi: 10.1186/gb-2011-12-10-r109.
@@ -440,7 +475,7 @@ https://repozitorij.unizg.hr/en/islandora/object/pmf%3A4815
 coRdon: an R package for codon usage analysis and prediction of gene expressivity | University of Zagreb Repository
 
 https://www.ncbi.nlm.nih.gov/pubmed/27115650
-Methods Mol Biol. 2016;1415:509-31.
+Methods Mol Biol. 2016;1415:509-31. doi: 10.1007/978-1-4939-3572-7_26.
 Big Data, Evolution, and Metagenomes: Predicting Disease from Gut Microbiota Codon Usage Profiles.
 Fabijanić M1, Vlahoviček K2.
 
@@ -468,9 +503,23 @@ Average predicted minimum generation time for 3 environmental metagenomes.
 Figure 8
 Average predicted minimum generation time for the gut metagenomes of humans of different age groups.
 
-
 ### nucleotide composition
 GC content
+
+https://www.ncbi.nlm.nih.gov/pubmed/28261263
+Front Genet. 2017 Feb 15;8:16. doi: 10.3389/fgene.2017.00016. eCollection 2017.
+Analytical Biases Associated with GC-Content in Molecular Evolution.
+Romiguier J1, Roux C1.
+KEYWORDS:
+GC-content; biased gene conversion; codon usage bias; methodological biases; phylogeny; positive selection
+
+https://www.ncbi.nlm.nih.gov/pubmed/25897009
+G3 (Bethesda). 2015 Apr 20;5(6):1247-52. doi: 10.1534/g3.115.016824.
+Effects of Genic Base Composition on Growth Rate in G+C-rich Genomes.
+Kelkar YD1, Phillips DS1, Ochman H2.
+Erratum in
+Corrigendum.
+http://www.g3journal.org/content/5/12/2921.long
 
 https://www.ncbi.nlm.nih.gov/pubmed/16200051
 EMBO Rep. 2005 Dec;6(12):1208-13.
