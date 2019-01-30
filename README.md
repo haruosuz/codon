@@ -308,6 +308,23 @@ A Comprehensive tRNA Genomic Survey Unravels the Evolutionary History of tRNA Ar
 Tran TT1, Belahbib H1, Bonnefoy V1, Talla E2.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4758250/
 
+Materials and Methods
+- tRNA Gene Prediction and Identification of tRNA Array Units
+tRNAscan-SE 1.3.1 program (Lowe and Eddy 1997) 
+ Aragon tool (Laslett and Canback 2004) was also used 
+, we first identified regions of 5, 10, 15, 20, 25 and 30 kb along the genome (incremental path of 1 kb) that contain at least 5, 10, 15, 20, 25, or 30 tRNA genes, named array seeds (supplementary table S1, Supplementary Material online). 
+ Consequently, tRNA array seeds were thus defined as a genomic region of 10 kb containing at least 20 tRNA genes. 
+
+- Structural Organization of tRNA Array Units
+
+Results
+- Occurrence and Distribution of tRNA Array Units
+A tRNA array unit was defined as a genomic region containing at least 20 tRNA genes with a minimal tRNA gene density of two tRNA genes per kilobase. Thi
+
+Discussion
+In E. coli, tRNA arrays significantly influence global tRNA expression at high growth rates (Ardell and Kirsebom 2005). 
+No relationship was found between the presence of the array units and the organism’s lifestyle (aerobic or anaerobic, optimal growth temperature, pathogenicity or environmental conditions) (data not shown). 
+
 ----------
 ## growth rate
 増殖速度
