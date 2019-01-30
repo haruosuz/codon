@@ -325,7 +325,7 @@ Correlation between d and (A) the number of rRNA operons in the genome, (B) the 
 rRNA/tRNA遺伝子コピー数が多いほど、
 rRNA遺伝子の複製起点からの距離が小さいほど、
 高発現遺伝子の同義コドン使用バイアスが強い（方言がきつい）ほど、
-原核生物の最小倍加時間が小さい（増殖速度が速い）
+原核生物の最小倍加時間が小さい（増殖速度が速い）
 
 https://www.ncbi.nlm.nih.gov/pubmed/20308095
 Philos Trans R Soc Lond B Biol Sci. 2010 Apr 27;365(1544):1203-12. doi: 10.1098/rstb.2009.0305.
