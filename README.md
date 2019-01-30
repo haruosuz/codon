@@ -12,9 +12,9 @@ Last Update: 2019-01
   - [2017](#2017)
 - [H.pylori](#h.pylori) ピロリ菌
 - [heterologous gene expression](#heterologous gene expression)
-- [growth rate](#growth-rate)
 - [tRNA](#trna)
 - [tRNA gene cluster](#trna-gene-cluster)
+- [growth rate](#growth-rate)
 - [lifestyle](#lifestyle) ライフスタイル
 - [methods](#methods)
   - [RSCU](#rscu)
@@ -269,6 +269,43 @@ expression vector itself or placed on a compatible
 plasmid. 
 
 ----------
+## tRNA
+
+https://integbio.jp/dbcatalog/record/nbdc00720
+tRNADB-CE - Integbio データベースカタログ
+
+https://dbarchive.biosciencedbc.jp/jp/trnadb-ce/data-1.html
+tRNA配列、アノテーション及びキュレーションのデータ - tRNADB-CE | LSDB Archive
+
+----------
+## tRNA gene cluster
+tRNA遺伝子クラスター
+
+https://www.ncbi.nlm.nih.gov/pubmed/30624459
+Mem Inst Oswaldo Cruz. 2019 Jan 7;114:e180348. doi: 10.1590/0074-02760180348.
+Exploring tRNA gene cluster in archaea.
+Morgado SM1, Vicente ACP1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6333295/
+In prokaryotes, tRNA gene clusters were characterised in some bacteria, being prevalent in Firmicutes phylum and Mycobacterium genus, 6 , 7 
+
+https://www.ncbi.nlm.nih.gov/pubmed/29867913
+Front Microbiol. 2018 May 17;9:1042. doi: 10.3389/fmicb.2018.01042. eCollection 2018.
+Beyond the Limits: tRNA Array Units in Mycobacterium Genomes.
+Morgado SM1, Vicente ACP1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5966550/
+- In high GC content phyla, as Actinobacteria, they were found only in few genomes but none from Mycobacterium genus (Tran et al., 2016).
+- Each tRNA predicted by ARAGORN provides information about its genomic coordinate and contig number, which were accessed by our in-house script. tRNA array units were defined as genomic regions with 20 or more tRNAs and a minimum density of two tRNA/kb (Tran et al., 2016). 
+- The Acidithiobacillus ferrooxidans ATCC 23270 genome was used as positive control to the identification of tRNA array unit (Tran et al., 2016).
+- In order to identify the presence of any tRNA array unit in these genomes we used our in-house script that was based on the tRNA array unit definition: a genomic region containing at least 20 tRNA genes with a minimal density of two tRNA genes per kilobase (Tran et al., 2016). 
+- Types of tRNA array
+Tran et al. (2016), based on the tRNA amino acid isotypes and organization of each array, assigned the arrays in seven groups. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/26710853
+Genome Biol Evol. 2015 Dec 28;8(1):282-95. doi: 10.1093/gbe/evv254.
+A Comprehensive tRNA Genomic Survey Unravels the Evolutionary History of tRNA Arrays in Prokaryotes.
+Tran TT1, Belahbib H1, Bonnefoy V1, Talla E2.
+
+----------
 ## growth rate
 増殖速度
 
@@ -311,43 +348,6 @@ Codon usage bias from tRNA's point of view: redundancy, specialization, and effi
 Rocha EP1.
 - We show that as minimal generation times get shorter, the genomes contain more tRNA genes, but fewer anticodon species. 
 - It also provides new evidence that a selective force for the optimization of the translation machinery is the maximization of growth.
-
-----------
-## tRNA
-
-https://integbio.jp/dbcatalog/record/nbdc00720
-tRNADB-CE - Integbio データベースカタログ
-
-https://dbarchive.biosciencedbc.jp/jp/trnadb-ce/data-1.html
-tRNA配列、アノテーション及びキュレーションのデータ - tRNADB-CE | LSDB Archive
-
-----------
-## tRNA gene cluster
-tRNA遺伝子クラスター
-
-https://www.ncbi.nlm.nih.gov/pubmed/30624459
-Mem Inst Oswaldo Cruz. 2019 Jan 7;114:e180348. doi: 10.1590/0074-02760180348.
-Exploring tRNA gene cluster in archaea.
-Morgado SM1, Vicente ACP1.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6333295/
-In prokaryotes, tRNA gene clusters were characterised in some bacteria, being prevalent in Firmicutes phylum and Mycobacterium genus, 6 , 7 
-
-https://www.ncbi.nlm.nih.gov/pubmed/29867913
-Front Microbiol. 2018 May 17;9:1042. doi: 10.3389/fmicb.2018.01042. eCollection 2018.
-Beyond the Limits: tRNA Array Units in Mycobacterium Genomes.
-Morgado SM1, Vicente ACP1.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5966550/
-- In high GC content phyla, as Actinobacteria, they were found only in few genomes but none from Mycobacterium genus (Tran et al., 2016).
-- Each tRNA predicted by ARAGORN provides information about its genomic coordinate and contig number, which were accessed by our in-house script. tRNA array units were defined as genomic regions with 20 or more tRNAs and a minimum density of two tRNA/kb (Tran et al., 2016). 
-- The Acidithiobacillus ferrooxidans ATCC 23270 genome was used as positive control to the identification of tRNA array unit (Tran et al., 2016).
-- In order to identify the presence of any tRNA array unit in these genomes we used our in-house script that was based on the tRNA array unit definition: a genomic region containing at least 20 tRNA genes with a minimal density of two tRNA genes per kilobase (Tran et al., 2016). 
-- Types of tRNA array
-Tran et al. (2016), based on the tRNA amino acid isotypes and organization of each array, assigned the arrays in seven groups. 
-
-https://www.ncbi.nlm.nih.gov/pubmed/26710853
-Genome Biol Evol. 2015 Dec 28;8(1):282-95. doi: 10.1093/gbe/evv254.
-A Comprehensive tRNA Genomic Survey Unravels the Evolutionary History of tRNA Arrays in Prokaryotes.
-Tran TT1, Belahbib H1, Bonnefoy V1, Talla E2.
 
 ----------
 ## lifestyle
@@ -887,11 +887,23 @@ http://www.kri.sfc.keio.ac.jp/report/mori/2005/b-13.html
 ----------
 ## Unclassified
 
+
+
+https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-5389-z
+Comparative genomics of Bacteria commonly identified in the built environment
+Nancy Merino, Shu Zhang, Masaru Tomita and Haruo Suzuki
+BMC Genomics2019
+
+背景
+建築環境（built environment）の微生物群集は、人々の生活に影響を与える可能性があり、様々な屋内・屋外・地下・極限環境で研究されてきた。従来、これらの微生物は培養法または培養非依存法（アンプリコンシークエンシング）によって研究されてきた。しかしながら、いずれの方法にも限界があり、複数の研究結果を比較することは困難であり、微生物のライフスタイル（宿主との共生、自由生活性、増殖スピードなど）に関する情報はほとんど得られない。建築環境の微生物をより深く理解するためには、DNA配列が完全に解読されたゲノムから情報を得る方法が有効と考えられる。そこで、建築環境で共通して同定される細菌の多様性レベルとゲノムの特徴（ゲノムサイズ、GC含量、DNA複製鎖間の非対称度、コドン使用バイアス）を調査することにより、これらの細菌のライフスタイルを理解するための第一歩を提供することを目的とした。
+
+結果
+本研究では、建築環境で共通して同定されている細菌の属（「建築環境の細菌ゲノム」）と、他の細菌の属（「他の細菌ゲノム」）を比較した。「建築環境の細菌ゲノム」は、様々な気候や建築環境（屋内・屋外・地下・極限環境）で同定された。これらの建築環境には、地下鉄、病院、住宅、公共レクリエーション施設（ジム・フィットネスセンター）、国際宇宙ステーション（ISS）、クリーンルームなどが含まれる。16SリボソームRNA遺伝子配列に基づく細菌の多様性レベルは属間で大きく異なった。「建築環境の細菌ゲノム」のゲノムサイズ、GC含量、DNA複製鎖間の非対称度は、「他の細菌ゲノム」のそれより、統計的に有意に大きかったが、実質的な差は小さかった。これに対して、コドン使用バイアスの自然選択の強度（S値）は、「他の細菌ゲノム」と比較して「建築環境の細菌ゲノム」で統計的に有意に高く、実質的な差も大きかった。
+
+結論
+調査した4つのゲノムの特徴のうち、（翻訳の効率と正確度に関連する）高発現遺伝子のコドン使用バイアス（S値）は、建築環境に生息する細菌のライフスタイルを理解する上でより重要な役割を果たす可能性がある。S値は、細菌の増殖速度、遺伝子発現、建築環境における増殖条件（温度、湿度、栄養素など）によって影響を受ける他の潜在的要因を反映し得る。しかし、建築環境の細菌のライフスタイルとゲノムの特徴との間の関係をより明らかにするためには、さらなる実験的証拠、細菌の種レベルの研究、建築環境の分類が必要とされる。
+
 ----------
-
-
-
-
 
 
 
