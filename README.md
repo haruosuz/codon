@@ -281,6 +281,7 @@ tRNA配列、アノテーション及びキュレーションのデータ - tRNA
 ## tRNA gene cluster
 tRNA遺伝子クラスター
 
+古細菌
 https://www.ncbi.nlm.nih.gov/pubmed/30624459
 Mem Inst Oswaldo Cruz. 2019 Jan 7;114:e180348. doi: 10.1590/0074-02760180348.
 Exploring tRNA gene cluster in archaea.
@@ -288,6 +289,7 @@ Morgado SM1, Vicente ACP1.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6333295/
 In prokaryotes, tRNA gene clusters were characterised in some bacteria, being prevalent in Firmicutes phylum and Mycobacterium genus, 6 , 7 
 
+マイコバクテリウム属
 https://www.ncbi.nlm.nih.gov/pubmed/29867913
 Front Microbiol. 2018 May 17;9:1042. doi: 10.3389/fmicb.2018.01042. eCollection 2018.
 Beyond the Limits: tRNA Array Units in Mycobacterium Genomes.
@@ -304,6 +306,7 @@ https://www.ncbi.nlm.nih.gov/pubmed/26710853
 Genome Biol Evol. 2015 Dec 28;8(1):282-95. doi: 10.1093/gbe/evv254.
 A Comprehensive tRNA Genomic Survey Unravels the Evolutionary History of tRNA Arrays in Prokaryotes.
 Tran TT1, Belahbib H1, Bonnefoy V1, Talla E2.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4758250/
 
 ----------
 ## growth rate
