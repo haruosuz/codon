@@ -1,5 +1,5 @@
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2019-01
+Last Update: 2019-02
 
 ----------
 
@@ -96,46 +96,6 @@ Synonymous codon usage in bacteria.
 Ermolaeva MD1.
 
 ----------
-## Video
-
-https://www.youtube.com/watch?v=P-fjZPf3Dnw
-Codon optimization: Why & how to design DNA sequences for optimal soluble protein expression - YouTube
-Published on Nov 3, 2014
-
-
-----------
-## Japanese
-
-http://tenure5.vbl.okayama-u.ac.jp/HM_blog/?s=コドン
-コドン | 酵母とシステムバイオロジー
-- 2015-03-20 コドンの最適度はmRNAの安定性を決める主要な要因である。
-- 2011-08-31 合成遺伝子で「コドンの最適化」をどう行なうのか？
-
-2017/1/18
-http://yfuruta.sakura.ne.jp/blog/?p=824
-コドン最適化
-
-2013年 第11号
-https://www.sbj.or.jp/wp-content/uploads/file/sbj/9111/9111_biomedia_2(1).pdf
-コドンが決め手!?組換えタンパク質の高発現法 今中 洋行
-
-2010-08-25
-http://d.hatena.ne.jp/morimori-08/20100825/1282745255
-コドンバイアスはタンパク質のフォールディングのエラーを少なくする
-
-https://www.nig.ac.jp/museum/evolution/04.html
-遺伝暗号(コドン）使用の種による多様性
-
-https://biowiki.edu-wiki.org/コドン表
-コドン表 [BioWiki]
-
-http://www.genscript.jp/codon_opt.html
-OptimumGene™コドン最適化技術 - GenScript
-
-
-
-
-----------
 
 ## updates
 
@@ -148,12 +108,22 @@ https://www.ncbi.nlm.nih.gov/pubmed/30247489
 Nat Biotechnol. 2018 Sep 24. doi: 10.1038/nbt.4238. [Epub ahead of print]
 Evaluation of 244,000 synthetic sequences reveals design principles to optimize translation in Escherichia coli.
 Cambray G1,2, Guimaraes JC1,3, Arkin AP3,4.
+- We precisely designed 244,000 DNA sequences implementing 56 replicates of a full factorial design to evaluate nucleotide, secondary structure, codon and amino acid properties in combination. 
+- Codon composition has a sizable impact on translatability, but only in comparatively rare elongation-limited transcripts.
 
-Codon composition has a sizable impact on translatability, but only in comparatively rare elongation-limited transcripts.
+
+https://twitter.com/Paul_Carini/status/1023315547985870848
+Paul Carini on Twitter: "https://t.co/1dN1Ku6uX4 "however, contrary to our expectations, a majority of bacteria that showed a positive response to plant growth were predicted to have longer generation times based on codon-usage bias, meaning their genomes bear signatures of slower growth rates"… https://t.co/DH7gNpnQJG"
+5:13 PM - 28 Jul 2018
+https://www.ncbi.nlm.nih.gov/pubmed/29556109
+Nat Microbiol. 2018 Apr;3(4):470-480. doi: 10.1038/s41564-018-0129-3. Epub 2018 Mar 19.
+Dynamic root exudate chemistry and microbial substrate preferences drive patterns in rhizosphere microbial community assembly.
+Zhalnina K1,2, Louie KB1, Hao Z2, Mansoori N1,3, da Rocha UN2,4, Shi S5, Cho H2,6, Karaoz U2, Loqué D1,3,6,7, Bowen BP1, Firestone MK2,8, Northen TR9, Brodie EL10,11.
+
 
 https://twitter.com/kfuku0502/status/1003768475871875072
 Kenji Fukushima on Twitter: "高発現遺伝子だけでなく低発現遺伝子でもコドン使用頻度は選択を受けているらしい。大腸菌でそういうサイトの同義置換を入れて適応度が下がるケースを発見している。 https://t.co/nFGnUi3m2A"
-
+6:40 PM - 4 Jun 2018
 https://www.ncbi.nlm.nih.gov/pubmed/29688501
 Genome Biol Evol. 2018 Apr 1;10(5):1237-1246. doi: 10.1093/gbe/evy084.
 The Codon Usage of Lowly Expressed Genes Is Subject to Natural Selection.
@@ -902,6 +872,44 @@ Suzuki H1, Saito R, Tomita M.
 
 http://www.kri.sfc.keio.ac.jp/report/mori/2005/b-13.html
 研究課題名        バイオインフォマティックスによる遺伝暗号解析
+
+
+----------
+## Video
+
+https://www.youtube.com/watch?v=P-fjZPf3Dnw
+Codon optimization: Why & how to design DNA sequences for optimal soluble protein expression - YouTube
+Published on Nov 3, 2014
+
+
+----------
+## Japanese
+
+http://tenure5.vbl.okayama-u.ac.jp/HM_blog/?s=コドン
+コドン | 酵母とシステムバイオロジー
+- 2015-03-20 コドンの最適度はmRNAの安定性を決める主要な要因である。
+- 2011-08-31 合成遺伝子で「コドンの最適化」をどう行なうのか？
+
+2017/1/18
+http://yfuruta.sakura.ne.jp/blog/?p=824
+コドン最適化
+
+2013年 第11号
+https://www.sbj.or.jp/wp-content/uploads/file/sbj/9111/9111_biomedia_2(1).pdf
+コドンが決め手!?組換えタンパク質の高発現法 今中 洋行
+
+2010-08-25
+http://d.hatena.ne.jp/morimori-08/20100825/1282745255
+コドンバイアスはタンパク質のフォールディングのエラーを少なくする
+
+https://www.nig.ac.jp/museum/evolution/04.html
+遺伝暗号(コドン）使用の種による多様性
+
+https://biowiki.edu-wiki.org/コドン表
+コドン表 [BioWiki]
+
+http://www.genscript.jp/codon_opt.html
+OptimumGene™コドン最適化技術 - GenScript
 
 
 ----------
