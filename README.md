@@ -36,6 +36,7 @@ Last Update: 2019-02
   - [Sharp](#sharp)
   - [Suzuki](#suzuki)
 - [unclassified](#unclassified)
+- [japanese](#japanese) 日本語
 
 ----------
 ## featuring
@@ -99,10 +100,27 @@ Ermolaeva MD1.
 
 ## updates
 
+### 2019
+
+https://www.ncbi.nlm.nih.gov/pubmed/30728279
+mSphere. 2019 Feb 6;4(1). pii: e00011-19. doi: 10.1128/mSphereDirect.00011-19.
+Gene Expansion and Positive Selection as Bacterial Adaptations to Oligotrophic Conditions.
+Props R1,2,3, Monsieurs P2,4, Vandamme P5, Leys N2, Denef VJ6, Boon N7.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6365617/
+For example, nitrogen and carbon limitations have been correlated with genome size, GC content, and carbon/nitrogen protein content (13), thermal adaptation with genome size (8), and growth rate with GC content and codon usage bias (14, 15).
+Patterns of (genome-wide) positive selection have revealed lineage-specific adaptations, and together with codon usage bias, are thought to mediate fine-tuning of gene expression (18,–20). 
+The Ramlibacter sp. MAG was part of the monophyletic Ramlibacter clade, and its GC content (70.6%), codon usage bias (SCUO = 0.57 ± 0.10), and genome size (3.95 Mbp) closely matched these of other Ramlibacter genomes (Fig. 2B). 
+
 ### 2018
 
 https://www.biorxiv.org/content/early/2018/11/24/478016
 Hidden patterns of codon usage bias across kingdoms | bioRxiv
+
+https://www.ncbi.nlm.nih.gov/pubmed/29726922
+Bioinformatics. 2018 Oct 1;34(19):3396-3398. doi: 10.1093/bioinformatics/bty382.
+MACARON: a python framework to identify and re-annotate multi-base affected codons in whole genome/exome sequence data.
+Khan W1,2, Varma Saripella G1,2, Ludwig T3, Cuppens T3, Thibord F1,2, Génin E3, Deleuze JF4, Trégouët DA1,2.
+
 
 https://www.ncbi.nlm.nih.gov/pubmed/30247489
 Nat Biotechnol. 2018 Sep 24. doi: 10.1038/nbt.4238. [Epub ahead of print]
@@ -414,6 +432,13 @@ load_genomic_codon_data <- function(codon_filename = paste(getwd(), "/data/codon
 
 ----------
 ## tools
+
+https://www.ncbi.nlm.nih.gov/pubmed/30738198
+Genomics. 2019 Feb 6. pii: S0888-7543(18)30608-6. doi: 10.1016/j.ygeno.2019.02.002. [Epub ahead of print]
+CodSeqGen: A tool for generating synonymous coding sequences with desired GC-contents.
+Al-Ssulami AM1, Azmi AM2, Hussain M3.
+Availability
+CodSeqGen executable is available for free download at: https://github.com/Abdulrakeeb/CodSeqGen
 
 22 Aug 2018
 https://arxiv.org/abs/1808.07259
@@ -810,6 +835,11 @@ Variation in the strength of selected codon usage bias among bacteria.
 Sharp PM1, Bailes E, Grocock RJ, Peden JF, Sockett RE.
 These results are consistent with the hypothesis that species exposed to selection for rapid growth have more rRNA operons, more tRNA genes and more strongly selected codon usage bias. For example, Clostridium perfringens, the species with the highest value of S, can have a generation time as short as 7 min.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549432/
+a set of 40 genes expected to be expressed constitutively at very high levels. This set included the genes encoding translation elongation factors Tu (tufA), Ts (tsf) and G (fusA), and 37 of the larger ribosomal proteins (encoded by genes rplA-rplF, rplI-rplT and rpsB-rpsT).
+
+http://www.g-language.org/data/g-language/lib/G/Seq/Codon.pm
+```
+```
 
 https://www.ncbi.nlm.nih.gov/pubmed/8662004
 J Mol Evol. 1996 May;42(5):525-36.
@@ -883,7 +913,7 @@ Published on Nov 3, 2014
 
 
 ----------
-## Japanese
+## japanese
 
 http://tenure5.vbl.okayama-u.ac.jp/HM_blog/?s=コドン
 コドン | 酵母とシステムバイオロジー
@@ -912,8 +942,16 @@ http://www.genscript.jp/codon_opt.html
 OptimumGene™コドン最適化技術 - GenScript
 
 
+
+
 ----------
 ## Unclassified
+
+
+
+https://twitter.com/yuifu/status/210003682958389252
+Haruka Ozaki on Twitter: "バイオインフォだけでCell（実験はtRNAマイクロアレイだけ）．真核生物，真正細菌，古細菌の500種のゲノムでtRNA遺伝子の数とコドン使用頻度の相関を確認．tRNA修飾酵素によるペア拡大を考慮したのが新規？ http://t.co/fialW5zx #Everydayペーパー"
+9:42 AM - 5 Jun 2012
 
 
 
