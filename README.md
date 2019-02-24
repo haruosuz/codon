@@ -218,6 +218,7 @@ Lafay B1, Atherton JC, Sharp PM.
 
 ----------
 ## heterologous gene expression
+異種遺伝子発現
 
 https://www.ncbi.nlm.nih.gov/pubmed/29410400
 Nat Commun. 2018 Feb 6;9(1):522. doi: 10.1038/s41467-018-02944-3.
@@ -225,9 +226,10 @@ Biochemical mechanisms determine the functional compatibility of heterologous ge
 Porse A1, Schou TS1, Munck C1, Ellabaan MMH1, Sommer MOA2.
 In contrast to previous work, we find that GC content, codon usage, and mRNA-folding energy are of minor importance for the compatibility of mechanistically diverse gene products at moderate expression. 
 
-異種遺伝子発現のためのコドン改変
-https://galaxyproject.org/public-galaxy-servers/codon-harmonizer/
+https://galaxyproject.org/use/codon-harmonizer/
 Codon Harmonizer
+:	Easily generate codon harmonized variants of gene sequences for heterologous expression
+
 https://www.ncbi.nlm.nih.gov/pubmed/28902855
 PLoS One. 2017 Sep 13;12(9):e0184355. doi: 10.1371/journal.pone.0184355. eCollection 2017.
 Improving heterologous membrane protein production in Escherichia coli by combining transcriptional tuning and codon usage algorithms.
@@ -938,11 +940,8 @@ https://www.nig.ac.jp/museum/evolution/04.html
 https://biowiki.edu-wiki.org/コドン表
 コドン表 [BioWiki]
 
-http://www.genscript.jp/codon_opt.html
-OptimumGene™コドン最適化技術 - GenScript
-
-
-
+http://www.genscript.jp/high-throughput-gene-synthesis.html
+コドン最適化無料：独自のOptimumGene™コドン最適化ツールを無料で提供します。
 
 ----------
 ## Unclassified
@@ -953,21 +952,6 @@ https://twitter.com/yuifu/status/210003682958389252
 Haruka Ozaki on Twitter: "バイオインフォだけでCell（実験はtRNAマイクロアレイだけ）．真核生物，真正細菌，古細菌の500種のゲノムでtRNA遺伝子の数とコドン使用頻度の相関を確認．tRNA修飾酵素によるペア拡大を考慮したのが新規？ http://t.co/fialW5zx #Everydayペーパー"
 9:42 AM - 5 Jun 2012
 
-
-
-https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-5389-z
-Comparative genomics of Bacteria commonly identified in the built environment
-Nancy Merino, Shu Zhang, Masaru Tomita and Haruo Suzuki
-BMC Genomics2019
-
-背景
-建築環境（built environment）の微生物群集は、人々の生活に影響を与える可能性があり、様々な屋内・屋外・地下・極限環境で研究されてきた。従来、これらの微生物は培養法または培養非依存法（アンプリコンシークエンシング）によって研究されてきた。しかしながら、いずれの方法にも限界があり、複数の研究結果を比較することは困難であり、微生物のライフスタイル（宿主との共生、自由生活性、増殖スピードなど）に関する情報はほとんど得られない。建築環境の微生物をより深く理解するためには、DNA配列が完全に解読されたゲノムから情報を得る方法が有効と考えられる。そこで、建築環境で共通して同定される細菌の多様性レベルとゲノムの特徴（ゲノムサイズ、GC含量、DNA複製鎖間の非対称度、コドン使用バイアス）を調査することにより、これらの細菌のライフスタイルを理解するための第一歩を提供することを目的とした。
-
-結果
-本研究では、建築環境で共通して同定されている細菌の属（「建築環境の細菌ゲノム」）と、他の細菌の属（「他の細菌ゲノム」）を比較した。「建築環境の細菌ゲノム」は、様々な気候や建築環境（屋内・屋外・地下・極限環境）で同定された。これらの建築環境には、地下鉄、病院、住宅、公共レクリエーション施設（ジム・フィットネスセンター）、国際宇宙ステーション（ISS）、クリーンルームなどが含まれる。16SリボソームRNA遺伝子配列に基づく細菌の多様性レベルは属間で大きく異なった。「建築環境の細菌ゲノム」のゲノムサイズ、GC含量、DNA複製鎖間の非対称度は、「他の細菌ゲノム」のそれより、統計的に有意に大きかったが、実質的な差は小さかった。これに対して、コドン使用バイアスの自然選択の強度（S値）は、「他の細菌ゲノム」と比較して「建築環境の細菌ゲノム」で統計的に有意に高く、実質的な差も大きかった。
-
-結論
-調査した4つのゲノムの特徴のうち、（翻訳の効率と正確度に関連する）高発現遺伝子のコドン使用バイアス（S値）は、建築環境に生息する細菌のライフスタイルを理解する上でより重要な役割を果たす可能性がある。S値は、細菌の増殖速度、遺伝子発現、建築環境における増殖条件（温度、湿度、栄養素など）によって影響を受ける他の潜在的要因を反映し得る。しかし、建築環境の細菌のライフスタイルとゲノムの特徴との間の関係をより明らかにするためには、さらなる実験的証拠、細菌の種レベルの研究、建築環境の分類が必要とされる。
 
 ----------
 
