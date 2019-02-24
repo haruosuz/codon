@@ -35,6 +35,7 @@ Last Update: 2019-02
   - [Olsen](#olsen)
   - [Sharp](#sharp)
   - [Suzuki](#suzuki)
+- [synthetic_biology](#synthetic_biology)
 - [unclassified](#unclassified)
 - [japanese](#japanese) 日本語
 
@@ -915,7 +916,17 @@ Published on Nov 3, 2014
 
 
 ----------
-## japanese
+## synthetic_biology
+
+https://ja.wikipedia.org/wiki/合成生物学
+安価で大規模にコドンを変化させて遺伝子発現を改善したり、新たなアミノ酸を導入する手法などによる研究がなされている[3]。
+
+ 2018-12-21
+https://www.labinnew.net/column3_artificial_gene/
+連載　西村尚子の生命科学探訪③人工塩基でコドンを拡張し、細胞に新規タンパク質を作らせる – Lab'in New
+
+https://seikagaku.jbsoc.or.jp/10.14952/SEIKAGAKU.2015.870101/data/index.html
+DNAの文字を増やす合成生物学—Xenobiologyに向けて
 
 http://tenure5.vbl.okayama-u.ac.jp/HM_blog/?s=コドン
 コドン | 酵母とシステムバイオロジー
@@ -930,22 +941,32 @@ http://yfuruta.sakura.ne.jp/blog/?p=824
 https://www.sbj.or.jp/wp-content/uploads/file/sbj/9111/9111_biomedia_2(1).pdf
 コドンが決め手!?組換えタンパク質の高発現法 今中 洋行
 
-2010-08-25
-http://d.hatena.ne.jp/morimori-08/20100825/1282745255
-コドンバイアスはタンパク質のフォールディングのエラーを少なくする
-
-https://www.nig.ac.jp/museum/evolution/04.html
-遺伝暗号(コドン）使用の種による多様性
-
-https://biowiki.edu-wiki.org/コドン表
-コドン表 [BioWiki]
-
 http://www.genscript.jp/high-throughput-gene-synthesis.html
 コドン最適化無料：独自のOptimumGene™コドン最適化ツールを無料で提供します。
 
 ----------
 ## Unclassified
 
+----------
+## japanese
+
+2010-08-25
+http://d.hatena.ne.jp/morimori-08/20100825/1282745255
+コドンバイアスはタンパク質のフォールディングのエラーを少なくする
+
+浜島聖文 著 - ‎2014
+http://www.jbsoc.or.jp/seika/wp-content/uploads/2015/03/86-04-10.pdf
+普遍遺伝暗号表に従わない tRNA
+
+1997
+https://biosciencedbc.jp/dbsearch/Literature/get_pne_cgpdf.php?year=1997&number=4211&file=vWOeOeoYPLUSEIm3gH2/elVEg==
+多義語コドンの発見
+
+https://biowiki.edu-wiki.org/コドン表
+コドン表 [BioWiki]
+
+https://www.nig.ac.jp/museum/evolution/04.html
+遺伝暗号(コドン）使用の種による多様性
 
 
 https://twitter.com/yuifu/status/210003682958389252
