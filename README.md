@@ -921,6 +921,15 @@ Published on Nov 3, 2014
 https://ja.wikipedia.org/wiki/合成生物学
 安価で大規模にコドンを変化させて遺伝子発現を改善したり、新たなアミノ酸を導入する手法などによる研究がなされている[3]。
 
+https://www.sciencedirect.com/science/article/pii/S2588933818300104
+Synthetic biology: Recent progress, biosafety and biosecurity concerns, and possible solutions - ScienceDirect
+2.1. 
+A “codon harmonization” algorithm has been devised to improve functional protein expression.23 
+2.2. 
+For example, the replication and infectivity of poliovirus can be reduced through genome scale changes in codon sets in the genome; this approach makes the poliovirus vaccines safer.26 
+4.2. 
+In addition, a strategy focusing on stop codon suppression has been proposed because three stop codons are responsible for terminating protein biosynthesis in organisms. When the function of a stop codon is suppressed or altered by introducing a new engineered aminoacyl-tRNA synthetase::tRNAs pairs into the cells, it will force the cell to use several noncanonical amino acid codes as stop codons, such as l-4,4′-biophenylalanine. A redesigned essential enzyme named “bipA aminoacyl-tRNA synthetase (bipARS)/tRNAbipA system” has been constructed in E. coli strain C321.ΔA, and the UAG stop codon was assigned to a nonstandard amino acid.69 
+
  2018-12-21
 https://www.labinnew.net/column3_artificial_gene/
 連載　西村尚子の生命科学探訪③人工塩基でコドンを拡張し、細胞に新規タンパク質を作らせる – Lab'in New
