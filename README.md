@@ -148,12 +148,15 @@ Genome Biol Evol. 2018 Apr 1;10(5):1237-1246. doi: 10.1093/gbe/evy084.
 The Codon Usage of Lowly Expressed Genes Is Subject to Natural Selection.
 Yannai A1, Katz S1, Hershberg R1.
 
-
 高度発現遺伝子群のコドンバイアスが、他の遺伝子群の翻訳に影響する。
 https://www.ncbi.nlm.nih.gov/pubmed/29735666
 Proc Natl Acad Sci U S A. 2018 May 22;115(21):E4940-E4949. doi: 10.1073/pnas.1719375115. Epub 2018 May 7.
 Codon usage of highly expressed genes affects proteome-wide translation efficiency.
 Frumkin I1, Lajoie MJ2, Gregg CJ2, Hornung G3, Church GM4, Pilpel Y5.
+```
+Interestingly, we could alleviate the observed phenotypes by increasing the supply of the tRNA for the highly demanded codon, thus demonstrating that the codon usage of highly expressed genes was selected in evolution to maintain the efficiency of global protein translation.
+```
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6003480/
 
 ### 2017
 
@@ -955,6 +958,8 @@ http://yfuruta.sakura.ne.jp/blog/?p=824
 https://www.sbj.or.jp/wp-content/uploads/file/sbj/9111/9111_biomedia_2(1).pdf
 コドンが決め手!?組換えタンパク質の高発現法 今中 洋行
 
+http://www.genscript.jp/codon-opt.html
+Codon Optimization - Increase Protein Expression
 http://www.genscript.jp/high-throughput-gene-synthesis.html
 コドン最適化無料：独自のOptimumGene™コドン最適化ツールを無料で提供します。
 
