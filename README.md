@@ -35,16 +35,13 @@ Last Update: 2019-02
   - [Olsen](#olsen)
   - [Sharp](#sharp)
   - [Suzuki](#suzuki)
+  - [Supek](#supek)
 - [unclassified](#unclassified)
 - [japanese](#japanese) 日本語
 - [synthetic_biology](#synthetic_biology)
 
-
-
 ----------
 ## Supek
-
-
 
 https://www.ncbi.nlm.nih.gov/pubmed/27915291
 Nucleic Acids Res. 2016 Dec 1;44(21):10074-10090. Epub 2016 Oct 24.
@@ -55,10 +52,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/26538122
 J Mol Evol. 2016 Jan;82(1):65-73. doi: 10.1007/s00239-015-9714-8. Epub 2015 Nov 4.
 The Code of Silence: Widespread Associations Between Synonymous Codon Biases and Gene Function.
 Supek F1,2,3.
-
-
-
-
 
 コドン適応の変化は（過酸化水素、熱、高塩分）ストレス耐性を増強する。好気性菌で複数遺伝子のコドン適応（翻訳効率）変化が、鉄とNAD(P)Hの量を調節し、酸化ストレス耐性を付与する証拠
 https://www.ncbi.nlm.nih.gov/pubmed/24580753
@@ -77,7 +70,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/25768907
 Cell. 2015 Mar 12;160(6):1111-24. doi: 10.1016/j.cell.2015.02.029.
 Codon optimality is a major determinant of mRNA stability.
 Presnyak V1, Alhusaini N1, Chen YH1, Martin S1, Morris N2, Kline N1, Olson S3, Weinberg D4, Baker KE1, Graveley BR3, Coller J5.
-
 
 ----------
 ## featuring
@@ -100,49 +92,19 @@ Tuller T1, Girshovich Y, Sella Y, Kreimer A, Freilich S, Kupiec M, Gophna U, Rup
 
 
 ----------
-## review
-
-https://www.ncbi.nlm.nih.gov/pubmed/29018283
-Nat Rev Mol Cell Biol. 2017 Oct 11.
-Codon optimality, bias and usage in translation and mRNA decay.
-Hanson G1, Coller J1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/26186290
-Mol Cell. 2015 Jul 16;59(2):149-61. doi: 10.1016/j.molcel.2015.05.035.
-Codon Bias as a Means to Fine-Tune Gene Expression.
-Quax TE1, Claassens NJ2, Söll D3, van der Oost J4.
-
-https://www.ncbi.nlm.nih.gov/pubmed/22889422
-Biol Rev Camb Philos Soc. 2013 Feb;88(1):49-61. doi: 10.1111/j.1469-185X.2012.00242.x. Epub 2012 Aug 14.
-Codon usage bias: causative factors, quantification methods and genome-wide patterns: with emphasis on insect genomes.
-Behura SK1, Severson DW.
-
-https://www.ncbi.nlm.nih.gov/pubmed/22921354
-Trends Genet. 2012 Nov;28(11):574-81. doi: 10.1016/j.tig.2012.07.006. Epub 2012 Aug 23.
-Speeding with control: codon usage, tRNAs, and ribosomes.
-Novoa EM1, Ribas de Pouplana L.
-
-http://www.ncbi.nlm.nih.gov/pubmed/21102527
-Nat Rev Genet. 2011 Jan;12(1):32-42. doi: 10.1038/nrg2899. Epub 2010 Nov 23.
-Synonymous but not the same: the causes and consequences of codon bias.
-Plotkin JB1, Kudla G.
-http://mathbio.sas.upenn.edu/Papers/Plotkin_Kudla_NatRevGenetics_2011.pdf
-
-https://www.ncbi.nlm.nih.gov/pubmed/18983258
-Annu Rev Genet. 2008;42:287-99. doi: 10.1146/annurev.genet.42.110807.091442.
-Selection on codon bias.
-Hershberg R1, Petrov DA.
-
-https://www.ncbi.nlm.nih.gov/pubmed/11719972
-Curr Issues Mol Biol. 2001 Oct;3(4):91-7.
-Synonymous codon usage in bacteria.
-Ermolaeva MD1.
-
-----------
 
 ## updates
 
 ### 2019
+
+https://www.ncbi.nlm.nih.gov/pubmed/30828719
+Nucleic Acids Res. 2019 Mar 4. pii: gkz151. doi: 10.1093/nar/gkz151. [Epub ahead of print]
+Prediction and large-scale analysis of primary operons in plastids reveals unique genetic features in the evolution of chloroplasts.
+Shahar N1, Weiner I1,2, Stotsky L1, Tuller T2,3, Yacoby I1.
+https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz151/5369010
+For each gene pair we computed roughly 1100 features (Figure 1B-3 and Supplementary Figure S2) based on sequence analysis alone—thus, they could be computed for any sequenced plastome without requiring additional data (e.g. RNA-Seq). These features were designed to capture essential gene characteristics (e.g. coded protein hydrophobicity, RNA structure, codon usage bias, nucleotide composition) and to quantify their level of similarity within each couple of adjacent genes (Supplementary Figure S2).
+
+
 
 https://www.ncbi.nlm.nih.gov/pubmed/30728279
 mSphere. 2019 Feb 6;4(1). pii: e00011-19. doi: 10.1128/mSphereDirect.00011-19.
@@ -808,6 +770,45 @@ https://www.ncbi.nlm.nih.gov/pubmed/11070046
 Mol Biol Evol. 2000 Nov;17(11):1581-8.
 Nucleotide bias causes a genomewide bias in the amino acid composition of proteins.
 Singer GA1, Hickey DA.
+
+----------
+## review
+
+https://www.ncbi.nlm.nih.gov/pubmed/29018283
+Nat Rev Mol Cell Biol. 2017 Oct 11.
+Codon optimality, bias and usage in translation and mRNA decay.
+Hanson G1, Coller J1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/26186290
+Mol Cell. 2015 Jul 16;59(2):149-61. doi: 10.1016/j.molcel.2015.05.035.
+Codon Bias as a Means to Fine-Tune Gene Expression.
+Quax TE1, Claassens NJ2, Söll D3, van der Oost J4.
+
+https://www.ncbi.nlm.nih.gov/pubmed/22889422
+Biol Rev Camb Philos Soc. 2013 Feb;88(1):49-61. doi: 10.1111/j.1469-185X.2012.00242.x. Epub 2012 Aug 14.
+Codon usage bias: causative factors, quantification methods and genome-wide patterns: with emphasis on insect genomes.
+Behura SK1, Severson DW.
+
+https://www.ncbi.nlm.nih.gov/pubmed/22921354
+Trends Genet. 2012 Nov;28(11):574-81. doi: 10.1016/j.tig.2012.07.006. Epub 2012 Aug 23.
+Speeding with control: codon usage, tRNAs, and ribosomes.
+Novoa EM1, Ribas de Pouplana L.
+
+http://www.ncbi.nlm.nih.gov/pubmed/21102527
+Nat Rev Genet. 2011 Jan;12(1):32-42. doi: 10.1038/nrg2899. Epub 2010 Nov 23.
+Synonymous but not the same: the causes and consequences of codon bias.
+Plotkin JB1, Kudla G.
+http://mathbio.sas.upenn.edu/Papers/Plotkin_Kudla_NatRevGenetics_2011.pdf
+
+https://www.ncbi.nlm.nih.gov/pubmed/18983258
+Annu Rev Genet. 2008;42:287-99. doi: 10.1146/annurev.genet.42.110807.091442.
+Selection on codon bias.
+Hershberg R1, Petrov DA.
+
+https://www.ncbi.nlm.nih.gov/pubmed/11719972
+Curr Issues Mol Biol. 2001 Oct;3(4):91-7.
+Synonymous codon usage in bacteria.
+Ermolaeva MD1.
 
 
 ----------
