@@ -35,12 +35,21 @@ Last Update: 2019-02
   - [Olsen](#olsen)
   - [Sharp](#sharp)
   - [Suzuki](#suzuki)
-- [synthetic_biology](#synthetic_biology)
 - [unclassified](#unclassified)
 - [japanese](#japanese) 日本語
+- [synthetic_biology](#synthetic_biology)
+
+
+
 
 ----------
 ## featuring
+
+コドン適応の変化は（過酸化水素、熱、高塩分）ストレス耐性を増強する。好気性菌で複数遺伝子のコドン適応（翻訳効率）変化が、鉄とNAD(P)Hの量を調節し、酸化ストレス耐性を付与する証拠
+https://www.ncbi.nlm.nih.gov/pubmed/24580753
+Genome Biol. 2014 Mar 3;15(3):R44. doi: 10.1186/gb-2014-15-3-r44.
+Inferring gene function from evolutionary change in signatures of translation efficiency.
+Krisko A, Copic T, Gabaldón T, Lehner B, Supek F.
 
 http://www.oxfordscholarship.com/view/10.1093/acprof:osobl/9780199601165.001.0001/acprof-9780199601165
 Codon Evolution: Mechanisms and Models - Oxford Scholarship
@@ -435,6 +444,14 @@ Step 10 - Looking at amino acid and codon usage
 load_genomic_codon_data <- function(codon_filename = paste(getwd(), "/data/codon_usage.txt", 
     sep = "")) {
 
+----------
+
+http://www.lirmm.fr/~rivals/rscu/
+RSCU<sub>RS</sub>: Measuring the bias in codon usage from ribosomal activity
+
+
+library(sscu)
+s_index
 
 ----------
 ## tools
@@ -917,7 +934,6 @@ https://www.youtube.com/watch?v=P-fjZPf3Dnw
 Codon optimization: Why & how to design DNA sequences for optimal soluble protein expression - YouTube
 Published on Nov 3, 2014
 
-
 ----------
 ## synthetic_biology
 
@@ -964,9 +980,6 @@ http://www.genscript.jp/high-throughput-gene-synthesis.html
 コドン最適化無料：独自のOptimumGene™コドン最適化ツールを無料で提供します。
 
 ----------
-## Unclassified
-
-----------
 ## japanese
 
 2010-08-25
@@ -987,11 +1000,12 @@ https://biowiki.edu-wiki.org/コドン表
 https://www.nig.ac.jp/museum/evolution/04.html
 遺伝暗号(コドン）使用の種による多様性
 
-
 https://twitter.com/yuifu/status/210003682958389252
 Haruka Ozaki on Twitter: "バイオインフォだけでCell（実験はtRNAマイクロアレイだけ）．真核生物，真正細菌，古細菌の500種のゲノムでtRNA遺伝子の数とコドン使用頻度の相関を確認．tRNA修飾酵素によるペア拡大を考慮したのが新規？ http://t.co/fialW5zx #Everydayペーパー"
 9:42 AM - 5 Jun 2012
 
+----------
+## unclassified
 
 ----------
 
