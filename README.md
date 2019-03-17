@@ -438,14 +438,22 @@ Step 10 - Looking at amino acid and codon usage
 load_genomic_codon_data <- function(codon_filename = paste(getwd(), "/data/codon_usage.txt", 
     sep = "")) {
 
-----------
-
 http://www.lirmm.fr/~rivals/rscu/
-RSCU<sub>RS</sub>: Measuring the bias in codon usage from ribosomal activity
+RSCURS: Measuring the bias in codon usage from ribosomal activity 
+Paulet et al. DNA Research 2017
 
+### sscu
 
+22 Aug 2018
+https://arxiv.org/abs/1808.07259
+[1808.07259] SSCU: an R/Bioconductor package for analyzing selective profile in synonymous codon usage
+
+https://bioconductor.org/packages/release/bioc/html/sscu.html
+
+```
 library(sscu)
 s_index
+```
 
 ----------
 ## tools
@@ -456,10 +464,6 @@ CodSeqGen: A tool for generating synonymous coding sequences with desired GC-con
 Al-Ssulami AM1, Azmi AM2, Hussain M3.
 Availability
 CodSeqGen executable is available for free download at: https://github.com/Abdulrakeeb/CodSeqGen
-
-22 Aug 2018
-https://arxiv.org/abs/1808.07259
-[1808.07259] SSCU: an R/Bioconductor package for analyzing selective profile in synonymous codon usage
 
 https://www.ncbi.nlm.nih.gov/pubmed/17439967
 Nucleic Acids Res. 2007 Jul;35(Web Server issue):W126-31. Epub 2007 Apr 16.
