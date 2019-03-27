@@ -1,5 +1,5 @@
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2019-02
+Last Update: 2019-03
 
 ----------
 
@@ -24,11 +24,13 @@ Last Update: 2019-02
 - [mge](#mge)
   - [plasmids](#plasmids)
   - [virus](#virus)
-- [review](#review)
 - [metagenome](#metagenome)
 - [nucleotide compositio](#nucleotide-compositio) 塩基組成、GC含量
 - [temperature](#temperature) 温度
 - [replication](#replication) 複製
+- [review](#review)
+- [book](#book)
+- [video](#video)
 - [people](#people)
   - [Kanaya](#kanaya)
   - [Musto](#musto)
@@ -40,36 +42,7 @@ Last Update: 2019-02
 - [japanese](#japanese) 日本語
 - [synthetic_biology](#synthetic_biology)
 
-----------
-## Supek
 
-https://www.ncbi.nlm.nih.gov/pubmed/27915291
-Nucleic Acids Res. 2016 Dec 1;44(21):10074-10090. Epub 2016 Oct 24.
-The landscape of microbial phenotypic traits and associated genes.
-Brbić M1, Piškorec M1, Vidulin V1, Kriško A2, Šmuc T1, Supek F3,4,5.
-
-https://www.ncbi.nlm.nih.gov/pubmed/26538122
-J Mol Evol. 2016 Jan;82(1):65-73. doi: 10.1007/s00239-015-9714-8. Epub 2015 Nov 4.
-The Code of Silence: Widespread Associations Between Synonymous Codon Biases and Gene Function.
-Supek F1,2,3.
-
-コドン適応の変化は（過酸化水素、熱、高塩分）ストレス耐性を増強する。好気性菌で複数遺伝子のコドン適応（翻訳効率）変化が、鉄とNAD(P)Hの量を調節し、酸化ストレス耐性を付与する証拠
-https://www.ncbi.nlm.nih.gov/pubmed/24580753
-Genome Biol. 2014 Mar 3;15(3):R44. doi: 10.1186/gb-2014-15-3-r44.
-Inferring gene function from evolutionary change in signatures of translation efficiency.
-Krisko A, Copic T, Gabaldón T, Lehner B, Supek F.
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/26451481
-Cell. 2015 Oct 8;163(2):292-300. doi: 10.1016/j.cell.2015.09.041.
-Pausing on Polyribosomes: Make Way for Elongation in Translational Control.
-Richter JD1, Coller J2.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4600128/
-
-https://www.ncbi.nlm.nih.gov/pubmed/25768907
-Cell. 2015 Mar 12;160(6):1111-24. doi: 10.1016/j.cell.2015.02.029.
-Codon optimality is a major determinant of mRNA stability.
-Presnyak V1, Alhusaini N1, Chen YH1, Martin S1, Morris N2, Kline N1, Olson S3, Weinberg D4, Baker KE1, Graveley BR3, Coller J5.
 
 ----------
 ## featuring
@@ -89,6 +62,38 @@ https://www.ncbi.nlm.nih.gov/pubmed/21343180
 Nucleic Acids Res. 2011 Jun;39(11):4743-55. doi: 10.1093/nar/gkr054. Epub 2011 Feb 22.
 Association between translation efficiency and horizontal gene transfer within microbial communities.
 Tuller T1, Girshovich Y, Sella Y, Kreimer A, Freilich S, Kupiec M, Gophna U, Ruppin E.
+
+
+
+----------
+### Supek
+
+https://www.ncbi.nlm.nih.gov/pubmed/27915291
+Nucleic Acids Res. 2016 Dec 1;44(21):10074-10090. Epub 2016 Oct 24.
+The landscape of microbial phenotypic traits and associated genes.
+Brbić M1, Piškorec M1, Vidulin V1, Kriško A2, Šmuc T1, Supek F3,4,5.
+
+https://www.ncbi.nlm.nih.gov/pubmed/26538122
+J Mol Evol. 2016 Jan;82(1):65-73. doi: 10.1007/s00239-015-9714-8. Epub 2015 Nov 4.
+The Code of Silence: Widespread Associations Between Synonymous Codon Biases and Gene Function.
+Supek F1,2,3.
+
+コドン適応の変化は（過酸化水素、熱、高塩分）ストレス耐性を増強する。好気性菌で複数遺伝子のコドン適応（翻訳効率）変化が、鉄とNAD(P)Hの量を調節し、酸化ストレス耐性を付与する証拠
+https://www.ncbi.nlm.nih.gov/pubmed/24580753
+Genome Biol. 2014 Mar 3;15(3):R44. doi: 10.1186/gb-2014-15-3-r44.
+Inferring gene function from evolutionary change in signatures of translation efficiency.
+Krisko A, Copic T, Gabaldón T, Lehner B, Supek F.
+
+https://www.ncbi.nlm.nih.gov/pubmed/26451481
+Cell. 2015 Oct 8;163(2):292-300. doi: 10.1016/j.cell.2015.09.041.
+Pausing on Polyribosomes: Make Way for Elongation in Translational Control.
+Richter JD1, Coller J2.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4600128/
+
+https://www.ncbi.nlm.nih.gov/pubmed/25768907
+Cell. 2015 Mar 12;160(6):1111-24. doi: 10.1016/j.cell.2015.02.029.
+Codon optimality is a major determinant of mRNA stability.
+Presnyak V1, Alhusaini N1, Chen YH1, Martin S1, Morris N2, Kline N1, Olson S3, Weinberg D4, Baker KE1, Graveley BR3, Coller J5.
 
 
 ----------
@@ -815,6 +820,27 @@ Synonymous codon usage in bacteria.
 Ermolaeva MD1.
 
 
+
+
+----------
+## book
+
+### 21st November 2018
+![](https://ars.els-cdn.com/content/image/3-s2.0-C20180021659-cov200h.gif)
+
+Multivariate Analyses of Codon Usage Biases - 1st Edition
+https://www.sciencedirect.com/book/9781785482960/multivariate-analyses-of-codon-usage-biases
+https://www.elsevier.com/books/multivariate-analyses-of-codon-usage-biases/lobry/978-1-78548-296-0
+http://www.iste.co.uk/book.php?id=1403
+
+----------
+## video
+
+https://www.youtube.com/watch?v=P-fjZPf3Dnw
+Codon optimization: Why & how to design DNA sequences for optimal soluble protein expression - YouTube
+Published on Nov 3, 2014
+
+
 ----------
 ## people
 
@@ -963,13 +989,6 @@ Suzuki H1, Saito R, Tomita M.
 http://www.kri.sfc.keio.ac.jp/report/mori/2005/b-13.html
 研究課題名        バイオインフォマティックスによる遺伝暗号解析
 
-
-----------
-## Video
-
-https://www.youtube.com/watch?v=P-fjZPf3Dnw
-Codon optimization: Why & how to design DNA sequences for optimal soluble protein expression - YouTube
-Published on Nov 3, 2014
 
 ----------
 ## synthetic_biology
