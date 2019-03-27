@@ -10,6 +10,9 @@ Last Update: 2019-03
 - [updates](#updates)
   - [2018](#2018)
   - [2017](#2017)
+- [review](#review)
+- [book](#book)
+- [video](#video)
 - [H.pylori](#h.pylori) ピロリ菌
 - [heterologous gene expression](#heterologous gene expression)
 - [tRNA](#trna)
@@ -28,9 +31,6 @@ Last Update: 2019-03
 - [nucleotide compositio](#nucleotide-compositio) 塩基組成、GC含量
 - [temperature](#temperature) 温度
 - [replication](#replication) 複製
-- [review](#review)
-- [book](#book)
-- [video](#video)
 - [people](#people)
   - [Kanaya](#kanaya)
   - [Musto](#musto)
@@ -42,28 +42,74 @@ Last Update: 2019-03
 - [japanese](#japanese) 日本語
 - [synthetic_biology](#synthetic_biology)
 
-
-
 ----------
 ## featuring
 
+----------
+## book
+本
+
+### 2018-11-21
+![](https://ars.els-cdn.com/content/image/3-s2.0-C20180021659-cov200h.gif)
+
+Multivariate Analyses of Codon Usage Biases - 1st Edition
+https://www.sciencedirect.com/book/9781785482960/multivariate-analyses-of-codon-usage-biases
+https://www.elsevier.com/books/multivariate-analyses-of-codon-usage-biases/lobry/978-1-78548-296-0
+http://www.iste.co.uk/book.php?id=1403
+
+### 2012-02-23
+
+![](https://global.oup.com/academic/covers/uk/pdp/9780199601165)
 
 http://www.oxfordscholarship.com/view/10.1093/acprof:osobl/9780199601165.001.0001/acprof-9780199601165
 Codon Evolution: Mechanisms and Models - Oxford Scholarship
 http://wp.biota.utoronto.ca/chang/files/2016/02/Chang-et-al-Codon-Evolution-Chapter11.pdf
 
-https://www.ncbi.nlm.nih.gov/pubmed/20369015
-PLoS Comput Biol. 2010 Apr 1;6(4):e1000732. doi: 10.1371/journal.pcbi.1000732.
-Why genes evolve faster on secondary chromosomes in bacteria.
-Cooper VS1, Vohr SH, Wrocklage SC, Hatcher PJ.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2848543/
+----------
+## video
 
-https://www.ncbi.nlm.nih.gov/pubmed/21343180
-Nucleic Acids Res. 2011 Jun;39(11):4743-55. doi: 10.1093/nar/gkr054. Epub 2011 Feb 22.
-Association between translation efficiency and horizontal gene transfer within microbial communities.
-Tuller T1, Girshovich Y, Sella Y, Kreimer A, Freilich S, Kupiec M, Gophna U, Ruppin E.
+https://www.youtube.com/watch?v=P-fjZPf3Dnw
+Codon optimization: Why & how to design DNA sequences for optimal soluble protein expression - YouTube
+Published on Nov 3, 2014
 
+----------
+## review
 
+https://www.ncbi.nlm.nih.gov/pubmed/29018283
+Nat Rev Mol Cell Biol. 2017 Oct 11.
+Codon optimality, bias and usage in translation and mRNA decay.
+Hanson G1, Coller J1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/26186290
+Mol Cell. 2015 Jul 16;59(2):149-61. doi: 10.1016/j.molcel.2015.05.035.
+Codon Bias as a Means to Fine-Tune Gene Expression.
+Quax TE1, Claassens NJ2, Söll D3, van der Oost J4.
+
+https://www.ncbi.nlm.nih.gov/pubmed/22889422
+Biol Rev Camb Philos Soc. 2013 Feb;88(1):49-61. doi: 10.1111/j.1469-185X.2012.00242.x. Epub 2012 Aug 14.
+Codon usage bias: causative factors, quantification methods and genome-wide patterns: with emphasis on insect genomes.
+Behura SK1, Severson DW.
+
+https://www.ncbi.nlm.nih.gov/pubmed/22921354
+Trends Genet. 2012 Nov;28(11):574-81. doi: 10.1016/j.tig.2012.07.006. Epub 2012 Aug 23.
+Speeding with control: codon usage, tRNAs, and ribosomes.
+Novoa EM1, Ribas de Pouplana L.
+
+http://www.ncbi.nlm.nih.gov/pubmed/21102527
+Nat Rev Genet. 2011 Jan;12(1):32-42. doi: 10.1038/nrg2899. Epub 2010 Nov 23.
+Synonymous but not the same: the causes and consequences of codon bias.
+Plotkin JB1, Kudla G.
+http://mathbio.sas.upenn.edu/Papers/Plotkin_Kudla_NatRevGenetics_2011.pdf
+
+https://www.ncbi.nlm.nih.gov/pubmed/18983258
+Annu Rev Genet. 2008;42:287-99. doi: 10.1146/annurev.genet.42.110807.091442.
+Selection on codon bias.
+Hershberg R1, Petrov DA.
+
+https://www.ncbi.nlm.nih.gov/pubmed/11719972
+Curr Issues Mol Biol. 2001 Oct;3(4):91-7.
+Synonymous codon usage in bacteria.
+Ermolaeva MD1.
 
 ----------
 ### Supek
@@ -177,6 +223,23 @@ Zhou Z1, Dang Y1, Zhou M2, Li L3, Yu CH1, Fu J1, Chen S3, Liu Y4.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5068308/
 Codon Optimization, Plasmid Constructs, and Neurospora Transformation.
 
+
+### 2011
+
+微生物群集内の翻訳効率と遺伝子水平伝播との関連
+https://www.ncbi.nlm.nih.gov/pubmed/21343180
+Nucleic Acids Res. 2011 Jun;39(11):4743-55. doi: 10.1093/nar/gkr054. Epub 2011 Feb 22.
+Association between translation efficiency and horizontal gene transfer within microbial communities.
+Tuller T1, Girshovich Y, Sella Y, Kreimer A, Freilich S, Kupiec M, Gophna U, Ruppin E.
+
+### 2010
+
+なぜ細菌の第二染色体上で遺伝子が速く進化するのか
+https://www.ncbi.nlm.nih.gov/pubmed/20369015
+PLoS Comput Biol. 2010 Apr 1;6(4):e1000732. doi: 10.1371/journal.pcbi.1000732.
+Why genes evolve faster on secondary chromosomes in bacteria.
+Cooper VS1, Vohr SH, Wrocklage SC, Hatcher PJ.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2848543/
 
 ----------
 ## H.pylori
@@ -779,66 +842,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/11070046
 Mol Biol Evol. 2000 Nov;17(11):1581-8.
 Nucleotide bias causes a genomewide bias in the amino acid composition of proteins.
 Singer GA1, Hickey DA.
-
-----------
-## review
-
-https://www.ncbi.nlm.nih.gov/pubmed/29018283
-Nat Rev Mol Cell Biol. 2017 Oct 11.
-Codon optimality, bias and usage in translation and mRNA decay.
-Hanson G1, Coller J1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/26186290
-Mol Cell. 2015 Jul 16;59(2):149-61. doi: 10.1016/j.molcel.2015.05.035.
-Codon Bias as a Means to Fine-Tune Gene Expression.
-Quax TE1, Claassens NJ2, Söll D3, van der Oost J4.
-
-https://www.ncbi.nlm.nih.gov/pubmed/22889422
-Biol Rev Camb Philos Soc. 2013 Feb;88(1):49-61. doi: 10.1111/j.1469-185X.2012.00242.x. Epub 2012 Aug 14.
-Codon usage bias: causative factors, quantification methods and genome-wide patterns: with emphasis on insect genomes.
-Behura SK1, Severson DW.
-
-https://www.ncbi.nlm.nih.gov/pubmed/22921354
-Trends Genet. 2012 Nov;28(11):574-81. doi: 10.1016/j.tig.2012.07.006. Epub 2012 Aug 23.
-Speeding with control: codon usage, tRNAs, and ribosomes.
-Novoa EM1, Ribas de Pouplana L.
-
-http://www.ncbi.nlm.nih.gov/pubmed/21102527
-Nat Rev Genet. 2011 Jan;12(1):32-42. doi: 10.1038/nrg2899. Epub 2010 Nov 23.
-Synonymous but not the same: the causes and consequences of codon bias.
-Plotkin JB1, Kudla G.
-http://mathbio.sas.upenn.edu/Papers/Plotkin_Kudla_NatRevGenetics_2011.pdf
-
-https://www.ncbi.nlm.nih.gov/pubmed/18983258
-Annu Rev Genet. 2008;42:287-99. doi: 10.1146/annurev.genet.42.110807.091442.
-Selection on codon bias.
-Hershberg R1, Petrov DA.
-
-https://www.ncbi.nlm.nih.gov/pubmed/11719972
-Curr Issues Mol Biol. 2001 Oct;3(4):91-7.
-Synonymous codon usage in bacteria.
-Ermolaeva MD1.
-
-
-
-
-----------
-## book
-
-### 21st November 2018
-![](https://ars.els-cdn.com/content/image/3-s2.0-C20180021659-cov200h.gif)
-
-Multivariate Analyses of Codon Usage Biases - 1st Edition
-https://www.sciencedirect.com/book/9781785482960/multivariate-analyses-of-codon-usage-biases
-https://www.elsevier.com/books/multivariate-analyses-of-codon-usage-biases/lobry/978-1-78548-296-0
-http://www.iste.co.uk/book.php?id=1403
-
-----------
-## video
-
-https://www.youtube.com/watch?v=P-fjZPf3Dnw
-Codon optimization: Why & how to design DNA sequences for optimal soluble protein expression - YouTube
-Published on Nov 3, 2014
 
 
 ----------
