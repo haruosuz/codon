@@ -21,7 +21,6 @@ Last Update: 2019-03
 - [lifestyle](#lifestyle) ライフスタイル
 - [methods](#methods)
   - [RSCU](#rscu)
-- [R](#r)
 - [tools](#tools)
 - [database](#database)
 - [mge](#mge)
@@ -41,9 +40,42 @@ Last Update: 2019-03
 - [unclassified](#unclassified)
 - [japanese](#japanese) 日本語
 - [synthetic_biology](#synthetic_biology)
+- [R](#r)
 
 ----------
 ## featuring
+
+
+----------
+## R
+
+http://rstudio-pubs-static.s3.amazonaws.com/3351_05a20138b81646829d8965c4a1ac76cd.html
+Step 10 - Looking at amino acid and codon usage
+
+load_genomic_codon_data <- function(codon_filename = paste(getwd(), "/data/codon_usage.txt", 
+    sep = "")) {
+
+http://www.lirmm.fr/~rivals/rscu/
+RSCURS: Measuring the bias in codon usage from ribosomal activity 
+Paulet et al. DNA Research 2017
+
+### coRdon
+
+https://github.com/haruosuz/r4bioinfo/tree/master/R_coRdon
+A, Kuzman M, Vlahovicek K (2019). coRdon: Codon Usage Analysis and Prediction of Gene Expressivity. 
+
+### sscu
+
+22 Aug 2018
+https://arxiv.org/abs/1808.07259
+[1808.07259] SSCU: an R/Bioconductor package for analyzing selective profile in synonymous codon usage
+
+https://bioconductor.org/packages/release/bioc/html/sscu.html
+
+```
+library(sscu)
+s_index
+```
 
 ----------
 ## book
@@ -498,32 +530,6 @@ within-group correspondence analysis (WCA) of codon usage
 Synonymous codon usage was investigated by within-group correspondence analysis (WCA) of codon counts [22, 23] and by correspondence analysis of relative synonymous codon usage (CA-RSCU). The latter is the most widely used method for codon usage analysis, whereas the former has been recently demonstrated to produce more unbiased results because it takes into account both amino acid composition and codon degeneracy information [48]. 
 
 ----------
-## R
-
-http://rstudio-pubs-static.s3.amazonaws.com/3351_05a20138b81646829d8965c4a1ac76cd.html
-Step 10 - Looking at amino acid and codon usage
-
-load_genomic_codon_data <- function(codon_filename = paste(getwd(), "/data/codon_usage.txt", 
-    sep = "")) {
-
-http://www.lirmm.fr/~rivals/rscu/
-RSCURS: Measuring the bias in codon usage from ribosomal activity 
-Paulet et al. DNA Research 2017
-
-### sscu
-
-22 Aug 2018
-https://arxiv.org/abs/1808.07259
-[1808.07259] SSCU: an R/Bioconductor package for analyzing selective profile in synonymous codon usage
-
-https://bioconductor.org/packages/release/bioc/html/sscu.html
-
-```
-library(sscu)
-s_index
-```
-
-----------
 ## tools
 
 https://www.ncbi.nlm.nih.gov/pubmed/30738198
@@ -676,15 +682,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/29742107
 PLoS One. 2018 May 9;13(5):e0195869. doi: 10.1371/journal.pone.0195869. eCollection 2018.
 Codon usage bias reveals genomic adaptations to environmental conditions in an acidophilic consortium.
 Hart A1, Cortés MP2,3, Latorre M2,3,4,5, Martinez S6.
-
-Anamaria Elek (2018)
-https://repozitorij.unizg.hr/en/islandora/object/pmf%3A4815
-coRdon: an R package for codon usage analysis and prediction of gene expressivity | University of Zagreb Repository
-
-https://www.ncbi.nlm.nih.gov/pubmed/27115650
-Methods Mol Biol. 2016;1415:509-31. doi: 10.1007/978-1-4939-3572-7_26.
-Big Data, Evolution, and Metagenomes: Predicting Disease from Gut Microbiota Codon Usage Profiles.
-Fabijanić M1, Vlahoviček K2.
 
 https://phylogenomics.blogspot.jp/2013/08/great-use-of-metagenomic-data-community.html
 August 09, 2013
