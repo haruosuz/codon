@@ -754,12 +754,7 @@ Lynn DJ1, Singer GA, Hickey DA.
 **複製**
 
 https://github.com/haruosuz/DS4GD/blob/master/2019/CaseStudy.md
-```
-# y-axis: GC skew
-# y-axis: Cumulative GC skew
-```
-小池、木ノ内 (2010) "バクテリアの塩基配列における文字の含量を用いた解析"
-Arakawa K, Tomita M. (2007) | "バクテリアゲノムの複製による選択度合いを定量化"
+GC skew
 
 http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_9_kadota.pdf
 次世代シーケンサーデータの解析手法 第 9 回
