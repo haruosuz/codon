@@ -1,5 +1,5 @@
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2019-03
+Last Update: 2019-04
 
 ----------
 
@@ -751,6 +751,25 @@ Lynn DJ1, Singer GA, Hickey DA.
 
 ----------
 ## replication
+複製
+
+https://www.ncbi.nlm.nih.gov/pubmed/12036591
+Gene. 2002 May 1;289(1-2):131-9.
+Synonymous codon usage in Pseudomonas aeruginosa PA01.
+Grocock RJ1, Sharp PM.
+https://www.sciencedirect.com/science/article/pii/S0378111902005036?via%3Dihub
+- This discordance appears to have arisen because Gupta and Ghosh did not correctly identify which genes are located on the leading and lagging strands. They reported finding only 39% of genes on the leading strand. This would be surprising, since most bacteria have an excess of genes on the leading strand: among nine species previously examined only one (Synechocystis) had as few as 50% of genes on the leading strand (McLean et al., 1998). In fact, we found a majority of genes (56%) on the leading strand in P. aeruginosa. It appears that Gupta and Ghosh counted all genes (whether on the leading or lagging strand) between 0 and 250 kb as ‘leading strand’, and all genes in the remainder of the chromosome as being on the ‘lagging strand’.
+- They based their conclusion about the link between axis 1 and gene expression on this correlation, but that line of reasoning is circular, and led to quite erroneous conclusions.
+
+- https://kotobank.jp/word/リーディング鎖-773894
+DNAの複製に際し，岡崎フラグメントで複製される方でなく，その反対の連続的に複製される側の鎖．ラギング鎖（lagging strand）の対語
+- https://kotobank.jp/word/ラギング鎖-773723
+リーディング鎖の対語で，二本鎖のDNAのうちの1本で，DNAの複製に際して，鎖が短い断片（岡崎フラグメント）として合成される側の鎖．
+- 「ゲノム DNA は二重鎖であり、片方の鎖はセンス鎖(sense strand )、もう一方はアンチセンス鎖(antisense strand )と呼ばれる。センス鎖はワトソン鎖(Watson strand )またはプラス鎖とも呼ばれ、アンチセンス鎖はクリック鎖(Crick strand )またはマイナス鎖とも呼ばれる。」
+- https://ja.wikipedia.org/wiki/センス鎖
+- https://ja.wikipedia.org/wiki/アンチセンス鎖
+- https://www.weblio.jp/content/マイナス鎖
+２本鎖DNAの片側の鎖をプラスとした時の反対側の鎖。一本鎖ウイルスの粒子中に取り込まれる側や転写される側の鎖をプラスとすることが多い。
 
 https://www.ncbi.nlm.nih.gov/pubmed/10075995
 Nucleic Acids Res. 1999 Apr 1;27(7):1642-9.
