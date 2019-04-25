@@ -762,6 +762,9 @@ https://github.com/haruosuz/DS4GD/blob/master/2019/CaseStudy.md
 Arakawa K, Tomita M. (2007) | "バクテリアゲノムの複製による選択度合いを定量化"
 
 http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_9_kadota.pdf
+次世代シーケンサーデータの解析手法 第 9 回
+ゲノムアノテーションとその可視化、DDBJ への登録
+
 　環状ゲノムの場合、どこを配列の起点として表記する
 かは明確にルールが決まっているわけではないが、慣例
 として dnaA 遺伝子が配列の先頭となるように “ 回転 ”
