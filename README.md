@@ -751,16 +751,44 @@ Lynn DJ1, Singer GA, Hickey DA.
 
 ----------
 ## replication
-複製
+**複製**
 
-https://www.ncbi.nlm.nih.gov/pubmed/12036591
-Gene. 2002 May 1;289(1-2):131-9.
-Synonymous codon usage in Pseudomonas aeruginosa PA01.
-Grocock RJ1, Sharp PM.
-https://www.sciencedirect.com/science/article/pii/S0378111902005036?via%3Dihub
-- This discordance appears to have arisen because Gupta and Ghosh did not correctly identify which genes are located on the leading and lagging strands. They reported finding only 39% of genes on the leading strand. This would be surprising, since most bacteria have an excess of genes on the leading strand: among nine species previously examined only one (Synechocystis) had as few as 50% of genes on the leading strand (McLean et al., 1998). In fact, we found a majority of genes (56%) on the leading strand in P. aeruginosa. It appears that Gupta and Ghosh counted all genes (whether on the leading or lagging strand) between 0 and 250 kb as ‘leading strand’, and all genes in the remainder of the chromosome as being on the ‘lagging strand’.
-- They based their conclusion about the link between axis 1 and gene expression on this correlation, but that line of reasoning is circular, and led to quite erroneous conclusions.
+https://github.com/haruosuz/DS4GD/blob/master/2019/CaseStudy.md
+```
+# y-axis: GC skew
+# y-axis: Cumulative GC skew
+```
+小池、木ノ内 (2010) "バクテリアの塩基配列における文字の含量を用いた解析"
+Arakawa K, Tomita M. (2007) | "バクテリアゲノムの複製による選択度合いを定量化"
 
+http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_9_kadota.pdf
+　環状ゲノムの場合、どこを配列の起点として表記する
+かは明確にルールが決まっているわけではないが、慣例
+として dnaA 遺伝子が配列の先頭となるように “ 回転 ”
+させておくことが多い。
+
+LH_draft2.fa を入力として再度予備的に行った
+DFAST アノテーション結果においては、chromosome 上
+の相補鎖側の［1436009, 1437325 bp］にdnaA がコードさ
+れていた［W2-2］。
+
+　具体的な手順としては、まず dnaA 遺伝子を含む領
+域［1, 1437425 bp］とそれ以外の領域［1437426, 2277983
+bp］を入れ替えた（回転させた）後に、相補鎖変換を行
+えばよい［W4-4］。
+
+アノテーション結果の描画 
+
+入力は、Genbank 形
+式の DFAST アノテーション結果ファイル（annotation.
+gbk）である。①時計の 0 時に相当する部分が複製開始点
+である。一番外側から、②順鎖上および相補鎖上の CDS、
+
+実際の複製では、①の
+複製開始点から時計回りに進む順鎖側、そして反時計回り
+に進む相補鎖側がリーディング鎖となる。
+
+用語
 - https://kotobank.jp/word/リーディング鎖-773894
 DNAの複製に際し，岡崎フラグメントで複製される方でなく，その反対の連続的に複製される側の鎖．ラギング鎖（lagging strand）の対語
 - https://kotobank.jp/word/ラギング鎖-773723
@@ -770,6 +798,15 @@ DNAの複製に際し，岡崎フラグメントで複製される方でなく�
 - https://ja.wikipedia.org/wiki/アンチセンス鎖
 - https://www.weblio.jp/content/マイナス鎖
 ２本鎖DNAの片側の鎖をプラスとした時の反対側の鎖。一本鎖ウイルスの粒子中に取り込まれる側や転写される側の鎖をプラスとすることが多い。
+
+https://www.ncbi.nlm.nih.gov/pubmed/12036591
+Gene. 2002 May 1;289(1-2):131-9.
+Synonymous codon usage in Pseudomonas aeruginosa PA01.
+Grocock RJ1, Sharp PM.
+https://www.sciencedirect.com/science/article/pii/S0378111902005036?via%3Dihub
+This discordance appears to have arisen because Gupta and Ghosh did not correctly identify which genes are located on the leading and lagging strands. They reported finding only 39% of genes on the leading strand. This would be surprising, since most bacteria have an excess of genes on the leading strand: among nine species previously examined only one (Synechocystis) had as few as 50% of genes on the leading strand (McLean et al., 1998). In fact, we found a majority of genes (56%) on the leading strand in P. aeruginosa. It appears that Gupta and Ghosh counted all genes (whether on the leading or lagging strand) between 0 and 250 kb as ‘leading strand’, and all genes in the remainder of the chromosome as being on the ‘lagging strand’.
+*中略*
+They based their conclusion about the link between axis 1 and gene expression on this correlation, but that line of reasoning is circular, and led to quite erroneous conclusions.
 
 https://www.ncbi.nlm.nih.gov/pubmed/10075995
 Nucleic Acids Res. 1999 Apr 1;27(7):1642-9.
