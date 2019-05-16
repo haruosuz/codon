@@ -45,6 +45,53 @@ Last Update: 2019-04
 ----------
 ## featuring
 
+----------
+## nucleotide composition
+GC content
+
+https://twitter.com/Symbionticism/status/1123203760564637697
+Seth Bordenstein on Twitter: "This is a game changer. Many intracellular microbes have a genome wide bias in A’s and T’s. The major assumption has been a mutational bias / drift impacts this outcome. Well, not so fast. Evidence below that selection can contribute or cause it.… https://t.co/yfDqN3b3Lj"
+8:33 AM - 30 Apr 2019
+
+https://twitter.com/KostChristian/status/1123158110925934592
+Christian Kost on Twitter: "Very happy that our paper: Selective advantages favour high genomic AT-contents in intracellular elements is finally online @PLOSGenetics https://t.co/J40CRRK74N. This work represents a heroic effort by Anne-Kathrin Dietel and a wonderful colaboration with Martin Kaltenpoth.… https://t.co/RUB5kSZELS"
+5:32 AM - 30 Apr 2019
+
+https://www.ncbi.nlm.nih.gov/pubmed/31034469
+PLoS Genet. 2019 Apr 29;15(4):e1007778. doi: 10.1371/journal.pgen.1007778. [Epub ahead of print]
+Selective advantages favour high genomic AT-contents in intracellular elements.
+Dietel AK1, Merker H1, Kaltenpoth M2, Kost C1.
+
+Accordingly, introducing AT-rich and GC-rich plasmids into other bacterial species with different genomic GC-contents revealed that the costs of G+C-rich plasmids decreased with an increasing GC-content of their host’s genomic DNA. 
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/28261263
+Front Genet. 2017 Feb 15;8:16. doi: 10.3389/fgene.2017.00016. eCollection 2017.
+Analytical Biases Associated with GC-Content in Molecular Evolution.
+Romiguier J1, Roux C1.
+KEYWORDS:
+GC-content; biased gene conversion; codon usage bias; methodological biases; phylogeny; positive selection
+
+https://www.ncbi.nlm.nih.gov/pubmed/25897009
+G3 (Bethesda). 2015 Apr 20;5(6):1247-52. doi: 10.1534/g3.115.016824.
+Effects of Genic Base Composition on Growth Rate in G+C-rich Genomes.
+Kelkar YD1, Phillips DS1, Ochman H2.
+Erratum in
+Corrigendum.
+http://www.g3journal.org/content/5/12/2921.long
+
+https://www.ncbi.nlm.nih.gov/pubmed/16200051
+EMBO Rep. 2005 Dec;6(12):1208-13.
+Environments shape the nucleotide composition of genomes.
+Foerstner KU1, von Mering C, Hooper SD, Bork P.
+
+https://www.ncbi.nlm.nih.gov/pubmed/25861819
+Genome Biol Evol. 2015 Apr 9;7(5):1380-9. doi: 10.1093/gbe/evv063.
+Prokaryotic nucleotide composition is shaped by both phylogeny and the environment.
+Reichenberger ER1, Rosen G2, Hershberg U3, Hershberg R4.
+we show that GC-content varies greatly as a function of environment, in a manner that cannot be entirely explained by disparities in phylogenetic composition. 
+
+
 
 ----------
 ## R
@@ -178,7 +225,15 @@ Presnyak V1, Alhusaini N1, Chen YH1, Martin S1, Morris N2, Kline N1, Olson S3, W
 
 ## updates
 
+
+
 ### 2019
+
+26 April 2019
+https://www.sciencedirect.com/science/article/pii/S0022283619302281
+Codon and Codon-Pair Usage Tables (CoCoPUTs): Facilitating Genetic Variation Analyses and Recombinant Gene Design - ScienceDirect
+
+
 
 https://www.ncbi.nlm.nih.gov/pubmed/30828719
 Nucleic Acids Res. 2019 Mar 4. pii: gkz151. doi: 10.1093/nar/gkz151. [Epub ahead of print]
@@ -706,35 +761,6 @@ Average predicted minimum generation time for 3 environmental metagenomes.
 Figure 8
 Average predicted minimum generation time for the gut metagenomes of humans of different age groups.
 
-----------
-## nucleotide composition
-GC content
-
-https://www.ncbi.nlm.nih.gov/pubmed/28261263
-Front Genet. 2017 Feb 15;8:16. doi: 10.3389/fgene.2017.00016. eCollection 2017.
-Analytical Biases Associated with GC-Content in Molecular Evolution.
-Romiguier J1, Roux C1.
-KEYWORDS:
-GC-content; biased gene conversion; codon usage bias; methodological biases; phylogeny; positive selection
-
-https://www.ncbi.nlm.nih.gov/pubmed/25897009
-G3 (Bethesda). 2015 Apr 20;5(6):1247-52. doi: 10.1534/g3.115.016824.
-Effects of Genic Base Composition on Growth Rate in G+C-rich Genomes.
-Kelkar YD1, Phillips DS1, Ochman H2.
-Erratum in
-Corrigendum.
-http://www.g3journal.org/content/5/12/2921.long
-
-https://www.ncbi.nlm.nih.gov/pubmed/16200051
-EMBO Rep. 2005 Dec;6(12):1208-13.
-Environments shape the nucleotide composition of genomes.
-Foerstner KU1, von Mering C, Hooper SD, Bork P.
-
-https://www.ncbi.nlm.nih.gov/pubmed/25861819
-Genome Biol Evol. 2015 Apr 9;7(5):1380-9. doi: 10.1093/gbe/evv063.
-Prokaryotic nucleotide composition is shaped by both phylogeny and the environment.
-Reichenberger ER1, Rosen G2, Hershberg U3, Hershberg R4.
-we show that GC-content varies greatly as a function of environment, in a manner that cannot be entirely explained by disparities in phylogenetic composition. 
 
 ----------
 ## temperature
