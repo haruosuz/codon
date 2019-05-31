@@ -1,5 +1,5 @@
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2019-04
+Last Update: 2019-05
 
 ----------
 
@@ -8,8 +8,11 @@ Last Update: 2019-04
 ## Table of Contents
 - [featuring](#featuring)
 - [updates](#updates)
-  - [2018](#2018)
-  - [2017](#2017)
+[2019](#2019)
+[2018](#2018)
+[2017](#2017)
+[2016](#2016)
+[2001](#2001)
 - [review](#review)
 - [book](#book)
 - [video](#video)
@@ -197,6 +200,15 @@ https://www.ncbi.nlm.nih.gov/pubmed/27915291
 Nucleic Acids Res. 2016 Dec 1;44(21):10074-10090. Epub 2016 Oct 24.
 The landscape of microbial phenotypic traits and associated genes.
 Brbić M1, Piškorec M1, Vidulin V1, Kriško A2, Šmuc T1, Supek F3,4,5.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5137458/
+- INTRODUCTION
+Statistical associations of genes to phenotypes can implicate certain proteins or pathways, providing insight into the mechanistic basis of phenotypic traits (3,4), as demonstrated for adaptation to stress (5,6), host-association (7,8), pathogenesis (9,10), drug resistance (11,12) and relevance to biotechnological applications (13,14).
+- RESULTS
+Systematic inference of phenotypes from codon adaptation
+Such genomic signatures of translation efficiency within certain gene families have been used to infer the adaptive value of individual genes to various environmental niches (6) and we thus hypothesized that the overall pattern of codon adaptation across many genes of an organism can predict its phenotype (Materials and Methods).
+- DISCUSSION
+Further generalizing this well-known gene content-based methodology, our work demonstrates how other comparative genomics approaches normally used to predict gene function—here, synteny patterns (58,59) and codon adaptation (6,70)—can be efficiently repurposed into phenotype predictors. 
+
 
 https://www.ncbi.nlm.nih.gov/pubmed/26538122
 J Mol Evol. 2016 Jan;82(1):65-73. doi: 10.1007/s00239-015-9714-8. Epub 2015 Nov 4.
@@ -228,6 +240,41 @@ Presnyak V1, Alhusaini N1, Chen YH1, Martin S1, Morris N2, Kline N1, Olson S3, W
 
 
 ### 2019
+
+### 2019-05
+
+https://twitter.com/EvaMariaNovoa/status/1130910439817252864
+Eva Maria Novoa on Twitter: "Our paper is out! :-) Codon usage signatures across species are not just consequence of GC content - and these biases can be used for metagenomic binning! #codonusage #metagenome @manoliskellis https://t.co/fKZNIcWIll"
+2:57 PM - 21 May 2019
+
+
+
+
+https://twitter.com/search?q=大腸菌%20コドン
+
+https://twitter.com/enuroi/status/1128893267402059776
+Ken Kuroki on Twitter: "大腸菌の全ゲノムを合成DNAで置換することに成功。59種のセンスコドンと2種の終止コドンしか使わないよう18,000コドンを変更。増殖時間は1.6倍に長くなったのみ。 https://t.co/u8DUxSJ8AI"
+1:21 AM - 16 May 2019
+
+https://twitter.com/hornistyf/status/1128821862337695744
+Y. Furuta on Twitter: "大腸菌ゲノム上のセリンのコドン2つとストップコドン1つを同義コドンに置換した話。著者らが前に開発したREXER法でゲノム全体のコドンに適用。置換が難しかったのは、隣接遺伝子のORFやUTRと被っていたケース。／Total synthesis of Escherichia coli with a recoded genome https://t.co/fSqvontp6M"
+8:37 PM - 15 May 2019
+
+
+https://twitter.com/torusengoku/status/1128827977498677248
+torusengoku on Twitter: "Nature, DNAコドンのうちTCG, TCA（ともにSerをコード）とTAG（アンバーストップコドン）を持たない大腸菌を作成。将来、これらのコドンに新しいアミノ酸をコードさせる遺伝暗号拡張が容易に。 https://t.co/KvQSOXbjCc どこまで減らせるのかな。"
+9:02 PM - 15 May 2019
+
+
+2019年5月16日
+https://www.natureasia.com/ja-jp/nature/pr-highlights/12951
+【合成生物学】大腸菌の遺伝コードを圧縮する | Nature | Nature Research
+
+https://www.nature.com/articles/s41586-019-1192-5
+Total synthesis of Escherichia coli with a recoded genome | Nature
+
+
+### 2019-04
 
 26 April 2019
 https://www.sciencedirect.com/science/article/pii/S0022283619302281
@@ -301,6 +348,13 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6003480/
 
 ### 2017
 
+https://www.ncbi.nlm.nih.gov/pubmed/28992099
+DNA Res. 2017 Dec 1;24(6):623-633. doi: 10.1093/dnares/dsx030.
+Co-adaption of tRNA gene copy number and amino acid usage influences translation rates in three life domains.
+Du MZ1, Wei W1, Qin L1, Liu S1, Zhang AY1,2, Zhang Y1,2, Zhou H1,2, Guo FB1,2,3.
+
+
+
 ### 2016
 
 https://www.ncbi.nlm.nih.gov/pubmed/27671647
@@ -311,7 +365,16 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5068308/
 Codon Optimization, Plasmid Constructs, and Neurospora Transformation.
 
 
+### 2015
+
+https://www.ncbi.nlm.nih.gov/pubmed/26282127
+BMC Evol Biol. 2015 Aug 19;15:163. doi: 10.1186/s12862-015-0441-y.
+The evolutionary dynamics of tRNA-gene copy number and codon-use in E. coli.
+McDonald MJ1, Chou CH2,3, Swamy KB4, Huang HD5,6, Leu JY7.
+
 ### 2011
+
+
 
 微生物群集内の翻訳効率と遺伝子水平伝播との関連
 https://www.ncbi.nlm.nih.gov/pubmed/21343180
