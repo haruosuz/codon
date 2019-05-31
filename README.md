@@ -687,6 +687,12 @@ http://bioinfo.ie.niigata-u.ac.jp/?コドン組成に基づくBLSOM解析
 ----------
 
 ## database
+データベース
+
+https://integbio.jp/dbcatalog/record/nbdc00033
+Codon Usage Database - Integbio データベースカタログ
+http://www.kazusa.or.jp/codon/
+Codon Usage Database
 
 https://www.ncbi.nlm.nih.gov/pubmed/28865429
 BMC Bioinformatics. 2017 Sep 2;18(1):391. doi: 10.1186/s12859-017-1793-7.
@@ -701,11 +707,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/22536831
 BMC Bioinformatics. 2012 Apr 26;13:62. doi: 10.1186/1471-2105-13-62.
 CBDB: the codon bias database.
 Hilterbrand A1, Saelens J, Putonti C.
-
-https://integbio.jp/dbcatalog/record/nbdc00033
-Codon Usage Database - Integbio データベースカタログ
-http://www.kazusa.or.jp/codon/
-Codon Usage Database
 
 ----------
 ## mge
