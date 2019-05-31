@@ -17,7 +17,7 @@ Last Update: 2019-05
 - [book](#book)
 - [video](#video)
 - [H.pylori](#h.pylori) ピロリ菌
-- [heterologous gene expression](#heterologous gene expression)
+- [heterologous gene expression](#heterologous-gene-expression)
 - [tRNA](#trna)
 - [tRNA gene cluster](#trna-gene-cluster)
 - [growth rate](#growth-rate)
