@@ -486,6 +486,9 @@ plasmid.
 ----------
 ## tRNA
 
+http://trna.ie.niigata-u.ac.jp/cgi-bin/trnadb/index.cgi
+Home | tRNADB-CE : tRNA gene database curated manually by experts
+
 https://integbio.jp/dbcatalog/record/nbdc00720
 tRNADB-CE - Integbio データベースカタログ
 
