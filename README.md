@@ -22,10 +22,6 @@ Last Update: 2019-05
 - [tRNA gene cluster](#trna-gene-cluster)
 - [growth rate](#growth-rate)
 - [lifestyle](#lifestyle) ライフスタイル
-- [methods](#methods)
-  - [RSCU](#rscu)
-- [tools](#tools)
-- [database](#database)
 - [mge](#mge)
   - [plasmids](#plasmids)
   - [virus](#virus)
@@ -43,7 +39,11 @@ Last Update: 2019-05
 - [unclassified](#unclassified)
 - [japanese](#japanese) 日本語
 - [synthetic_biology](#synthetic_biology)
-- [R](#r)
+- [database](#database)
+- [tools](#tools)
+  - [R](#r)
+- [methods](#methods)
+  - [RSCU](#rscu)
 
 ----------
 ## featuring
@@ -94,38 +94,6 @@ Prokaryotic nucleotide composition is shaped by both phylogeny and the environme
 Reichenberger ER1, Rosen G2, Hershberg U3, Hershberg R4.
 we show that GC-content varies greatly as a function of environment, in a manner that cannot be entirely explained by disparities in phylogenetic composition. 
 
-
-
-----------
-## R
-
-http://rstudio-pubs-static.s3.amazonaws.com/3351_05a20138b81646829d8965c4a1ac76cd.html
-Step 10 - Looking at amino acid and codon usage
-
-load_genomic_codon_data <- function(codon_filename = paste(getwd(), "/data/codon_usage.txt", 
-    sep = "")) {
-
-http://www.lirmm.fr/~rivals/rscu/
-RSCURS: Measuring the bias in codon usage from ribosomal activity 
-Paulet et al. DNA Research 2017
-
-### coRdon
-
-https://github.com/haruosuz/r4bioinfo/tree/master/R_coRdon
-A, Kuzman M, Vlahovicek K (2019). coRdon: Codon Usage Analysis and Prediction of Gene Expressivity. 
-
-### sscu
-
-22 Aug 2018
-https://arxiv.org/abs/1808.07259
-[1808.07259] SSCU: an R/Bioconductor package for analyzing selective profile in synonymous codon usage
-
-https://bioconductor.org/packages/release/bioc/html/sscu.html
-
-```
-library(sscu)
-s_index
-```
 
 ----------
 ## book
@@ -625,33 +593,32 @@ Carbone A1, Zinovyev A, Képès F.
 
 
 ----------
-## methods
 
-### RSCU
-relative synonymous codon usage
+## database
+データベース
 
-https://www.biorxiv.org/content/early/2018/09/26/421487
-Elucidation of Codon Usage Signatures across the Domains of Life | bioRxiv
+https://integbio.jp/dbcatalog/record/nbdc00033
+Codon Usage Database - Integbio データベースカタログ
+http://www.kazusa.or.jp/codon/
+Codon Usage Database
 
-https://www.ncbi.nlm.nih.gov/pubmed/29596640
-Mol Biol Evol. 2018 Jun 1;35(6):1463-1472. doi: 10.1093/molbev/msy047.
-Multiple Factors Confounding Phylogenetic Detection of Selection on Codon Usage.
-Laurin-Lemay S1, Philippe H1,2, Rodrigue N3.
+https://www.ncbi.nlm.nih.gov/pubmed/28865429
+BMC Bioinformatics. 2017 Sep 2;18(1):391. doi: 10.1186/s12859-017-1793-7.
+A new and updated resource for codon usage tables.
+Athey J1, Alexaki A1, Osipova E2, Rostovtsev A2, Santana-Quintero LV2, Katneni U1, Simonyan V2, Kimchi-Sarfaty C3.
+High-performance Integrated Virtual Environment-Codon Usage Tables (HIVE-CUTs)
+http://hive.biochemistry.gwu.edu/review/codon
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5581930/
+However, as plasmids are located in the same area as the genome, draw from the same tRNA pools, and use the same genetic code as the genome, plasmid coding sequences are not separated from the organism’s genomic codon usage table. 
 
-review
-https://www.ncbi.nlm.nih.gov/pubmed/26029354
-Comput Struct Biotechnol J. 2015 May 4;13:352-7. doi: 10.1016/j.csbj.2015.04.005. eCollection 2015.
-Homology-independent metrics for comparative genomics.
-Coutinho TJ1, Franco GR1, Lobo FP2.
-In this review we compile several sequence metrics that do not rely on homology inference and can be used to compare nucleotide sequences and extract biologically meaningful information from them. These metrics comprise several compositional parameters calculated from sequence data alone, such as GC content, dinucleotide odds ratio, and several codon bias metrics. 
-
-### WCA
-within-group correspondence analysis (WCA) of codon usage
-
-Synonymous codon usage was investigated by within-group correspondence analysis (WCA) of codon counts [22, 23] and by correspondence analysis of relative synonymous codon usage (CA-RSCU). The latter is the most widely used method for codon usage analysis, whereas the former has been recently demonstrated to produce more unbiased results because it takes into account both amino acid composition and codon degeneracy information [48]. 
+https://www.ncbi.nlm.nih.gov/pubmed/22536831
+BMC Bioinformatics. 2012 Apr 26;13:62. doi: 10.1186/1471-2105-13-62.
+CBDB: the codon bias database.
+Hilterbrand A1, Saelens J, Putonti C.
 
 ----------
 ## tools
+ツール
 
 https://www.ncbi.nlm.nih.gov/pubmed/30738198
 Genomics. 2019 Feb 6. pii: S0888-7543(18)30608-6. doi: 10.1016/j.ygeno.2019.02.002. [Epub ahead of print]
@@ -688,28 +655,62 @@ http://bioinfo.ie.niigata-u.ac.jp/?遺伝子発現量予測
 http://bioinfo.ie.niigata-u.ac.jp/?コドン組成に基づくBLSOM解析
 
 ----------
+### R
 
-## database
-データベース
+http://rstudio-pubs-static.s3.amazonaws.com/3351_05a20138b81646829d8965c4a1ac76cd.html
+Step 10 - Looking at amino acid and codon usage
 
-https://integbio.jp/dbcatalog/record/nbdc00033
-Codon Usage Database - Integbio データベースカタログ
-http://www.kazusa.or.jp/codon/
-Codon Usage Database
+load_genomic_codon_data <- function(codon_filename = paste(getwd(), "/data/codon_usage.txt", 
+    sep = "")) {
 
-https://www.ncbi.nlm.nih.gov/pubmed/28865429
-BMC Bioinformatics. 2017 Sep 2;18(1):391. doi: 10.1186/s12859-017-1793-7.
-A new and updated resource for codon usage tables.
-Athey J1, Alexaki A1, Osipova E2, Rostovtsev A2, Santana-Quintero LV2, Katneni U1, Simonyan V2, Kimchi-Sarfaty C3.
-High-performance Integrated Virtual Environment-Codon Usage Tables (HIVE-CUTs)
-http://hive.biochemistry.gwu.edu/review/codon
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5581930/
-However, as plasmids are located in the same area as the genome, draw from the same tRNA pools, and use the same genetic code as the genome, plasmid coding sequences are not separated from the organism’s genomic codon usage table. 
+http://www.lirmm.fr/~rivals/rscu/
+RSCURS: Measuring the bias in codon usage from ribosomal activity 
+Paulet et al. DNA Research 2017
 
-https://www.ncbi.nlm.nih.gov/pubmed/22536831
-BMC Bioinformatics. 2012 Apr 26;13:62. doi: 10.1186/1471-2105-13-62.
-CBDB: the codon bias database.
-Hilterbrand A1, Saelens J, Putonti C.
+### coRdon
+
+https://github.com/haruosuz/r4bioinfo/tree/master/R_coRdon
+A, Kuzman M, Vlahovicek K (2019). coRdon: Codon Usage Analysis and Prediction of Gene Expressivity. 
+
+### sscu
+
+22 Aug 2018
+https://arxiv.org/abs/1808.07259
+[1808.07259] SSCU: an R/Bioconductor package for analyzing selective profile in synonymous codon usage
+
+https://bioconductor.org/packages/release/bioc/html/sscu.html
+
+```
+library(sscu)
+s_index
+```
+
+----------
+## methods
+
+### RSCU
+relative synonymous codon usage
+
+https://www.biorxiv.org/content/early/2018/09/26/421487
+Elucidation of Codon Usage Signatures across the Domains of Life | bioRxiv
+
+https://www.ncbi.nlm.nih.gov/pubmed/29596640
+Mol Biol Evol. 2018 Jun 1;35(6):1463-1472. doi: 10.1093/molbev/msy047.
+Multiple Factors Confounding Phylogenetic Detection of Selection on Codon Usage.
+Laurin-Lemay S1, Philippe H1,2, Rodrigue N3.
+
+review
+https://www.ncbi.nlm.nih.gov/pubmed/26029354
+Comput Struct Biotechnol J. 2015 May 4;13:352-7. doi: 10.1016/j.csbj.2015.04.005. eCollection 2015.
+Homology-independent metrics for comparative genomics.
+Coutinho TJ1, Franco GR1, Lobo FP2.
+In this review we compile several sequence metrics that do not rely on homology inference and can be used to compare nucleotide sequences and extract biologically meaningful information from them. These metrics comprise several compositional parameters calculated from sequence data alone, such as GC content, dinucleotide odds ratio, and several codon bias metrics. 
+
+### WCA
+within-group correspondence analysis (WCA) of codon usage
+
+Synonymous codon usage was investigated by within-group correspondence analysis (WCA) of codon counts [22, 23] and by correspondence analysis of relative synonymous codon usage (CA-RSCU). The latter is the most widely used method for codon usage analysis, whereas the former has been recently demonstrated to produce more unbiased results because it takes into account both amino acid composition and codon degeneracy information [48]. 
+
 
 ----------
 ## mge
