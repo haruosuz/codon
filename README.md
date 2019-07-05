@@ -1,5 +1,5 @@
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2019-05
+Last Update: 2019-06
 
 ----------
 
@@ -26,7 +26,6 @@ Last Update: 2019-05
   - [plasmids](#plasmids)
   - [virus](#virus)
 - [metagenome](#metagenome)
-- [nucleotide compositio](#nucleotide-compositio) 塩基組成、GC含量
 - [temperature](#temperature) 温度
 - [replication](#replication) 複製
 - [people](#people)
@@ -44,56 +43,10 @@ Last Update: 2019-05
   - [R](#r)
 - [methods](#methods)
   - [RSCU](#rscu)
+- [nucleotide composition](#nucleotide composition) 塩基組成、GC含量
 
 ----------
 ## featuring
-
-----------
-## nucleotide composition
-GC content
-
-https://twitter.com/Symbionticism/status/1123203760564637697
-Seth Bordenstein on Twitter: "This is a game changer. Many intracellular microbes have a genome wide bias in A’s and T’s. The major assumption has been a mutational bias / drift impacts this outcome. Well, not so fast. Evidence below that selection can contribute or cause it.… https://t.co/yfDqN3b3Lj"
-8:33 AM - 30 Apr 2019
-
-https://twitter.com/KostChristian/status/1123158110925934592
-Christian Kost on Twitter: "Very happy that our paper: Selective advantages favour high genomic AT-contents in intracellular elements is finally online @PLOSGenetics https://t.co/J40CRRK74N. This work represents a heroic effort by Anne-Kathrin Dietel and a wonderful colaboration with Martin Kaltenpoth.… https://t.co/RUB5kSZELS"
-5:32 AM - 30 Apr 2019
-
-https://www.ncbi.nlm.nih.gov/pubmed/31034469
-PLoS Genet. 2019 Apr 29;15(4):e1007778. doi: 10.1371/journal.pgen.1007778. [Epub ahead of print]
-Selective advantages favour high genomic AT-contents in intracellular elements.
-Dietel AK1, Merker H1, Kaltenpoth M2, Kost C1.
-
-Accordingly, introducing AT-rich and GC-rich plasmids into other bacterial species with different genomic GC-contents revealed that the costs of G+C-rich plasmids decreased with an increasing GC-content of their host’s genomic DNA. 
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/28261263
-Front Genet. 2017 Feb 15;8:16. doi: 10.3389/fgene.2017.00016. eCollection 2017.
-Analytical Biases Associated with GC-Content in Molecular Evolution.
-Romiguier J1, Roux C1.
-KEYWORDS:
-GC-content; biased gene conversion; codon usage bias; methodological biases; phylogeny; positive selection
-
-https://www.ncbi.nlm.nih.gov/pubmed/25897009
-G3 (Bethesda). 2015 Apr 20;5(6):1247-52. doi: 10.1534/g3.115.016824.
-Effects of Genic Base Composition on Growth Rate in G+C-rich Genomes.
-Kelkar YD1, Phillips DS1, Ochman H2.
-Erratum in
-Corrigendum.
-http://www.g3journal.org/content/5/12/2921.long
-
-https://www.ncbi.nlm.nih.gov/pubmed/16200051
-EMBO Rep. 2005 Dec;6(12):1208-13.
-Environments shape the nucleotide composition of genomes.
-Foerstner KU1, von Mering C, Hooper SD, Bork P.
-
-https://www.ncbi.nlm.nih.gov/pubmed/25861819
-Genome Biol Evol. 2015 Apr 9;7(5):1380-9. doi: 10.1093/gbe/evv063.
-Prokaryotic nucleotide composition is shaped by both phylogeny and the environment.
-Reichenberger ER1, Rosen G2, Hershberg U3, Hershberg R4.
-we show that GC-content varies greatly as a function of environment, in a manner that cannot be entirely explained by disparities in phylogenetic composition. 
-
 
 ----------
 ## book
@@ -205,18 +158,33 @@ Presnyak V1, Alhusaini N1, Chen YH1, Martin S1, Morris N2, Kline N1, Olson S3, W
 
 ## updates
 
-
-
 ### 2019
 
+Published: 20 May 2019
+https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msz124/5492082
+Elucidation of Codon Usage Signatures across the Domains of Life | Molecular Biology and Evolution | Oxford Academic
+
+
+6 Jun 2019
+https://twitter.com/ytksai/status/1136571651133329408
+放線菌のコドン最適化に関する研究がScientific Reportsに採択されました。産総研の人工知能研究センターと生物プロセス研究部門の共同研究です。https://www.nature.com/articles/s41598-019-44500-z … プレスリリースを出しました。https://www.aist.go.jp/aist_j/press_release/pr2019/pr20190606/pr20190606.html 
+生体分子の設計問題のうち、タンパク質発現量を向上させる目的でmRNAの塩基配列を同義置換の範囲内で設計する問題をコドン最適化と呼びます。本研究では、産総研の所有するタンパク質発現データの解析から、放線菌におけるコドン最適化に重要な設計指標を見出し、その有効性の実験検証も行いました。
+
 ### 2019-05
+
+https://twitter.com/pacyc1841/status/1134711913265295360
+この論文関係あるかわからないけど、この前ほんとにコドンユーセージでOligonucleotide frequencyが説明できるか話題になった
+2:42 AM - 1 Jun 2019
+https://www.ncbi.nlm.nih.gov/pubmed/31138741
+MBio. 2019 May 28;10(3). pii: e00505-19. doi: 10.1128/mBio.00505-19.
+Codon Usage Heterogeneity in the Multipartite Prokaryote Genome: Selection-Based Coding Bias Associated with Gene Location, Expression Level, and Ancestry.
+López JL1, Lozano MJ1, Lagares A Jr2,3, Fabre ML1, Draghi WO1, Del Papa MF1, Pistorio M1, Becker A3, Wibberg D4, Schlüter A4, Pühler A4, Blom J5, Goesmann A5, Lagares A6.
+- Sinorhizobium meliloti, which harbors a chromosome, a chromid (pSymB), a megaplasmid (pSymA), and, in many strains, one or more accessory plasmids.
+- modal codon usages
 
 https://twitter.com/EvaMariaNovoa/status/1130910439817252864
 Eva Maria Novoa on Twitter: "Our paper is out! :-) Codon usage signatures across species are not just consequence of GC content - and these biases can be used for metagenomic binning! #codonusage #metagenome @manoliskellis https://t.co/fKZNIcWIll"
 2:57 PM - 21 May 2019
-
-
-
 
 https://twitter.com/search?q=大腸菌%20コドン
 
