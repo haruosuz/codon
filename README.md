@@ -160,6 +160,10 @@ Presnyak V1, Alhusaini N1, Chen YH1, Martin S1, Morris N2, Kline N1, Olson S3, W
 
 ### 2019
 
+Published: 10 July 2019
+https://academic.oup.com/gbe/advance-article/doi/10.1093/gbe/evz146/5530595
+Critical Role of Codon Composition on the Translation Efficiency Robustness of the Hepatitis A Virus Capsid | Genome Biology and Evolution | Oxford Academic
+
 Published: 20 May 2019
 https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msz124/5492082
 Elucidation of Codon Usage Signatures across the Domains of Life | Molecular Biology and Evolution | Oxford Academic
@@ -401,6 +405,11 @@ Sci Rep. 2017 Aug 30;7(1):9926. doi: 10.1038/s41598-017-10546-0.
 Predicting synonymous codon usage and optimizing the heterologous gene for expression in E. coli.
 Tian J1, Yan Y1,2, Yue Q1,3, Liu X1, Chu X1, Wu N4, Fan Y1.
 
+https://www.ncbi.nlm.nih.gov/pubmed/22847936
+Bioinformatics. 2012 Oct 15;28(20):2683-4. doi: 10.1093/bioinformatics/bts465. Epub 2012 Jul 30.
+EuGene: maximizing synthetic gene design for heterologous expression.
+Gaspar P1, Oliveira JL, Frommlet J, Santos MA, Moura G.
+
 https://www.ncbi.nlm.nih.gov/pubmed/19696103
 Microbiology. 2009 Nov;155(Pt 11):3581-8. doi: 10.1099/mic.0.030064-0. Epub 2009 Aug 20.
 Overcoming codon-usage bias in heterologous protein expression in Streptococcus gordonii.
@@ -430,6 +439,11 @@ tRNADB-CE - Integbio データベースカタログ
 
 https://dbarchive.biosciencedbc.jp/jp/trnadb-ce/data-1.html
 tRNA配列、アノテーション及びキュレーションのデータ - tRNADB-CE | LSDB Archive
+
+https://www.ncbi.nlm.nih.gov/pubmed/24782525
+Nucleic Acids Res. 2014 Jun;42(10):6552-66. doi: 10.1093/nar/gku245. Epub 2014 Apr 29.
+Auxiliary tRNAs: large-scale analysis of tRNA genes reveals patterns of tRNA repertoire dynamics.
+Wald N1, Margalit H2.
 
 ----------
 ## tRNA gene cluster
