@@ -405,6 +405,11 @@ Sci Rep. 2017 Aug 30;7(1):9926. doi: 10.1038/s41598-017-10546-0.
 Predicting synonymous codon usage and optimizing the heterologous gene for expression in E. coli.
 Tian J1, Yan Y1,2, Yue Q1,3, Liu X1, Chu X1, Wu N4, Fan Y1.
 
+2016年1月21日
+https://www.natureasia.com/ja-jp/nature/highlights/71552
+生物工学：タンパク質翻訳を改善する
+J Huntたちは今回、複数のタンパク質発現実験の結果の詳細な解析を行い、コドンの影響の新たな指標を導き出した。この指標を用いて遺伝子を再設計すると、転写には影響が出ないが、翻訳効率が大幅に高まることが分かった。彼らは、in vivoでのmRNA分解と翻訳の過程は競合しており、この指標を用いることでタンパク質産生を高めることができると結論付けている。
+
 https://www.ncbi.nlm.nih.gov/pubmed/22847936
 Bioinformatics. 2012 Oct 15;28(20):2683-4. doi: 10.1093/bioinformatics/bts465. Epub 2012 Jul 30.
 EuGene: maximizing synthetic gene design for heterologous expression.
@@ -536,6 +541,15 @@ Codon usage bias from tRNA's point of view: redundancy, specialization, and effi
 Rocha EP1.
 - We show that as minimal generation times get shorter, the genomes contain more tRNA genes, but fewer anticodon species. 
 - It also provides new evidence that a selective force for the optimization of the translation machinery is the maximization of growth.
+https://genome.cshlp.org/content/14/11/2279.long
+https://genome.cshlp.org/content/14/11/2279/suppl/DC1
+https://genome.cshlp.org/content/suppl/2004/10/18/gr.2896904.DC1/tableA1.pdf
+Table A1- 
+the growth rate class (µ). the optimal doubling time (1/µ).
+```
+Geobacter sulfurreducens PCA
+S 6
+```
 
 ----------
 ## lifestyle
