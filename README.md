@@ -547,8 +547,8 @@ https://genome.cshlp.org/content/suppl/2004/10/18/gr.2896904.DC1/tableA1.pdf
 Table A1- 
 the growth rate class (µ). the optimal doubling time (1/µ).
 ```
-Geobacter sulfurreducens PCA
-S 6
+Geobacter sulfurreducens PCA	S	6
+Shewanella oneidensis MR-1	F	2
 ```
 
 ----------
@@ -1048,6 +1048,12 @@ https://www.era.lib.ed.ac.uk/handle/1842/4893
 Codon usage bias in Archaea
 Emery, Laura R.
 
+https://www.ncbi.nlm.nih.gov/pubmed/20308095
+Philos Trans R Soc Lond B Biol Sci. 2010 Apr 27;365(1544):1203-12. doi: 10.1098/rstb.2009.0305.
+Forces that influence the evolution of codon bias.
+Sharp PM1, Emery LR, Zeng K.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2871821/
+
 https://www.ncbi.nlm.nih.gov/pubmed/17038449
 Mol Biol Evol. 2007 Jan;24(1):10-2. Epub 2006 Oct 12.
 Predicting gene expression level from codon usage bias.
@@ -1057,9 +1063,18 @@ https://www.ncbi.nlm.nih.gov/pubmed/15728743
 Nucleic Acids Res. 2005 Feb 23;33(4):1141-53. Print 2005.
 Variation in the strength of selected codon usage bias among bacteria.
 Sharp PM1, Bailes E, Grocock RJ, Peden JF, Sockett RE.
-These results are consistent with the hypothesis that species exposed to selection for rapid growth have more rRNA operons, more tRNA genes and more strongly selected codon usage bias. For example, Clostridium perfringens, the species with the highest value of S, can have a generation time as short as 7 min.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549432/
 a set of 40 genes expected to be expressed constitutively at very high levels. This set included the genes encoding translation elongation factors Tu (tufA), Ts (tsf) and G (fusA), and 37 of the larger ribosomal proteins (encoded by genes rplA-rplF, rplI-rplT and rpsB-rpsT).
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549432/table/tbl1/
+Table 1
+The 80 bacterial genome sequences analysed
+```
+Species codea	Gene numbersb	GC contentc	Sd	Randome	Nf	Accession nosg	Species
+rRNA	tRNA	ORF	i	ii	iii					
+Gamma proteobacteria
+
+    Sheone	9	100	4630	46	45	37	1.377	(0.313/−0.275)	983	AE014299	Shewenella oneidensis
+```
 
 http://www.g-language.org/data/g-language/lib/G/Seq/Codon.pm
 ```
