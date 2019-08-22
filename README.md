@@ -1,5 +1,5 @@
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2019-06
+Last Update: 2019-08
 
 ----------
 
@@ -47,6 +47,15 @@ Last Update: 2019-06
 
 ----------
 ## featuring
+
+https://twilog.org/copypasteusa/search?word=コドン
+
+review
+https://www.ncbi.nlm.nih.gov/pubmed/26029354
+Comput Struct Biotechnol J. 2015 May 4;13:352-7. doi: 10.1016/j.csbj.2015.04.005. eCollection 2015.
+Homology-independent metrics for comparative genomics.
+Coutinho TJ1, Franco GR1, Lobo FP2.
+In this review we compile several sequence metrics that do not rely on homology inference and can be used to compare nucleotide sequences and extract biologically meaningful information from them. These metrics comprise several compositional parameters calculated from sequence data alone, such as GC content, dinucleotide odds ratio, and several codon bias metrics. 
 
 ----------
 ## book
@@ -160,9 +169,30 @@ Presnyak V1, Alhusaini N1, Chen YH1, Martin S1, Morris N2, Kline N1, Olson S3, W
 
 ### 2019
 
+Posted August 09, 2019.
+https://www.biorxiv.org/content/10.1101/730473v1
+Using Machine Learning and Gene Nonhomology Features to Predict Gene Ontology | 
+Methods
+Composition of the Prediction Variable Dataset
+For protein-coding genes, a codon usage bias score which describes the degree of bias towards the most
+frequently used codons for multiple encoding amino acids in a given species was calculated following the
+method described in (Sharp and Li, 1987) as implemented in the SeqIO module in biopython (v1.72) package
+(Cock et al., 2009).
+
+
+https://twitter.com/Tyu_Shi/status/1116749787569672193
+Tyu_Shi on Twitter: "DeeplyEssential: A Deep Neural Network for Predicting Essential Genes in Microbes https://t.co/GbQ0522csF 配列の特徴のみ（遺伝子のコドン使用頻度や長さ、GC含量、アミノ酸使用頻度等）を特徴量として使っているようだ。でも本当に知りたいのは典型的では無いのに必須な遺伝子なんだよね…。"
+2:07 AM · Apr 13, 2019
+
+
 Published: 10 July 2019
 https://academic.oup.com/gbe/advance-article/doi/10.1093/gbe/evz146/5530595
 Critical Role of Codon Composition on the Translation Efficiency Robustness of the Hepatitis A Virus Capsid | Genome Biology and Evolution | Oxford Academic
+
+Posted June 25, 2019.
+https://www.biorxiv.org/content/10.1101/478016v2
+Hidden patterns of codon usage bias across kingdoms
+
 
 Published: 20 May 2019
 https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msz124/5492082
@@ -221,7 +251,6 @@ https://www.sciencedirect.com/science/article/pii/S0022283619302281
 Codon and Codon-Pair Usage Tables (CoCoPUTs): Facilitating Genetic Variation Analyses and Recombinant Gene Design - ScienceDirect
 
 
-
 https://www.ncbi.nlm.nih.gov/pubmed/30828719
 Nucleic Acids Res. 2019 Mar 4. pii: gkz151. doi: 10.1093/nar/gkz151. [Epub ahead of print]
 Prediction and large-scale analysis of primary operons in plastids reveals unique genetic features in the evolution of chloroplasts.
@@ -242,8 +271,6 @@ The Ramlibacter sp. MAG was part of the monophyletic Ramlibacter clade, and its 
 
 ### 2018
 
-https://www.biorxiv.org/content/early/2018/11/24/478016
-Hidden patterns of codon usage bias across kingdoms | bioRxiv
 
 https://www.ncbi.nlm.nih.gov/pubmed/29726922
 Bioinformatics. 2018 Oct 1;34(19):3396-3398. doi: 10.1093/bioinformatics/bty382.
@@ -267,7 +294,6 @@ Nat Microbiol. 2018 Apr;3(4):470-480. doi: 10.1038/s41564-018-0129-3. Epub 2018 
 Dynamic root exudate chemistry and microbial substrate preferences drive patterns in rhizosphere microbial community assembly.
 Zhalnina K1,2, Louie KB1, Hao Z2, Mansoori N1,3, da Rocha UN2,4, Shi S5, Cho H2,6, Karaoz U2, Loqué D1,3,6,7, Bowen BP1, Firestone MK2,8, Northen TR9, Brodie EL10,11.
 
-
 https://twitter.com/kfuku0502/status/1003768475871875072
 Kenji Fukushima on Twitter: "高発現遺伝子だけでなく低発現遺伝子でもコドン使用頻度は選択を受けているらしい。大腸菌でそういうサイトの同義置換を入れて適応度が下がるケースを発見している。 https://t.co/nFGnUi3m2A"
 6:40 PM - 4 Jun 2018
@@ -275,6 +301,13 @@ https://www.ncbi.nlm.nih.gov/pubmed/29688501
 Genome Biol Evol. 2018 Apr 1;10(5):1237-1246. doi: 10.1093/gbe/evy084.
 The Codon Usage of Lowly Expressed Genes Is Subject to Natural Selection.
 Yannai A1, Katz S1, Hershberg R1.
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/29596640
+Mol Biol Evol. 2018 Jun 1;35(6):1463-1472. doi: 10.1093/molbev/msy047.
+Multiple Factors Confounding Phylogenetic Detection of Selection on Codon Usage.
+Laurin-Lemay S1, Philippe H1,2, Rodrigue N3.
+
 
 高度発現遺伝子群のコドンバイアスが、他の遺伝子群の翻訳に影響する。
 https://www.ncbi.nlm.nih.gov/pubmed/29735666
@@ -312,9 +345,18 @@ BMC Evol Biol. 2015 Aug 19;15:163. doi: 10.1186/s12862-015-0441-y.
 The evolutionary dynamics of tRNA-gene copy number and codon-use in E. coli.
 McDonald MJ1, Chou CH2,3, Swamy KB4, Huang HD5,6, Leu JY7.
 
+### 2014
+
+https://twitter.com/copypasteusa/status/583464468820000769
+遺伝子発現の最適化に利用されてきた特徴：コドンバイアス、連続コドンバイアス、RNA二次構造、リボソーム結合部位、制限部位、隠れ終止コドン、他のモチーフ回避 
+8:02 PM - 1 Apr 2015
+REVIEW
+https://www.ncbi.nlm.nih.gov/pubmed/25340050
+Front Bioeng Biotechnol. 2014 Oct 6;2:41. doi: 10.3389/fbioe.2014.00041. eCollection 2014.
+Computational tools and algorithms for designing customized synthetic genes.
+Gould N1, Hendy O2, Papamichail D1.
+
 ### 2011
-
-
 
 微生物群集内の翻訳効率と遺伝子水平伝播との関連
 https://www.ncbi.nlm.nih.gov/pubmed/21343180
@@ -445,10 +487,23 @@ tRNADB-CE - Integbio データベースカタログ
 https://dbarchive.biosciencedbc.jp/jp/trnadb-ce/data-1.html
 tRNA配列、アノテーション及びキュレーションのデータ - tRNADB-CE | LSDB Archive
 
+https://www.ncbi.nlm.nih.gov/pubmed/29846694
+Mol Biol Evol. 2018 Aug 1;35(8):2046-2059. doi: 10.1093/molbev/msy110.
+Wobbling Forth and Drifting Back: The Evolutionary History and Impact of Bacterial tRNA Modifications.
+Diwan GD1,2, Agashe D1.
+
 https://www.ncbi.nlm.nih.gov/pubmed/24782525
 Nucleic Acids Res. 2014 Jun;42(10):6552-66. doi: 10.1093/nar/gku245. Epub 2014 Apr 29.
 Auxiliary tRNAs: large-scale analysis of tRNA genes reveals patterns of tRNA repertoire dynamics.
 Wald N1, Margalit H2.
+
+https://www.ncbi.nlm.nih.gov/pubmed/18058157
+J Mol Evol. 2008 Jan;66(1):21-35. Epub 2007 Dec 4.
+The origin and evolution of tRNA inferred from phylogenetic analysis of structure.
+Sun FJ1, Caetano-Anollés G.
+
+https://www.researchgate.net/post/Why_is_tRNA_not_used_for_phylogenetic_analysis
+Why is tRNA not used for phylogenetic analysis?
 
 ----------
 ## tRNA gene cluster
@@ -659,10 +714,6 @@ Step 10 - Looking at amino acid and codon usage
 load_genomic_codon_data <- function(codon_filename = paste(getwd(), "/data/codon_usage.txt", 
     sep = "")) {
 
-http://www.lirmm.fr/~rivals/rscu/
-RSCURS: Measuring the bias in codon usage from ribosomal activity 
-Paulet et al. DNA Research 2017
-
 ### coRdon
 
 https://github.com/haruosuz/r4bioinfo/tree/master/R_coRdon
@@ -681,26 +732,23 @@ library(sscu)
 s_index
 ```
 
+https://bioconductor.org/packages/devel/bioc/manuals/sscu/man/sscu.pdf
+August 9, 2019
+
 ----------
 ## methods
 
 ### RSCU
 relative synonymous codon usage
 
-https://www.biorxiv.org/content/early/2018/09/26/421487
-Elucidation of Codon Usage Signatures across the Domains of Life | bioRxiv
 
-https://www.ncbi.nlm.nih.gov/pubmed/29596640
-Mol Biol Evol. 2018 Jun 1;35(6):1463-1472. doi: 10.1093/molbev/msy047.
-Multiple Factors Confounding Phylogenetic Detection of Selection on Codon Usage.
-Laurin-Lemay S1, Philippe H1,2, Rodrigue N3.
+https://www.megasoftware.net/web_help_7/rh_rscu.htm
+Many amino acids are coded by more than one codon; thus multiple codons for a given amino acid are synonymous. However, many genes display a non-random usage of synonymous codons for specific amino acids. A measure of the extent of this non-randomness is given by the Relative Synonymous Codon Usage (RSCU) (Sharp et al. 1986).
 
-review
-https://www.ncbi.nlm.nih.gov/pubmed/26029354
-Comput Struct Biotechnol J. 2015 May 4;13:352-7. doi: 10.1016/j.csbj.2015.04.005. eCollection 2015.
-Homology-independent metrics for comparative genomics.
-Coutinho TJ1, Franco GR1, Lobo FP2.
-In this review we compile several sequence metrics that do not rely on homology inference and can be used to compare nucleotide sequences and extract biologically meaningful information from them. These metrics comprise several compositional parameters calculated from sequence data alone, such as GC content, dinucleotide odds ratio, and several codon bias metrics. 
+http://www.lirmm.fr/~rivals/rscu/
+RSCURS: Measuring the bias in codon usage from ribosomal activity 
+Paulet et al. DNA Research 2017
+
 
 ### WCA
 within-group correspondence analysis (WCA) of codon usage
@@ -1089,6 +1137,12 @@ https://www.ncbi.nlm.nih.gov/pubmed/3118331
 Nucleic Acids Res. 1987 Oct 12;15(19):8023-40.
 Synonymous codon usage in Bacillus subtilis reflects both translational selection and mutational biases.
 Shields DC1, Sharp PM.
+
+https://www.ncbi.nlm.nih.gov/pubmed/3526280
+Nucleic Acids Res. 1986 Jul 11;14(13):5125-43.
+Codon usage in yeast: cluster analysis clearly differentiates highly and lowly expressed genes.
+Sharp PM, Tuohy TM, Mosurski KR.
+Cluster analysis on relative synonymous codon usage revealed two distinct groups of genes. 
 
 ### Suzuki
 
