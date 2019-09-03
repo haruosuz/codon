@@ -481,6 +481,10 @@ plasmid.
 http://trna.ie.niigata-u.ac.jp/cgi-bin/trnadb/index.cgi
 Home | tRNADB-CE : tRNA gene database curated manually by experts
 
+Details of annotation strategy written in Japanese (click here).
+https://www.jstage.jst.go.jp/article/cicsj/26/1/26_1_11/_pdf
+Silicibacter pomeroyi DSS-3 のゲノムからは51個の tRNA遺伝子が見出されていたが、フェニルアラニンのアンチコドンをもった遺伝子が不足していた。ゲノムのデータを調べてみると、この菌はプラスミドを保有しており、不足分のフェニルアラニン tRNA 遺伝子はそのプラスミド上に乗っていることが解かった。宿主ゲノムからプラスミドにその tRNA 遺伝子が移行した可能性は充分考えられる。この菌ではそのプラスミドを失う事は出来ず、tRNA 遺伝子がプラスミドの安定な保持に働いていると考えられる。
+
 https://integbio.jp/dbcatalog/record/nbdc00720
 tRNADB-CE - Integbio データベースカタログ
 
