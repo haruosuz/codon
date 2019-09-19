@@ -43,12 +43,25 @@ Last Update: 2019-08
   - [R](#r)
 - [methods](#methods)
   - [RSCU](#rscu)
-- [nucleotide composition](#nucleotide composition) 塩基組成、GC含量
 
 ----------
 ## featuring
 
+https://www.biophys.jp/dl/journal/53-1.pdf
+生物物理 53（1），015-019（2013）
+交通流と翻訳過程
+御手洗菜美子　コペンハーゲン大学ニールス・ボーア研究所
+
 https://twilog.org/copypasteusa/search?word=コドン
+
+
+review
+https://www.ncbi.nlm.nih.gov/pubmed/26951112
+Microbiome. 2016 Mar 8;4:8. doi: 10.1186/s40168-016-0154-5.
+Recovering complete and draft population genomes from metagenome datasets.
+Sangwan N1,2, Xia F3, Gilbert JA4,5,6,7.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4782286/
+However, another framework for analysis relies on variation in codon bias to determine the genome-wide influence of in situ functional constraints on individual taxa. Since percentage codon bias variation analysis is a phylogenetically independent method that directly reflects the strength of selection and the translation efficiency of expressed genes [77, 78], it circumvents the need for reference genomes and can reveal the influence of in situ functional constraints over natural selection patterns. It is important to note that for complete genome sequences, codon use patterns are influenced by nucleotide composition (mutational biases) and horizontal gene transfer. However, because each gene in a reassembled genome represents the population with an even nucleotide composition, one can assume that these clonal isolate-based limitations will not skew codon usage.
 
 review
 https://www.ncbi.nlm.nih.gov/pubmed/26029354
@@ -56,6 +69,15 @@ Comput Struct Biotechnol J. 2015 May 4;13:352-7. doi: 10.1016/j.csbj.2015.04.005
 Homology-independent metrics for comparative genomics.
 Coutinho TJ1, Franco GR1, Lobo FP2.
 In this review we compile several sequence metrics that do not rely on homology inference and can be used to compare nucleotide sequences and extract biologically meaningful information from them. These metrics comprise several compositional parameters calculated from sequence data alone, such as GC content, dinucleotide odds ratio, and several codon bias metrics. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/25680374
+Acta Biochim Pol. 2015;62(1):161-6. Epub 2015 Feb 13.
+The most widespread problems in the function-based microbial metagenomics.
+Felczykowska A1, Krajewska A1, Zielińska S1, Łoś JM1, Bloch SK1, Nejman-Faleńczyk B1.
+ Codon usage bias, internal cell accumulation, correct protein folding or presence of proper initiation factors are discussed and possible ways to overcome these problems are proposed. 
+http://www.actabp.pl/pdf/1_2015/2014_917.pdf
+
+
 
 ----------
 ## book
@@ -122,45 +144,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/11719972
 Curr Issues Mol Biol. 2001 Oct;3(4):91-7.
 Synonymous codon usage in bacteria.
 Ermolaeva MD1.
-
-----------
-### Supek
-
-https://www.ncbi.nlm.nih.gov/pubmed/27915291
-Nucleic Acids Res. 2016 Dec 1;44(21):10074-10090. Epub 2016 Oct 24.
-The landscape of microbial phenotypic traits and associated genes.
-Brbić M1, Piškorec M1, Vidulin V1, Kriško A2, Šmuc T1, Supek F3,4,5.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5137458/
-- INTRODUCTION
-Statistical associations of genes to phenotypes can implicate certain proteins or pathways, providing insight into the mechanistic basis of phenotypic traits (3,4), as demonstrated for adaptation to stress (5,6), host-association (7,8), pathogenesis (9,10), drug resistance (11,12) and relevance to biotechnological applications (13,14).
-- RESULTS
-Systematic inference of phenotypes from codon adaptation
-Such genomic signatures of translation efficiency within certain gene families have been used to infer the adaptive value of individual genes to various environmental niches (6) and we thus hypothesized that the overall pattern of codon adaptation across many genes of an organism can predict its phenotype (Materials and Methods).
-- DISCUSSION
-Further generalizing this well-known gene content-based methodology, our work demonstrates how other comparative genomics approaches normally used to predict gene function—here, synteny patterns (58,59) and codon adaptation (6,70)—can be efficiently repurposed into phenotype predictors. 
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/26538122
-J Mol Evol. 2016 Jan;82(1):65-73. doi: 10.1007/s00239-015-9714-8. Epub 2015 Nov 4.
-The Code of Silence: Widespread Associations Between Synonymous Codon Biases and Gene Function.
-Supek F1,2,3.
-
-コドン適応の変化は（過酸化水素、熱、高塩分）ストレス耐性を増強する。好気性菌で複数遺伝子のコドン適応（翻訳効率）変化が、鉄とNAD(P)Hの量を調節し、酸化ストレス耐性を付与する証拠
-https://www.ncbi.nlm.nih.gov/pubmed/24580753
-Genome Biol. 2014 Mar 3;15(3):R44. doi: 10.1186/gb-2014-15-3-r44.
-Inferring gene function from evolutionary change in signatures of translation efficiency.
-Krisko A, Copic T, Gabaldón T, Lehner B, Supek F.
-
-https://www.ncbi.nlm.nih.gov/pubmed/26451481
-Cell. 2015 Oct 8;163(2):292-300. doi: 10.1016/j.cell.2015.09.041.
-Pausing on Polyribosomes: Make Way for Elongation in Translational Control.
-Richter JD1, Coller J2.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4600128/
-
-https://www.ncbi.nlm.nih.gov/pubmed/25768907
-Cell. 2015 Mar 12;160(6):1111-24. doi: 10.1016/j.cell.2015.02.029.
-Codon optimality is a major determinant of mRNA stability.
-Presnyak V1, Alhusaini N1, Chen YH1, Martin S1, Morris N2, Kline N1, Olson S3, Weinberg D4, Baker KE1, Graveley BR3, Coller J5.
 
 
 ----------
@@ -1116,7 +1099,10 @@ Nucleic Acids Res. 2005 Feb 23;33(4):1141-53. Print 2005.
 Variation in the strength of selected codon usage bias among bacteria.
 Sharp PM1, Bailes E, Grocock RJ, Peden JF, Sockett RE.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549432/
-a set of 40 genes expected to be expressed constitutively at very high levels. This set included the genes encoding translation elongation factors Tu (tufA), Ts (tsf) and G (fusA), and 37 of the larger ribosomal proteins (encoded by genes rplA-rplF, rplI-rplT and rpsB-rpsT).
+- a set of 40 genes expected to be expressed constitutively at very high levels. This set included the genes encoding translation elongation factors Tu (tufA), Ts (tsf) and G (fusA), and 37 of the larger ribosomal proteins (encoded by genes rplA-rplF, rplI-rplT and rpsB-rpsT).
+- Inter-specific variation in bacterial growth rate appears to be positively correlated with the number of rRNA operons (42).
+- Information regarding the growth rate of bacteria in the wild is sparse, and so we have used the number of rRNA operons as a (very approximate) guide to the growth rate of species. Remarkably, C.perfringens, the species with the highest S-value (2.65) and 10 rRNA operons, can grow with a generation time under 7 min in specific laboratory conditions (55).
+
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549432/table/tbl1/
 Table 1
 The 80 bacterial genome sequences analysed
@@ -1148,13 +1134,60 @@ Codon usage in yeast: cluster analysis clearly differentiates highly and lowly e
 Sharp PM, Tuohy TM, Mosurski KR.
 Cluster analysis on relative synonymous codon usage revealed two distinct groups of genes. 
 
+----------
+### Supek
+
+https://www.ncbi.nlm.nih.gov/pubmed/27915291
+Nucleic Acids Res. 2016 Dec 1;44(21):10074-10090. Epub 2016 Oct 24.
+The landscape of microbial phenotypic traits and associated genes.
+Brbić M1, Piškorec M1, Vidulin V1, Kriško A2, Šmuc T1, Supek F3,4,5.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5137458/
+- INTRODUCTION
+Statistical associations of genes to phenotypes can implicate certain proteins or pathways, providing insight into the mechanistic basis of phenotypic traits (3,4), as demonstrated for adaptation to stress (5,6), host-association (7,8), pathogenesis (9,10), drug resistance (11,12) and relevance to biotechnological applications (13,14).
+- RESULTS
+Systematic inference of phenotypes from codon adaptation
+Such genomic signatures of translation efficiency within certain gene families have been used to infer the adaptive value of individual genes to various environmental niches (6) and we thus hypothesized that the overall pattern of codon adaptation across many genes of an organism can predict its phenotype (Materials and Methods).
+- DISCUSSION
+Further generalizing this well-known gene content-based methodology, our work demonstrates how other comparative genomics approaches normally used to predict gene function—here, synteny patterns (58,59) and codon adaptation (6,70)—can be efficiently repurposed into phenotype predictors. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/26538122
+J Mol Evol. 2016 Jan;82(1):65-73. doi: 10.1007/s00239-015-9714-8. Epub 2015 Nov 4.
+The Code of Silence: Widespread Associations Between Synonymous Codon Biases and Gene Function.
+Supek F1,2,3.
+
+コドン適応の変化は（過酸化水素、熱、高塩分）ストレス耐性を増強する。好気性菌で複数遺伝子のコドン適応（翻訳効率）変化が、鉄とNAD(P)Hの量を調節し、酸化ストレス耐性を付与する証拠
+https://www.ncbi.nlm.nih.gov/pubmed/24580753
+Genome Biol. 2014 Mar 3;15(3):R44. doi: 10.1186/gb-2014-15-3-r44.
+Inferring gene function from evolutionary change in signatures of translation efficiency.
+Krisko A, Copic T, Gabaldón T, Lehner B, Supek F.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4054840/
+
+https://www.ncbi.nlm.nih.gov/pubmed/26451481
+Cell. 2015 Oct 8;163(2):292-300. doi: 10.1016/j.cell.2015.09.041.
+Pausing on Polyribosomes: Make Way for Elongation in Translational Control.
+Richter JD1, Coller J2.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4600128/
+
+https://www.ncbi.nlm.nih.gov/pubmed/25768907
+Cell. 2015 Mar 12;160(6):1111-24. doi: 10.1016/j.cell.2015.02.029.
+Codon optimality is a major determinant of mRNA stability.
+Presnyak V1, Alhusaini N1, Chen YH1, Martin S1, Morris N2, Kline N1, Olson S3, Weinberg D4, Baker KE1, Graveley BR3, Coller J5.
+
 ### Suzuki
+
+人工環境で同定された細菌のゲノムの特徴（ゲノムサイズ、GC含量、DNA複製鎖間の非対称度、コドン使用バイアス）
+https://www.ncbi.nlm.nih.gov/pubmed/30691394
+BMC Genomics. 2019 Jan 28;20(1):92. doi: 10.1186/s12864-018-5389-z.
+Comparative genomics of Bacteria commonly identified in the built environment.
+Merino N1,2, Zhang S3,4, Tomita M5,6, Suzuki H7,8.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6350394/
 
 葉緑体のコドン適応
 http://www.ncbi.nlm.nih.gov/pubmed/27196606
 PLoS One. 2016 May 19;11(5):e0154306.
 Codon Adaptation of Plastid Genes.
 Suzuki H, Morton BR.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4873144/
 
 ミドリゾウリムシのトランスクリプトーム（RNA-seq）データを用いて、クロレラ共生下で発現低下した遺伝子群では発現量とアミノ酸・同義コドン使用との間の相関が高いこと（ミドリゾウリムシとクロレラの共生に関わる自然選択？）を明らかにした。
 http://www.ncbi.nlm.nih.gov/pubmed/26341535
