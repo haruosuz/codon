@@ -309,7 +309,21 @@ DNA Res. 2017 Dec 1;24(6):623-633. doi: 10.1093/dnares/dsx030.
 Co-adaption of tRNA gene copy number and amino acid usage influences translation rates in three life domains.
 Du MZ1, Wei W1, Qin L1, Liu S1, Zhang AY1,2, Zhang Y1,2, Zhou H1,2, Guo FB1,2,3.
 
-
+https://www.ncbi.nlm.nih.gov/pubmed/27540085
+Genome Biol Evol. 2017 Oct 1;9(10):2560-2579. doi: 10.1093/gbe/evw201.
+Switches in Genomic GC Content Drive Shifts of Optimal Codons under Sustained Selection on Synonymous Sites.
+Sun Y1, Tamarit D1, Andersson SGE1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5629928/
+- Materials and Methods
+- The strength of selected codon usage bias was estimated from the S index, which is used as a proxy for translational selection on individual genomes (Sharp et
+al. 2005, 2010). 
+- Results
+Switches in GC Content in Lactobacillus and Bifidobacterium Species
+- fig. 2.—
+Phylogenetic relationships and genome features of Lactobacillus species.
+A schematic figure illustrates the variation in GC contents, selective constraints (S-value), genome sizes and number of tRNAs in the species selected for an in-depth analysis.
+- In order to quantify the relative strength of selection, we calculated the S indexes for the genomes in this study (supplementary table S2, Supplementary Material online). The S index is inferred from the relative use of C-ending codons for Asn, Ile, Phe, Tyr (Sharp et
+al. 2005), 
 
 ### 2016
 
@@ -468,6 +482,13 @@ Details of annotation strategy written in Japanese (click here).
 https://www.jstage.jst.go.jp/article/cicsj/26/1/26_1_11/_pdf
 Silicibacter pomeroyi DSS-3 のゲノムからは51個の tRNA遺伝子が見出されていたが、フェニルアラニンのアンチコドンをもった遺伝子が不足していた。ゲノムのデータを調べてみると、この菌はプラスミドを保有しており、不足分のフェニルアラニン tRNA 遺伝子はそのプラスミド上に乗っていることが解かった。宿主ゲノムからプラスミドにその tRNA 遺伝子が移行した可能性は充分考えられる。この菌ではそのプラスミドを失う事は出来ず、tRNA 遺伝子がプラスミドの安定な保持に働いていると考えられる。
 
+生物種リストから
+http://trna.ie.niigata-u.ac.jp/cgi-bin/trnadb/whole_spe_list_inc.cgi?STYPE=B&DTYPE=CMP
+```
+Geobacter bemidjiensis Bem	tRNA seq.|Anticodon
+Shewanella oneidensis MR-1	tRNA seq.|Anticodon
+```
+
 https://integbio.jp/dbcatalog/record/nbdc00720
 tRNADB-CE - Integbio データベースカタログ
 
@@ -583,6 +604,9 @@ Codon usage bias from tRNA's point of view: redundancy, specialization, and effi
 Rocha EP1.
 - We show that as minimal generation times get shorter, the genomes contain more tRNA genes, but fewer anticodon species. 
 - It also provides new evidence that a selective force for the optimization of the translation machinery is the maximization of growth.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC525687/
+- Genome and tRNA data
+One hundred and two genomes, corresponding to 102 bacterial species, were retrieved from GenBank (see Supplemental Table 1 for a comprehensive listing). Minimal generation times were taken from the literature or obtained by personal communication with researchers in the field. 
 https://genome.cshlp.org/content/14/11/2279.long
 https://genome.cshlp.org/content/14/11/2279/suppl/DC1
 https://genome.cshlp.org/content/suppl/2004/10/18/gr.2896904.DC1/tableA1.pdf
@@ -1046,6 +1070,9 @@ https://www.ncbi.nlm.nih.gov/pubmed/23288542
 Microbiology. 2013 Mar;159(Pt 3):555-64.
 Evolution of optimal codon choices in the family Enterobacteriaceae.
 Iriarte A1, Baraibar JD, Romero H, Castro-Sowinski S, Musto H.
+https://www.microbiologyresearch.org/content/journal/micro/10.1099/mic.0.061952-0#tab2
+- These results were confirmed by means of the estimation of the strength of selection on CU as developed by Sharp et al. (2005).
+- Within-group correspondence analysis (WCA) (Charif et al., 2005; Suzuki et al., 2008) was calculated as implemented in the ADE4 package of R (Thioulouse et al., 1997).
 
 https://www.ncbi.nlm.nih.gov/pubmed/10773076
 Nucleic Acids Res. 2000 May 15;28(10):2084-90.
@@ -1093,6 +1120,12 @@ https://www.ncbi.nlm.nih.gov/pubmed/17038449
 Mol Biol Evol. 2007 Jan;24(1):10-2. Epub 2006 Oct 12.
 Predicting gene expression level from codon usage bias.
 Henry I, Sharp PM.
+https://academic.oup.com/mbe/article/24/1/10/1070854
+- We outline a simple approach, first to check whether a genome shows evidence of selected codon usage bias and then to assess the strength of bias in genes as a guide to their likely expression level; we illustrate this with an analysis of Shewanella oneidensis.
+- As an example, we have analyzed Shewanella oneidensis, a member of the gamma proteobacteria (Heidelberg et al. 2002). Eighteen codons, for 15 amino acids, occur at significantly higher frequencies in highly expressed genes than in the genome as a whole (see Supplementary Material online).
+
+
+
 
 https://www.ncbi.nlm.nih.gov/pubmed/15728743
 Nucleic Acids Res. 2005 Feb 23;33(4):1141-53. Print 2005.
@@ -1174,6 +1207,12 @@ Codon optimality is a major determinant of mRNA stability.
 Presnyak V1, Alhusaini N1, Chen YH1, Martin S1, Morris N2, Kline N1, Olson S3, Weinberg D4, Baker KE1, Graveley BR3, Coller J5.
 
 ### Suzuki
+
+- https://github.com/haruosuz/DS4GD/blob/master/2019/CaseStudy.md#codon-usage
+- https://github.com/haruosuz/DS4GD/blob/master/2018giga/CaseStudy.md#codon-usage
+- https://github.com/haruosuz/DS4GD/blob/master/2018/CaseStudy.md#codon-usage
+- http://www.g-language.org/wiki/restgenomeanalysisjapanese
+- http://www.g-language.org/wiki/restgenomeanalysisjapanese#コドン使用の解析
 
 人工環境で同定された細菌のゲノムの特徴（ゲノムサイズ、GC含量、DNA複製鎖間の非対称度、コドン使用バイアス）
 https://www.ncbi.nlm.nih.gov/pubmed/30691394
@@ -1282,27 +1321,36 @@ http://www.genscript.jp/high-throughput-gene-synthesis.html
 ----------
 ## japanese
 
-2010-08-25
-http://d.hatena.ne.jp/morimori-08/20100825/1282745255
-コドンバイアスはタンパク質のフォールディングのエラーを少なくする
-
-浜島聖文 著 - ‎2014
-http://www.jbsoc.or.jp/seika/wp-content/uploads/2015/03/86-04-10.pdf
-普遍遺伝暗号表に従わない tRNA
-
-1997
-https://biosciencedbc.jp/dbsearch/Literature/get_pne_cgpdf.php?year=1997&number=4211&file=vWOeOeoYPLUSEIm3gH2/elVEg==
-多義語コドンの発見
-
-https://biowiki.edu-wiki.org/コドン表
-コドン表 [BioWiki]
-
 https://www.nig.ac.jp/museum/evolution/04.html
 遺伝暗号(コドン）使用の種による多様性
+
+2.単細胞微生物のコドン選択の生物種による方言;
+　 大腸菌とサルモネラ菌ならびに酵母遺伝子に見られるコドン選択の偏りを例に
+
+３．コドン使用とtRNA量との関係、遺伝子工学との係り
+タンパク質生産量の高い遺伝子ほどコドン選択の方言がきつく、生産量が下がるにつれて、同質の方言を用いながらも、方言の程度が緩くなることを指摘しました。
+
+４．コドン使用とゲノム解析との係り
+単細胞微生物の場合、各遺伝子のコドン使用パターンが、そのタンパク質の細胞内存在量、すなわち生産量と関係しています。各遺伝子がどの程度にtRNA量に適合した同義コドンを使用しているのかを定量化することで、タンパク質生産量を推定することが可能になっています(11-16,20,21)。タンパク質の細胞内における存在量は、その機能を推定する上で重要な知見であり、ゲノム解析においてこの面でも重要な貢献が期待できます。
+
+https://bio.edu-wiki.org/コドン表
+
+浜島 聖文，金井 昭夫 著 - ‎2014
+http://www.jbsoc.or.jp/seika/wp-content/uploads/2015/03/86-04-10.pdf
+普遍遺伝暗号表に従わない tRNA
 
 https://twitter.com/yuifu/status/210003682958389252
 Haruka Ozaki on Twitter: "バイオインフォだけでCell（実験はtRNAマイクロアレイだけ）．真核生物，真正細菌，古細菌の500種のゲノムでtRNA遺伝子の数とコドン使用頻度の相関を確認．tRNA修飾酵素によるペア拡大を考慮したのが新規？ http://t.co/fialW5zx #Everydayペーパー"
 9:42 AM - 5 Jun 2012
+
+2010-08-25
+http://d.hatena.ne.jp/morimori-08/20100825/1282745255
+コドンバイアスはタンパク質のフォールディングのエラーを少なくする
+
+蛋白質核酸酵素 42(11), 1815-1827, 1997-08
+https://ci.nii.ac.jp/naid/40002328271/
+多義語コドンの発見--複数のアミノ酸と結合するファジ-なtRNA
+
 
 ----------
 ## unclassified
