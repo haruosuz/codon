@@ -47,6 +47,19 @@ Last Update: 2019-08
 ----------
 ## featuring
 
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/12952536
+Genome Biol. 2003;4(9):R57. Epub 2003 Aug 21.
+The source of laterally transferred genes in bacterial genomes.
+Daubin V1, Lerat E, Perrière G.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC193657/
+The codon usage of LTGs: comparison with native genes
+We computed four independent factorial correspondence analyses (FCA) on the genes of each type (native and transferred genes, IS, and phages) for the four species E. coli O157:H7, Helicobacter pylori, Salmonella enterica, and Streptococcus pneumoniae.
+Figure 4
+Intraspecies FCA.
+
+
 https://www.biophys.jp/dl/journal/53-1.pdf
 生物物理 53（1），015-019（2013）
 交通流と翻訳過程
@@ -177,11 +190,6 @@ https://www.biorxiv.org/content/10.1101/478016v2
 Hidden patterns of codon usage bias across kingdoms
 
 
-Published: 20 May 2019
-https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msz124/5492082
-Elucidation of Codon Usage Signatures across the Domains of Life | Molecular Biology and Evolution | Oxford Academic
-
-
 6 Jun 2019
 https://twitter.com/ytksai/status/1136571651133329408
 放線菌のコドン最適化に関する研究がScientific Reportsに採択されました。産総研の人工知能研究センターと生物プロセス研究部門の共同研究です。https://www.nature.com/articles/s41598-019-44500-z … プレスリリースを出しました。https://www.aist.go.jp/aist_j/press_release/pr2019/pr20190606/pr20190606.html 
@@ -196,12 +204,11 @@ https://www.ncbi.nlm.nih.gov/pubmed/31138741
 MBio. 2019 May 28;10(3). pii: e00505-19. doi: 10.1128/mBio.00505-19.
 Codon Usage Heterogeneity in the Multipartite Prokaryote Genome: Selection-Based Coding Bias Associated with Gene Location, Expression Level, and Ancestry.
 López JL1, Lozano MJ1, Lagares A Jr2,3, Fabre ML1, Draghi WO1, Del Papa MF1, Pistorio M1, Becker A3, Wibberg D4, Schlüter A4, Pühler A4, Blom J5, Goesmann A5, Lagares A6.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6538778/
 - Sinorhizobium meliloti, which harbors a chromosome, a chromid (pSymB), a megaplasmid (pSymA), and, in many strains, one or more accessory plasmids.
 - modal codon usages
 
-https://twitter.com/EvaMariaNovoa/status/1130910439817252864
-Eva Maria Novoa on Twitter: "Our paper is out! :-) Codon usage signatures across species are not just consequence of GC content - and these biases can be used for metagenomic binning! #codonusage #metagenome @manoliskellis https://t.co/fKZNIcWIll"
-2:57 PM - 21 May 2019
+
 
 https://twitter.com/search?q=大腸菌%20コドン
 
@@ -851,6 +858,21 @@ Lucks JB1, Nelson DR, Kudla GR, Plotkin JB.
 ----------
 ## metagenome
 
+https://twitter.com/EvaMariaNovoa/status/1130910439817252864
+Eva Maria Novoa on Twitter: "Our paper is out! :-) Codon usage signatures across species are not just consequence of GC content - and these biases can be used for metagenomic binning! #codonusage #metagenome @manoliskellis https://t.co/fKZNIcWIll"
+2:57 PM - 21 May 2019
+https://www.ncbi.nlm.nih.gov/pubmed/31220870
+Mol Biol Evol. 2019 Oct 1;36(10):2328-2339. doi: 10.1093/molbev/msz124.
+Elucidation of Codon Usage Signatures across the Domains of Life.
+Novoa EM1,2,3,4, Jungreis I1,2, Jaillon O1,2,5, Kellis M1,2.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6759073/
+
+2019-05-02
+Anamaria Elek
+https://www.bioconductor.org/packages/devel/bioc/vignettes/coRdon/inst/doc/coRdon.html
+Codon usage (CU) analysis in R
+- This approach can be efficiently used to predict highly expressed genes in a single genome, but is especially useful at the higher level of an entire metagenome.
+
 https://www.ncbi.nlm.nih.gov/pubmed/29947757
 Bioinformatics. 2018 Jun 27. doi: 10.1093/bioinformatics/bty519. [Epub ahead of print]
 BMC3C: Binning Metagenomic Contigs using Codon usage, sequence Composition and read Coverage.
@@ -860,6 +882,11 @@ https://www.ncbi.nlm.nih.gov/pubmed/29742107
 PLoS One. 2018 May 9;13(5):e0195869. doi: 10.1371/journal.pone.0195869. eCollection 2018.
 Codon usage bias reveals genomic adaptations to environmental conditions in an acidophilic consortium.
 Hart A1, Cortés MP2,3, Latorre M2,3,4,5, Martinez S6.
+
+https://www.ncbi.nlm.nih.gov/pubmed/27115650
+Methods Mol Biol. 2016;1415:509-31. doi: 10.1007/978-1-4939-3572-7_26.
+Big Data, Evolution, and Metagenomes: Predicting Disease from Gut Microbiota Codon Usage Profiles.
+Fabijanić M1, Vlahoviček K2.
 
 https://phylogenomics.blogspot.jp/2013/08/great-use-of-metagenomic-data-community.html
 August 09, 2013
