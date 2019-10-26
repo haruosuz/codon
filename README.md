@@ -1,5 +1,5 @@
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2019-08
+Last Update: 2019-10
 
 ----------
 
@@ -45,125 +45,27 @@ Last Update: 2019-08
   - [RSCU](#rscu)
 
 ----------
-## featuring
-
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/12952536
-Genome Biol. 2003;4(9):R57. Epub 2003 Aug 21.
-The source of laterally transferred genes in bacterial genomes.
-Daubin V1, Lerat E, Perrière G.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC193657/
-The codon usage of LTGs: comparison with native genes
-We computed four independent factorial correspondence analyses (FCA) on the genes of each type (native and transferred genes, IS, and phages) for the four species E. coli O157:H7, Helicobacter pylori, Salmonella enterica, and Streptococcus pneumoniae.
-Figure 4
-Intraspecies FCA.
-
-
-https://www.biophys.jp/dl/journal/53-1.pdf
-生物物理 53（1），015-019（2013）
-交通流と翻訳過程
-御手洗菜美子　コペンハーゲン大学ニールス・ボーア研究所
-
-https://twilog.org/copypasteusa/search?word=コドン
-
-
-review
-https://www.ncbi.nlm.nih.gov/pubmed/26951112
-Microbiome. 2016 Mar 8;4:8. doi: 10.1186/s40168-016-0154-5.
-Recovering complete and draft population genomes from metagenome datasets.
-Sangwan N1,2, Xia F3, Gilbert JA4,5,6,7.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4782286/
-However, another framework for analysis relies on variation in codon bias to determine the genome-wide influence of in situ functional constraints on individual taxa. Since percentage codon bias variation analysis is a phylogenetically independent method that directly reflects the strength of selection and the translation efficiency of expressed genes [77, 78], it circumvents the need for reference genomes and can reveal the influence of in situ functional constraints over natural selection patterns. It is important to note that for complete genome sequences, codon use patterns are influenced by nucleotide composition (mutational biases) and horizontal gene transfer. However, because each gene in a reassembled genome represents the population with an even nucleotide composition, one can assume that these clonal isolate-based limitations will not skew codon usage.
-
-review
-https://www.ncbi.nlm.nih.gov/pubmed/26029354
-Comput Struct Biotechnol J. 2015 May 4;13:352-7. doi: 10.1016/j.csbj.2015.04.005. eCollection 2015.
-Homology-independent metrics for comparative genomics.
-Coutinho TJ1, Franco GR1, Lobo FP2.
-In this review we compile several sequence metrics that do not rely on homology inference and can be used to compare nucleotide sequences and extract biologically meaningful information from them. These metrics comprise several compositional parameters calculated from sequence data alone, such as GC content, dinucleotide odds ratio, and several codon bias metrics. 
-
-https://www.ncbi.nlm.nih.gov/pubmed/25680374
-Acta Biochim Pol. 2015;62(1):161-6. Epub 2015 Feb 13.
-The most widespread problems in the function-based microbial metagenomics.
-Felczykowska A1, Krajewska A1, Zielińska S1, Łoś JM1, Bloch SK1, Nejman-Faleńczyk B1.
- Codon usage bias, internal cell accumulation, correct protein folding or presence of proper initiation factors are discussed and possible ways to overcome these problems are proposed. 
-http://www.actabp.pl/pdf/1_2015/2014_917.pdf
-
-
-
-----------
-## book
-本
-
-### 2018-11-21
-![](https://ars.els-cdn.com/content/image/3-s2.0-C20180021659-cov200h.gif)
-
-Multivariate Analyses of Codon Usage Biases - 1st Edition
-https://www.sciencedirect.com/book/9781785482960/multivariate-analyses-of-codon-usage-biases
-https://www.elsevier.com/books/multivariate-analyses-of-codon-usage-biases/lobry/978-1-78548-296-0
-http://www.iste.co.uk/book.php?id=1403
-
-### 2012-02-23
-
-![](https://global.oup.com/academic/covers/uk/pdp/9780199601165)
-
-http://www.oxfordscholarship.com/view/10.1093/acprof:osobl/9780199601165.001.0001/acprof-9780199601165
-Codon Evolution: Mechanisms and Models - Oxford Scholarship
-http://wp.biota.utoronto.ca/chang/files/2016/02/Chang-et-al-Codon-Evolution-Chapter11.pdf
-
-----------
-## video
-
-https://www.youtube.com/watch?v=P-fjZPf3Dnw
-Codon optimization: Why & how to design DNA sequences for optimal soluble protein expression - YouTube
-Published on Nov 3, 2014
-
-----------
-## review
-
-https://www.ncbi.nlm.nih.gov/pubmed/29018283
-Nat Rev Mol Cell Biol. 2017 Oct 11.
-Codon optimality, bias and usage in translation and mRNA decay.
-Hanson G1, Coller J1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/26186290
-Mol Cell. 2015 Jul 16;59(2):149-61. doi: 10.1016/j.molcel.2015.05.035.
-Codon Bias as a Means to Fine-Tune Gene Expression.
-Quax TE1, Claassens NJ2, Söll D3, van der Oost J4.
-
-https://www.ncbi.nlm.nih.gov/pubmed/22889422
-Biol Rev Camb Philos Soc. 2013 Feb;88(1):49-61. doi: 10.1111/j.1469-185X.2012.00242.x. Epub 2012 Aug 14.
-Codon usage bias: causative factors, quantification methods and genome-wide patterns: with emphasis on insect genomes.
-Behura SK1, Severson DW.
-
-https://www.ncbi.nlm.nih.gov/pubmed/22921354
-Trends Genet. 2012 Nov;28(11):574-81. doi: 10.1016/j.tig.2012.07.006. Epub 2012 Aug 23.
-Speeding with control: codon usage, tRNAs, and ribosomes.
-Novoa EM1, Ribas de Pouplana L.
-
-http://www.ncbi.nlm.nih.gov/pubmed/21102527
-Nat Rev Genet. 2011 Jan;12(1):32-42. doi: 10.1038/nrg2899. Epub 2010 Nov 23.
-Synonymous but not the same: the causes and consequences of codon bias.
-Plotkin JB1, Kudla G.
-http://mathbio.sas.upenn.edu/Papers/Plotkin_Kudla_NatRevGenetics_2011.pdf
-
-https://www.ncbi.nlm.nih.gov/pubmed/18983258
-Annu Rev Genet. 2008;42:287-99. doi: 10.1146/annurev.genet.42.110807.091442.
-Selection on codon bias.
-Hershberg R1, Petrov DA.
-
-https://www.ncbi.nlm.nih.gov/pubmed/11719972
-Curr Issues Mol Biol. 2001 Oct;3(4):91-7.
-Synonymous codon usage in bacteria.
-Ermolaeva MD1.
-
-
-----------
 
 ## updates
 
 ### 2019
+
+https://twitter.com/LiatShenhav/status/1187818150970085376
+Liat Shenhav on Twitter: "We uncover a strong purifying selective pressure across marine microbial life that is driven by resource conservation, and also demonstrate that it is a central driving force in selection processes guiding codon usage. https://t.co/S4P6DXNi03" / Twitter
+4:48 AM · Oct 26, 2019
+https://www.biorxiv.org/content/10.1101/790345v2
+Resource conservation manifests in the genetic code | bioRxiv
+ KEGG and eggNOG orthologies
+
+https://twitter.com/astrogenomics/status/1186949418294996992
+Juan C. Villada on Twitter: "Our new pre-print is up! We explored how codon usage may be associated with hydrogen bonding in dsDNA. We found signals of a ramp that smoothly increases the number of hydrogen bonds per codon position. https://t.co/K3Ouu2unkj" / Twitter
+7:16 PM · Oct 23, 2019
+
+
+Posted September 30, 2019.
+https://www.biorxiv.org/content/10.1101/786939v1
+Benchmarking metagenomic marine microbial growth prediction from codon usage bias and peak-to-trough ratios | bioRxiv
+
 
 Posted August 09, 2019.
 https://www.biorxiv.org/content/10.1101/730473v1
@@ -174,7 +76,6 @@ For protein-coding genes, a codon usage bias score which describes the degree of
 frequently used codons for multiple encoding amino acids in a given species was calculated following the
 method described in (Sharp and Li, 1987) as implemented in the SeqIO module in biopython (v1.72) package
 (Cock et al., 2009).
-
 
 https://twitter.com/Tyu_Shi/status/1116749787569672193
 Tyu_Shi on Twitter: "DeeplyEssential: A Deep Neural Network for Predicting Essential Genes in Microbes https://t.co/GbQ0522csF 配列の特徴のみ（遺伝子のコドン使用頻度や長さ、GC含量、アミノ酸使用頻度等）を特徴量として使っているようだ。でも本当に知りたいのは典型的では無いのに必須な遺伝子なんだよね…。"
@@ -188,7 +89,6 @@ Critical Role of Codon Composition on the Translation Efficiency Robustness of t
 Posted June 25, 2019.
 https://www.biorxiv.org/content/10.1101/478016v2
 Hidden patterns of codon usage bias across kingdoms
-
 
 6 Jun 2019
 https://twitter.com/ytksai/status/1136571651133329408
@@ -208,8 +108,6 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6538778/
 - Sinorhizobium meliloti, which harbors a chromosome, a chromid (pSymB), a megaplasmid (pSymA), and, in many strains, one or more accessory plasmids.
 - modal codon usages
 
-
-
 https://twitter.com/search?q=大腸菌%20コドン
 
 https://twitter.com/enuroi/status/1128893267402059776
@@ -225,14 +123,12 @@ https://twitter.com/torusengoku/status/1128827977498677248
 torusengoku on Twitter: "Nature, DNAコドンのうちTCG, TCA（ともにSerをコード）とTAG（アンバーストップコドン）を持たない大腸菌を作成。将来、これらのコドンに新しいアミノ酸をコードさせる遺伝暗号拡張が容易に。 https://t.co/KvQSOXbjCc どこまで減らせるのかな。"
 9:02 PM - 15 May 2019
 
-
 2019年5月16日
 https://www.natureasia.com/ja-jp/nature/pr-highlights/12951
 【合成生物学】大腸菌の遺伝コードを圧縮する | Nature | Nature Research
 
 https://www.nature.com/articles/s41586-019-1192-5
 Total synthesis of Escherichia coli with a recoded genome | Nature
-
 
 ### 2019-04
 
@@ -248,8 +144,6 @@ Shahar N1, Weiner I1,2, Stotsky L1, Tuller T2,3, Yacoby I1.
 https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz151/5369010
 For each gene pair we computed roughly 1100 features (Figure 1B-3 and Supplementary Figure S2) based on sequence analysis alone—thus, they could be computed for any sequenced plastome without requiring additional data (e.g. RNA-Seq). These features were designed to capture essential gene characteristics (e.g. coded protein hydrophobicity, RNA structure, codon usage bias, nucleotide composition) and to quantify their level of similarity within each couple of adjacent genes (Supplementary Figure S2).
 
-
-
 https://www.ncbi.nlm.nih.gov/pubmed/30728279
 mSphere. 2019 Feb 6;4(1). pii: e00011-19. doi: 10.1128/mSphereDirect.00011-19.
 Gene Expansion and Positive Selection as Bacterial Adaptations to Oligotrophic Conditions.
@@ -260,7 +154,6 @@ Patterns of (genome-wide) positive selection have revealed lineage-specific adap
 The Ramlibacter sp. MAG was part of the monophyletic Ramlibacter clade, and its GC content (70.6%), codon usage bias (SCUO = 0.57 ± 0.10), and genome size (3.95 Mbp) closely matched these of other Ramlibacter genomes (Fig. 2B). 
 
 ### 2018
-
 
 https://www.ncbi.nlm.nih.gov/pubmed/29726922
 Bioinformatics. 2018 Oct 1;34(19):3396-3398. doi: 10.1093/bioinformatics/bty382.
@@ -344,6 +237,12 @@ Codon Optimization, Plasmid Constructs, and Neurospora Transformation.
 
 ### 2015
 
+https://www.ncbi.nlm.nih.gov/pubmed/26504241
+Proc Natl Acad Sci U S A. 2015 Nov 10;112(45):14030-5. doi: 10.1073/pnas.1515387112. Epub 2015 Oct 26.
+Importance of codon usage for the temporal regulation of viral gene expression.
+Shin YC1, Bischof GF2, Lauer WA1, Desrosiers RC3.
+
+
 https://www.ncbi.nlm.nih.gov/pubmed/26282127
 BMC Evol Biol. 2015 Aug 19;15:163. doi: 10.1186/s12862-015-0441-y.
 The evolutionary dynamics of tRNA-gene copy number and codon-use in E. coli.
@@ -376,6 +275,120 @@ PLoS Comput Biol. 2010 Apr 1;6(4):e1000732. doi: 10.1371/journal.pcbi.1000732.
 Why genes evolve faster on secondary chromosomes in bacteria.
 Cooper VS1, Vohr SH, Wrocklage SC, Hatcher PJ.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2848543/
+
+----------
+## featuring
+
+https://www.ncbi.nlm.nih.gov/pubmed/12952536
+Genome Biol. 2003;4(9):R57. Epub 2003 Aug 21.
+The source of laterally transferred genes in bacterial genomes.
+Daubin V1, Lerat E, Perrière G.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC193657/
+The codon usage of LTGs: comparison with native genes
+We computed four independent factorial correspondence analyses (FCA) on the genes of each type (native and transferred genes, IS, and phages) for the four species E. coli O157:H7, Helicobacter pylori, Salmonella enterica, and Streptococcus pneumoniae.
+Figure 4
+Intraspecies FCA.
+
+
+https://www.biophys.jp/dl/journal/53-1.pdf
+生物物理 53（1），015-019（2013）
+交通流と翻訳過程
+御手洗菜美子　コペンハーゲン大学ニールス・ボーア研究所
+
+https://twilog.org/copypasteusa/search?word=コドン
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/25680374
+Acta Biochim Pol. 2015;62(1):161-6. Epub 2015 Feb 13.
+The most widespread problems in the function-based microbial metagenomics.
+Felczykowska A1, Krajewska A1, Zielińska S1, Łoś JM1, Bloch SK1, Nejman-Faleńczyk B1.
+ Codon usage bias, internal cell accumulation, correct protein folding or presence of proper initiation factors are discussed and possible ways to overcome these problems are proposed. 
+http://www.actabp.pl/pdf/1_2015/2014_917.pdf
+
+
+review
+https://www.ncbi.nlm.nih.gov/pubmed/26951112
+Microbiome. 2016 Mar 8;4:8. doi: 10.1186/s40168-016-0154-5.
+Recovering complete and draft population genomes from metagenome datasets.
+Sangwan N1,2, Xia F3, Gilbert JA4,5,6,7.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4782286/
+However, another framework for analysis relies on variation in codon bias to determine the genome-wide influence of in situ functional constraints on individual taxa. Since percentage codon bias variation analysis is a phylogenetically independent method that directly reflects the strength of selection and the translation efficiency of expressed genes [77, 78], it circumvents the need for reference genomes and can reveal the influence of in situ functional constraints over natural selection patterns. It is important to note that for complete genome sequences, codon use patterns are influenced by nucleotide composition (mutational biases) and horizontal gene transfer. However, because each gene in a reassembled genome represents the population with an even nucleotide composition, one can assume that these clonal isolate-based limitations will not skew codon usage.
+
+----------
+## review
+
+https://www.ncbi.nlm.nih.gov/pubmed/29018283
+Nat Rev Mol Cell Biol. 2017 Oct 11.
+Codon optimality, bias and usage in translation and mRNA decay.
+Hanson G1, Coller J1.
+
+review
+https://www.ncbi.nlm.nih.gov/pubmed/26029354
+Comput Struct Biotechnol J. 2015 May 4;13:352-7. doi: 10.1016/j.csbj.2015.04.005. eCollection 2015.
+Homology-independent metrics for comparative genomics.
+Coutinho TJ1, Franco GR1, Lobo FP2.
+In this review we compile several sequence metrics that do not rely on homology inference and can be used to compare nucleotide sequences and extract biologically meaningful information from them. These metrics comprise several compositional parameters calculated from sequence data alone, such as GC content, dinucleotide odds ratio, and several codon bias metrics. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/26186290
+Mol Cell. 2015 Jul 16;59(2):149-61. doi: 10.1016/j.molcel.2015.05.035.
+Codon Bias as a Means to Fine-Tune Gene Expression.
+Quax TE1, Claassens NJ2, Söll D3, van der Oost J4.
+
+https://www.ncbi.nlm.nih.gov/pubmed/22889422
+Biol Rev Camb Philos Soc. 2013 Feb;88(1):49-61. doi: 10.1111/j.1469-185X.2012.00242.x. Epub 2012 Aug 14.
+Codon usage bias: causative factors, quantification methods and genome-wide patterns: with emphasis on insect genomes.
+Behura SK1, Severson DW.
+
+https://www.ncbi.nlm.nih.gov/pubmed/22921354
+Trends Genet. 2012 Nov;28(11):574-81. doi: 10.1016/j.tig.2012.07.006. Epub 2012 Aug 23.
+Speeding with control: codon usage, tRNAs, and ribosomes.
+Novoa EM1, Ribas de Pouplana L.
+
+http://www.ncbi.nlm.nih.gov/pubmed/21102527
+Nat Rev Genet. 2011 Jan;12(1):32-42. doi: 10.1038/nrg2899. Epub 2010 Nov 23.
+Synonymous but not the same: the causes and consequences of codon bias.
+Plotkin JB1, Kudla G.
+http://mathbio.sas.upenn.edu/Papers/Plotkin_Kudla_NatRevGenetics_2011.pdf
+
+https://www.ncbi.nlm.nih.gov/pubmed/18983258
+Annu Rev Genet. 2008;42:287-99. doi: 10.1146/annurev.genet.42.110807.091442.
+Selection on codon bias.
+Hershberg R1, Petrov DA.
+
+https://www.ncbi.nlm.nih.gov/pubmed/11719972
+Curr Issues Mol Biol. 2001 Oct;3(4):91-7.
+Synonymous codon usage in bacteria.
+Ermolaeva MD1.
+
+
+
+
+----------
+## book
+本
+
+### 2018-11-21
+![](https://ars.els-cdn.com/content/image/3-s2.0-C20180021659-cov200h.gif)
+
+Multivariate Analyses of Codon Usage Biases - 1st Edition
+https://www.sciencedirect.com/book/9781785482960/multivariate-analyses-of-codon-usage-biases
+https://www.elsevier.com/books/multivariate-analyses-of-codon-usage-biases/lobry/978-1-78548-296-0
+http://www.iste.co.uk/book.php?id=1403
+
+### 2012-02-23
+
+![](https://global.oup.com/academic/covers/uk/pdp/9780199601165)
+
+http://www.oxfordscholarship.com/view/10.1093/acprof:osobl/9780199601165.001.0001/acprof-9780199601165
+Codon Evolution: Mechanisms and Models - Oxford Scholarship
+http://wp.biota.utoronto.ca/chang/files/2016/02/Chang-et-al-Codon-Evolution-Chapter11.pdf
+
+----------
+## video
+
+https://www.youtube.com/watch?v=P-fjZPf3Dnw
+Codon optimization: Why & how to design DNA sequences for optimal soluble protein expression - YouTube
+Published on Nov 3, 2014
 
 ----------
 ## H.pylori
