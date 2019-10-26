@@ -29,12 +29,13 @@ Last Update: 2019-10
 - [temperature](#temperature) 温度
 - [replication](#replication) 複製
 - [people](#people)
-  - [Kanaya](#kanaya)
-  - [Musto](#musto)
-  - [Olsen](#olsen)
-  - [Sharp](#sharp)
-  - [Suzuki](#suzuki)
-  - [Supek](#supek)
+[Ikemura](#ikemura)
+[Kanaya](#kanaya)
+[Musto](#musto)
+[Olsen](#olsen)
+[Sharp](#sharp)
+[Supek](#supek)
+[Suzuki](#suzuki)
 - [unclassified](#unclassified)
 - [japanese](#japanese) 日本語
 - [synthetic_biology](#synthetic_biology)
