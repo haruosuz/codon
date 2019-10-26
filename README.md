@@ -197,9 +197,9 @@ https://www.ncbi.nlm.nih.gov/pubmed/29735666
 Proc Natl Acad Sci U S A. 2018 May 22;115(21):E4940-E4949. doi: 10.1073/pnas.1719375115. Epub 2018 May 7.
 Codon usage of highly expressed genes affects proteome-wide translation efficiency.
 Frumkin I1, Lajoie MJ2, Gregg CJ2, Hornung G3, Church GM4, Pilpel Y5.
-```
+
 Interestingly, we could alleviate the observed phenotypes by increasing the supply of the tRNA for the highly demanded codon, thus demonstrating that the codon usage of highly expressed genes was selected in evolution to maintain the efficiency of global protein translation.
-```
+
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6003480/
 
 ### 2017
