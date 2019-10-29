@@ -642,11 +642,6 @@ Shewanella oneidensis MR-1	F	2
 ## lifestyle
 ライフスタイル
 
-https://www.ncbi.nlm.nih.gov/pubmed/22032172
-Genome Biol. 2011 Oct 27;12(10):R109. doi: 10.1186/gb-2011-12-10-r109.
-Variation in global codon usage bias among prokaryotic organisms is associated with their lifestyles.
-Botzman M1, Margalit H.
-
 https://www.ncbi.nlm.nih.gov/pubmed/23024607
 Curr Genomics. 2012 Apr;13(2):153-62.
 Microbial lifestyle and genome signatures.
@@ -655,25 +650,36 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3308326/
 c) Codon Usage
 Distinct niche-specific trends in synonymous codon usage have also been observed in microbes thriving at high salinity [24]. An analysis of synonymous codon usage patterns in bacterial and fungal genomes by Willenbrok et al. [49] demonstrated that differences in codon preferences of translational codon adaptation and dominant codon adaptation provide an environmental signature that can segregate bacteria according to their lifestyle, for instance soil bacteria and soil symbionts, spore formers, enteric bacteria, aquatic bacteria, and small intercellular and extracellular pathogens.
 
+https://www.ncbi.nlm.nih.gov/pubmed/22032172
+Genome Biol. 2011 Oct 27;12(10):R109. doi: 10.1186/gb-2011-12-10-r109.
+Variation in global codon usage bias among prokaryotic organisms is associated with their lifestyles.
+Botzman M1, Margalit H.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3333779/
+
 https://www.ncbi.nlm.nih.gov/pubmed/17156429
 Genome Biol. 2006;7(12):R114.
 An environmental signature for 323 microbial genomes based on codon adaptation indices.
 Willenbrock H1, Friis C, Juncker AS, Ussery DW.
 group bacteria according to their lifestyle, 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1794427/
+- Background
 Here, we calculate and compare a translational CAI (tCAI) based on that proposed by Sharp and Li [1] with a purely mathematical dominant CAI (dCAI) [8] for 318 bacterial and 5 fungal genomes for which full sequences are deposited in Genbank and available from the Genome Atlas Database (version 19.1) [11].
-It was previously postulated that fast-growing bacteria share codon usage preferences because they have more abundant and similar tRNAs [12]. 
+- Figure 2
+Two-dimensional cluster analysis of differential codon preferences for tCAI and dCAI.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1794427/figure/F2/
+- Conclusion
+It was previously postulated that fast-growing bacteria share codon usage preferences because they have more abundant and similar tRNAs [12]. Here, we offer a biological explanation by showing a clear relationship between environment and similarities in codon usage biases. Specifically, differences in codon preferences of translational codon adaptation and dominant codon adaptation provide an environmental signature by which it is possible to divide bacteria into groups representing different lifestyles, such as soil bacteria and symbionts, enterics, aquatic bacteria, spore formers, and small intercellular and extracellular pathogens.
 
 https://www.ncbi.nlm.nih.gov/pubmed/15537809
 Mol Biol Evol. 2005 Mar;22(3):547-61. Epub 2004 Nov 10.
 Codon bias signatures, organization of microorganisms in codon space, and lifestyle.
 Carbone A1, Képès F, Zinovyev A.
+https://academic.oup.com/mbe/article/22/3/547/1075922
 
 https://www.ncbi.nlm.nih.gov/pubmed/14594704
 Bioinformatics. 2003 Nov 1;19(16):2005-15.
 Codon adaptation index as a measure of dominating codon bias.
 Carbone A1, Zinovyev A, Képès F.
-
 
 ----------
 
