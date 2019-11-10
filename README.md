@@ -16,7 +16,6 @@ Last Update: 2019-10
 - [review](#review)
 - [book](#book)
 - [video](#video)
-- [H.pylori](#h.pylori) ピロリ菌
 - [heterologous gene expression](#heterologous-gene-expression)
 - [tRNA](#trna)
 - [tRNA gene cluster](#trna-gene-cluster)
@@ -33,6 +32,7 @@ Last Update: 2019-10
 [Kanaya](#kanaya)
 [Musto](#musto)
 [Olsen](#olsen)
+[Rocha](#rocha)
 [Sharp](#sharp)
 [Supek](#supek)
 [Suzuki](#suzuki)
@@ -44,6 +44,41 @@ Last Update: 2019-10
   - [R](#r)
 - [methods](#methods)
   - [RSCU](#rscu)
+
+
+
+----------
+## growth rate
+増殖速度
+
+
+----------
+## book
+本
+
+### 2018-11-21
+![](https://ars.els-cdn.com/content/image/3-s2.0-C20180021659-cov200h.gif)
+
+Multivariate Analyses of Codon Usage Biases - 1st Edition
+https://www.sciencedirect.com/book/9781785482960/multivariate-analyses-of-codon-usage-biases
+https://www.elsevier.com/books/multivariate-analyses-of-codon-usage-biases/lobry/978-1-78548-296-0
+http://www.iste.co.uk/book.php?id=1403
+
+### 2012-02-23
+
+![](https://global.oup.com/academic/covers/uk/pdp/9780199601165)
+
+http://www.oxfordscholarship.com/view/10.1093/acprof:osobl/9780199601165.001.0001/acprof-9780199601165
+Codon Evolution: Mechanisms and Models - Oxford Scholarship
+http://wp.biota.utoronto.ca/chang/files/2016/02/Chang-et-al-Codon-Evolution-Chapter11.pdf
+
+----------
+## video
+
+https://www.youtube.com/watch?v=P-fjZPf3Dnw
+Codon optimization: Why & how to design DNA sequences for optimal soluble protein expression - YouTube
+Published on Nov 3, 2014
+
 
 ----------
 
@@ -277,6 +312,16 @@ Why genes evolve faster on secondary chromosomes in bacteria.
 Cooper VS1, Vohr SH, Wrocklage SC, Hatcher PJ.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2848543/
 
+### 2004
+
+https://www.ncbi.nlm.nih.gov/pubmed/15448185
+Nucleic Acids Res. 2004 Sep 24;32(17):5036-44. Print 2004.
+Solving the riddle of codon usage preferences: a test for translational selection.
+dos Reis M1, Savva R, Wernisch L.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC521650/
+As expected (Figure ​(Figure3),3), S.cerevisiae and E.coli show the highest S-values, C.elegans shows a moderate S-value, while H.pylori and H.sapiens show no sign of translational selection acting on their genomes.
+
+
 ----------
 ## featuring
 
@@ -362,84 +407,6 @@ Synonymous codon usage in bacteria.
 Ermolaeva MD1.
 
 
-
-
-----------
-## book
-本
-
-### 2018-11-21
-![](https://ars.els-cdn.com/content/image/3-s2.0-C20180021659-cov200h.gif)
-
-Multivariate Analyses of Codon Usage Biases - 1st Edition
-https://www.sciencedirect.com/book/9781785482960/multivariate-analyses-of-codon-usage-biases
-https://www.elsevier.com/books/multivariate-analyses-of-codon-usage-biases/lobry/978-1-78548-296-0
-http://www.iste.co.uk/book.php?id=1403
-
-### 2012-02-23
-
-![](https://global.oup.com/academic/covers/uk/pdp/9780199601165)
-
-http://www.oxfordscholarship.com/view/10.1093/acprof:osobl/9780199601165.001.0001/acprof-9780199601165
-Codon Evolution: Mechanisms and Models - Oxford Scholarship
-http://wp.biota.utoronto.ca/chang/files/2016/02/Chang-et-al-Codon-Evolution-Chapter11.pdf
-
-----------
-## video
-
-https://www.youtube.com/watch?v=P-fjZPf3Dnw
-Codon optimization: Why & how to design DNA sequences for optimal soluble protein expression - YouTube
-Published on Nov 3, 2014
-
-----------
-## H.pylori
-ピロリ菌のコドン使用
-
-https://www.ncbi.nlm.nih.gov/pubmed/20308095
-Philos Trans R Soc Lond B Biol Sci. 2010 Apr 27;365(1544):1203-12. doi: 10.1098/rstb.2009.0305.
-Forces that influence the evolution of codon bias.
-Sharp PM1, Emery LR, Zeng K.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2871821/
-Table 2.
-Estimates of the strength of selection for optimal codons from polymorphism data from E. coli and H. pylori.
-
-http://www.ncbi.nlm.nih.gov/pubmed/18940873
-DNA Res. 2008 Dec;15(6):357-65.
-Comparison of correspondence analysis methods for synonymous codon usage in bacteria.
-Suzuki H, Brown CJ, Forney LJ, Top EM.
-```
-Bacterial strain	Axis 1	Axis 2	Axis 3
-H. pylori 26695	GC3content	GC3skew	nd
-```
-
-最尤推定
-https://www.ncbi.nlm.nih.gov/pubmed/18495752
-Nucleic Acids Res. 2008 Jun;36(11):3819-27. doi: 10.1093/nar/gkn288. Epub 2008 May 21.
-SCUMBLE: a method for systematic and accurate detection of codon usage bias by maximum likelihood estimation.
-Kloster M1, Tang C.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2441815/
-The algorithm's; ability to detect weak biases is well illustrated by the genome of Helicobacter pylori, which has been claimed to contain no codon bias for highly expressed genes (31). 
-
-We found that SCUMBLE performs better than WCA or CA/RSCU in detecting GC or GT biases in prokaryote genomes. SCUMBLE is also able to detect far more biases in prokaryote genomes than a variety of other approaches using PCA (37) (Supplementary Tables S1 and S2). Unlike PCA, SCUMBLE shows a clear signature for the strength of the different biases: GC bias is most often the dominant bias, followed by expression bias and GT bias.
-
-https://www.ncbi.nlm.nih.gov/pubmed/15728743
-Nucleic Acids Res. 2005 Feb 23;33(4):1141-53. Print 2005.
-Variation in the strength of selected codon usage bias among bacteria.
-Sharp PM1, Bailes E, Grocock RJ, Peden JF, Sockett RE.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549432/
-It is clear that a high recombination rate alone is not enough to promote codon selection: H.pylori has perhaps the highest rate of recombination known among bacteria (61), and yet an S-value close to zero. In this case, the lack of selected codon usage bias has been interpreted as a consequence of the unimportance of competitive growth in the isolated acidic niche of this species (24).
-
-https://www.ncbi.nlm.nih.gov/pubmed/15448185
-Nucleic Acids Res. 2004 Sep 24;32(17):5036-44. Print 2004.
-Solving the riddle of codon usage preferences: a test for translational selection.
-dos Reis M1, Savva R, Wernisch L.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC521650/
-As expected (Figure ​(Figure3),3), S.cerevisiae and E.coli show the highest S-values, C.elegans shows a moderate S-value, while H.pylori and H.sapiens show no sign of translational selection acting on their genomes.
-
-https://www.ncbi.nlm.nih.gov/pubmed/10784043
-Microbiology. 2000 Apr;146 ( Pt 4):851-60.
-Absence of translationally selected synonymous codon usage bias in Helicobacter pylori.
-Lafay B1, Atherton JC, Sharp PM.
 
 ----------
 ## heterologous gene expression
@@ -581,61 +548,6 @@ Discussion
 In E. coli, tRNA arrays significantly influence global tRNA expression at high growth rates (Ardell and Kirsebom 2005). 
 No relationship was found between the presence of the array units and the organism’s lifestyle (aerobic or anaerobic, optimal growth temperature, pathogenicity or environmental conditions) (data not shown). 
 
-----------
-## growth rate
-増殖速度
-
-https://www.ncbi.nlm.nih.gov/pubmed/20090831
-PLoS Genet. 2010 Jan 15;6(1):e1000808. doi: 10.1371/journal.pgen.1000808.
-The systemic imprint of growth and its uses in ecological (meta)genomics.
-Vieira-Silva S1, Rocha EP.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2797632/
-Figure 1
-Genomic signatures correlated to minimum generation time (d) for 214 prokaryotes.
-Correlation between d and (A) the number of rRNA operons in the genome, (B) the relative distance from the origin of replication to rRNA genes (excluding species with no retrievable origin), 0.5 corresponds to half the replicon, (C,D) codon usage bias indices ΔENC′ [35] and S [46]. Spearman correlations are given (ρ) with all p-values<0.0001. Dashed lines represent the trend of the correlation.
-
-- As expected, we found an increase in copy number of rRNA (Figure 1) and tRNA genes (Figure S1) with decreasing minimal generation times (ρ = −0.59 and ρ = −0.51, all p-value<0.0001). 
-- As described above, gene dosage of highly expressed genes can be increased transiently when these genes are located near the origin of replication in fast growing cells. Indeed, a positive correlation was found between minimum generation time and the relative distance to the origin of replication of rRNA genes (ρ = 0.36, Figure 1), RNA polymerase genes (ρ = 0.42), ribosomal proteins coding genes (ρ = 0.42), tRNA (ρ = 0.35) and ubi-tRNA (ρ = 0.41) genes (Figure S2) (all p-values<0.0001).
-- Finally, two previously proposed indices of codon usage bias in highly expressed genes ΔENC′ [35] and S [46] correlate negatively with d (respectively, ρ = −0.64 and ρ = −0.54, p-value<0.0001, Figure 1). 
-
-rRNA/tRNA遺伝子コピー数が多いほど、
-rRNA遺伝子の複製起点からの距離が小さいほど、
-高発現遺伝子の同義コドン使用バイアスが強い（方言がきつい）ほど、
-原核生物の最小倍加時間が小さい（増殖速度が速い）
-
-https://www.ncbi.nlm.nih.gov/pubmed/20308095
-Philos Trans R Soc Lond B Biol Sci. 2010 Apr 27;365(1544):1203-12. doi: 10.1098/rstb.2009.0305.
-Forces that influence the evolution of codon bias.
-Sharp PM1, Emery LR, Zeng K.
-- Here we show that the strength of selected codon usage bias is highly correlated with bacterial growth rate, suggesting that selection has favoured translational efficiency. 
-
-https://www.ncbi.nlm.nih.gov/pubmed/15728743
-Nucleic Acids Res. 2005 Feb 23;33(4):1141-53. Print 2005.
-Variation in the strength of selected codon usage bias among bacteria.
-Sharp PM1, Bailes E, Grocock RJ, Peden JF, Sockett RE.
-These results are consistent with the hypothesis that species exposed to selection for rapid growth have more rRNA operons, more tRNA genes and more strongly selected codon usage bias. For example, Clostridium perfringens, the species with the highest value of S, can have a generation time as short as 7 min.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549432/
-
-細菌の増殖速度、rRNAオペロン数、tRNA遺伝子コピー数、（翻訳の効率と正確度に関連する）高発現遺伝子の同義コドン使用バイアスの相関
-
-https://www.ncbi.nlm.nih.gov/pubmed/15479947
-Genome Res. 2004 Nov;14(11):2279-86. Epub 2004 Oct 12.
-Codon usage bias from tRNA's point of view: redundancy, specialization, and efficient decoding for translation optimization.
-Rocha EP1.
-- We show that as minimal generation times get shorter, the genomes contain more tRNA genes, but fewer anticodon species. 
-- It also provides new evidence that a selective force for the optimization of the translation machinery is the maximization of growth.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC525687/
-- Genome and tRNA data
-One hundred and two genomes, corresponding to 102 bacterial species, were retrieved from GenBank (see Supplemental Table 1 for a comprehensive listing). Minimal generation times were taken from the literature or obtained by personal communication with researchers in the field. 
-https://genome.cshlp.org/content/14/11/2279.long
-https://genome.cshlp.org/content/14/11/2279/suppl/DC1
-https://genome.cshlp.org/content/suppl/2004/10/18/gr.2896904.DC1/tableA1.pdf
-Table A1- 
-the growth rate class (µ). the optimal doubling time (1/µ).
-```
-Geobacter sulfurreducens PCA	S	6
-Shewanella oneidensis MR-1	F	2
-```
 
 ----------
 ## lifestyle
@@ -820,6 +732,21 @@ October 30, 2019
 ----------
 ## methods
 
+
+
+
+----------
+
+最尤推定
+https://www.ncbi.nlm.nih.gov/pubmed/18495752
+Nucleic Acids Res. 2008 Jun;36(11):3819-27. doi: 10.1093/nar/gkn288. Epub 2008 May 21.
+SCUMBLE: a method for systematic and accurate detection of codon usage bias by maximum likelihood estimation.
+Kloster M1, Tang C.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2441815/
+The algorithm's; ability to detect weak biases is well illustrated by the genome of Helicobacter pylori, which has been claimed to contain no codon bias for highly expressed genes (31). 
+
+We found that SCUMBLE performs better than WCA or CA/RSCU in detecting GC or GT biases in prokaryote genomes. SCUMBLE is also able to detect far more biases in prokaryote genomes than a variety of other approaches using PCA (37) (Supplementary Tables S1 and S2). Unlike PCA, SCUMBLE shows a clear signature for the strength of the different biases: GC bias is most often the dominant bias, followed by expression bias and GT bias.
+
 ### RSCU
 relative synonymous codon usage
 
@@ -964,16 +891,8 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3799439/
 Single bacterial species’ genomes and annotation
 Codon usage within metagenomes follows similar patterns as in single microbial genomes
 
-https://www.ncbi.nlm.nih.gov/pubmed/20090831
-PLoS Genet. 2010 Jan 15;6(1):e1000808. doi: 10.1371/journal.pgen.1000808.
-The systemic imprint of growth and its uses in ecological (meta)genomics.
-Vieira-Silva S1, Rocha EP.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2797632/
-Figure 7
-Average predicted minimum generation time for 3 environmental metagenomes.
 
-Figure 8
-Average predicted minimum generation time for the gut metagenomes of humans of different age groups.
+
 
 
 ----------
@@ -1194,6 +1113,75 @@ Mol Biol Evol. 2010 Apr;27(4):800-10. doi: 10.1093/molbev/msp281. Epub 2009 Dec 
 Modal codon usage: assessing the typical codon usage of a genome.
 Davis JJ1, Olsen GJ.
 
+### Rocha
+
+rRNA/tRNA遺伝子コピー数が多いほど、
+rRNA遺伝子の複製起点からの距離が小さいほど、
+高発現遺伝子の同義コドン使用バイアスが強い（方言がきつい）ほど、
+原核生物の最小倍加時間が小さい（増殖速度が速い）
+
+https://www.ncbi.nlm.nih.gov/pubmed/20090831
+PLoS Genet. 2010 Jan 15;6(1):e1000808. doi: 10.1371/journal.pgen.1000808.
+The systemic imprint of growth and its uses in ecological (meta)genomics.
+Vieira-Silva S1, Rocha EP.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2797632/
+- Figure 1
+Genomic signatures correlated to minimum generation time (d) for 214 prokaryotes.
+Correlation between d and (A) the number of rRNA operons in the genome, (B) the relative distance from the origin of replication to rRNA genes (excluding species with no retrievable origin), 0.5 corresponds to half the replicon, (C,D) codon usage bias indices ΔENC′ [35] and S [46]. Spearman correlations are given (ρ) with all p-values<0.0001. Dashed lines represent the trend of the correlation.
+- As expected, we found an increase in copy number of rRNA (Figure 1) and tRNA genes (Figure S1) with decreasing minimal generation times (ρ = −0.59 and ρ = −0.51, all p-value<0.0001). 
+- As described above, gene dosage of highly expressed genes can be increased transiently when these genes are located near the origin of replication in fast growing cells. Indeed, a positive correlation was found between minimum generation time and the relative distance to the origin of replication of rRNA genes (ρ = 0.36, Figure 1), RNA polymerase genes (ρ = 0.42), ribosomal proteins coding genes (ρ = 0.42), tRNA (ρ = 0.35) and ubi-tRNA (ρ = 0.41) genes (Figure S2) (all p-values<0.0001).
+- Finally, two previously proposed indices of codon usage bias in highly expressed genes ΔENC′ [35] and S [46] correlate negatively with d (respectively, ρ = −0.64 and ρ = −0.54, p-value<0.0001, Figure 1). 
+- Following a previous work [35], we extracted from primary literature 214 minimal generation times (d) of species of bacteria and archaea (Table S1). 
+- We extracted from primary literature the minimal generation times (d) for the 214 species of bacteria and archaea (Table S1).
+- Table S1
+List of the 214 genomes composing our dataset and their characteristics. Generation times were retrieved from the literature. We defined the minimum generation time (Column “d”) as the smallest value reported (Column “d reference”) for one species. For very few bacteria the generation times for closely related species were used. The optimum growth temperature of the species (Column “OGT”) was retrieved from DSMZ database.
+```
+Species name	Ori	OGT	d (h)	d reference
+Clostridium acetobutylicum ATCC824	1808	37	0.58	[47]
+
+Clostridium perfringens 13	1784	37	0.2	[48]
+
+Clostridium tetani E88	50965	37	0.5	[49]
+
+Escherichia coli MG1655	3923657	37	0.35	[64]
+
+Geobacter sulfurreducens PCA	1368	30	6	[66]
+Mycobacterium leprae	1567	37	240	[101]
+Salmonella typhimurium LT2 	4083788	37	0.4	[64]
+Shewanella oneidensis MR-1	6419	30	0.66	[138]
+```
+
+- The resulting ΔENC′ and S values were then subject to principal components analysis, of which the first component (Fa) was compared with the one obtained from the whole genome.
+- Codon usage bias is the best determinant of minimum generation time
+- Figure 7
+Average predicted minimum generation time for 3 environmental metagenomes.
+- Figure 8
+Average predicted minimum generation time for the gut metagenomes of humans of different age groups.
+
+https://www.ncbi.nlm.nih.gov/pubmed/15479947
+Genome Res. 2004 Nov;14(11):2279-86. Epub 2004 Oct 12.
+Codon usage bias from tRNA's point of view: redundancy, specialization, and efficient decoding for translation optimization.
+Rocha EP1.
+- We show that as minimal generation times get shorter, the genomes contain more tRNA genes, but fewer anticodon species. 
+- It also provides new evidence that a selective force for the optimization of the translation machinery is the maximization of growth.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC525687/
+- Genome and tRNA data
+One hundred and two genomes, corresponding to 102 bacterial species, were retrieved from GenBank (see Supplemental Table 1 for a comprehensive listing). Minimal generation times were taken from the literature or obtained by personal communication with researchers in the field. 
+https://genome.cshlp.org/content/14/11/2279.long
+https://genome.cshlp.org/content/14/11/2279/suppl/DC1
+Supplemental Research Data
+https://genome.cshlp.org/content/suppl/2004/10/18/gr.2896904.DC1/tableA1.pdf
+Table A1- Data table with major results. 
+the growth rate class (μ). the optimal doubling time (1/μ).
+```
+Clostridium perfringens 13	F	0.2
+Escherichia coli K12	F	0.35
+Geobacter sulfurreducens PCA	S	6
+Mycobacterium leprae	S	12
+Salmonella typhimurium LT2	F	0.4
+Shewanella oneidensis MR-1	F	2
+```
+
 ### Sharp
 
 2011
@@ -1206,9 +1194,9 @@ Philos Trans R Soc Lond B Biol Sci. 2010 Apr 27;365(1544):1203-12. doi: 10.1098/
 Forces that influence the evolution of codon bias.
 Sharp PM1, Emery LR, Zeng K.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2871821/
-Forces that influence the evolution of codon bias
+- Here we show that the strength of selected codon usage bias is highly correlated with bacterial growth rate, suggesting that selection has favoured translational efficiency. 
 - For example, C. perfringens has 10 rRNA operons and 96 tRNA genes and can replicate in only 7 min under ideal conditions (Labbe & Huang 1995).
-- To test this association with growth rate, we have used minimum generation time data for 76 of these 80 species, drawn from the compilations made by E.P.C. Rocha (Rocha 2004; Coutourier & Rocha 2006). 
+- To test this association with growth rate, we have used minimum generation time data for 76 of these 80 species, drawn from the compilations made by E.P.C. Rocha (Rocha 2004; Coutourier & Rocha 2006).
 
 https://www.ncbi.nlm.nih.gov/pubmed/17038449
 Mol Biol Evol. 2007 Jan;24(1):10-2. Epub 2006 Oct 12.
@@ -1218,11 +1206,13 @@ https://academic.oup.com/mbe/article/24/1/10/1070854
 - We outline a simple approach, first to check whether a genome shows evidence of selected codon usage bias and then to assess the strength of bias in genes as a guide to their likely expression level; we illustrate this with an analysis of Shewanella oneidensis.
 - As an example, we have analyzed Shewanella oneidensis, a member of the gamma proteobacteria (Heidelberg et al. 2002). Eighteen codons, for 15 amino acids, occur at significantly higher frequencies in highly expressed genes than in the genome as a whole (see Supplementary Material online). Importantly, these codons do not reflect any simple compositional bias, such as G + U richness due to location of the highly expressed genes on the leading strand of replication. Rather, they include many codons which would be expected to be optimal, either because they are decoded by the most abundant tRNA species (e.g., 6 of the 9 Arg tRNA genes match CGU) or because they are perfectly complementary to the only tRNA species for the amino acid (e.g., UUC, UAC, CAC, AAC, GAC, and GAA). 
 
+細菌の増殖速度、rRNAオペロン数、tRNA遺伝子コピー数、（翻訳の効率と正確度に関連する）高発現遺伝子の同義コドン使用バイアスの相関
 https://www.ncbi.nlm.nih.gov/pubmed/15728743
 Nucleic Acids Res. 2005 Feb 23;33(4):1141-53. Print 2005.
 Variation in the strength of selected codon usage bias among bacteria.
 Sharp PM1, Bailes E, Grocock RJ, Peden JF, Sockett RE.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549432/
+- These results are consistent with the hypothesis that species exposed to selection for rapid growth have more rRNA operons, more tRNA genes and more strongly selected codon usage bias. For example, Clostridium perfringens, the species with the highest value of S, can have a generation time as short as 7 min.
 - a set of 40 genes expected to be expressed constitutively at very high levels. This set included the genes encoding translation elongation factors Tu (tufA), Ts (tsf) and G (fusA), and 37 of the larger ribosomal proteins (encoded by genes rplA-rplF, rplI-rplT and rpsB-rpsT).
 - Inter-specific variation in bacterial growth rate appears to be positively correlated with the number of rRNA operons (42).
 - Information regarding the growth rate of bacteria in the wild is sparse, and so we have used the number of rRNA operons as a (very approximate) guide to the growth rate of species. Remarkably, C.perfringens, the species with the highest S-value (2.65) and 10 rRNA operons, can grow with a generation time under 7 min in specific laboratory conditions (55).
@@ -1241,6 +1231,11 @@ Gamma proteobacteria
 http://www.g-language.org/data/g-language/lib/G/Seq/Codon.pm
 ```
 ```
+
+https://www.ncbi.nlm.nih.gov/pubmed/10784043
+Microbiology. 2000 Apr;146 ( Pt 4):851-60.
+Absence of translationally selected synonymous codon usage bias in Helicobacter pylori.
+Lafay B1, Atherton JC, Sharp PM.
 
 https://www.ncbi.nlm.nih.gov/pubmed/8662004
 J Mol Evol. 1996 May;42(5):525-36.
