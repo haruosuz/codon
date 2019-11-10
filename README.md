@@ -506,7 +506,6 @@ Silicibacter pomeroyi DSS-3 のゲノムからは51個の tRNA遺伝子が見出
 生物種リストから
 http://trna.ie.niigata-u.ac.jp/cgi-bin/trnadb/whole_spe_list_inc.cgi?STYPE=B&DTYPE=CMP
 ```
-Geobacter bemidjiensis Bem	tRNA seq.|Anticodon
 Shewanella oneidensis MR-1	tRNA seq.|Anticodon
 ```
 
@@ -656,6 +655,7 @@ Variation in global codon usage bias among prokaryotic organisms is associated w
 Botzman M1, Margalit H.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3333779/
 
+コドン使用バイアスは、ライフスタイルの異なるグループ（土壌細菌、共生細菌、腸内細菌、水生細菌、胞子形成菌、病原体）に細菌を分けることで、環境の情報を提供する。
 https://www.ncbi.nlm.nih.gov/pubmed/17156429
 Genome Biol. 2006;7(12):R114.
 An environmental signature for 323 microbial genomes based on codon adaptation indices.
@@ -709,6 +709,10 @@ Hilterbrand A1, Saelens J, Putonti C.
 ## tools
 ツール
 
+https://github.com/enovoa/codonAutocorrelation
+Compute codon autocorrelation (aka codon covariation, codon reuse, codon pair usage) from fasta sequences.
+This code was used in the analyses of the manuscript 'Elucidation of codon usage signatures across the domains of life' (Novoa et al., Mol Biol Evol 2019), available here: https://doi.org/10.1093/molbev/msz124
+
 https://www.ncbi.nlm.nih.gov/pubmed/30738198
 Genomics. 2019 Feb 6. pii: S0888-7543(18)30608-6. doi: 10.1016/j.ygeno.2019.02.002. [Epub ahead of print]
 CodSeqGen: A tool for generating synonymous coding sequences with desired GC-contents.
@@ -746,11 +750,50 @@ http://bioinfo.ie.niigata-u.ac.jp/?コドン組成に基づくBLSOM解析
 ----------
 ### R
 
-http://rstudio-pubs-static.s3.amazonaws.com/3351_05a20138b81646829d8965c4a1ac76cd.html
+http://rpubs.com/dbg
+Daniel Bryan Goodman
+- http://rpubs.com/dbg/3350
+Step 07 - Looking at Codon and tRNA Adaptation Indices
+- http://rpubs.com/dbg/3351
 Step 10 - Looking at amino acid and codon usage
 
-load_genomic_codon_data <- function(codon_filename = paste(getwd(), "/data/codon_usage.txt", 
-    sep = "")) {
+### ComputeNEC
+
+https://rdrr.io/github/fredysiegrist/statanacoseq/
+fredysiegrist/statanacoseq: Statistical Analyses of Codon Usage in Custom Genome Sequences version 0.0.0.9002 from GitHub
+
+Install the latest version of this package by entering the following in R:
+```
+install.packages("remotes")
+remotes::install_github("fredysiegrist/statanacoseq")
+
+```
+
+
+https://rdrr.io/github/fredysiegrist/statanacoseq/man/ComputeNEC.html
+ComputeNEC: Effective number of codons in fredysiegrist/statanacoseq: Statistical Analyses of Codon Usage in Custom Genome Sequences
+
+Author(s)
+Roth, A.; Siegrist, F. and Cannarozzi, G. M. gina@cannarozzi.com
+
+
+
+### vhica
+
+https://cran.r-project.org/web/packages/vhica/index.html
+CRAN - Package vhica
+vhica: Vertical and Horizontal Inheritance Consistence Analysis
+Version:	0.2.4
+
+https://cran.r-project.org/web/packages/vhica/vhica.pdf
+April 5, 2016
+
+CUB Computes the Codon Usage Bias of DNA sequences
+Description
+The function reads aligned sequences in a fasta file and estimates the codon usage bias for each sequence. Several methods exist to estimate CUB; so far, only the "Effective Number of Codons" (ENC) calculation is available.
+
+https://rdrr.io/cran/vhica/man/CUB.html
+https://www.rdocumentation.org/packages/vhica/versions/0.2.4/topics/CUB
 
 ### coRdon
 
@@ -763,6 +806,7 @@ A, Kuzman M, Vlahovicek K (2019). coRdon: Codon Usage Analysis and Prediction of
 https://arxiv.org/abs/1808.07259
 [1808.07259] SSCU: an R/Bioconductor package for analyzing selective profile in synonymous codon usage
 
+
 https://bioconductor.org/packages/release/bioc/html/sscu.html
 
 ```
@@ -771,7 +815,7 @@ s_index
 ```
 
 https://bioconductor.org/packages/devel/bioc/manuals/sscu/man/sscu.pdf
-August 9, 2019
+October 30, 2019
 
 ----------
 ## methods
@@ -1162,6 +1206,9 @@ Philos Trans R Soc Lond B Biol Sci. 2010 Apr 27;365(1544):1203-12. doi: 10.1098/
 Forces that influence the evolution of codon bias.
 Sharp PM1, Emery LR, Zeng K.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2871821/
+Forces that influence the evolution of codon bias
+- For example, C. perfringens has 10 rRNA operons and 96 tRNA genes and can replicate in only 7 min under ideal conditions (Labbe & Huang 1995).
+- To test this association with growth rate, we have used minimum generation time data for 76 of these 80 species, drawn from the compilations made by E.P.C. Rocha (Rocha 2004; Coutourier & Rocha 2006). 
 
 https://www.ncbi.nlm.nih.gov/pubmed/17038449
 Mol Biol Evol. 2007 Jan;24(1):10-2. Epub 2006 Oct 12.
@@ -1169,10 +1216,7 @@ Predicting gene expression level from codon usage bias.
 Henry I, Sharp PM.
 https://academic.oup.com/mbe/article/24/1/10/1070854
 - We outline a simple approach, first to check whether a genome shows evidence of selected codon usage bias and then to assess the strength of bias in genes as a guide to their likely expression level; we illustrate this with an analysis of Shewanella oneidensis.
-- As an example, we have analyzed Shewanella oneidensis, a member of the gamma proteobacteria (Heidelberg et al. 2002). Eighteen codons, for 15 amino acids, occur at significantly higher frequencies in highly expressed genes than in the genome as a whole (see Supplementary Material online).
-
-
-
+- As an example, we have analyzed Shewanella oneidensis, a member of the gamma proteobacteria (Heidelberg et al. 2002). Eighteen codons, for 15 amino acids, occur at significantly higher frequencies in highly expressed genes than in the genome as a whole (see Supplementary Material online). Importantly, these codons do not reflect any simple compositional bias, such as G + U richness due to location of the highly expressed genes on the leading strand of replication. Rather, they include many codons which would be expected to be optimal, either because they are decoded by the most abundant tRNA species (e.g., 6 of the 9 Arg tRNA genes match CGU) or because they are perfectly complementary to the only tRNA species for the amino acid (e.g., UUC, UAC, CAC, AAC, GAC, and GAA). 
 
 https://www.ncbi.nlm.nih.gov/pubmed/15728743
 Nucleic Acids Res. 2005 Feb 23;33(4):1141-53. Print 2005.
