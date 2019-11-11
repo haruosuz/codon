@@ -97,12 +97,6 @@ https://twitter.com/astrogenomics/status/1186949418294996992
 Juan C. Villada on Twitter: "Our new pre-print is up! We explored how codon usage may be associated with hydrogen bonding in dsDNA. We found signals of a ramp that smoothly increases the number of hydrogen bonds per codon position. https://t.co/K3Ouu2unkj" / Twitter
 7:16 PM · Oct 23, 2019
 
-
-Posted September 30, 2019.
-https://www.biorxiv.org/content/10.1101/786939v1
-Benchmarking metagenomic marine microbial growth prediction from codon usage bias and peak-to-trough ratios | bioRxiv
-
-
 Posted August 09, 2019.
 https://www.biorxiv.org/content/10.1101/730473v1
 Using Machine Learning and Gene Nonhomology Features to Predict Gene Ontology | 
@@ -344,21 +338,7 @@ https://www.biophys.jp/dl/journal/53-1.pdf
 https://twilog.org/copypasteusa/search?word=コドン
 
 
-https://www.ncbi.nlm.nih.gov/pubmed/25680374
-Acta Biochim Pol. 2015;62(1):161-6. Epub 2015 Feb 13.
-The most widespread problems in the function-based microbial metagenomics.
-Felczykowska A1, Krajewska A1, Zielińska S1, Łoś JM1, Bloch SK1, Nejman-Faleńczyk B1.
- Codon usage bias, internal cell accumulation, correct protein folding or presence of proper initiation factors are discussed and possible ways to overcome these problems are proposed. 
-http://www.actabp.pl/pdf/1_2015/2014_917.pdf
 
-
-review
-https://www.ncbi.nlm.nih.gov/pubmed/26951112
-Microbiome. 2016 Mar 8;4:8. doi: 10.1186/s40168-016-0154-5.
-Recovering complete and draft population genomes from metagenome datasets.
-Sangwan N1,2, Xia F3, Gilbert JA4,5,6,7.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4782286/
-However, another framework for analysis relies on variation in codon bias to determine the genome-wide influence of in situ functional constraints on individual taxa. Since percentage codon bias variation analysis is a phylogenetically independent method that directly reflects the strength of selection and the translation efficiency of expressed genes [77, 78], it circumvents the need for reference genomes and can reveal the influence of in situ functional constraints over natural selection patterns. It is important to note that for complete genome sequences, codon use patterns are influenced by nucleotide composition (mutational biases) and horizontal gene transfer. However, because each gene in a reassembled genome represents the population with an even nucleotide composition, one can assume that these clonal isolate-based limitations will not skew codon usage.
 
 ----------
 ## review
@@ -849,6 +829,10 @@ Lucks JB1, Nelson DR, Kudla GR, Plotkin JB.
 ----------
 ## metagenome
 
+Posted September 30, 2019.
+https://www.biorxiv.org/content/10.1101/786939v1
+Benchmarking metagenomic marine microbial growth prediction from codon usage bias and peak-to-trough ratios | bioRxiv
+
 https://twitter.com/EvaMariaNovoa/status/1130910439817252864
 Eva Maria Novoa on Twitter: "Our paper is out! :-) Codon usage signatures across species are not just consequence of GC content - and these biases can be used for metagenomic binning! #codonusage #metagenome @manoliskellis https://t.co/fKZNIcWIll"
 2:57 PM - 21 May 2019
@@ -874,6 +858,23 @@ PLoS One. 2018 May 9;13(5):e0195869. doi: 10.1371/journal.pone.0195869. eCollect
 Codon usage bias reveals genomic adaptations to environmental conditions in an acidophilic consortium.
 Hart A1, Cortés MP2,3, Latorre M2,3,4,5, Martinez S6.
 
+
+review
+https://www.ncbi.nlm.nih.gov/pubmed/26951112
+Microbiome. 2016 Mar 8;4:8. doi: 10.1186/s40168-016-0154-5.
+Recovering complete and draft population genomes from metagenome datasets.
+Sangwan N1,2, Xia F3, Gilbert JA4,5,6,7.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4782286/
+However, another framework for analysis relies on variation in codon bias to determine the genome-wide influence of in situ functional constraints on individual taxa. Since percentage codon bias variation analysis is a phylogenetically independent method that directly reflects the strength of selection and the translation efficiency of expressed genes [77, 78], it circumvents the need for reference genomes and can reveal the influence of in situ functional constraints over natural selection patterns. It is important to note that for complete genome sequences, codon use patterns are influenced by nucleotide composition (mutational biases) and horizontal gene transfer. However, because each gene in a reassembled genome represents the population with an even nucleotide composition, one can assume that these clonal isolate-based limitations will not skew codon usage.
+
+https://www.ncbi.nlm.nih.gov/pubmed/25680374
+Acta Biochim Pol. 2015;62(1):161-6. Epub 2015 Feb 13.
+The most widespread problems in the function-based microbial metagenomics.
+Felczykowska A1, Krajewska A1, Zielińska S1, Łoś JM1, Bloch SK1, Nejman-Faleńczyk B1.
+ Codon usage bias, internal cell accumulation, correct protein folding or presence of proper initiation factors are discussed and possible ways to overcome these problems are proposed. 
+http://www.actabp.pl/pdf/1_2015/2014_917.pdf
+
+
 https://www.ncbi.nlm.nih.gov/pubmed/27115650
 Methods Mol Biol. 2016;1415:509-31. doi: 10.1007/978-1-4939-3572-7_26.
 Big Data, Evolution, and Metagenomes: Predicting Disease from Gut Microbiota Codon Usage Profiles.
@@ -890,8 +891,6 @@ Roller M1, Lucić V, Nagy I, Perica T, Vlahovicek K.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3799439/
 Single bacterial species’ genomes and annotation
 Codon usage within metagenomes follows similar patterns as in single microbial genomes
-
-
 
 
 
