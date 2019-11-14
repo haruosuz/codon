@@ -74,9 +74,6 @@ https://www.nig.ac.jp/museum/evolution/04_d.html
 https://en.wikipedia.org/wiki/Codon_usage_bias
 Optimal codons in fast-growing microorganisms, like Escherichia coli or Saccharomyces cerevisiae (baker's yeast), reflect the composition of their respective genomic transfer RNA (tRNA) pool.[2] It is thought that optimal codons help to achieve faster translation rates and high accuracy.
 
-
-
-
 Sun et al. (2017) における「optimal codons」と「abundant codons」の定義
 https://www.ncbi.nlm.nih.gov/pubmed/27540085
 Genome Biol Evol. 2017 Oct 1;9(10):2560-2579. doi: 10.1093/gbe/evw201.
@@ -86,6 +83,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5629928/
 - We define optimal codons as codons that evolve under selection for translational efficiency in the highly expressed genes, and abundant codons as codons used at high frequency in the majority of genes. 
 - We defined optimal codons as codons that were significantly more abundant in the RP than in the WG data set, irrespectively of their actual frequencies. Thus, it should be noted that both highly abundant (major) and lowly abundant (minor) codons might be considered optimal.
 
+最適コドンと準最適コドン（the primary and secondary optimal codons）
 https://www.ncbi.nlm.nih.gov/pubmed/23315666
 DNA Res. 2013 Apr;20(2):135-50. doi: 10.1093/dnares/dss039. Epub 2013 Jan 11.
 Evaluation of codon biology in citrus and Poncirus trifoliata based on genomic features and frame corrected expressed sequence tags.
