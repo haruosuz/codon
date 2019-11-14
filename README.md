@@ -71,6 +71,13 @@ https://www.nig.ac.jp/museum/evolution/04_d.html
 
 我々のグループは、規則1ー3を総合して導かれる翻訳能率を最適化すると推定されるコドンを、適合コドン(optimal codon)と呼んでいます。
 
+https://en.wikipedia.org/wiki/Codon_usage_bias
+Optimal codons in fast-growing microorganisms, like Escherichia coli or Saccharomyces cerevisiae (baker's yeast), reflect the composition of their respective genomic transfer RNA (tRNA) pool.[2] It is thought that optimal codons help to achieve faster translation rates and high accuracy.
+
+
+
+
+Sun et al. (2017) における「optimal codons」と「abundant codons」の定義
 https://www.ncbi.nlm.nih.gov/pubmed/27540085
 Genome Biol Evol. 2017 Oct 1;9(10):2560-2579. doi: 10.1093/gbe/evw201.
 Switches in Genomic GC Content Drive Shifts of Optimal Codons under Sustained Selection on Synonymous Sites.
@@ -85,6 +92,27 @@ Evaluation of codon biology in citrus and Poncirus trifoliata based on genomic f
 Ahmad T1, Sablok G, Tatarinova TV, Xu Q, Deng XX, Guo WW.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3628444/
 We further observed that for most amino acids with 2- to 6-fold degeneracy level, there has been a general preference for the usage of two or more codons as optimal codons. For example, in Glycine, two highly distributed optimal codons GGA and GGT were identified and they could be classified as the primary and secondary optimal codons preferentially based on the RSCU (GGA, ∼1.16 and GGT, ∼1.09). 
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/17038449
+Mol Biol Evol. 2007 Jan;24(1):10-2. Epub 2006 Oct 12.
+Predicting gene expression level from codon usage bias.
+Henry I, Sharp PM.
+https://academic.oup.com/mbe/article/24/1/10/1070854
+Translationally optimal codons can be identified as those best recognized by the most abundant tRNAs, and the frequency of these codons in a gene is highly correlated with gene expression level (Post and Nomura 1980; Ikemura 1981; Gouy and Gautier 1982). 
+
+https://www.ncbi.nlm.nih.gov/pubmed/6175758
+J Mol Biol. 1981 Sep 25;151(3):389-409.
+Correlation between the abundance of Escherichia coli transfer RNAs and the occurrence of the respective codons in its protein genes: a proposal for a synonymous codon choice that is optimal for the E. coli translational system.
+Ikemura T.
+https://www.sciencedirect.com/science/article/pii/0022283681900036
+The synonymous codon predicted in this way to be the most preferred codon was thought to be optimized for the E. coli translational system and designated as the “Optimal codon”. E. coli genes encoding abundant protein species use the optimal codons selectively, and other E. coli genes, such as amino acid synthesizing genes, use optimal and “non-optimal” codons to a roughly equal degree. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/6167728
+J Mol Biol. 1981 Feb 15;146(1):1-21.
+Correlation between the abundance of Escherichia coli transfer RNAs and the occurrence of the respective codons in its protein genes.
+Ikemura T.
+
 
 ----------
 ## chi square test
