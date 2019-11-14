@@ -51,6 +51,52 @@ Last Update: 2019-10
 ## growth rate
 増殖速度
 
+----------
+## optimal codon
+適合コドン / 最適コドン
+
+http://bioinfo.ie.niigata-u.ac.jp/?遺伝子発現量予測
+
+Z1軸の性質は長浜バイオ大学　池村淑道教授が整理した最適コドン決定規則 (tRNA量に基づいた翻訳効率と関わる最適コドンの決定法, 表1) により説明することができます[1-2,10-12]。したがって、最適コドン決定規則を用いることにより、情報科学的解析のみで種固有の最適コドンを推定することができる。
+
+表1　翻訳過程による最適コドン決定規則
+
+規則1:コドン使用は細胞内のtRNA量による制約を受ける。最適コドンは、細胞内に多量に含まれるtRNAのアンチコドンと対応する。
+
+https://www.nig.ac.jp/museum/evolution/04_d.html
+遺伝暗号(コドン）使用の種による多様性
+3.コドン使用とtRNA量との関係、遺伝子工学との係り
+
+規則 1)　1種類のアミノ酸にアンチコドンの異なる複数種類のisoaccepting tRNAが存在する場合、最大量tRNAの解読するコドンが好まれる。
+
+我々のグループは、規則1ー3を総合して導かれる翻訳能率を最適化すると推定されるコドンを、適合コドン(optimal codon)と呼んでいます。
+
+https://www.ncbi.nlm.nih.gov/pubmed/27540085
+Genome Biol Evol. 2017 Oct 1;9(10):2560-2579. doi: 10.1093/gbe/evw201.
+Switches in Genomic GC Content Drive Shifts of Optimal Codons under Sustained Selection on Synonymous Sites.
+Sun Y1, Tamarit D1, Andersson SGE1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5629928/
+- We define optimal codons as codons that evolve under selection for translational efficiency in the highly expressed genes, and abundant codons as codons used at high frequency in the majority of genes. 
+- We defined optimal codons as codons that were significantly more abundant in the RP than in the WG data set, irrespectively of their actual frequencies. Thus, it should be noted that both highly abundant (major) and lowly abundant (minor) codons might be considered optimal.
+
+https://www.ncbi.nlm.nih.gov/pubmed/23315666
+DNA Res. 2013 Apr;20(2):135-50. doi: 10.1093/dnares/dss039. Epub 2013 Jan 11.
+Evaluation of codon biology in citrus and Poncirus trifoliata based on genomic features and frame corrected expressed sequence tags.
+Ahmad T1, Sablok G, Tatarinova TV, Xu Q, Deng XX, Guo WW.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3628444/
+We further observed that for most amino acids with 2- to 6-fold degeneracy level, there has been a general preference for the usage of two or more codons as optimal codons. For example, in Glycine, two highly distributed optimal codons GGA and GGT were identified and they could be classified as the primary and secondary optimal codons preferentially based on the RSCU (GGA, ∼1.16 and GGT, ∼1.09). 
+
+----------
+## chi square test
+
+Synonymous codon usage in Pseudomonas aeruginosa PA01.
+https://www.sciencedirect.com/science/article/pii/S0378111902005036?via%3Dihub
+Codon usage in the two data sets (Table 2) was compared using chi square tests, with the sequential Bonferroni correction (Rice, 1989) to assess significance. Sixteen codons, for 12 amino acids, were identified as significantly (P , 0:05) more frequent in the High data set.
+
+Synonymous Codon Usage Analysis of Thirty Two Mycobacteriophage Genomes
+https://www.hindawi.com/journals/abi/2009/316936/
+To estimate the codon usage variation between these two sets of genes we have performed Chi square tests taking as significant criterion.
+
 
 ----------
 ## book
