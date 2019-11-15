@@ -75,10 +75,7 @@ https://en.wikipedia.org/wiki/Codon_usage_bias
 Optimal codons in fast-growing microorganisms, like Escherichia coli or Saccharomyces cerevisiae (baker's yeast), reflect the composition of their respective genomic transfer RNA (tRNA) pool.[2] It is thought that optimal codons help to achieve faster translation rates and high accuracy.
 
 Sun et al. (2017) における「optimal codons」と「abundant codons」の定義
-https://www.ncbi.nlm.nih.gov/pubmed/27540085
-Genome Biol Evol. 2017 Oct 1;9(10):2560-2579. doi: 10.1093/gbe/evw201.
 Switches in Genomic GC Content Drive Shifts of Optimal Codons under Sustained Selection on Synonymous Sites.
-Sun Y1, Tamarit D1, Andersson SGE1.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5629928/
 - We define optimal codons as codons that evolve under selection for translational efficiency in the highly expressed genes, and abundant codons as codons used at high frequency in the majority of genes. 
 - We defined optimal codons as codons that were significantly more abundant in the RP than in the WG data set, irrespectively of their actual frequencies. Thus, it should be noted that both highly abundant (major) and lowly abundant (minor) codons might be considered optimal.
@@ -111,9 +108,12 @@ J Mol Biol. 1981 Feb 15;146(1):1-21.
 Correlation between the abundance of Escherichia coli transfer RNAs and the occurrence of the respective codons in its protein genes.
 Ikemura T.
 
-
 ----------
 ## chi square test
+
+Switches in Genomic GC Content Drive Shifts of Optimal Codons under Sustained Selection on Synonymous Sites.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5629928/
+Codons used significantly more or less frequently in the highly expressed gene data set compared with the whole genome data set (chi-squared test, cutoff P = 0.01) were defined as optimal (+) and nonoptimal (−) codons according to the Ribosomal Protein (RP) method.
 
 Synonymous codon usage in Pseudomonas aeruginosa PA01.
 https://www.sciencedirect.com/science/article/pii/S0378111902005036?via%3Dihub
@@ -122,7 +122,6 @@ Codon usage in the two data sets (Table 2) was compared using chi square tests, 
 Synonymous Codon Usage Analysis of Thirty Two Mycobacteriophage Genomes
 https://www.hindawi.com/journals/abi/2009/316936/
 To estimate the codon usage variation between these two sets of genes we have performed Chi square tests taking as significant criterion.
-
 
 ----------
 ## book
