@@ -74,6 +74,20 @@ https://www.nig.ac.jp/museum/evolution/04_c.html
 　 大腸菌とサルモネラ菌ならびに酵母遺伝子に見られるコドン選択の偏りを例に
 c)　同一生物種の遺伝子間を比較した場合、多量にタンパク質を生産する遺伝子ほど方言がきつく、生産量が下がるにつれて、同質の方言を用いながらも、その方言の程度が緩くなります。図4では、生物ごとに、タンパク質生産量の高い遺伝子を左側に配置してあります。大腸菌のtufAB(ポリペプチド鎖延長因子)、ompC(外膜タンパク質)は多量にタンパク質を生産する遺伝子の例であり、trpやthrはアミノ酸合成系の遺伝子で、通常条件下では中程度ないしは少量のタンパク質しか生産していません。酵母のG3PDHやenolaseは解糖系の酵素で、最も多量に生産されるタンパク質であり、TRPやCYCは中程度ないしは比較的少量しか生産されない例に属します。生産量の高い遺伝子ほどコドン選択の偏りが顕著で(方言がきつい)、生産量の低い遺伝子では偏りの程度が緩くなります。この傾向は広範囲の遺伝子で成立することが判明しています。
 
+http://www.g-language.org/wiki/restgenomeanalysisjapanese#コドン使用の解析
+- 遺伝子発現量の予測
+- 翻訳選択 (Translational selection) の検出
+- コドン使用データの多変量解析
+
+https://www.ncbi.nlm.nih.gov/pubmed/18940873
+DNA Res. 2008 Dec;15(6):357-65. doi: 10.1093/dnares/dsn028. Epub 2008 Oct 21.
+Comparison of correspondence analysis methods for synonymous codon usage in bacteria.
+Suzuki H1, Brown CJ, Forney LJ, Top EM.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2608848/
+- Thirdly, genes expressed at high levels in fast-growing bacteria tend to preferentially use translationally optimal codons that are recognized by the most abundant tRNAs. This presumably reflects natural selection for synonymous codons that are translated more efficiently and accurately.7,8 
+- Secondly, to analyze the correlation between scores of each of the three axes [Equation (4)] and levels of gene expression (Expression), we tested for the distribution of the axis scores for 40 genes expected to be expressed constitutively at high levels.10 This set included the genes encoding translation elongation factors Tu (tuf), Ts (tsf) and G (fus), and 37 of the larger ribosomal proteins (encoded by genes rplA-rplF, rplI-rplT, and rpsB-rpsT). In each axis, the score for each gene was standardized by subtracting the mean and dividing by the standard deviation of scores for all protein genes. For each axis, Expression was detected as the main source of variation among genes on the axis when the mean absolute standard score for the 40 highly expressed genes was >1.644854 (an interval in which theoretically only 5% of all protein genes are included).
+- The third feature, Expression, was detected as a major source of synonymous codon usage variation among genes in C. trachomatis D/UW-3/CX, C. perfringens 13, E. coli K12 MG1655 and H. influenzae Rd KW20, which is consistent with previous findings (Table 2).
+
 ----------
 ## optimal codon
 適合コドン / 最適コドン
