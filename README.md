@@ -45,11 +45,26 @@ Last Update: 2019-10
 - [methods](#methods)
   - [RSCU](#rscu)
 
+----------
 
+- https://ja.wikipedia.org/wiki/コドン
+- http://bioinfo.ie.niigata-u.ac.jp/?遺伝子発現量予測
+- http://bioinfo.ie.niigata-u.ac.jp/?コドン組成に基づくBLSOM解析
+- http://www.g-language.org/wiki/restgenomeanalysisjapanese#コドン使用の解析
+- https://github.com/haruosuz/DS4GD/blob/master/2019/CaseStudy.md#codon-usage
+- https://github.com/haruosuz/DS4GD/blob/master/2018giga/CaseStudy.md#codon-usage
+- https://github.com/haruosuz/DS4GD/blob/master/2018/CaseStudy.md#codon-usage
 
 ----------
 ## growth rate
 増殖速度
+
+----------
+## gene expression
+## translational selection
+
+https://ja.wikipedia.org/wiki/コドン
+コドン出現頻度の違いは遺伝子の発現量やそのコドンに対応する tRNA の量と関係があることが知られている。発現量の多い遺伝子のコドン出現頻度の偏りは大きくなり、頻出するコドンに対応する tRNA は細胞内の存在量も多い。
 
 ----------
 ## optimal codon
@@ -706,10 +721,6 @@ http://bioinfo.ie.niigata-u.ac.jp/?Codon%20Usage%20Generator
 Codon Usage Generator (CUG) †
 本プログラムは，コドン組成を計算するためのソフトウェアです．
 
-http://bioinfo.ie.niigata-u.ac.jp/?遺伝子発現量予測
-
-http://bioinfo.ie.niigata-u.ac.jp/?コドン組成に基づくBLSOM解析
-
 ----------
 ### R
 
@@ -1121,13 +1132,11 @@ Singer GA1, Hickey DA.
 ----------
 ## people
 
+### Abe
 ### Ikemura
 ### Kanaya
 
-https://www.ncbi.nlm.nih.gov/pubmed/3916708
-Mol Biol Evol. 1985 Jan;2(1):13-34.
-Codon usage and tRNA content in unicellular and multicellular organisms.
-Ikemura T1.
+Takashi Abe
 
 https://www.ncbi.nlm.nih.gov/pubmed/11675589
 J Mol Evol. 2001 Oct-Nov;53(4-5):290-8.
@@ -1143,6 +1152,15 @@ https://www.ncbi.nlm.nih.gov/pubmed/10570992
 Gene. 1999 Sep 30;238(1):143-55.
 Studies of codon usage and tRNA genes of 18 unicellular organisms and quantification of Bacillus subtilis tRNAs: gene expression level and species-specific diversity of codon usage based on multivariate analysis.
 Kanaya S1, Yamada Y, Kudo Y, Ikemura T.
+
+1989 – 1991
+https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-02238105/
+コドン選択
+
+https://www.ncbi.nlm.nih.gov/pubmed/3916708
+Mol Biol Evol. 1985 Jan;2(1):13-34.
+Codon usage and tRNA content in unicellular and multicellular organisms.
+Ikemura T1.
 
 ### Musto
 
@@ -1364,12 +1382,6 @@ Presnyak V1, Alhusaini N1, Chen YH1, Martin S1, Morris N2, Kline N1, Olson S3, W
 
 ### Suzuki
 
-- https://github.com/haruosuz/DS4GD/blob/master/2019/CaseStudy.md#codon-usage
-- https://github.com/haruosuz/DS4GD/blob/master/2018giga/CaseStudy.md#codon-usage
-- https://github.com/haruosuz/DS4GD/blob/master/2018/CaseStudy.md#codon-usage
-- http://www.g-language.org/wiki/restgenomeanalysisjapanese
-- http://www.g-language.org/wiki/restgenomeanalysisjapanese#コドン使用の解析
-
 人工環境で同定された細菌のゲノムの特徴（ゲノムサイズ、GC含量、DNA複製鎖間の非対称度、コドン使用バイアス）
 https://www.ncbi.nlm.nih.gov/pubmed/30691394
 BMC Genomics. 2019 Jan 28;20(1):92. doi: 10.1186/s12864-018-5389-z.
@@ -1398,11 +1410,14 @@ Suzuki H1, Saito R, Tomita M.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2697163/
 
 対応分析
-http://www.ncbi.nlm.nih.gov/pubmed/18940873
-DNA Res. 2008 Dec;15(6):357-65.
+https://www.ncbi.nlm.nih.gov/pubmed/18940873
+DNA Res. 2008 Dec;15(6):357-65. doi: 10.1093/dnares/dsn028. Epub 2008 Oct 21.
 Comparison of correspondence analysis methods for synonymous codon usage in bacteria.
-Suzuki H, Brown CJ, Forney LJ, Top EM.
-
+Suzuki H1, Brown CJ, Forney LJ, Top EM.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2608848/
+- Thirdly, genes expressed at high levels in fast-growing bacteria tend to preferentially use translationally optimal codons that are recognized by the most abundant tRNAs. This presumably reflects natural selection for synonymous codons that are translated more efficiently and accurately.7,8 
+- Secondly, to analyze the correlation between scores of each of the three axes [Equation (4)] and levels of gene expression (Expression), we tested for the distribution of the axis scores for 40 genes expected to be expressed constitutively at high levels.10 This set included the genes encoding translation elongation factors Tu (tuf), Ts (tsf) and G (fus), and 37 of the larger ribosomal proteins (encoded by genes rplA-rplF, rplI-rplT, and rpsB-rpsT). In each axis, the score for each gene was standardized by subtracting the mean and dividing by the standard deviation of scores for all protein genes. For each axis, Expression was detected as the main source of variation among genes on the axis when the mean absolute standard score for the 40 highly expressed genes was >1.644854 (an interval in which theoretically only 5% of all protein genes are included).
+- The third feature, Expression, was detected as a major source of synonymous codon usage variation among genes in C. trachomatis D/UW-3/CX, C. perfringens 13, E. coli K12 MG1655 and H. influenzae Rd KW20, which is consistent with previous findings (Table 2).
 
 http://www.ncbi.nlm.nih.gov/pubmed/18350114
 EURASIP J Bioinform Syst Biol. 2007:61374.
