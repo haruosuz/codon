@@ -478,7 +478,7 @@ http://www.ncbi.nlm.nih.gov/pubmed/21102527
 Nat Rev Genet. 2011 Jan;12(1):32-42. doi: 10.1038/nrg2899. Epub 2010 Nov 23.
 Synonymous but not the same: the causes and consequences of codon bias.
 Plotkin JB1, Kudla G.
-http://mathbio.sas.upenn.edu/Papers/Plotkin_Kudla_NatRevGenetics_2011.pdf
+https://www.bio.upenn.edu/sites/default/files/research/Plotkin/Plotkin_Kudla_NatRevGenetics_2011.pdf
 
 https://www.ncbi.nlm.nih.gov/pubmed/18983258
 Annu Rev Genet. 2008;42:287-99. doi: 10.1146/annurev.genet.42.110807.091442.
@@ -812,10 +812,30 @@ October 30, 2019
 ----------
 ## methods
 
+### RSCU
+relative synonymous codon usage
 
+https://www.megasoftware.net/web_help_7/rh_rscu.htm
+Many amino acids are coded by more than one codon; thus multiple codons for a given amino acid are synonymous. However, many genes display a non-random usage of synonymous codons for specific amino acids. A measure of the extent of this non-randomness is given by the Relative Synonymous Codon Usage (RSCU) (Sharp et al. 1986).
 
+http://www.lirmm.fr/~rivals/rscu/
+RSCURS: Measuring the bias in codon usage from ribosomal activity 
+Paulet et al. DNA Research 2017
 
-----------
+Elucidation of Codon Usage Signatures across the Domains of Life
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6759073/
+fig. 1.
+(A) Hierarchical clustering of the average relative synonymous codon usage (RSCU) for each species (n = 1,625). 
+
+https://www.bio.upenn.edu/sites/default/files/research/Plotkin/Plotkin_Kudla_NatRevGenetics_2011.pdf
+Figure 1 | Codon bias within and between genomes.
+
+https://www.ncbi.nlm.nih.gov/pubmed/21699680
+BMC Genomics. 2011 Jun 23;12:325. doi: 10.1186/1471-2164-12-325.
+Unresolved orthology and peculiar coding sequence properties of lamprey genes: the KCNA gene family as test case.
+Qiu H1, Hildebrand F, Kuraku S, Meyer A.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3141671/
+Synonymous codon usage was investigated by within-group correspondence analysis (WCA) of codon counts [22,23] and by correspondence analysis of relative synonymous codon usage (CA-RSCU). The latter is the most widely used method for codon usage analysis, whereas the former has been recently demonstrated to produce more unbiased results because it takes into account both amino acid composition and codon degeneracy information [48]. 
 
 最尤推定
 https://www.ncbi.nlm.nih.gov/pubmed/18495752
@@ -826,24 +846,6 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2441815/
 The algorithm's; ability to detect weak biases is well illustrated by the genome of Helicobacter pylori, which has been claimed to contain no codon bias for highly expressed genes (31). 
 
 We found that SCUMBLE performs better than WCA or CA/RSCU in detecting GC or GT biases in prokaryote genomes. SCUMBLE is also able to detect far more biases in prokaryote genomes than a variety of other approaches using PCA (37) (Supplementary Tables S1 and S2). Unlike PCA, SCUMBLE shows a clear signature for the strength of the different biases: GC bias is most often the dominant bias, followed by expression bias and GT bias.
-
-### RSCU
-relative synonymous codon usage
-
-
-https://www.megasoftware.net/web_help_7/rh_rscu.htm
-Many amino acids are coded by more than one codon; thus multiple codons for a given amino acid are synonymous. However, many genes display a non-random usage of synonymous codons for specific amino acids. A measure of the extent of this non-randomness is given by the Relative Synonymous Codon Usage (RSCU) (Sharp et al. 1986).
-
-http://www.lirmm.fr/~rivals/rscu/
-RSCURS: Measuring the bias in codon usage from ribosomal activity 
-Paulet et al. DNA Research 2017
-
-
-### WCA
-within-group correspondence analysis (WCA) of codon usage
-
-Synonymous codon usage was investigated by within-group correspondence analysis (WCA) of codon counts [22, 23] and by correspondence analysis of relative synonymous codon usage (CA-RSCU). The latter is the most widely used method for codon usage analysis, whereas the former has been recently demonstrated to produce more unbiased results because it takes into account both amino acid composition and codon degeneracy information [48]. 
-
 
 ----------
 ## mge
