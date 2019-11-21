@@ -67,6 +67,10 @@ Switches in Genomic GC Content Drive Shifts of Optimal Codons under Sustained Se
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5629928/
 Codons used significantly more or less frequently in the highly expressed gene data set compared with the whole genome data set (chi-squared test, cutoff P = 0.01) were defined as optimal (+) and nonoptimal (−) codons according to the Ribosomal Protein (RP) method.
 
+Predicting gene expression level from codon usage bias
+https://academic.oup.com/mbe/article/24/1/10/1070854#supplementary-data
+Codons occurring at significantly higher frequencies (P<5%) in the High dataset are in bold; significance was assessed by chi squared tests within synonym sets, using a sequential Bonferroni approach (Rice 1989) to overcome the problem of multiple tests. These 18 codons (for 15 amino acids) are inferred to be the translationally optimal codons.
+
 Synonymous codon usage in Pseudomonas aeruginosa PA01.
 https://www.sciencedirect.com/science/article/pii/S0378111902005036?via%3Dihub
 Codon usage in the two data sets (Table 2) was compared using chi square tests, with the sequential Bonferroni correction (Rice, 1989) to assess significance. Sixteen codons, for 12 amino acids, were identified as significantly (P , 0:05) more frequent in the High data set.
