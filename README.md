@@ -19,7 +19,6 @@ Last Update: 2019-10
 - [heterologous gene expression](#heterologous-gene-expression)
 - [tRNA](#trna)
 - [tRNA gene cluster](#trna-gene-cluster)
-- [growth rate](#growth-rate)
 - [lifestyle](#lifestyle) ライフスタイル
 - [mge](#mge)
   - [plasmids](#plasmids)
@@ -44,6 +43,11 @@ Last Update: 2019-10
   - [R](#r)
 - [methods](#methods)
   - [RSCU](#rscu)
+- [optimal codon](#optimal-codon) 適合コドン / 最適コドン
+- [chi square test](#chi-square-test) カイ二乗検定
+- [growth rate](#growth-rate) 増殖速度
+- [translational selection](#translational-selection) 翻訳選択
+- [gene expression](#gene-expression) 遺伝子発現
 
 ----------
 
@@ -54,6 +58,22 @@ Last Update: 2019-10
 - https://github.com/haruosuz/DS4GD/blob/master/2019/CaseStudy.md#codon-usage
 - https://github.com/haruosuz/DS4GD/blob/master/2018giga/CaseStudy.md#codon-usage
 - https://github.com/haruosuz/DS4GD/blob/master/2018/CaseStudy.md#codon-usage
+
+----------
+## chi square test
+https://ja.wikipedia.org/wiki/カイ二乗検定
+
+Switches in Genomic GC Content Drive Shifts of Optimal Codons under Sustained Selection on Synonymous Sites.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5629928/
+Codons used significantly more or less frequently in the highly expressed gene data set compared with the whole genome data set (chi-squared test, cutoff P = 0.01) were defined as optimal (+) and nonoptimal (−) codons according to the Ribosomal Protein (RP) method.
+
+Synonymous codon usage in Pseudomonas aeruginosa PA01.
+https://www.sciencedirect.com/science/article/pii/S0378111902005036?via%3Dihub
+Codon usage in the two data sets (Table 2) was compared using chi square tests, with the sequential Bonferroni correction (Rice, 1989) to assess significance. Sixteen codons, for 12 amino acids, were identified as significantly (P , 0:05) more frequent in the High data set.
+
+Synonymous Codon Usage Analysis of Thirty Two Mycobacteriophage Genomes
+https://www.hindawi.com/journals/abi/2009/316936/
+To estimate the codon usage variation between these two sets of genes we have performed Chi square tests taking as significant criterion.
 
 ----------
 ## growth rate
@@ -140,21 +160,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/6167728
 J Mol Biol. 1981 Feb 15;146(1):1-21.
 Correlation between the abundance of Escherichia coli transfer RNAs and the occurrence of the respective codons in its protein genes.
 Ikemura T.
-
-----------
-## chi square test
-
-Switches in Genomic GC Content Drive Shifts of Optimal Codons under Sustained Selection on Synonymous Sites.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5629928/
-Codons used significantly more or less frequently in the highly expressed gene data set compared with the whole genome data set (chi-squared test, cutoff P = 0.01) were defined as optimal (+) and nonoptimal (−) codons according to the Ribosomal Protein (RP) method.
-
-Synonymous codon usage in Pseudomonas aeruginosa PA01.
-https://www.sciencedirect.com/science/article/pii/S0378111902005036?via%3Dihub
-Codon usage in the two data sets (Table 2) was compared using chi square tests, with the sequential Bonferroni correction (Rice, 1989) to assess significance. Sixteen codons, for 12 amino acids, were identified as significantly (P , 0:05) more frequent in the High data set.
-
-Synonymous Codon Usage Analysis of Thirty Two Mycobacteriophage Genomes
-https://www.hindawi.com/journals/abi/2009/316936/
-To estimate the codon usage variation between these two sets of genes we have performed Chi square tests taking as significant criterion.
 
 ----------
 ## book
