@@ -43,11 +43,11 @@ Last Update: 2019-10
   - [R](#r)
 - [methods](#methods)
   - [RSCU](#rscu)
-- [optimal codon](#optimal-codon) 適合コドン / 最適コドン
 - [chi square test](#chi-square-test) カイ二乗検定
 - [growth rate](#growth-rate) 増殖速度
 - [translational selection](#translational-selection) 翻訳選択
-- [gene expression](#gene-expression) 遺伝子発現
+- [gene expression](#gene-expression) 遺伝子の発現量
+- [optimal codon](#optimal-codon) 適合コドン / 最適コドン
 
 ----------
 
@@ -79,7 +79,9 @@ To estimate the codon usage variation between these two sets of genes we have pe
 ## growth rate
 増殖速度
 ## translational selection
+翻訳選択
 ## gene expression
+遺伝子の発現量
 
 https://ja.wikipedia.org/wiki/コドン
 コドン出現頻度の違いは遺伝子の発現量やそのコドンに対応する tRNA の量と関係があることが知られている。発現量の多い遺伝子のコドン出現頻度の偏りは大きくなり、頻出するコドンに対応する tRNA は細胞内の存在量も多い。
