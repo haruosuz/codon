@@ -1432,6 +1432,7 @@ http://www.ncbi.nlm.nih.gov/pubmed/26341535
 FEBS Lett. 2015 Oct 7;589(20 Pt B):3113-8.
 Analysis of amino acid and codon usage in Paramecium bursaria.
 Dohra H, Fujishima M, Suzuki H.
+https://febs.onlinelibrary.wiley.com/doi/full/10.1016/j.febslet.2015.08.033
 
 同義コドン使用の多様性
 http://www.ncbi.nlm.nih.gov/pubmed/19480720
