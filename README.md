@@ -1,5 +1,5 @@
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2019-10
+Last Update: 2019-12
 
 ----------
 
@@ -14,8 +14,6 @@ Last Update: 2019-10
 [2016](#2016)
 [2001](#2001)
 - [review](#review)
-- [book](#book)
-- [video](#video)
 - [heterologous gene expression](#heterologous-gene-expression)
 - [tRNA](#trna)
 - [tRNA gene cluster](#trna-gene-cluster)
@@ -35,9 +33,6 @@ Last Update: 2019-10
 [Sharp](#sharp)
 [Supek](#supek)
 [Suzuki](#suzuki)
-- [unclassified](#unclassified)
-- [japanese](#japanese) 日本語
-- [synthetic_biology](#synthetic_biology)
 - [database](#database)
 - [tools](#tools)
   - [R](#r)
@@ -48,6 +43,11 @@ Last Update: 2019-10
 - [translational selection](#translational-selection) 翻訳選択
 - [gene expression](#gene-expression) 遺伝子の発現量
 - [optimal codon](#optimal-codon) 適合コドン / 最適コドン
+- [synthetic_biology](#synthetic_biology)
+- [unclassified](#unclassified)
+- [book](#book)
+- [video](#video)
+- [japanese](#japanese) 日本語
 
 ----------
 
@@ -67,6 +67,10 @@ Switches in Genomic GC Content Drive Shifts of Optimal Codons under Sustained Se
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5629928/
 Codons used significantly more or less frequently in the highly expressed gene data set compared with the whole genome data set (chi-squared test, cutoff P = 0.01) were defined as optimal (+) and nonoptimal (−) codons according to the Ribosomal Protein (RP) method.
 
+Synonymous Codon Usage Analysis of Thirty Two Mycobacteriophage Genomes
+https://www.hindawi.com/journals/abi/2009/316936/
+To estimate the codon usage variation between these two sets of genes we have performed Chi square tests taking as significant criterion.
+
 Predicting gene expression level from codon usage bias
 https://academic.oup.com/mbe/article/24/1/10/1070854#supplementary-data
 Codons occurring at significantly higher frequencies (P<5%) in the High dataset are in bold; significance was assessed by chi squared tests within synonym sets, using a sequential Bonferroni approach (Rice 1989) to overcome the problem of multiple tests. These 18 codons (for 15 amino acids) are inferred to be the translationally optimal codons.
@@ -75,9 +79,11 @@ Synonymous codon usage in Pseudomonas aeruginosa PA01.
 https://www.sciencedirect.com/science/article/pii/S0378111902005036?via%3Dihub
 Codon usage in the two data sets (Table 2) was compared using chi square tests, with the sequential Bonferroni correction (Rice, 1989) to assess significance. Sixteen codons, for 12 amino acids, were identified as significantly (P , 0:05) more frequent in the High data set.
 
-Synonymous Codon Usage Analysis of Thirty Two Mycobacteriophage Genomes
-https://www.hindawi.com/journals/abi/2009/316936/
-To estimate the codon usage variation between these two sets of genes we have performed Chi square tests taking as significant criterion.
+Proteome composition and codon usage in spirochaetes: species-specific and DNA strand-specific mutational biases.
+Lafay B1, Lloyd AT, McLean MJ, Devine KM, Sharp PM, Wolfe KH.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC148367/pdf/271642.pdf
+Table 1. Codon usage (RSCU values) in B.burgdorferi (Bb) and T.pallidum (Tp)
+Chi-squared tests: << and >> denote P < 0.001 and indicate the direction of the difference; 
 
 ----------
 ## growth rate
@@ -166,34 +172,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/6167728
 J Mol Biol. 1981 Feb 15;146(1):1-21.
 Correlation between the abundance of Escherichia coli transfer RNAs and the occurrence of the respective codons in its protein genes.
 Ikemura T.
-
-----------
-## book
-本
-
-### 2018-11-21
-![](https://ars.els-cdn.com/content/image/3-s2.0-C20180021659-cov200h.gif)
-
-Multivariate Analyses of Codon Usage Biases - 1st Edition
-https://www.sciencedirect.com/book/9781785482960/multivariate-analyses-of-codon-usage-biases
-https://www.elsevier.com/books/multivariate-analyses-of-codon-usage-biases/lobry/978-1-78548-296-0
-http://www.iste.co.uk/book.php?id=1403
-
-### 2012-02-23
-
-![](https://global.oup.com/academic/covers/uk/pdp/9780199601165)
-
-http://www.oxfordscholarship.com/view/10.1093/acprof:osobl/9780199601165.001.0001/acprof-9780199601165
-Codon Evolution: Mechanisms and Models - Oxford Scholarship
-http://wp.biota.utoronto.ca/chang/files/2016/02/Chang-et-al-Codon-Evolution-Chapter11.pdf
-
-----------
-## video
-
-https://www.youtube.com/watch?v=P-fjZPf3Dnw
-Codon optimization: Why & how to design DNA sequences for optimal soluble protein expression - YouTube
-Published on Nov 3, 2014
-
 
 ----------
 
@@ -1075,6 +1053,7 @@ https://www.ncbi.nlm.nih.gov/pubmed/10075995
 Nucleic Acids Res. 1999 Apr 1;27(7):1642-9.
 Proteome composition and codon usage in spirochaetes: species-specific and DNA strand-specific mutational biases.
 Lafay B1, Lloyd AT, McLean MJ, Devine KM, Sharp PM, Wolfe KH.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC148367/pdf/271642.pdf
 
 https://www.ncbi.nlm.nih.gov/pubmed/9724767
 Proc Natl Acad Sci U S A. 1998 Sep 1;95(18):10698-703.
@@ -1554,6 +1533,59 @@ http://d.hatena.ne.jp/morimori-08/20100825/1282745255
 https://ci.nii.ac.jp/naid/40002328271/
 多義語コドンの発見--複数のアミノ酸と結合するファジ-なtRNA
 
+----------
+## book
+本
+
+### 2018-11-21
+![](https://ars.els-cdn.com/content/image/3-s2.0-C20180021659-cov200h.gif)
+
+Multivariate Analyses of Codon Usage Biases - 1st Edition
+https://www.sciencedirect.com/book/9781785482960/multivariate-analyses-of-codon-usage-biases
+https://www.elsevier.com/books/multivariate-analyses-of-codon-usage-biases/lobry/978-1-78548-296-0
+http://www.iste.co.uk/book.php?id=1403
+
+### 2012-02-23
+
+![](https://global.oup.com/academic/covers/uk/pdp/9780199601165)
+
+http://www.oxfordscholarship.com/view/10.1093/acprof:osobl/9780199601165.001.0001/acprof-9780199601165
+Codon Evolution: Mechanisms and Models - Oxford Scholarship
+http://wp.biota.utoronto.ca/chang/files/2016/02/Chang-et-al-Codon-Evolution-Chapter11.pdf
+
+### 2014-01-21
+
+http://bookclub.kodansha.co.jp/product?item=0000194810
+『分子からみた生物進化　ＤＮＡが明かす生物の歴史』（宮田　隆）：ブルーバックス｜講談社BOOK倶楽部
+```
+第５章　分子進化の保守性
+p. 98
+遺伝暗号も変わり得る
+```
+
+### 1997-07-20
+
+https://www.kyoritsu-pub.co.jp/bookdetail/9784320054752
+遺伝暗号の起源と進化 / 大澤 省三　著 渡辺 公綱　上田 卓也　大濱 武　訳 | 共立出版
+
+### 1988-04-20
+https://www.iwanami.co.jp/book/b267838.html
+https://blog.goo.ne.jp/eldiaquemequieras/e/d89929b19c493306b7cda716deac7140
+生物進化を考える　木村資生 著
+```
+第8章　中立説と分子進化
+4　中立進化に関連した他の話題
+同義コドンの不均一使用
+例外的な遺伝暗号
+中立説による説明
+```
+
+----------
+## video
+
+https://www.youtube.com/watch?v=P-fjZPf3Dnw
+Codon optimization: Why & how to design DNA sequences for optimal soluble protein expression - YouTube
+Published on Nov 3, 2014
 
 ----------
 ## unclassified
