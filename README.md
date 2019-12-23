@@ -66,6 +66,11 @@ https://en.wikipedia.org/wiki/Neutral_mutation
 
 https://en.wikipedia.org/wiki/Mutation_bias
 
+https://en.wikipedia.org/wiki/Codon_usage_bias
+- It is generally acknowledged that codon biases reflect a balance between mutational biases and natural selection (mutation–selection balance) for translational optimization. 
+- Mutation-selection-drift balance model
+To reconcile the evidence from both mutational pressures and selection, the prevailing hypothesis for codon bias can be explained by the mutation-selection-drift balance model. This hypothesis states that selection favors major codons over minor codons, but minor codons are able to persist due to mutation pressure and genetic drift. It also suggests that selection is generally weak, but that selection intensity scales to higher expression and more functional constraints of coding sequences.[15]
+
 https://www.ncbi.nlm.nih.gov/pubmed/31365533
 PLoS Genet. 2019 Jul 31;15(7):e1008304. doi: 10.1371/journal.pgen.1008304. eCollection 2019 Jul.
 Variation and selection on codon usage bias across an entire subphylum.
