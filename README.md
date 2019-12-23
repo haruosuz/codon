@@ -73,6 +73,12 @@ LaBella AL1, Opulente DA2, Steenwyk JL1, Hittinger CT2, Rokas A1.
 https://www.ncbi.nlm.nih.gov/pubmed/31365533
 We found that, while genome-wide relative synonymous codon usage (RSCU) for all codons was highly correlated with the GC content of the third codon position (GC3), the usage of codons for the amino acids proline, arginine, and glycine was inconsistent with the neutral expectation where mutational bias coupled with genetic drift drive codon usage. Examination between genes' effective numbers of codons and their GC3 contents in individual genomes revealed that nearly a quarter of genes (381,174/1,683,203; 23%), as well as most genomes (308/327; 94%), significantly deviate from the neutral expectation. 
 
+https://www.ncbi.nlm.nih.gov/pubmed/28645195
+Mol Biol Evol. 2017 Sep 1;34(9):2163-2172. doi: 10.1093/molbev/msx180.
+Mutational Biases Influence Parallel Adaptation.
+Stoltzfus A1, McCandlish DM2.
+https://www.ncbi.nlm.nih.gov/pubmed/31365533
+While mutational biases strongly influence neutral molecular evolution, the role of mutational biases in shaping the course of adaptation is less clear. Here we consider the frequency of transitions relative to transversions among adaptive substitutions. Because mutation rates for transitions are higher than those for transversions, if mutational biases influence the dynamics of adaptation, then transitions should be overrepresented among documented adaptive substitutions. 
 
 https://www.ncbi.nlm.nih.gov/pubmed/21498884
 Genome Biol Evol. 2011;3:383-95. doi: 10.1093/gbe/evr032. Epub 2011 Apr 17.
@@ -80,7 +86,6 @@ Faster than neutral evolution of constrained sequences: the complex interplay of
 Lawrie DS1, Petrov DA, Messer PW.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3101017/
 When purifying selection is weak and mutation is biased, constrained regions can even evolve faster than neutral sequences and thus can appear to be under positive selection. Moreover, conservation estimates depend also on the orientation of selection relative to mutational biases and can vary over time. In the light of recent data of the ubiquity of mutational biases and weak selective forces, these effects should reduce the power of conservation analyses to define functional regions using comparative genomics data. We argue that the estimation of true mutational biases and the use of explicit evolutionary models are essential to improve methods inferring the action of natural selection and functionality in genome sequences.
-
 
 https://www.ncbi.nlm.nih.gov/pubmed/22039174
 DNA Res. 2011 Dec;18(6):499-512. doi: 10.1093/dnares/dsr035. Epub 2011 Oct 27.
