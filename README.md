@@ -60,6 +60,38 @@ Last Update: 2019-12
 - https://github.com/haruosuz/DS4GD/blob/master/2018/CaseStudy.md#codon-usage
 
 ----------
+## neutral
+
+https://en.wikipedia.org/wiki/Neutral_mutation
+
+https://en.wikipedia.org/wiki/Mutation_bias
+
+https://www.ncbi.nlm.nih.gov/pubmed/31365533
+PLoS Genet. 2019 Jul 31;15(7):e1008304. doi: 10.1371/journal.pgen.1008304. eCollection 2019 Jul.
+Variation and selection on codon usage bias across an entire subphylum.
+LaBella AL1, Opulente DA2, Steenwyk JL1, Hittinger CT2, Rokas A1.
+https://www.ncbi.nlm.nih.gov/pubmed/31365533
+We found that, while genome-wide relative synonymous codon usage (RSCU) for all codons was highly correlated with the GC content of the third codon position (GC3), the usage of codons for the amino acids proline, arginine, and glycine was inconsistent with the neutral expectation where mutational bias coupled with genetic drift drive codon usage. Examination between genes' effective numbers of codons and their GC3 contents in individual genomes revealed that nearly a quarter of genes (381,174/1,683,203; 23%), as well as most genomes (308/327; 94%), significantly deviate from the neutral expectation. 
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/21498884
+Genome Biol Evol. 2011;3:383-95. doi: 10.1093/gbe/evr032. Epub 2011 Apr 17.
+Faster than neutral evolution of constrained sequences: the complex interplay of mutational biases and weak selection.
+Lawrie DS1, Petrov DA, Messer PW.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3101017/
+When purifying selection is weak and mutation is biased, constrained regions can even evolve faster than neutral sequences and thus can appear to be under positive selection. Moreover, conservation estimates depend also on the orientation of selection relative to mutational biases and can vary over time. In the light of recent data of the ubiquity of mutational biases and weak selective forces, these effects should reduce the power of conservation analyses to define functional regions using comparative genomics data. We argue that the estimation of true mutational biases and the use of explicit evolutionary models are essential to improve methods inferring the action of natural selection and functionality in genome sequences.
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/22039174
+DNA Res. 2011 Dec;18(6):499-512. doi: 10.1093/dnares/dsr035. Epub 2011 Oct 27.
+Mutation bias is the driving force of codon usage in the Gallus gallus genome.
+Rao Y1, Wu G, Wang Z, Chai X, Nie Q, Zhang X.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3223081/
+- Synonymous codons are used with different frequencies both among species and among genes within the same genome and are controlled by neutral processes (such as mutation and drift) as well as by selection. 
+- As G + C content is more likely determined by genome-wide processes rather than by selective forces acting specifically on coding sequence, these findings have been inferred to reflect the genome-wide patterns of codon usage by mutational biases. Based on the fact that both mutational pressures and selective forces are involved in the phenomenon of codon bias in a variety of organisms, an integrated model, known as the mutation–selection–drift balance model, has been proposed.15,23–25 This model proposes that selection favours optimal codons over minor codons, while mutational pressure and genetic drift allow the minor codons to persist.17 
+
+
+----------
 ## chi square test
 https://ja.wikipedia.org/wiki/カイ二乗検定
 
