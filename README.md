@@ -101,6 +101,45 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3223081/
 - As G + C content is more likely determined by genome-wide processes rather than by selective forces acting specifically on coding sequence, these findings have been inferred to reflect the genome-wide patterns of codon usage by mutational biases. Based on the fact that both mutational pressures and selective forces are involved in the phenomenon of codon bias in a variety of organisms, an integrated model, known as the mutation–selection–drift balance model, has been proposed.15,23–25 This model proposes that selection favours optimal codons over minor codons, while mutational pressure and genetic drift allow the minor codons to persist.17 
 
 
+http://sesj.kenkyuukai.jp/special/index.asp?id=1450
+日本進化学会ニュースvol.12 No.3 （2011.11.15発行）■5.1MB
+シリーズ「私と進化学」第2回
+http://sesj.kenkyuukai.jp/images/sys%5Cinformation%5C20111114200040-DB164BC02BD9DEE68BBF8E76AB9722787A49390FC228BFE89C59C773A5C3A175.pdf
+虫から始まり虫で終わる（後編）
+「分子生物学から進化学へ」
+大澤 省三（初代進化学会会長）
+このようなゲノムのGC含量の偏りを説明する
+ため、末岡登博士が古く1962年、方向性をもつ突
+然変異圧（directional mutation pressure）という考
+えを出されている。事実、AT to GC、またはGC to
+ATの変異を起こす遺伝子の存在が知られているが、
+現存生物のDNAのGC含量が末岡のいう突然変異
+圧に関係しているかどうかは解明されていない。
+
+いずれもタン
+パク質のアミノ酸配列を変えることのない中立変
+異である（図16-3の上）。これが我々の考えた暗号
+変化の「コドン捕獲説」の大要である（1987）。こ
+のスキームが正しいことは、後にCastresama et
+al.（1998）によって証明された（図16-3の下）。
+捕獲説はコドンとアンチコドン間のwobble rules
+（コドンとtRNAのアンチコドンの相互認識のルー
+ル）、同義語コドンの中立変化などをよく理解してい
+ないと、わかりにくいことと、
+
+https://www.ncbi.nlm.nih.gov/pubmed/8411203
+J Mol Evol. 1993 Aug;37(2):137-53.
+Directional mutation pressure, mutator mutations, and dynamics of molecular evolution.
+Sueoka N1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/3357886
+Proc Natl Acad Sci U S A. 1988 Apr;85(8):2653-7.
+Directional mutation pressure and neutral molecular evolution.
+Sueoka N1.
+The theory was based on the assumption that the effect of mutation on a genome is not random but has a directionality toward higher or lower guanine-plus-cytosine content of DNA, and this pressure generates directional changes more in neutral parts of the genome than in functionally significant parts. Now that DNA sequence data are available, the theory allows the estimation of the extent of neutrality of directional mutation pressure against selection. 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC280056/pdf/pnas00260-0245.pdf
+
+
 ----------
 ## chi square test
 https://ja.wikipedia.org/wiki/カイ二乗検定
@@ -1603,12 +1642,17 @@ http://bookclub.kodansha.co.jp/product?item=0000194810
 第５章　分子進化の保守性
 p. 98
 遺伝暗号も変わり得る
+大勢を壊すことなく、中立的な抜け道でなければならない。
+p. 100
+進化の過程で、G+CからA+Tへの偏った塩基置換がおきたためと推定される。その過程で、終止コドンUGAは別の終止コドンUAAへと中立的に置き換わっていき、
 ```
 
 ### 1997-07-20
 
 https://www.kyoritsu-pub.co.jp/bookdetail/9784320054752
 遺伝暗号の起源と進化 / 大澤 省三　著 渡辺 公綱　上田 卓也　大濱 武　訳 | 共立出版
+
+
 
 ### 1988-04-20
 https://www.iwanami.co.jp/book/b267838.html
