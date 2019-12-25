@@ -61,6 +61,7 @@ Last Update: 2019-12
 
 ----------
 ## neutral
+中立
 
 https://en.wikipedia.org/wiki/Neutral_mutation
 
@@ -100,6 +101,13 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3223081/
 - Synonymous codons are used with different frequencies both among species and among genes within the same genome and are controlled by neutral processes (such as mutation and drift) as well as by selection. 
 - As G + C content is more likely determined by genome-wide processes rather than by selective forces acting specifically on coding sequence, these findings have been inferred to reflect the genome-wide patterns of codon usage by mutational biases. Based on the fact that both mutational pressures and selective forces are involved in the phenomenon of codon bias in a variety of organisms, an integrated model, known as the mutation–selection–drift balance model, has been proposed.15,23–25 This model proposes that selection favours optimal codons over minor codons, while mutational pressure and genetic drift allow the minor codons to persist.17 
 
+http://www.iu.a.u-tokyo.ac.jp/~hnishida/tokuron4.htm
+ゲノム塩基配列の偏りと生物機能
+Genome base composition bias and biological function
+
+このGC含量のばらつきの要因は複製時における中立的な変異の偏りにあると考えられている（Sueoka, 1961, PNAS, 47, 1141-1149; Sueoka 1962, PNAS, 48, 582-592; Freese, 1962, J Theoret Biol, 3, 82-101; Sueoka 1988, PNAS, 85, 2653-2657）
+
+他方、この変異の偏りが中立的ではなく、GCからATへの偏りが顕著であることも指摘されている（Hershberg and Petrov, 2010, PLoS Genet, 6, e1001115; Hildebrand et al., 2010, PLoS Genet, 6, e1001107; Rocha and Feil, 2010, PLoS Genet, 6, e1001104）
 
 http://sesj.kenkyuukai.jp/special/index.asp?id=1450
 日本進化学会ニュースvol.12 No.3 （2011.11.15発行）■5.1MB
