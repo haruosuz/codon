@@ -35,7 +35,6 @@ Last Update: 2019-12
 [Suzuki](#suzuki)
 - [database](#database)
 - [tools](#tools)
-  - [R](#r)
 - [methods](#methods)
   - [RSCU](#rscu)
 - [chi square test](#chi-square-test) カイ二乗検定
@@ -267,6 +266,37 @@ Ikemura T.
 ## updates
 
 ### 2019
+
+2019年12月23日に投稿
+https://qiita.com/nkjmu/items/3572c8883d8802c3edd5
+【論文紹介】メタゲノムでやってよかったよね感が出た面白い結果 - Qiita
+
+・codon usage proxy (ΔENC’)を用いると、minimum generation timeが推定できる。
+仮説的には、unlinked rRNA遺伝子を持つものは、growth rateが遅いというものがあるのでそれを検証した
+
+codon usage proxy
+初めて聞いた。論文調べてみると、"codon usage bias (ΔENC’)" って出てきますね。
+
+Nearly Neutrality and the Evolution of Codon Usage Bias in Eukaryotic Genomes (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2323827/)
+
+Fig.1Cに真核まで含めてプロットしたものがある。たしかに、generation timeの目安になりそう？
+
+細菌・古細菌間程度でもそれが通用するっていうのは、refを探してません。(論文中に書いてるのかな？)
+
+
+
+
+linked rRNAの場合、同一オペロンで制御することは、成長の早いバクテリア・アーキアでより強く現れるはず。(細胞内での主要なエネルギー消費はリボソーム合成)
+
+→ということでゲノムあたりのrRNAコピー数やmaximum growth rateを予測
+
+→コピー数は4.25vs2.72で有意にunlinkedの方が低かった。
+また、ΔENC'(先述)から予測したminimum generation timeはunlinkedなものが長い。
+
+(maximumなgrowth rateと、minimumなgeneration timeという、本文中のこの段落で2つ出てきて別のものを比べたようにみえるが、最大限速く成長する=世代時間は最小になるやろうということで根本的には同じ)
+
+→unlinkedな方がgeneration timeが長いし、rRNAのコピー数も少ない(つまり一気にたくさんribosomeを作れない？)ということで成長遅いだろう
+
 
 https://twitter.com/LiatShenhav/status/1187818150970085376
 Liat Shenhav on Twitter: "We uncover a strong purifying selective pressure across marine microbial life that is driven by resource conservation, and also demonstrate that it is a central driving force in selection processes guiding codon usage. https://t.co/S4P6DXNi03" / Twitter
@@ -817,75 +847,6 @@ http://bioinfo.ie.niigata-u.ac.jp/?Codon%20Usage%20Generator
 Codon Usage Generator (CUG) †
 本プログラムは，コドン組成を計算するためのソフトウェアです．
 
-----------
-### R
-
-http://rpubs.com/dbg
-Daniel Bryan Goodman
-- http://rpubs.com/dbg/3350
-Step 07 - Looking at Codon and tRNA Adaptation Indices
-- http://rpubs.com/dbg/3351
-Step 10 - Looking at amino acid and codon usage
-
-### ComputeNEC
-
-https://rdrr.io/github/fredysiegrist/statanacoseq/
-fredysiegrist/statanacoseq: Statistical Analyses of Codon Usage in Custom Genome Sequences version 0.0.0.9002 from GitHub
-
-Install the latest version of this package by entering the following in R:
-```
-install.packages("remotes")
-remotes::install_github("fredysiegrist/statanacoseq")
-
-```
-
-
-https://rdrr.io/github/fredysiegrist/statanacoseq/man/ComputeNEC.html
-ComputeNEC: Effective number of codons in fredysiegrist/statanacoseq: Statistical Analyses of Codon Usage in Custom Genome Sequences
-
-Author(s)
-Roth, A.; Siegrist, F. and Cannarozzi, G. M. gina@cannarozzi.com
-
-
-
-### vhica
-
-https://cran.r-project.org/web/packages/vhica/index.html
-CRAN - Package vhica
-vhica: Vertical and Horizontal Inheritance Consistence Analysis
-Version:	0.2.4
-
-https://cran.r-project.org/web/packages/vhica/vhica.pdf
-April 5, 2016
-
-CUB Computes the Codon Usage Bias of DNA sequences
-Description
-The function reads aligned sequences in a fasta file and estimates the codon usage bias for each sequence. Several methods exist to estimate CUB; so far, only the "Effective Number of Codons" (ENC) calculation is available.
-
-https://rdrr.io/cran/vhica/man/CUB.html
-https://www.rdocumentation.org/packages/vhica/versions/0.2.4/topics/CUB
-
-### coRdon
-
-https://github.com/haruosuz/r4bioinfo/tree/master/R_coRdon
-A, Kuzman M, Vlahovicek K (2019). coRdon: Codon Usage Analysis and Prediction of Gene Expressivity. 
-
-### sscu
-
-22 Aug 2018
-https://arxiv.org/abs/1808.07259
-[1808.07259] SSCU: an R/Bioconductor package for analyzing selective profile in synonymous codon usage
-
-
-https://bioconductor.org/packages/release/bioc/html/sscu.html
-
-```
-library(sscu)
-s_index
-```
-
-https://bioconductor.org/packages/devel/bioc/manuals/sscu/man/sscu.pdf
-October 30, 2019
 
 ----------
 ## methods
@@ -1012,6 +973,17 @@ Lucks JB1, Nelson DR, Kudla GR, Plotkin JB.
 Posted September 30, 2019.
 https://www.biorxiv.org/content/10.1101/786939v1
 Benchmarking metagenomic marine microbial growth prediction from codon usage bias and peak-to-trough ratios | bioRxiv
+https://www.biorxiv.org/content/10.1101/786939v1.full.pdf
+Growth rate indices: codon usage bias and peak-to-trough ratio
+The maximum growth rate of each MAG was predicted using a customized growthpred
+v1.0.8 (available at https://hub.docker.com/r/shengwei/growthpred) in metagenome mode (-m)
+and with universal codons (-c 0). Blast-retrieved ribosomal protein sequences were used as the
+highly expressed genes (-b) and compared to all the coding sequences of each MAG (-g).
+PTR indices were calculated using iRep v1.10 [4], GRiD v1.3 [5], and DEMIC v1.0.2
+[6]. iRep and GRiD were calculated for all MAGs > 75% complete and DEMIC was calculated
+for every MAG. 
+
+
 
 https://twitter.com/EvaMariaNovoa/status/1130910439817252864
 Eva Maria Novoa on Twitter: "Our paper is out! :-) Codon usage signatures across species are not just consequence of GC content - and these biases can be used for metagenomic binning! #codonusage #metagenome @manoliskellis https://t.co/fKZNIcWIll"
