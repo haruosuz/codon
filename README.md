@@ -1,5 +1,5 @@
 Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2019-12
+Last Update: 2020-02
 
 ----------
 
@@ -8,6 +8,7 @@ Last Update: 2019-12
 ## Table of Contents
 - [featuring](#featuring)
 - [updates](#updates)
+[2020](#2020)
 [2019](#2019)
 [2018](#2018)
 [2017](#2017)
@@ -59,211 +60,34 @@ Last Update: 2019-12
 - https://github.com/haruosuz/DS4GD/blob/master/2018/CaseStudy.md#codon-usage
 
 ----------
-## neutral
-中立
+## featuring
 
-https://en.wikipedia.org/wiki/Neutral_mutation
-
-https://en.wikipedia.org/wiki/Mutation_bias
-
-https://en.wikipedia.org/wiki/Codon_usage_bias
-- It is generally acknowledged that codon biases reflect a balance between mutational biases and natural selection (mutation–selection balance) for translational optimization. 
-- Mutation-selection-drift balance model
-To reconcile the evidence from both mutational pressures and selection, the prevailing hypothesis for codon bias can be explained by the mutation-selection-drift balance model. This hypothesis states that selection favors major codons over minor codons, but minor codons are able to persist due to mutation pressure and genetic drift. It also suggests that selection is generally weak, but that selection intensity scales to higher expression and more functional constraints of coding sequences.[15]
-
-https://www.ncbi.nlm.nih.gov/pubmed/31365533
-PLoS Genet. 2019 Jul 31;15(7):e1008304. doi: 10.1371/journal.pgen.1008304. eCollection 2019 Jul.
-Variation and selection on codon usage bias across an entire subphylum.
-LaBella AL1, Opulente DA2, Steenwyk JL1, Hittinger CT2, Rokas A1.
-https://www.ncbi.nlm.nih.gov/pubmed/31365533
-We found that, while genome-wide relative synonymous codon usage (RSCU) for all codons was highly correlated with the GC content of the third codon position (GC3), the usage of codons for the amino acids proline, arginine, and glycine was inconsistent with the neutral expectation where mutational bias coupled with genetic drift drive codon usage. Examination between genes' effective numbers of codons and their GC3 contents in individual genomes revealed that nearly a quarter of genes (381,174/1,683,203; 23%), as well as most genomes (308/327; 94%), significantly deviate from the neutral expectation. 
-
-https://www.ncbi.nlm.nih.gov/pubmed/28645195
-Mol Biol Evol. 2017 Sep 1;34(9):2163-2172. doi: 10.1093/molbev/msx180.
-Mutational Biases Influence Parallel Adaptation.
-Stoltzfus A1, McCandlish DM2.
-https://www.ncbi.nlm.nih.gov/pubmed/31365533
-While mutational biases strongly influence neutral molecular evolution, the role of mutational biases in shaping the course of adaptation is less clear. Here we consider the frequency of transitions relative to transversions among adaptive substitutions. Because mutation rates for transitions are higher than those for transversions, if mutational biases influence the dynamics of adaptation, then transitions should be overrepresented among documented adaptive substitutions. 
-
-https://www.ncbi.nlm.nih.gov/pubmed/21498884
-Genome Biol Evol. 2011;3:383-95. doi: 10.1093/gbe/evr032. Epub 2011 Apr 17.
-Faster than neutral evolution of constrained sequences: the complex interplay of mutational biases and weak selection.
-Lawrie DS1, Petrov DA, Messer PW.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3101017/
-When purifying selection is weak and mutation is biased, constrained regions can even evolve faster than neutral sequences and thus can appear to be under positive selection. Moreover, conservation estimates depend also on the orientation of selection relative to mutational biases and can vary over time. In the light of recent data of the ubiquity of mutational biases and weak selective forces, these effects should reduce the power of conservation analyses to define functional regions using comparative genomics data. We argue that the estimation of true mutational biases and the use of explicit evolutionary models are essential to improve methods inferring the action of natural selection and functionality in genome sequences.
-
-https://www.ncbi.nlm.nih.gov/pubmed/22039174
-DNA Res. 2011 Dec;18(6):499-512. doi: 10.1093/dnares/dsr035. Epub 2011 Oct 27.
-Mutation bias is the driving force of codon usage in the Gallus gallus genome.
-Rao Y1, Wu G, Wang Z, Chai X, Nie Q, Zhang X.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3223081/
-- Synonymous codons are used with different frequencies both among species and among genes within the same genome and are controlled by neutral processes (such as mutation and drift) as well as by selection. 
-- As G + C content is more likely determined by genome-wide processes rather than by selective forces acting specifically on coding sequence, these findings have been inferred to reflect the genome-wide patterns of codon usage by mutational biases. Based on the fact that both mutational pressures and selective forces are involved in the phenomenon of codon bias in a variety of organisms, an integrated model, known as the mutation–selection–drift balance model, has been proposed.15,23–25 This model proposes that selection favours optimal codons over minor codons, while mutational pressure and genetic drift allow the minor codons to persist.17 
-
-http://www.iu.a.u-tokyo.ac.jp/~hnishida/tokuron4.htm
-ゲノム塩基配列の偏りと生物機能
-Genome base composition bias and biological function
-
-このGC含量のばらつきの要因は複製時における中立的な変異の偏りにあると考えられている（Sueoka, 1961, PNAS, 47, 1141-1149; Sueoka 1962, PNAS, 48, 582-592; Freese, 1962, J Theoret Biol, 3, 82-101; Sueoka 1988, PNAS, 85, 2653-2657）
-
-他方、この変異の偏りが中立的ではなく、GCからATへの偏りが顕著であることも指摘されている（Hershberg and Petrov, 2010, PLoS Genet, 6, e1001115; Hildebrand et al., 2010, PLoS Genet, 6, e1001107; Rocha and Feil, 2010, PLoS Genet, 6, e1001104）
-
-http://sesj.kenkyuukai.jp/special/index.asp?id=1450
-日本進化学会ニュースvol.12 No.3 （2011.11.15発行）■5.1MB
-シリーズ「私と進化学」第2回
-http://sesj.kenkyuukai.jp/images/sys%5Cinformation%5C20111114200040-DB164BC02BD9DEE68BBF8E76AB9722787A49390FC228BFE89C59C773A5C3A175.pdf
-虫から始まり虫で終わる（後編）
-「分子生物学から進化学へ」
-大澤 省三（初代進化学会会長）
-このようなゲノムのGC含量の偏りを説明する
-ため、末岡登博士が古く1962年、方向性をもつ突
-然変異圧（directional mutation pressure）という考
-えを出されている。事実、AT to GC、またはGC to
-ATの変異を起こす遺伝子の存在が知られているが、
-現存生物のDNAのGC含量が末岡のいう突然変異
-圧に関係しているかどうかは解明されていない。
-
-いずれもタン
-パク質のアミノ酸配列を変えることのない中立変
-異である（図16-3の上）。これが我々の考えた暗号
-変化の「コドン捕獲説」の大要である（1987）。こ
-のスキームが正しいことは、後にCastresama et
-al.（1998）によって証明された（図16-3の下）。
-捕獲説はコドンとアンチコドン間のwobble rules
-（コドンとtRNAのアンチコドンの相互認識のルー
-ル）、同義語コドンの中立変化などをよく理解してい
-ないと、わかりにくいことと、
-
-https://www.ncbi.nlm.nih.gov/pubmed/8411203
-J Mol Evol. 1993 Aug;37(2):137-53.
-Directional mutation pressure, mutator mutations, and dynamics of molecular evolution.
-Sueoka N1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/3357886
-Proc Natl Acad Sci U S A. 1988 Apr;85(8):2653-7.
-Directional mutation pressure and neutral molecular evolution.
-Sueoka N1.
-The theory was based on the assumption that the effect of mutation on a genome is not random but has a directionality toward higher or lower guanine-plus-cytosine content of DNA, and this pressure generates directional changes more in neutral parts of the genome than in functionally significant parts. Now that DNA sequence data are available, the theory allows the estimation of the extent of neutrality of directional mutation pressure against selection. 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC280056/pdf/pnas00260-0245.pdf
+https://www.ncbi.nlm.nih.gov/pubmed/12952536
+Genome Biol. 2003;4(9):R57. Epub 2003 Aug 21.
+The source of laterally transferred genes in bacterial genomes.
+Daubin V1, Lerat E, Perrière G.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC193657/
+The codon usage of LTGs: comparison with native genes
+We computed four independent factorial correspondence analyses (FCA) on the genes of each type (native and transferred genes, IS, and phages) for the four species E. coli O157:H7, Helicobacter pylori, Salmonella enterica, and Streptococcus pneumoniae.
+Figure 4
+Intraspecies FCA.
 
 
-----------
-## chi square test
-https://ja.wikipedia.org/wiki/カイ二乗検定
+https://www.biophys.jp/dl/journal/53-1.pdf
+生物物理 53（1），015-019（2013）
+交通流と翻訳過程
+御手洗菜美子　コペンハーゲン大学ニールス・ボーア研究所
 
-Switches in Genomic GC Content Drive Shifts of Optimal Codons under Sustained Selection on Synonymous Sites.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5629928/
-Codons used significantly more or less frequently in the highly expressed gene data set compared with the whole genome data set (chi-squared test, cutoff P = 0.01) were defined as optimal (+) and nonoptimal (−) codons according to the Ribosomal Protein (RP) method.
-
-Synonymous Codon Usage Analysis of Thirty Two Mycobacteriophage Genomes
-https://www.hindawi.com/journals/abi/2009/316936/
-To estimate the codon usage variation between these two sets of genes we have performed Chi square tests taking as significant criterion.
-
-Predicting gene expression level from codon usage bias
-https://academic.oup.com/mbe/article/24/1/10/1070854#supplementary-data
-Codons occurring at significantly higher frequencies (P<5%) in the High dataset are in bold; significance was assessed by chi squared tests within synonym sets, using a sequential Bonferroni approach (Rice 1989) to overcome the problem of multiple tests. These 18 codons (for 15 amino acids) are inferred to be the translationally optimal codons.
-
-Synonymous codon usage in Pseudomonas aeruginosa PA01.
-https://www.sciencedirect.com/science/article/pii/S0378111902005036?via%3Dihub
-Codon usage in the two data sets (Table 2) was compared using chi square tests, with the sequential Bonferroni correction (Rice, 1989) to assess significance. Sixteen codons, for 12 amino acids, were identified as significantly (P , 0:05) more frequent in the High data set.
-
-Proteome composition and codon usage in spirochaetes: species-specific and DNA strand-specific mutational biases.
-Lafay B1, Lloyd AT, McLean MJ, Devine KM, Sharp PM, Wolfe KH.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC148367/pdf/271642.pdf
-Table 1. Codon usage (RSCU values) in B.burgdorferi (Bb) and T.pallidum (Tp)
-Chi-squared tests: << and >> denote P < 0.001 and indicate the direction of the difference; 
-
-----------
-## growth rate
-増殖速度
-## translational selection
-翻訳選択
-## gene expression
-遺伝子の発現量
-
-https://ja.wikipedia.org/wiki/コドン
-コドン出現頻度の違いは遺伝子の発現量やそのコドンに対応する tRNA の量と関係があることが知られている。発現量の多い遺伝子のコドン出現頻度の偏りは大きくなり、頻出するコドンに対応する tRNA は細胞内の存在量も多い。
-
-http://bioinfo.ie.niigata-u.ac.jp/?遺伝子発現量予測
-1. Z1軸の性質は長浜バイオ大学　池村淑道教授が整理した最適コドン決定規則 (tRNA量に基づいた翻訳効率と関わる最適コドンの決定法, 表1) により説明することができます[1-2,10-12]。したがって、最適コドン決定規則を用いることにより、情報科学的解析のみで種固有の最適コドンを推定することができる。
-2. リボソーム蛋白質遺伝子および翻訳伸長因子といういわゆる細胞内で常に発現量が高いと仮定される遺伝子のコドン使用が生物全体の遺伝子のコドン使用とは異なっていることがZ1軸における遺伝子の分布により観察することができた。
-
-https://www.nig.ac.jp/museum/evolution/04_c.html
-遺伝暗号(コドン）使用の種による多様性
-2.単細胞微生物のコドン選択の生物種による方言;
-　 大腸菌とサルモネラ菌ならびに酵母遺伝子に見られるコドン選択の偏りを例に
-c)　同一生物種の遺伝子間を比較した場合、多量にタンパク質を生産する遺伝子ほど方言がきつく、生産量が下がるにつれて、同質の方言を用いながらも、その方言の程度が緩くなります。図4では、生物ごとに、タンパク質生産量の高い遺伝子を左側に配置してあります。大腸菌のtufAB(ポリペプチド鎖延長因子)、ompC(外膜タンパク質)は多量にタンパク質を生産する遺伝子の例であり、trpやthrはアミノ酸合成系の遺伝子で、通常条件下では中程度ないしは少量のタンパク質しか生産していません。酵母のG3PDHやenolaseは解糖系の酵素で、最も多量に生産されるタンパク質であり、TRPやCYCは中程度ないしは比較的少量しか生産されない例に属します。生産量の高い遺伝子ほどコドン選択の偏りが顕著で(方言がきつい)、生産量の低い遺伝子では偏りの程度が緩くなります。この傾向は広範囲の遺伝子で成立することが判明しています。
-
-http://www.g-language.org/wiki/restgenomeanalysisjapanese#コドン使用の解析
-- 遺伝子発現量の予測
-- 翻訳選択 (Translational selection) の検出
-- コドン使用データの多変量解析
-
-https://www.ncbi.nlm.nih.gov/pubmed/18940873
-DNA Res. 2008 Dec;15(6):357-65. doi: 10.1093/dnares/dsn028. Epub 2008 Oct 21.
-Comparison of correspondence analysis methods for synonymous codon usage in bacteria.
-Suzuki H1, Brown CJ, Forney LJ, Top EM.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2608848/
-- Thirdly, genes expressed at high levels in fast-growing bacteria tend to preferentially use translationally optimal codons that are recognized by the most abundant tRNAs. This presumably reflects natural selection for synonymous codons that are translated more efficiently and accurately.7,8 
-- Secondly, to analyze the correlation between scores of each of the three axes [Equation (4)] and levels of gene expression (Expression), we tested for the distribution of the axis scores for 40 genes expected to be expressed constitutively at high levels.10 This set included the genes encoding translation elongation factors Tu (tuf), Ts (tsf) and G (fus), and 37 of the larger ribosomal proteins (encoded by genes rplA-rplF, rplI-rplT, and rpsB-rpsT). In each axis, the score for each gene was standardized by subtracting the mean and dividing by the standard deviation of scores for all protein genes. For each axis, Expression was detected as the main source of variation among genes on the axis when the mean absolute standard score for the 40 highly expressed genes was >1.644854 (an interval in which theoretically only 5% of all protein genes are included).
-- The third feature, Expression, was detected as a major source of synonymous codon usage variation among genes in C. trachomatis D/UW-3/CX, C. perfringens 13, E. coli K12 MG1655 and H. influenzae Rd KW20, which is consistent with previous findings (Table 2).
-
-----------
-## optimal codon
-適合コドン / 最適コドン
-
-http://bioinfo.ie.niigata-u.ac.jp/?遺伝子発現量予測
-表1　翻訳過程による最適コドン決定規則
-規則1:コドン使用は細胞内のtRNA量による制約を受ける。最適コドンは、細胞内に多量に含まれるtRNAのアンチコドンと対応する。
-
-https://www.nig.ac.jp/museum/evolution/04_d.html
-遺伝暗号(コドン）使用の種による多様性
-3.コドン使用とtRNA量との関係、遺伝子工学との係り
-
-規則 1)　1種類のアミノ酸にアンチコドンの異なる複数種類のisoaccepting tRNAが存在する場合、最大量tRNAの解読するコドンが好まれる。
-
-我々のグループは、規則1ー3を総合して導かれる翻訳能率を最適化すると推定されるコドンを、適合コドン(optimal codon)と呼んでいます。
-
-https://en.wikipedia.org/wiki/Codon_usage_bias
-Optimal codons in fast-growing microorganisms, like Escherichia coli or Saccharomyces cerevisiae (baker's yeast), reflect the composition of their respective genomic transfer RNA (tRNA) pool.[2] It is thought that optimal codons help to achieve faster translation rates and high accuracy.
-
-Sun et al. (2017) における「optimal codons」と「abundant codons」の定義
-Switches in Genomic GC Content Drive Shifts of Optimal Codons under Sustained Selection on Synonymous Sites.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5629928/
-- We define optimal codons as codons that evolve under selection for translational efficiency in the highly expressed genes, and abundant codons as codons used at high frequency in the majority of genes. 
-- We defined optimal codons as codons that were significantly more abundant in the RP than in the WG data set, irrespectively of their actual frequencies. Thus, it should be noted that both highly abundant (major) and lowly abundant (minor) codons might be considered optimal.
-
-最適コドンと準最適コドン（the primary and secondary optimal codons）
-https://www.ncbi.nlm.nih.gov/pubmed/23315666
-DNA Res. 2013 Apr;20(2):135-50. doi: 10.1093/dnares/dss039. Epub 2013 Jan 11.
-Evaluation of codon biology in citrus and Poncirus trifoliata based on genomic features and frame corrected expressed sequence tags.
-Ahmad T1, Sablok G, Tatarinova TV, Xu Q, Deng XX, Guo WW.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3628444/
-We further observed that for most amino acids with 2- to 6-fold degeneracy level, there has been a general preference for the usage of two or more codons as optimal codons. For example, in Glycine, two highly distributed optimal codons GGA and GGT were identified and they could be classified as the primary and secondary optimal codons preferentially based on the RSCU (GGA, ∼1.16 and GGT, ∼1.09). 
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/17038449
-Mol Biol Evol. 2007 Jan;24(1):10-2. Epub 2006 Oct 12.
-Predicting gene expression level from codon usage bias.
-Henry I, Sharp PM.
-https://academic.oup.com/mbe/article/24/1/10/1070854
-Translationally optimal codons can be identified as those best recognized by the most abundant tRNAs, and the frequency of these codons in a gene is highly correlated with gene expression level (Post and Nomura 1980; Ikemura 1981; Gouy and Gautier 1982). 
-
-https://www.ncbi.nlm.nih.gov/pubmed/6175758
-J Mol Biol. 1981 Sep 25;151(3):389-409.
-Correlation between the abundance of Escherichia coli transfer RNAs and the occurrence of the respective codons in its protein genes: a proposal for a synonymous codon choice that is optimal for the E. coli translational system.
-Ikemura T.
-https://www.sciencedirect.com/science/article/pii/0022283681900036
-The synonymous codon predicted in this way to be the most preferred codon was thought to be optimized for the E. coli translational system and designated as the “Optimal codon”. E. coli genes encoding abundant protein species use the optimal codons selectively, and other E. coli genes, such as amino acid synthesizing genes, use optimal and “non-optimal” codons to a roughly equal degree. 
-
-https://www.ncbi.nlm.nih.gov/pubmed/6167728
-J Mol Biol. 1981 Feb 15;146(1):1-21.
-Correlation between the abundance of Escherichia coli transfer RNAs and the occurrence of the respective codons in its protein genes.
-Ikemura T.
+https://twilog.org/copypasteusa/search?word=コドン
 
 ----------
 
 ## updates
+
+### 2020
+
+https://www.biorxiv.org/content/10.1101/2020.02.12.942524v1
+Codon-usage optimization in the prokaryotic tree of life: How synonymous codons are differentially selected in sequence domains with different expression levels and degrees of conservation. | bioRxiv
 
 ### 2019
 
@@ -282,8 +106,6 @@ Nearly Neutrality and the Evolution of Codon Usage Bias in Eukaryotic Genomes (h
 Fig.1Cに真核まで含めてプロットしたものがある。たしかに、generation timeの目安になりそう？
 
 細菌・古細菌間程度でもそれが通用するっていうのは、refを探してません。(論文中に書いてるのかな？)
-
-
 
 
 linked rRNAの場合、同一オペロンで制御することは、成長の早いバクテリア・アーキアでより強く現れるはず。(細胞内での主要なエネルギー消費はリボソーム合成)
@@ -528,26 +350,209 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC521650/
 As expected (Figure ​(Figure3),3), S.cerevisiae and E.coli show the highest S-values, C.elegans shows a moderate S-value, while H.pylori and H.sapiens show no sign of translational selection acting on their genomes.
 
 
+
 ----------
-## featuring
+## neutral
+中立
 
-https://www.ncbi.nlm.nih.gov/pubmed/12952536
-Genome Biol. 2003;4(9):R57. Epub 2003 Aug 21.
-The source of laterally transferred genes in bacterial genomes.
-Daubin V1, Lerat E, Perrière G.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC193657/
-The codon usage of LTGs: comparison with native genes
-We computed four independent factorial correspondence analyses (FCA) on the genes of each type (native and transferred genes, IS, and phages) for the four species E. coli O157:H7, Helicobacter pylori, Salmonella enterica, and Streptococcus pneumoniae.
-Figure 4
-Intraspecies FCA.
+https://en.wikipedia.org/wiki/Neutral_mutation
+
+https://en.wikipedia.org/wiki/Mutation_bias
+
+https://en.wikipedia.org/wiki/Codon_usage_bias
+- It is generally acknowledged that codon biases reflect a balance between mutational biases and natural selection (mutation–selection balance) for translational optimization. 
+- Mutation-selection-drift balance model
+To reconcile the evidence from both mutational pressures and selection, the prevailing hypothesis for codon bias can be explained by the mutation-selection-drift balance model. This hypothesis states that selection favors major codons over minor codons, but minor codons are able to persist due to mutation pressure and genetic drift. It also suggests that selection is generally weak, but that selection intensity scales to higher expression and more functional constraints of coding sequences.[15]
+
+https://www.ncbi.nlm.nih.gov/pubmed/31365533
+PLoS Genet. 2019 Jul 31;15(7):e1008304. doi: 10.1371/journal.pgen.1008304. eCollection 2019 Jul.
+Variation and selection on codon usage bias across an entire subphylum.
+LaBella AL1, Opulente DA2, Steenwyk JL1, Hittinger CT2, Rokas A1.
+https://www.ncbi.nlm.nih.gov/pubmed/31365533
+We found that, while genome-wide relative synonymous codon usage (RSCU) for all codons was highly correlated with the GC content of the third codon position (GC3), the usage of codons for the amino acids proline, arginine, and glycine was inconsistent with the neutral expectation where mutational bias coupled with genetic drift drive codon usage. Examination between genes' effective numbers of codons and their GC3 contents in individual genomes revealed that nearly a quarter of genes (381,174/1,683,203; 23%), as well as most genomes (308/327; 94%), significantly deviate from the neutral expectation. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/28645195
+Mol Biol Evol. 2017 Sep 1;34(9):2163-2172. doi: 10.1093/molbev/msx180.
+Mutational Biases Influence Parallel Adaptation.
+Stoltzfus A1, McCandlish DM2.
+https://www.ncbi.nlm.nih.gov/pubmed/31365533
+While mutational biases strongly influence neutral molecular evolution, the role of mutational biases in shaping the course of adaptation is less clear. Here we consider the frequency of transitions relative to transversions among adaptive substitutions. Because mutation rates for transitions are higher than those for transversions, if mutational biases influence the dynamics of adaptation, then transitions should be overrepresented among documented adaptive substitutions. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/21498884
+Genome Biol Evol. 2011;3:383-95. doi: 10.1093/gbe/evr032. Epub 2011 Apr 17.
+Faster than neutral evolution of constrained sequences: the complex interplay of mutational biases and weak selection.
+Lawrie DS1, Petrov DA, Messer PW.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3101017/
+When purifying selection is weak and mutation is biased, constrained regions can even evolve faster than neutral sequences and thus can appear to be under positive selection. Moreover, conservation estimates depend also on the orientation of selection relative to mutational biases and can vary over time. In the light of recent data of the ubiquity of mutational biases and weak selective forces, these effects should reduce the power of conservation analyses to define functional regions using comparative genomics data. We argue that the estimation of true mutational biases and the use of explicit evolutionary models are essential to improve methods inferring the action of natural selection and functionality in genome sequences.
+
+https://www.ncbi.nlm.nih.gov/pubmed/22039174
+DNA Res. 2011 Dec;18(6):499-512. doi: 10.1093/dnares/dsr035. Epub 2011 Oct 27.
+Mutation bias is the driving force of codon usage in the Gallus gallus genome.
+Rao Y1, Wu G, Wang Z, Chai X, Nie Q, Zhang X.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3223081/
+- Synonymous codons are used with different frequencies both among species and among genes within the same genome and are controlled by neutral processes (such as mutation and drift) as well as by selection. 
+- As G + C content is more likely determined by genome-wide processes rather than by selective forces acting specifically on coding sequence, these findings have been inferred to reflect the genome-wide patterns of codon usage by mutational biases. Based on the fact that both mutational pressures and selective forces are involved in the phenomenon of codon bias in a variety of organisms, an integrated model, known as the mutation–selection–drift balance model, has been proposed.15,23–25 This model proposes that selection favours optimal codons over minor codons, while mutational pressure and genetic drift allow the minor codons to persist.17 
+
+http://www.iu.a.u-tokyo.ac.jp/~hnishida/tokuron4.htm
+ゲノム塩基配列の偏りと生物機能
+Genome base composition bias and biological function
+
+このGC含量のばらつきの要因は複製時における中立的な変異の偏りにあると考えられている（Sueoka, 1961, PNAS, 47, 1141-1149; Sueoka 1962, PNAS, 48, 582-592; Freese, 1962, J Theoret Biol, 3, 82-101; Sueoka 1988, PNAS, 85, 2653-2657）
+
+他方、この変異の偏りが中立的ではなく、GCからATへの偏りが顕著であることも指摘されている（Hershberg and Petrov, 2010, PLoS Genet, 6, e1001115; Hildebrand et al., 2010, PLoS Genet, 6, e1001107; Rocha and Feil, 2010, PLoS Genet, 6, e1001104）
+
+http://sesj.kenkyuukai.jp/special/index.asp?id=1450
+日本進化学会ニュースvol.12 No.3 （2011.11.15発行）■5.1MB
+シリーズ「私と進化学」第2回
+http://sesj.kenkyuukai.jp/images/sys%5Cinformation%5C20111114200040-DB164BC02BD9DEE68BBF8E76AB9722787A49390FC228BFE89C59C773A5C3A175.pdf
+虫から始まり虫で終わる（後編）
+「分子生物学から進化学へ」
+大澤 省三（初代進化学会会長）
+このようなゲノムのGC含量の偏りを説明する
+ため、末岡登博士が古く1962年、方向性をもつ突
+然変異圧（directional mutation pressure）という考
+えを出されている。事実、AT to GC、またはGC to
+ATの変異を起こす遺伝子の存在が知られているが、
+現存生物のDNAのGC含量が末岡のいう突然変異
+圧に関係しているかどうかは解明されていない。
+
+いずれもタン
+パク質のアミノ酸配列を変えることのない中立変
+異である（図16-3の上）。これが我々の考えた暗号
+変化の「コドン捕獲説」の大要である（1987）。こ
+のスキームが正しいことは、後にCastresama et
+al.（1998）によって証明された（図16-3の下）。
+捕獲説はコドンとアンチコドン間のwobble rules
+（コドンとtRNAのアンチコドンの相互認識のルー
+ル）、同義語コドンの中立変化などをよく理解してい
+ないと、わかりにくいことと、
+
+https://www.ncbi.nlm.nih.gov/pubmed/8411203
+J Mol Evol. 1993 Aug;37(2):137-53.
+Directional mutation pressure, mutator mutations, and dynamics of molecular evolution.
+Sueoka N1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/3357886
+Proc Natl Acad Sci U S A. 1988 Apr;85(8):2653-7.
+Directional mutation pressure and neutral molecular evolution.
+Sueoka N1.
+The theory was based on the assumption that the effect of mutation on a genome is not random but has a directionality toward higher or lower guanine-plus-cytosine content of DNA, and this pressure generates directional changes more in neutral parts of the genome than in functionally significant parts. Now that DNA sequence data are available, the theory allows the estimation of the extent of neutrality of directional mutation pressure against selection. 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC280056/pdf/pnas00260-0245.pdf
 
 
-https://www.biophys.jp/dl/journal/53-1.pdf
-生物物理 53（1），015-019（2013）
-交通流と翻訳過程
-御手洗菜美子　コペンハーゲン大学ニールス・ボーア研究所
+----------
+## chi square test
+https://ja.wikipedia.org/wiki/カイ二乗検定
 
-https://twilog.org/copypasteusa/search?word=コドン
+Switches in Genomic GC Content Drive Shifts of Optimal Codons under Sustained Selection on Synonymous Sites.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5629928/
+Codons used significantly more or less frequently in the highly expressed gene data set compared with the whole genome data set (chi-squared test, cutoff P = 0.01) were defined as optimal (+) and nonoptimal (−) codons according to the Ribosomal Protein (RP) method.
+
+Synonymous Codon Usage Analysis of Thirty Two Mycobacteriophage Genomes
+https://www.hindawi.com/journals/abi/2009/316936/
+To estimate the codon usage variation between these two sets of genes we have performed Chi square tests taking as significant criterion.
+
+Predicting gene expression level from codon usage bias
+https://academic.oup.com/mbe/article/24/1/10/1070854#supplementary-data
+Codons occurring at significantly higher frequencies (P<5%) in the High dataset are in bold; significance was assessed by chi squared tests within synonym sets, using a sequential Bonferroni approach (Rice 1989) to overcome the problem of multiple tests. These 18 codons (for 15 amino acids) are inferred to be the translationally optimal codons.
+
+Synonymous codon usage in Pseudomonas aeruginosa PA01.
+https://www.sciencedirect.com/science/article/pii/S0378111902005036?via%3Dihub
+Codon usage in the two data sets (Table 2) was compared using chi square tests, with the sequential Bonferroni correction (Rice, 1989) to assess significance. Sixteen codons, for 12 amino acids, were identified as significantly (P , 0:05) more frequent in the High data set.
+
+Proteome composition and codon usage in spirochaetes: species-specific and DNA strand-specific mutational biases.
+Lafay B1, Lloyd AT, McLean MJ, Devine KM, Sharp PM, Wolfe KH.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC148367/pdf/271642.pdf
+Table 1. Codon usage (RSCU values) in B.burgdorferi (Bb) and T.pallidum (Tp)
+Chi-squared tests: << and >> denote P < 0.001 and indicate the direction of the difference; 
+
+----------
+## growth rate
+増殖速度
+## translational selection
+翻訳選択
+## gene expression
+遺伝子の発現量
+
+https://ja.wikipedia.org/wiki/コドン
+コドン出現頻度の違いは遺伝子の発現量やそのコドンに対応する tRNA の量と関係があることが知られている。発現量の多い遺伝子のコドン出現頻度の偏りは大きくなり、頻出するコドンに対応する tRNA は細胞内の存在量も多い。
+
+http://bioinfo.ie.niigata-u.ac.jp/?遺伝子発現量予測
+1. Z1軸の性質は長浜バイオ大学　池村淑道教授が整理した最適コドン決定規則 (tRNA量に基づいた翻訳効率と関わる最適コドンの決定法, 表1) により説明することができます[1-2,10-12]。したがって、最適コドン決定規則を用いることにより、情報科学的解析のみで種固有の最適コドンを推定することができる。
+2. リボソーム蛋白質遺伝子および翻訳伸長因子といういわゆる細胞内で常に発現量が高いと仮定される遺伝子のコドン使用が生物全体の遺伝子のコドン使用とは異なっていることがZ1軸における遺伝子の分布により観察することができた。
+
+https://www.nig.ac.jp/museum/evolution/04_c.html
+遺伝暗号(コドン）使用の種による多様性
+2.単細胞微生物のコドン選択の生物種による方言;
+　 大腸菌とサルモネラ菌ならびに酵母遺伝子に見られるコドン選択の偏りを例に
+c)　同一生物種の遺伝子間を比較した場合、多量にタンパク質を生産する遺伝子ほど方言がきつく、生産量が下がるにつれて、同質の方言を用いながらも、その方言の程度が緩くなります。図4では、生物ごとに、タンパク質生産量の高い遺伝子を左側に配置してあります。大腸菌のtufAB(ポリペプチド鎖延長因子)、ompC(外膜タンパク質)は多量にタンパク質を生産する遺伝子の例であり、trpやthrはアミノ酸合成系の遺伝子で、通常条件下では中程度ないしは少量のタンパク質しか生産していません。酵母のG3PDHやenolaseは解糖系の酵素で、最も多量に生産されるタンパク質であり、TRPやCYCは中程度ないしは比較的少量しか生産されない例に属します。生産量の高い遺伝子ほどコドン選択の偏りが顕著で(方言がきつい)、生産量の低い遺伝子では偏りの程度が緩くなります。この傾向は広範囲の遺伝子で成立することが判明しています。
+
+http://www.g-language.org/wiki/restgenomeanalysisjapanese#コドン使用の解析
+- 遺伝子発現量の予測
+- 翻訳選択 (Translational selection) の検出
+- コドン使用データの多変量解析
+
+https://www.ncbi.nlm.nih.gov/pubmed/18940873
+DNA Res. 2008 Dec;15(6):357-65. doi: 10.1093/dnares/dsn028. Epub 2008 Oct 21.
+Comparison of correspondence analysis methods for synonymous codon usage in bacteria.
+Suzuki H1, Brown CJ, Forney LJ, Top EM.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2608848/
+- Thirdly, genes expressed at high levels in fast-growing bacteria tend to preferentially use translationally optimal codons that are recognized by the most abundant tRNAs. This presumably reflects natural selection for synonymous codons that are translated more efficiently and accurately.7,8 
+- Secondly, to analyze the correlation between scores of each of the three axes [Equation (4)] and levels of gene expression (Expression), we tested for the distribution of the axis scores for 40 genes expected to be expressed constitutively at high levels.10 This set included the genes encoding translation elongation factors Tu (tuf), Ts (tsf) and G (fus), and 37 of the larger ribosomal proteins (encoded by genes rplA-rplF, rplI-rplT, and rpsB-rpsT). In each axis, the score for each gene was standardized by subtracting the mean and dividing by the standard deviation of scores for all protein genes. For each axis, Expression was detected as the main source of variation among genes on the axis when the mean absolute standard score for the 40 highly expressed genes was >1.644854 (an interval in which theoretically only 5% of all protein genes are included).
+- The third feature, Expression, was detected as a major source of synonymous codon usage variation among genes in C. trachomatis D/UW-3/CX, C. perfringens 13, E. coli K12 MG1655 and H. influenzae Rd KW20, which is consistent with previous findings (Table 2).
+
+----------
+## optimal codon
+適合コドン / 最適コドン
+
+http://bioinfo.ie.niigata-u.ac.jp/?遺伝子発現量予測
+表1　翻訳過程による最適コドン決定規則
+規則1:コドン使用は細胞内のtRNA量による制約を受ける。最適コドンは、細胞内に多量に含まれるtRNAのアンチコドンと対応する。
+
+https://www.nig.ac.jp/museum/evolution/04_d.html
+遺伝暗号(コドン）使用の種による多様性
+3.コドン使用とtRNA量との関係、遺伝子工学との係り
+
+規則 1)　1種類のアミノ酸にアンチコドンの異なる複数種類のisoaccepting tRNAが存在する場合、最大量tRNAの解読するコドンが好まれる。
+
+我々のグループは、規則1ー3を総合して導かれる翻訳能率を最適化すると推定されるコドンを、適合コドン(optimal codon)と呼んでいます。
+
+https://en.wikipedia.org/wiki/Codon_usage_bias
+Optimal codons in fast-growing microorganisms, like Escherichia coli or Saccharomyces cerevisiae (baker's yeast), reflect the composition of their respective genomic transfer RNA (tRNA) pool.[2] It is thought that optimal codons help to achieve faster translation rates and high accuracy.
+
+Sun et al. (2017) における「optimal codons」と「abundant codons」の定義
+Switches in Genomic GC Content Drive Shifts of Optimal Codons under Sustained Selection on Synonymous Sites.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5629928/
+- We define optimal codons as codons that evolve under selection for translational efficiency in the highly expressed genes, and abundant codons as codons used at high frequency in the majority of genes. 
+- We defined optimal codons as codons that were significantly more abundant in the RP than in the WG data set, irrespectively of their actual frequencies. Thus, it should be noted that both highly abundant (major) and lowly abundant (minor) codons might be considered optimal.
+
+最適コドンと準最適コドン（the primary and secondary optimal codons）
+https://www.ncbi.nlm.nih.gov/pubmed/23315666
+DNA Res. 2013 Apr;20(2):135-50. doi: 10.1093/dnares/dss039. Epub 2013 Jan 11.
+Evaluation of codon biology in citrus and Poncirus trifoliata based on genomic features and frame corrected expressed sequence tags.
+Ahmad T1, Sablok G, Tatarinova TV, Xu Q, Deng XX, Guo WW.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3628444/
+We further observed that for most amino acids with 2- to 6-fold degeneracy level, there has been a general preference for the usage of two or more codons as optimal codons. For example, in Glycine, two highly distributed optimal codons GGA and GGT were identified and they could be classified as the primary and secondary optimal codons preferentially based on the RSCU (GGA, ∼1.16 and GGT, ∼1.09). 
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/17038449
+Mol Biol Evol. 2007 Jan;24(1):10-2. Epub 2006 Oct 12.
+Predicting gene expression level from codon usage bias.
+Henry I, Sharp PM.
+https://academic.oup.com/mbe/article/24/1/10/1070854
+Translationally optimal codons can be identified as those best recognized by the most abundant tRNAs, and the frequency of these codons in a gene is highly correlated with gene expression level (Post and Nomura 1980; Ikemura 1981; Gouy and Gautier 1982). 
+
+https://www.ncbi.nlm.nih.gov/pubmed/6175758
+J Mol Biol. 1981 Sep 25;151(3):389-409.
+Correlation between the abundance of Escherichia coli transfer RNAs and the occurrence of the respective codons in its protein genes: a proposal for a synonymous codon choice that is optimal for the E. coli translational system.
+Ikemura T.
+https://www.sciencedirect.com/science/article/pii/0022283681900036
+The synonymous codon predicted in this way to be the most preferred codon was thought to be optimized for the E. coli translational system and designated as the “Optimal codon”. E. coli genes encoding abundant protein species use the optimal codons selectively, and other E. coli genes, such as amino acid synthesizing genes, use optimal and “non-optimal” codons to a roughly equal degree. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/6167728
+J Mol Biol. 1981 Feb 15;146(1):1-21.
+Correlation between the abundance of Escherichia coli transfer RNAs and the occurrence of the respective codons in its protein genes.
+Ikemura T.
 
 
 
@@ -946,6 +951,19 @@ Optimization of codon usage of plasmid DNA vaccine is required for the effective
 Uchijima M1, Yoshida A, Nagata T, Koide Y.
 
 ### virus
+
+https://github.com/haruosuz/microbe/blob/master/references/microbe.virus.md#coronavirus
+
+2020.01.25 SAT 09:00
+https://wired.jp/2020/01/25/wuhan-coronavirus-snake-flu-theory/
+新型コロナウイルスの感染源は、本当に「市場のヘビ」なのか？ 新たな論文を巡り波紋｜WIRED.jp
+
+タンパク質を構成するコドンの使用頻度の偏り（コドンバイアス）は、生物によって異なる。一部のウイルスは、新しい宿主のコドンバイアスを採用することで、新しい宿主に適応する。
+
+研究チームは、新型コロナウイルス（2019-nCoV）が好んで使うコドンと、宿主の可能性がある少数の生物（人間、コウモリ、ニワトリ、ハリネズミ、センザンコウ、2種類のヘビ）が好むコドンを比較した。そして新型コロナウイルス（2019-nCoV）のコドンバイアスが、タイワンコブラとアマガサヘビの2種類のヘビのコドンバイアスと最も重複していることがわかったと報告したのだ。
+
+これに対してシドニー大学のホームズは、北京大学の研究チームによるアプローチには多くの問題があると指摘する。例えば、コドンバイアスの比較は、動物の宿主を特定するには非常に間接的な手法だという。
+
 
 https://www.ncbi.nlm.nih.gov/pubmed/27278133
 Sci Rep. 2016 Jun 9;6:27546. doi: 10.1038/srep27546.
