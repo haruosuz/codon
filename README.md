@@ -86,10 +86,18 @@ https://twilog.org/copypasteusa/search?word=コドン
 
 ### 2020
 
+Published: 02 March 2020
+https://www.nature.com/articles/s41559-020-1124-7
+Dissimilation of synonymous codon usage bias in virus–host coevolution due to translational selection | Nature Ecology & Evolution
+
+
+
+
 https://www.biorxiv.org/content/10.1101/2020.02.12.942524v1
 Codon-usage optimization in the prokaryotic tree of life: How synonymous codons are differentially selected in sequence domains with different expression levels and degrees of conservation. | bioRxiv
 
-### 2019
+
+
 
 2019年12月23日に投稿
 https://qiita.com/nkjmu/items/3572c8883d8802c3edd5
@@ -119,6 +127,23 @@ linked rRNAの場合、同一オペロンで制御することは、成長の早
 
 →unlinkedな方がgeneration timeが長いし、rRNAのコピー数も少ない(つまり一気にたくさんribosomeを作れない？)ということで成長遅いだろう
 
+https://www.ncbi.nlm.nih.gov/pubmed/31712737
+ISME J. 2020 Feb;14(2):597-608. doi: 10.1038/s41396-019-0552-3. Epub 2019 Nov 11.
+Unlinked rRNA genes are widespread among bacteria and archaea.
+Brewer TE1,2, Albertsen M3, Edwards A4, Kirkegaard RH3, Rocha EPC5, Fierer N6,7.
+https://www.nature.com/articles/s41396-019-0552-3
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/18430960
+Genetics. 2008 Apr;178(4):2429-32. doi: 10.1534/genetics.107.086405.
+Nearly neutrality and the evolution of codon usage bias in eukaryotic genomes.
+Subramanian S1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2323827/
+Figure 1.—
+Relationship between codon usage bias and generation time of eukaryotes. 
+
+
+### 2019
 
 https://twitter.com/LiatShenhav/status/1187818150970085376
 Liat Shenhav on Twitter: "We uncover a strong purifying selective pressure across marine microbial life that is driven by resource conservation, and also demonstrate that it is a central driving force in selection processes guiding codon usage. https://t.co/S4P6DXNi03" / Twitter
@@ -1291,6 +1316,12 @@ Modal codon usage: assessing the typical codon usage of a genome.
 Davis JJ1, Olsen GJ.
 
 ### Rocha
+
+https://www.ncbi.nlm.nih.gov/pubmed/31712737
+ISME J. 2020 Feb;14(2):597-608. doi: 10.1038/s41396-019-0552-3. Epub 2019 Nov 11.
+Unlinked rRNA genes are widespread among bacteria and archaea.
+Brewer TE1,2, Albertsen M3, Edwards A4, Kirkegaard RH3, Rocha EPC5, Fierer N6,7.
+https://www.nature.com/articles/s41396-019-0552-3
 
 rRNA/tRNA遺伝子コピー数が多いほど、
 rRNA遺伝子の複製起点からの距離が小さいほど、
