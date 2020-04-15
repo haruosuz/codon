@@ -90,9 +90,6 @@ Published: 02 March 2020
 https://www.nature.com/articles/s41559-020-1124-7
 Dissimilation of synonymous codon usage bias in virus–host coevolution due to translational selection | Nature Ecology & Evolution
 
-
-
-
 https://www.biorxiv.org/content/10.1101/2020.02.12.942524v1
 Codon-usage optimization in the prokaryotic tree of life: How synonymous codons are differentially selected in sequence domains with different expression levels and degrees of conservation. | bioRxiv
 
@@ -396,20 +393,6 @@ LaBella AL1, Opulente DA2, Steenwyk JL1, Hittinger CT2, Rokas A1.
 https://www.ncbi.nlm.nih.gov/pubmed/31365533
 We found that, while genome-wide relative synonymous codon usage (RSCU) for all codons was highly correlated with the GC content of the third codon position (GC3), the usage of codons for the amino acids proline, arginine, and glycine was inconsistent with the neutral expectation where mutational bias coupled with genetic drift drive codon usage. Examination between genes' effective numbers of codons and their GC3 contents in individual genomes revealed that nearly a quarter of genes (381,174/1,683,203; 23%), as well as most genomes (308/327; 94%), significantly deviate from the neutral expectation. 
 
-https://www.ncbi.nlm.nih.gov/pubmed/28645195
-Mol Biol Evol. 2017 Sep 1;34(9):2163-2172. doi: 10.1093/molbev/msx180.
-Mutational Biases Influence Parallel Adaptation.
-Stoltzfus A1, McCandlish DM2.
-https://www.ncbi.nlm.nih.gov/pubmed/31365533
-While mutational biases strongly influence neutral molecular evolution, the role of mutational biases in shaping the course of adaptation is less clear. Here we consider the frequency of transitions relative to transversions among adaptive substitutions. Because mutation rates for transitions are higher than those for transversions, if mutational biases influence the dynamics of adaptation, then transitions should be overrepresented among documented adaptive substitutions. 
-
-https://www.ncbi.nlm.nih.gov/pubmed/21498884
-Genome Biol Evol. 2011;3:383-95. doi: 10.1093/gbe/evr032. Epub 2011 Apr 17.
-Faster than neutral evolution of constrained sequences: the complex interplay of mutational biases and weak selection.
-Lawrie DS1, Petrov DA, Messer PW.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3101017/
-When purifying selection is weak and mutation is biased, constrained regions can even evolve faster than neutral sequences and thus can appear to be under positive selection. Moreover, conservation estimates depend also on the orientation of selection relative to mutational biases and can vary over time. In the light of recent data of the ubiquity of mutational biases and weak selective forces, these effects should reduce the power of conservation analyses to define functional regions using comparative genomics data. We argue that the estimation of true mutational biases and the use of explicit evolutionary models are essential to improve methods inferring the action of natural selection and functionality in genome sequences.
-
 https://www.ncbi.nlm.nih.gov/pubmed/22039174
 DNA Res. 2011 Dec;18(6):499-512. doi: 10.1093/dnares/dsr035. Epub 2011 Oct 27.
 Mutation bias is the driving force of codon usage in the Gallus gallus genome.
@@ -417,53 +400,6 @@ Rao Y1, Wu G, Wang Z, Chai X, Nie Q, Zhang X.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3223081/
 - Synonymous codons are used with different frequencies both among species and among genes within the same genome and are controlled by neutral processes (such as mutation and drift) as well as by selection. 
 - As G + C content is more likely determined by genome-wide processes rather than by selective forces acting specifically on coding sequence, these findings have been inferred to reflect the genome-wide patterns of codon usage by mutational biases. Based on the fact that both mutational pressures and selective forces are involved in the phenomenon of codon bias in a variety of organisms, an integrated model, known as the mutation–selection–drift balance model, has been proposed.15,23–25 This model proposes that selection favours optimal codons over minor codons, while mutational pressure and genetic drift allow the minor codons to persist.17 
-
-http://www.iu.a.u-tokyo.ac.jp/~hnishida/tokuron4.htm
-ゲノム塩基配列の偏りと生物機能
-Genome base composition bias and biological function
-
-このGC含量のばらつきの要因は複製時における中立的な変異の偏りにあると考えられている（Sueoka, 1961, PNAS, 47, 1141-1149; Sueoka 1962, PNAS, 48, 582-592; Freese, 1962, J Theoret Biol, 3, 82-101; Sueoka 1988, PNAS, 85, 2653-2657）
-
-他方、この変異の偏りが中立的ではなく、GCからATへの偏りが顕著であることも指摘されている（Hershberg and Petrov, 2010, PLoS Genet, 6, e1001115; Hildebrand et al., 2010, PLoS Genet, 6, e1001107; Rocha and Feil, 2010, PLoS Genet, 6, e1001104）
-
-http://sesj.kenkyuukai.jp/special/index.asp?id=1450
-日本進化学会ニュースvol.12 No.3 （2011.11.15発行）■5.1MB
-シリーズ「私と進化学」第2回
-http://sesj.kenkyuukai.jp/images/sys%5Cinformation%5C20111114200040-DB164BC02BD9DEE68BBF8E76AB9722787A49390FC228BFE89C59C773A5C3A175.pdf
-虫から始まり虫で終わる（後編）
-「分子生物学から進化学へ」
-大澤 省三（初代進化学会会長）
-このようなゲノムのGC含量の偏りを説明する
-ため、末岡登博士が古く1962年、方向性をもつ突
-然変異圧（directional mutation pressure）という考
-えを出されている。事実、AT to GC、またはGC to
-ATの変異を起こす遺伝子の存在が知られているが、
-現存生物のDNAのGC含量が末岡のいう突然変異
-圧に関係しているかどうかは解明されていない。
-
-いずれもタン
-パク質のアミノ酸配列を変えることのない中立変
-異である（図16-3の上）。これが我々の考えた暗号
-変化の「コドン捕獲説」の大要である（1987）。こ
-のスキームが正しいことは、後にCastresama et
-al.（1998）によって証明された（図16-3の下）。
-捕獲説はコドンとアンチコドン間のwobble rules
-（コドンとtRNAのアンチコドンの相互認識のルー
-ル）、同義語コドンの中立変化などをよく理解してい
-ないと、わかりにくいことと、
-
-https://www.ncbi.nlm.nih.gov/pubmed/8411203
-J Mol Evol. 1993 Aug;37(2):137-53.
-Directional mutation pressure, mutator mutations, and dynamics of molecular evolution.
-Sueoka N1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/3357886
-Proc Natl Acad Sci U S A. 1988 Apr;85(8):2653-7.
-Directional mutation pressure and neutral molecular evolution.
-Sueoka N1.
-The theory was based on the assumption that the effect of mutation on a genome is not random but has a directionality toward higher or lower guanine-plus-cytosine content of DNA, and this pressure generates directional changes more in neutral parts of the genome than in functionally significant parts. Now that DNA sequence data are available, the theory allows the estimation of the extent of neutrality of directional mutation pressure against selection. 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC280056/pdf/pnas00260-0245.pdf
-
 
 ----------
 ## chi square test
