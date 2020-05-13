@@ -80,6 +80,7 @@ https://www.biophys.jp/dl/journal/53-1.pdf
 
 https://twilog.org/copypasteusa/search?word=コドン
 
+
 ----------
 
 ## updates
@@ -335,6 +336,12 @@ The evolutionary dynamics of tRNA-gene copy number and codon-use in E. coli.
 McDonald MJ1, Chou CH2,3, Swamy KB4, Huang HD5,6, Leu JY7.
 
 ### 2014
+
+https://www.ncbi.nlm.nih.gov/pubmed/25255224
+PLoS One. 2014 Sep 25;9(9):e107319. doi: 10.1371/journal.pone.0107319. eCollection 2014.
+Analysis of the relationship between genomic GC Content and patterns of base usage, codon usage and amino acid usage in prokaryotes: similar GC content adopts similar compositional frequencies regardless of the phylogenetic lineages.
+Zhou HQ1, Ning LW1, Zhang HX1, Guo FB1.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4177787/
 
 https://twitter.com/copypasteusa/status/583464468820000769
 遺伝子発現の最適化に利用されてきた特徴：コドンバイアス、連続コドンバイアス、RNA二次構造、リボソーム結合部位、制限部位、隠れ終止コドン、他のモチーフ回避 
@@ -911,9 +918,16 @@ J Immunol. 1998 Nov 15;161(10):5594-9.
 Optimization of codon usage of plasmid DNA vaccine is required for the effective MHC class I-restricted T cell responses against an intracellular bacterium.
 Uchijima M1, Yoshida A, Nagata T, Koide Y.
 
+
+
+
 ### virus
 
 https://github.com/haruosuz/microbe/blob/master/references/microbe.virus.md#coronavirus
+
+
+
+
 
 2020.01.25 SAT 09:00
 https://wired.jp/2020/01/25/wuhan-coronavirus-snake-flu-theory/
@@ -924,6 +938,13 @@ https://wired.jp/2020/01/25/wuhan-coronavirus-snake-flu-theory/
 研究チームは、新型コロナウイルス（2019-nCoV）が好んで使うコドンと、宿主の可能性がある少数の生物（人間、コウモリ、ニワトリ、ハリネズミ、センザンコウ、2種類のヘビ）が好むコドンを比較した。そして新型コロナウイルス（2019-nCoV）のコドンバイアスが、タイワンコブラとアマガサヘビの2種類のヘビのコドンバイアスと最も重複していることがわかったと報告したのだ。
 
 これに対してシドニー大学のホームズは、北京大学の研究チームによるアプローチには多くの問題があると指摘する。例えば、コドンバイアスの比較は、動物の宿主を特定するには非常に間接的な手法だという。
+
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/31911390
+J Virol Methods. 2020 Mar;277:113806. doi: 10.1016/j.jviromet.2019.113806. Epub 2020 Jan 5.
+Analysis of preferred codon usage in the coronavirus N genes and their implications for genome evolution and vaccine design.
+Sheikh A1, Al-Taher A2, Al-Nazawi M2, Al-Mubarak AI3, Kandeel M4.
 
 
 https://www.ncbi.nlm.nih.gov/pubmed/27278133
@@ -945,6 +966,8 @@ https://www.ncbi.nlm.nih.gov/pubmed/18463708
 PLoS Comput Biol. 2008 Feb 29;4(2):e1000001. doi: 10.1371/journal.pcbi.1000001.
 Genome landscapes and bacteriophage codon usage.
 Lucks JB1, Nelson DR, Kudla GR, Plotkin JB.
+
+
 
 ----------
 ## metagenome
@@ -1042,9 +1065,6 @@ Lynn DJ1, Singer GA, Hickey DA.
 ## replication
 **複製**
 
-https://github.com/haruosuz/DS4GD/blob/master/2019/CaseStudy.md
-GC skew
-
 http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_9_kadota.pdf
 　環状ゲノムの場合、どこを配列の起点として表記する
 かは明確にルールが決まっているわけではないが、慣例
@@ -1069,6 +1089,26 @@ gbk）である。①時計の 0 時に相当する部分が複製開始点
 実際の複製では、①の
 複製開始点から時計回りに進む順鎖側、そして反時計回り
 に進む相補鎖側がリーディング鎖となる。
+
+https://github.com/haruosuz/DS4GD/blob/master/2019/CaseStudy.md
+GC skew
+
+http://www.g-language.org/wiki/restgenomeanalysisenglish#replication_strand_analysis
+
+http://www.g-language.org/wiki/restgenomeanalysisjapanese#dna複製系の解析
+
+https://metacpan.org/pod/Bio::Glite
+```
+$gb->relocate_origin()
+
+Name: $gb->relocate_origin()   -   create a G instance starting at given position
+ 
+Description:
+      Returns a G instance starting at given position, assuming circular
+      chromosome. All information, including the sequence and feature 
+      annotations are moved. Note that the given position is Perl position
+      and NOT GenBank position. GenBank position -1 equals Perl position.
+```
 
 - https://kotobank.jp/word/リーディング鎖-773894
 DNAの複製に際し，岡崎フラグメントで複製される方でなく，その反対の連続的に複製される側の鎖．ラギング鎖（lagging strand）の対語
