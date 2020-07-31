@@ -1,5 +1,4 @@
-Haruo Suzuki (haruo[at]g-language[dot]org)  
-Last Update: 2020-02
+Last Update: 2020-07
 
 ----------
 
@@ -80,12 +79,19 @@ https://www.biophys.jp/dl/journal/53-1.pdf
 
 https://twilog.org/copypasteusa/search?word=コドン
 
-
 ----------
 
 ## updates
 
 ### 2020
+
+
+8:00 AM · Jul 29, 2020
+https://twitter.com/mbiojournal/status/1288247896874168322
+mBio on Twitter: "Codon Usage Optimization in the Prokaryotic Tree of Life: How Synonymous Codons Are Differentially Selected in Sequence Domains with Different Expression Levels and Degrees of Conservation https://t.co/tjcmcVAWhh https://t.co/e3WGMTtNK3" / Twitter
+https://mbio.asm.org/content/11/4/e00766-20
+Codon Usage Optimization in the Prokaryotic Tree of Life: How Synonymous Codons Are Differentially Selected in Sequence Domains with Different Expression Levels and Degrees of Conservation | mBio
+
 
 Published: 02 March 2020
 https://www.nature.com/articles/s41559-020-1124-7
