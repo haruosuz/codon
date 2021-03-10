@@ -1,4 +1,4 @@
-Last Update: 2020-07
+Last Update: 2021-03-10
 
 ----------
 
@@ -84,6 +84,26 @@ https://twilog.org/copypasteusa/search?word=コドン
 ## updates
 
 ### 2020
+
+https://pubmed.ncbi.nlm.nih.gov/32609328/
+Bioinformatics
+. 2020 Dec 8;36(19):4876-4884. doi: 10.1093/bioinformatics/btaa603.
+Network analysis of synonymous codon usage
+Khalique Newaz 1 2 3, Gabriel Wright 1 3, Jacob Piland 1 2 3, Jun Li 4, Patricia L Clark 5, Scott J Emrich 6, Tijana Milenković 1 2 3
+https://nd.edu/∼cone/CodonUsage/
+
+
+https://www.nature.com/articles/nature23902
+Alternative evolutionary histories in the sequence space of an ancient protein | Nature
+https://twitter.com/kfuku0502/status/1336938243720409088
+Kenji Fukushima on Twitter: "来週のラボミーティング当番、プログレスにしようと思ってたけどこれは論文紹介不可避やな。 https://t.co/gXLiFasV90" / Twitter
+- 今まで読んだ全ての論文の中で一番面白かったものを挙げろと言われたらこれなんだけど、同じラボからだ。この論文だって読み込んだら弱いところもあるけど、起こらなかった進化的帰結を網羅的に検証するという着想がそもそもすごい。アブスト一文目から最高。
+- hydrophobic ratchetの論文、まだ途中なんだけど、この結果からmutational biasやgenetic codeまで議論で持っていくのか…。自分が同じ実験データを得たとして、果たしてここまでの議論ができるかというと全く自信ないな。
+- multinucleotide codon substitutionsの論文もこの人たちだったのか。そう考えるとなんとなくつながるな。
+- hydrophobic ratchetの論文、主張を裏付ける論理はもちろん追えるように書かれているんだけど、やはり「もし自分がこの研究をやっていたら」を考えるとFig. 4Cを捻り出せる思考回路が理解しがたい。
+
+
+
 
 
 8:00 AM · Jul 29, 2020
@@ -383,6 +403,7 @@ Solving the riddle of codon usage preferences: a test for translational selectio
 dos Reis M1, Savva R, Wernisch L.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC521650/
 As expected (Figure ​(Figure3),3), S.cerevisiae and E.coli show the highest S-values, C.elegans shows a moderate S-value, while H.pylori and H.sapiens show no sign of translational selection acting on their genomes.
+
 
 
 
@@ -978,18 +999,19 @@ Lucks JB1, Nelson DR, Kudla GR, Plotkin JB.
 ----------
 ## metagenome
 
-Posted September 30, 2019.
-https://www.biorxiv.org/content/10.1101/786939v1
-Benchmarking metagenomic marine microbial growth prediction from codon usage bias and peak-to-trough ratios | bioRxiv
-https://www.biorxiv.org/content/10.1101/786939v1.full.pdf
+
+
+https://pubmed.ncbi.nlm.nih.gov/32939027/
+ISME J
+. 2021 Jan;15(1):183-195. doi: 10.1038/s41396-020-00773-1. Epub 2020 Sep 16.
+Benchmarking microbial growth rate predictions from metagenomes
+Andrew M Long # 1, Shengwei Hou # 2, J Cesar Ignacio-Espinoza 2, Jed A Fuhrman 2
+https://www.nature.com/articles/s41396-020-00773-1
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7852909/
 Growth rate indices: codon usage bias and peak-to-trough ratio
-The maximum growth rate of each MAG was predicted using a customized growthpred
-v1.0.8 (available at https://hub.docker.com/r/shengwei/growthpred) in metagenome mode (-m)
-and with universal codons (-c 0). Blast-retrieved ribosomal protein sequences were used as the
-highly expressed genes (-b) and compared to all the coding sequences of each MAG (-g).
-PTR indices were calculated using iRep v1.10 [4], GRiD v1.3 [5], and DEMIC v1.0.2
-[6]. iRep and GRiD were calculated for all MAGs > 75% complete and DEMIC was calculated
-for every MAG. 
+The maximum growth rate of each MAG was predicted using a customized growthpred v1.0.8 (available at https://hub.docker.com/r/shengwei/growthpred) in metagenome mode (-m) and with universal codons (-c 0). Blast-retrieved ribosomal protein sequences were used as the highly expressed genes (-b) and compared to all the coding sequences of each MAG (-g).
+
+PTR indices were calculated using iRep v1.10 [5], GRiD v1.3 [6], and DEMIC v1.0.2 [7].
 
 
 
