@@ -1,11 +1,8 @@
-Last Update: 2021-03-10
-
-----------
-
 # Codon usage
+コドン使用
 
 ## Table of Contents
-- [featuring](#featuring)
+- [unclassified](#unclassified)
 - [updates](#updates)
 [2020](#2020)
 [2019](#2019)
@@ -47,19 +44,26 @@ Last Update: 2021-03-10
 - [book](#book)
 - [video](#video)
 - [japanese](#japanese) 日本語
+- [correspondence analysis](#correspondence-analysis) 対応分析
 
 ----------
+## video
+
+https://www.youtube.com/watch?v=P-fjZPf3Dnw
+Codon optimization: Why & how to design DNA sequences for optimal soluble protein expression - YouTube
+Published on Nov 3, 2014
+
+
+----------
+## unclassified
 
 - https://ja.wikipedia.org/wiki/コドン
 - http://bioinfo.ie.niigata-u.ac.jp/?遺伝子発現量予測
 - http://bioinfo.ie.niigata-u.ac.jp/?コドン組成に基づくBLSOM解析
-- http://www.g-language.org/wiki/restgenomeanalysisjapanese#コドン使用の解析
-- https://github.com/haruosuz/DS4GD/blob/master/2019/CaseStudy.md#codon-usage
-- https://github.com/haruosuz/DS4GD/blob/master/2018giga/CaseStudy.md#codon-usage
-- https://github.com/haruosuz/DS4GD/blob/master/2018/CaseStudy.md#codon-usage
+- https://twilog.org/copypasteusa/search?word=コドン
+- https://github.com/haruosuz/bioinfo/blob/master/2020/CaseStudy.md#codon-usage
+- https://twitter.com/search?q=大腸菌%20コドン
 
-----------
-## featuring
 
 https://www.ncbi.nlm.nih.gov/pubmed/12952536
 Genome Biol. 2003;4(9):R57. Epub 2003 Aug 21.
@@ -77,13 +81,13 @@ https://www.biophys.jp/dl/journal/53-1.pdf
 交通流と翻訳過程
 御手洗菜美子　コペンハーゲン大学ニールス・ボーア研究所
 
-https://twilog.org/copypasteusa/search?word=コドン
-
 ----------
 
 ## updates
 
-### 2020
+## 2020
+
+## 2020-12
 
 https://pubmed.ncbi.nlm.nih.gov/32609328/
 Bioinformatics
@@ -92,9 +96,15 @@ Network analysis of synonymous codon usage
 Khalique Newaz 1 2 3, Gabriel Wright 1 3, Jacob Piland 1 2 3, Jun Li 4, Patricia L Clark 5, Scott J Emrich 6, Tijana Milenković 1 2 3
 https://nd.edu/∼cone/CodonUsage/
 
+## Hochberg_2020
 
-https://www.nature.com/articles/nature23902
-Alternative evolutionary histories in the sequence space of an ancient protein | Nature
+https://pubmed.ncbi.nlm.nih.gov/33299178/
+Nature
+. 2020 Dec;588(7838):503-508. doi: 10.1038/s41586-020-3021-2. Epub 2020 Dec 9.
+A hydrophobic ratchet entrenches molecular complexes
+Georg K A Hochberg 1, Yang Liu 2, Erik G Marklund 3, Brian P H Metzger 1, Arthur Laganowsky 2, Joseph W Thornton 4 5
+https://www.nature.com/articles/s41586-020-3021-2
+
 https://twitter.com/kfuku0502/status/1336938243720409088
 Kenji Fukushima on Twitter: "来週のラボミーティング当番、プログレスにしようと思ってたけどこれは論文紹介不可避やな。 https://t.co/gXLiFasV90" / Twitter
 - 今まで読んだ全ての論文の中で一番面白かったものを挙げろと言われたらこれなんだけど、同じラボからだ。この論文だって読み込んだら弱いところもあるけど、起こらなかった進化的帰結を網羅的に検証するという着想がそもそもすごい。アブスト一文目から最高。
@@ -102,26 +112,75 @@ Kenji Fukushima on Twitter: "来週のラボミーティング当番、プログ
 - multinucleotide codon substitutionsの論文もこの人たちだったのか。そう考えるとなんとなくつながるな。
 - hydrophobic ratchetの論文、主張を裏付ける論理はもちろん追えるように書かれているんだけど、やはり「もし自分がこの研究をやっていたら」を考えるとFig. 4Cを捻り出せる思考回路が理解しがたい。
 
+https://pubmed.ncbi.nlm.nih.gov/28902834/
+Nature
+. 2017 Sep 21;549(7672):409-413. doi: 10.1038/nature23902. Epub 2017 Sep 13.
+Alternative evolutionary histories in the sequence space of an ancient protein
+Tyler N Starr 1, Lora K Picton 2, Joseph W Thornton 2 3
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6214350/
+https://www.nature.com/articles/nature23902
+
+https://pubmed.ncbi.nlm.nih.gov/29967485/
+Nat Ecol Evol
+. 2018 Aug;2(8):1280-1288. doi: 10.1038/s41559-018-0584-5. Epub 2018 Jul 2.
+Multinucleotide mutations cause false inferences of lineage-specific positive selection
+Aarti Venkat 1, Matthew W Hahn 2 3, Joseph W Thornton 4 5
+https://www.nature.com/articles/s41559-018-0584-5
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6093625/
+
+
+## 2020-09
+
+### Hasan_2020
+
+BMC Bioinformatics
+. 2020 Sep 30;21(Suppl 14):367. doi: 10.1186/s12859-020-03688-y.
+DeeplyEssential: a deep neural network for predicting essential genes in microbes
+Md Abid Hasan 1, Stefano Lonardi 2
+https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03688-y
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7525945/
+
+https://twitter.com/LibKot/status/1311686627077488643
+Ikemen Mas Kot on Twitter: "DeeplyEssential: a deep neural network for predicting essential genes in microbes https://t.co/2Q8YJJ5byb #maskotlib" / Twitter
+背景
+必須遺伝子とは、生物の生存に不可欠な遺伝子のことである。細菌の必須遺伝子を予測することで、新規抗生物質の設計や抗菌戦略のターゲットを提供することができます。
+研究成果
+本研究では、微生物の必須遺伝子を予測するためのディープニューラルネットワークを提案する。
+DEEPLYESSENTIALと呼ばれる我々のアーキテクチャは、入力データに対する仮定を最小限にして予測を実行する（すなわち、遺伝子の一次配列とそれに対応するタンパク質配列のみを使用する）ので、既存の予測器は構造的特徴やトポロジー的特徴を必要とするため、
+容易に利用できないかもしれないが、実用性を最大限に高めることができる。また、従来の分類器に影響を与えていた隠れた性能バイアスを明らかにし、研究を行った。
+広範囲にわたる結果は、学習セットのバランスをとるためにダウンサンプリングを採用したり、直交遺伝子の複数コピーを除外するためにクラスタリングを使用したりする既存の分類器よりもDEEPLYESSENTIALの方が優れていることを示している。
+結論
+ディープニューラルネットワークアーキテクチャは、微生物遺伝子の配列情報のみを用いて、微生物遺伝子が必須かどうか（必須でないかどうか）を効率的に予測することができます。
+
+
+2:07 AM · Apr 13, 2019
+https://twitter.com/Tyu_Shi/status/1116749787569672193
+Tyu_Shi on Twitter: "DeeplyEssential: A Deep Neural Network for Predicting Essential Genes in Microbes https://t.co/GbQ0522csF 配列の特徴のみ（遺伝子のコドン使用頻度や長さ、GC含量、アミノ酸使用頻度等）を特徴量として使っているようだ。でも本当に知りたいのは典型的では無いのに必須な遺伝子なんだよね…。"
+https://www.biorxiv.org/content/10.1101/607085v1
 
 
 
+### Chen_2020
 
-8:00 AM · Jul 29, 2020
-https://twitter.com/mbiojournal/status/1288247896874168322
-mBio on Twitter: "Codon Usage Optimization in the Prokaryotic Tree of Life: How Synonymous Codons Are Differentially Selected in Sequence Domains with Different Expression Levels and Degrees of Conservation https://t.co/tjcmcVAWhh https://t.co/e3WGMTtNK3" / Twitter
-https://mbio.asm.org/content/11/4/e00766-20
-Codon Usage Optimization in the Prokaryotic Tree of Life: How Synonymous Codons Are Differentially Selected in Sequence Domains with Different Expression Levels and Degrees of Conservation | mBio
-
-
-Published: 02 March 2020
+ウイルスと宿主の共進化における翻訳選択による同義コドン使用バイアスの解消
+https://pubmed.ncbi.nlm.nih.gov/32123323/
+Nat Ecol Evol
+. 2020 Apr;4(4):589-600. doi: 10.1038/s41559-020-1124-7. Epub 2020 Mar 2.
+Dissimilation of synonymous codon usage bias in virus-host coevolution due to translational selection
+Feng Chen 1 2 3, Peng Wu 2, Shuyun Deng 4, Heng Zhang 5, Yutong Hou 2, Zheng Hu 6, Jianzhi Zhang 7, Xiaoshu Chen 8 9, Jian-Rong Yang 10 11 12 13 14 15
 https://www.nature.com/articles/s41559-020-1124-7
-Dissimilation of synonymous codon usage bias in virus–host coevolution due to translational selection | Nature Ecology & Evolution
-
-https://www.biorxiv.org/content/10.1101/2020.02.12.942524v1
-Codon-usage optimization in the prokaryotic tree of life: How synonymous codons are differentially selected in sequence domains with different expression levels and degrees of conservation. | bioRxiv
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7249751/
 
 
+### Brewer_2020
 
+https://pubmed.ncbi.nlm.nih.gov/31712737/
+ISME J
+. 2020 Feb;14(2):597-608. doi: 10.1038/s41396-019-0552-3. Epub 2019 Nov 11.
+Unlinked rRNA genes are widespread among bacteria and archaea
+Tess E Brewer 1 2, Mads Albertsen 3, Arwyn Edwards 4, Rasmus H Kirkegaard 3, Eduardo P C Rocha 5, Noah Fierer 6 7
+https://www.nature.com/articles/s41396-019-0552-3
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6976660/
 
 2019年12月23日に投稿
 https://qiita.com/nkjmu/items/3572c8883d8802c3edd5
@@ -151,13 +210,6 @@ linked rRNAの場合、同一オペロンで制御することは、成長の早
 
 →unlinkedな方がgeneration timeが長いし、rRNAのコピー数も少ない(つまり一気にたくさんribosomeを作れない？)ということで成長遅いだろう
 
-https://www.ncbi.nlm.nih.gov/pubmed/31712737
-ISME J. 2020 Feb;14(2):597-608. doi: 10.1038/s41396-019-0552-3. Epub 2019 Nov 11.
-Unlinked rRNA genes are widespread among bacteria and archaea.
-Brewer TE1,2, Albertsen M3, Edwards A4, Kirkegaard RH3, Rocha EPC5, Fierer N6,7.
-https://www.nature.com/articles/s41396-019-0552-3
-
-
 https://www.ncbi.nlm.nih.gov/pubmed/18430960
 Genetics. 2008 Apr;178(4):2429-32. doi: 10.1534/genetics.107.086405.
 Nearly neutrality and the evolution of codon usage bias in eukaryotic genomes.
@@ -167,18 +219,83 @@ Figure 1.—
 Relationship between codon usage bias and generation time of eukaryotes. 
 
 
-### 2019
 
+### Shenhav_2020
+
+https://pubmed.ncbi.nlm.nih.gov/33154134/
+Science
+. 2020 Nov 6;370(6517):683-687. doi: 10.1126/science.aaz9642.
+Resource conservation manifests in the genetic code
+Liat Shenhav # 1 2, David Zeevi # 3
+https://science.sciencemag.org/content/370/6517/683
+https://pubmed.ncbi.nlm.nih.gov/33154134/
+
+3:42 AM · Nov 11, 2020
+https://twitter.com/DaveZeevi/status/1326233738855018502
+David Zeevi on Twitter: "So now that the elections are over, I’d like to tell you about @LiatShenhav and my new paper! I want to share the story behind the paper and the process leading to our discovery. It’s a story about scientific serendipity. **a thread** https://t.co/2QwYbX2krx" / Twitter
+
+3:41 AM · Nov 11, 2020
+https://twitter.com/LiatShenhav/status/1326233484407545858
+Liat Shenhav on Twitter: "We did it, @DaveZeevi! Our paper is now published in @ScienceMagazine! https://t.co/fdnwl4Ae7u We present a data-driven, computational perspective on how selective pressures resulting from nutrient limitation shape microbial coding sequences. Thread below:" / Twitter
+And we were able to study all this using publicly available data on microbes!! How cool!
+
+4:48 AM · Oct 26, 2019
 https://twitter.com/LiatShenhav/status/1187818150970085376
 Liat Shenhav on Twitter: "We uncover a strong purifying selective pressure across marine microbial life that is driven by resource conservation, and also demonstrate that it is a central driving force in selection processes guiding codon usage. https://t.co/S4P6DXNi03" / Twitter
-4:48 AM · Oct 26, 2019
-https://www.biorxiv.org/content/10.1101/790345v2
-Resource conservation manifests in the genetic code | bioRxiv
  KEGG and eggNOG orthologies
+
+
+## Lopez_2020
+
+https://twitter.com/mbiojournal/status/1288247896874168322
+https://pubmed.ncbi.nlm.nih.gov/32694138/
+mBio
+. 2020 Jul 21;11(4):e00766-20. doi: 10.1128/mBio.00766-20.
+Codon Usage Optimization in the Prokaryotic Tree of Life: How Synonymous Codons Are Differentially Selected in Sequence Domains with Different Expression Levels and Degrees of Conservation
+José Luis López # 1, Mauricio Javier Lozano # 1, María Laura Fabre 1, Antonio Lagares 2
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7374057/
+https://mbio.asm.org/content/11/4/e00766-20.long
+
+## 2019
+
+### Lopez_2019
+
+2:42 AM - 1 Jun 2019
+https://twitter.com/pacyc1841/status/1134711913265295360
+この論文関係あるかわからないけど、この前ほんとにコドンユーセージでOligonucleotide frequencyが説明できるか話題になった
+
+https://pubmed.ncbi.nlm.nih.gov/31138741/
+mBio
+. 2019 May 28;10(3):e00505-19. doi: 10.1128/mBio.00505-19.
+Codon Usage Heterogeneity in the Multipartite Prokaryote Genome: Selection-Based Coding Bias Associated with Gene Location, Expression Level, and Ancestry
+J L López 1, M J Lozano 1, A Lagares Jr 2 3, M L Fabre 1, W O Draghi 1, M F Del Papa 1, M Pistorio 1, A Becker 3, D Wibberg 4, A Schlüter 4, A Pühler 4, J Blom 5, A Goesmann 5, A Lagares 6
+https://mbio.asm.org/content/10/3/e00505-19.long
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6538778/
+Sinorhizobium meliloti, which harbors a chromosome, a chromid (pSymB), a megaplasmid (pSymA), and, in many strains, one or more accessory plasmids.
+modal codon usages
+
+
+## 2019-10
 
 https://twitter.com/astrogenomics/status/1186949418294996992
 Juan C. Villada on Twitter: "Our new pre-print is up! We explored how codon usage may be associated with hydrogen bonding in dsDNA. We found signals of a ramp that smoothly increases the number of hydrogen bonds per codon position. https://t.co/K3Ouu2unkj" / Twitter
 7:16 PM · Oct 23, 2019
+
+## 2019-09
+
+### D'Andrea_2019
+
+https://pubmed.ncbi.nlm.nih.gov/31290967/
+Genome Biol Evol
+. 2019 Sep 1;11(9):2439-2456. doi: 10.1093/gbe/evz146.
+The Critical Role of Codon Composition on the Translation Efficiency Robustness of the Hepatitis A Virus Capsid
+Lucía D'Andrea 1, Francisco-Javier Pérez-Rodríguez 1, Montserrat de Castellarnau 1, Susana Guix 1, Enric Ribes 2, Josep Quer 3 4, Josep Gregori 3 5, Albert Bosch 1, Rosa M Pintó 1
+https://academic.oup.com/gbe/article/11/9/2439/5530595
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6735747/
+
+
+### 2019-08
+
 
 Posted August 09, 2019.
 https://www.biorxiv.org/content/10.1101/730473v1
@@ -190,14 +307,8 @@ frequently used codons for multiple encoding amino acids in a given species was 
 method described in (Sharp and Li, 1987) as implemented in the SeqIO module in biopython (v1.72) package
 (Cock et al., 2009).
 
-https://twitter.com/Tyu_Shi/status/1116749787569672193
-Tyu_Shi on Twitter: "DeeplyEssential: A Deep Neural Network for Predicting Essential Genes in Microbes https://t.co/GbQ0522csF 配列の特徴のみ（遺伝子のコドン使用頻度や長さ、GC含量、アミノ酸使用頻度等）を特徴量として使っているようだ。でも本当に知りたいのは典型的では無いのに必須な遺伝子なんだよね…。"
-2:07 AM · Apr 13, 2019
 
-
-Published: 10 July 2019
-https://academic.oup.com/gbe/advance-article/doi/10.1093/gbe/evz146/5530595
-Critical Role of Codon Composition on the Translation Efficiency Robustness of the Hepatitis A Virus Capsid | Genome Biology and Evolution | Oxford Academic
+## 2019-06
 
 Posted June 25, 2019.
 https://www.biorxiv.org/content/10.1101/478016v2
@@ -208,20 +319,42 @@ https://twitter.com/ytksai/status/1136571651133329408
 放線菌のコドン最適化に関する研究がScientific Reportsに採択されました。産総研の人工知能研究センターと生物プロセス研究部門の共同研究です。https://www.nature.com/articles/s41598-019-44500-z … プレスリリースを出しました。https://www.aist.go.jp/aist_j/press_release/pr2019/pr20190606/pr20190606.html 
 生体分子の設計問題のうち、タンパク質発現量を向上させる目的でmRNAの塩基配列を同義置換の範囲内で設計する問題をコドン最適化と呼びます。本研究では、産総研の所有するタンパク質発現データの解析から、放線菌におけるコドン最適化に重要な設計指標を見出し、その有効性の実験検証も行いました。
 
-### 2019-05
+## 2019-05
 
-https://twitter.com/pacyc1841/status/1134711913265295360
-この論文関係あるかわからないけど、この前ほんとにコドンユーセージでOligonucleotide frequencyが説明できるか話題になった
-2:42 AM - 1 Jun 2019
-https://www.ncbi.nlm.nih.gov/pubmed/31138741
-MBio. 2019 May 28;10(3). pii: e00505-19. doi: 10.1128/mBio.00505-19.
-Codon Usage Heterogeneity in the Multipartite Prokaryote Genome: Selection-Based Coding Bias Associated with Gene Location, Expression Level, and Ancestry.
-López JL1, Lozano MJ1, Lagares A Jr2,3, Fabre ML1, Draghi WO1, Del Papa MF1, Pistorio M1, Becker A3, Wibberg D4, Schlüter A4, Pühler A4, Blom J5, Goesmann A5, Lagares A6.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6538778/
-- Sinorhizobium meliloti, which harbors a chromosome, a chromid (pSymB), a megaplasmid (pSymA), and, in many strains, one or more accessory plasmids.
-- modal codon usages
 
-https://twitter.com/search?q=大腸菌%20コドン
+### Fischer_2019
+
+https://www.nature.com/articles/s41589-020-0507-z
+Article
+Published: 06 April 2020
+New codons for efficient production of unnatural proteins in a semisynthetic organism
+Emil C. Fischer, Koji Hashimoto, Yorke Zhang, Aaron W. Feldman, Vivian T. Dien, Rebekah J. Karadeema, Ramkrishna Adhikary, Michael P. Ledbetter, Ramanarayanan Krishnamurthy & Floyd E. Romesberg 
+Nature Chemical Biology volume 16, pages570–576(2020)Cite this article
+
+Apr 8, 2020
+https://twitter.com/mighty_tora/status/1247547996985634821
+Romesbergらによる、67種のコドンをデコードできる半合成大腸菌の構築。橋本さんおめでとうございます！
+既知の生命において、DNAは4つの塩基（ATGC）から構成されます。筆者らはこれまでに、dNaMとdTPT3を加え、6つの塩基を利用可能な大腸菌を創出していました。（1/2）
+本論文では、新しく利用できるようになった非天然コドンを体系的に探索し、高効率かつ低クロストークで非天然アミノ酸を導入できるものを3つ同定しました。67種のコドンが利用できるようになったため、より多彩なprotein engineeringが可能になると期待されます。（2/2）
+
+### Fredens_2019
+
+https://pubmed.ncbi.nlm.nih.gov/31092918/
+Nature
+. 2019 May;569(7757):514-518. doi: 10.1038/s41586-019-1192-5. Epub 2019 May 15.
+Total synthesis of Escherichia coli with a recoded genome
+Julius Fredens 1, Kaihang Wang 1 2, Daniel de la Torre 1, Louise F H Funke 1, Wesley E Robertson 1, Yonka Christova 1, Tiongsun Chia 1, Wolfgang H Schmied 1, Daniel L Dunkelmann 1, Václav Beránek 1, Chayasith Uttamapinant 1 3, Andres Gonzalez Llamazares 1, Thomas S Elliott 1, Jason W Chin 4
+https://www.nature.com/articles/s41586-019-1192-5
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7039709/
+
+
+4:39 PM · Aug 20, 2019
+https://twitter.com/NatureDigest/status/1163717198868705280
+Nature ダイジェスト／編集部 on Twitter: "【コドンを修正した大腸菌ゲノムの全合成 | Natureダイジェスト8月号】このほど大腸菌ゲノムを鋳型に、アミノ酸をコードするコドンの種類を通常より少なくした、これまでで最大の合成ゲノムが作製された。この完全な合成ゲノムを持つ大腸菌は生存も増殖もできた。 https://t.co/PfYJ1jYYuJ" / Twitter
+
+2019年5月16日
+https://www.natureasia.com/ja-jp/nature/pr-highlights/12951
+【合成生物学】大腸菌の遺伝コードを圧縮する | Nature | Nature Research
 
 https://twitter.com/enuroi/status/1128893267402059776
 Ken Kuroki on Twitter: "大腸菌の全ゲノムを合成DNAで置換することに成功。59種のセンスコドンと2種の終止コドンしか使わないよう18,000コドンを変更。増殖時間は1.6倍に長くなったのみ。 https://t.co/u8DUxSJ8AI"
@@ -235,13 +368,6 @@ Y. Furuta on Twitter: "大腸菌ゲノム上のセリンのコドン2つとス�
 https://twitter.com/torusengoku/status/1128827977498677248
 torusengoku on Twitter: "Nature, DNAコドンのうちTCG, TCA（ともにSerをコード）とTAG（アンバーストップコドン）を持たない大腸菌を作成。将来、これらのコドンに新しいアミノ酸をコードさせる遺伝暗号拡張が容易に。 https://t.co/KvQSOXbjCc どこまで減らせるのかな。"
 9:02 PM - 15 May 2019
-
-2019年5月16日
-https://www.natureasia.com/ja-jp/nature/pr-highlights/12951
-【合成生物学】大腸菌の遺伝コードを圧縮する | Nature | Nature Research
-
-https://www.nature.com/articles/s41586-019-1192-5
-Total synthesis of Escherichia coli with a recoded genome | Nature
 
 ### 2019-04
 
@@ -495,6 +621,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2608848/
 - Thirdly, genes expressed at high levels in fast-growing bacteria tend to preferentially use translationally optimal codons that are recognized by the most abundant tRNAs. This presumably reflects natural selection for synonymous codons that are translated more efficiently and accurately.7,8 
 - Secondly, to analyze the correlation between scores of each of the three axes [Equation (4)] and levels of gene expression (Expression), we tested for the distribution of the axis scores for 40 genes expected to be expressed constitutively at high levels.10 This set included the genes encoding translation elongation factors Tu (tuf), Ts (tsf) and G (fus), and 37 of the larger ribosomal proteins (encoded by genes rplA-rplF, rplI-rplT, and rpsB-rpsT). In each axis, the score for each gene was standardized by subtracting the mean and dividing by the standard deviation of scores for all protein genes. For each axis, Expression was detected as the main source of variation among genes on the axis when the mean absolute standard score for the 40 highly expressed genes was >1.644854 (an interval in which theoretically only 5% of all protein genes are included).
 - The third feature, Expression, was detected as a major source of synonymous codon usage variation among genes in C. trachomatis D/UW-3/CX, C. perfringens 13, E. coli K12 MG1655 and H. influenzae Rd KW20, which is consistent with previous findings (Table 2).
+
 
 ----------
 ## optimal codon
@@ -1685,8 +1812,6 @@ p. 100
 https://www.kyoritsu-pub.co.jp/bookdetail/9784320054752
 遺伝暗号の起源と進化 / 大澤 省三　著 渡辺 公綱　上田 卓也　大濱 武　訳 | 共立出版
 
-
-
 ### 1988-04-20
 https://www.iwanami.co.jp/book/b267838.html
 https://blog.goo.ne.jp/eldiaquemequieras/e/d89929b19c493306b7cda716deac7140
@@ -1700,16 +1825,33 @@ https://blog.goo.ne.jp/eldiaquemequieras/e/d89929b19c493306b7cda716deac7140
 ```
 
 ----------
-## video
+## correspondence analysis
+対応分析
 
-https://www.youtube.com/watch?v=P-fjZPf3Dnw
-Codon optimization: Why & how to design DNA sequences for optimal soluble protein expression - YouTube
-Published on Nov 3, 2014
+https://home.hiroshima-u.ac.jp/naka/wiki/wiki.cgi?Matrix%A4%C8%A4%B7%A4%C6%C6%C0%A4%E9%A4%EC%A4%BF%A5%C7%A1%BC%A5%BF%A4%CE%CA%AC%C0%CF%A4%CB%A4%C4%A4%A4%A4%C6
+Matrixとして得られたデータの分析について -
+データを解析する
+主成分分析、特異値分解 (SVD)、対応分析
+「バイオインフォマティクスの基礎」　斎藤　輪太郎　著　数理科学SGCライブラリ-41　に、コドンバイアスの分析に適用した例が詳しく解説されている。R 言語による、対応分析を行うプログラムが111ページに掲載されている。
+
+https://haruosuz.hatenadiary.org/entry/20090605
+コドン使用データの対応分析
+
+https://pubmed.ncbi.nlm.nih.gov/15374859/
+Bioinformatics
+. 2005 Feb 15;21(4):545-7. doi: 10.1093/bioinformatics/bti037. Epub 2004 Sep 16.
+Online synonymous codon usage analyses with the ade4 and seqinR packages
+D Charif 1, J Thioulouse, J R Lobry, G Perrière
+https://academic.oup.com/bioinformatics/article/21/4/545/203393
+
 
 ----------
-## unclassified
 
-----------
+
+
+
+
+
 
 
 
