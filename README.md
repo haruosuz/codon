@@ -2,7 +2,11 @@
 コドン使用
 
 ## Table of Contents
+- [video](#video)
 - [unclassified](#unclassified)
+- [plasmids](#plasmids)
+- [virus](#virus)
+  - [SARS-CoV-2](#sars-cov-2)
 - [updates](#updates)
 [2020](#2020)
 [2019](#2019)
@@ -15,9 +19,6 @@
 - [tRNA](#trna)
 - [tRNA gene cluster](#trna-gene-cluster)
 - [lifestyle](#lifestyle) ライフスタイル
-- [mge](#mge)
-  - [plasmids](#plasmids)
-  - [virus](#virus)
 - [metagenome](#metagenome)
 - [temperature](#temperature) 温度
 - [replication](#replication) 複製
@@ -30,10 +31,6 @@
 [Sharp](#sharp)
 [Supek](#supek)
 [Suzuki](#suzuki)
-- [database](#database)
-- [tools](#tools)
-- [methods](#methods)
-  - [RSCU](#rscu)
 - [chi square test](#chi-square-test) カイ二乗検定
 - [growth rate](#growth-rate) 増殖速度
 - [translational selection](#translational-selection) 翻訳選択
@@ -42,9 +39,13 @@
 - [synthetic_biology](#synthetic_biology)
 - [unclassified](#unclassified)
 - [book](#book)
-- [video](#video)
 - [japanese](#japanese) 日本語
 - [correspondence analysis](#correspondence-analysis) 対応分析
+- [database](#database)
+- [tools](#tools)
+  - CodonMuSe
+- [methods](#methods)
+  - [RSCU](#rscu)
 
 ----------
 ## video
@@ -82,8 +83,373 @@ https://www.biophys.jp/dl/journal/53-1.pdf
 御手洗菜美子　コペンハーゲン大学ニールス・ボーア研究所
 
 ----------
+## mge
+Mobile genetic elements (MGEs)
+https://ja.wikipedia.org/wiki/可動遺伝因子
+
+----------
+## plasmids
+
+https://www.ncbi.nlm.nih.gov/pubmed/28206693
+Mol Ecol. 2017 Apr;26(7):1832-1847. doi: 10.1111/mec.14056. Epub 2017 Mar 13.
+Plasmid and clonal interference during post horizontal gene transfer evolution.
+Bedhomme S1,2, Perez Pantoja D3, Bravo IG2.
+KEYWORDS:
+antibiotic resistance; clonal interference; codon usage preferences; multilevel selection; plasmid
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5392415/
+Plasmid carriage costs are not the only costs to plasmid-mediated HGT. Another potentially important one is the mismatch in codon usage preferences between the transferred gene and the receiving genome (Baltrus 2013). Each species is indeed characterized by specific frequencies of use of the different codons within a synonymous codon family. An important evolutionary force shaping codon usage preferences is coevolution with the translation machinery: codon usage frequencies are strongly related with the copy number of corresponding tRNA genes, especially for highly expressed genes and for rapidly growing organisms (Rocha 2004). Genes transferred horizontally from a different organism can present a mismatch in codon usage preferences with the receiving genome, and such mismatch is known to affect translation accuracy and speed (Komar et al. 1999, Burgess-Brown et al. 2008). 
+
+and comparative approaches demonstrate that HGT is more likely to be successful between genomes with similar codon usage preferences (Tuller et al. 2011, Medrano-Soto 2004).
+
+The cost of plasmid carriage was quantified and we showed that mismatches in codon usage preferences generate differences in chloramphenicol resistance. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/20369015
+PLoS Comput Biol. 2010 Apr 1;6(4):e1000732. doi: 10.1371/journal.pcbi.1000732.
+Why genes evolve faster on secondary chromosomes in bacteria.
+Cooper VS1, Vohr SH, Wrocklage SC, Hatcher PJ.
+
+Further, in every bacterial genome with multiple chromosomes that we studied, genes on secondary chromosomes exhibited significantly weaker codon usage bias than those on primary chromosomes. Faster evolution and reduced codon bias
+
+https://www.ncbi.nlm.nih.gov/pubmed/20080407
+Trends Microbiol. 2010 Apr;18(4):141-8. doi: 10.1016/j.tim.2009.12.010. Epub 2010 Jan 18.
+Introducing the bacterial 'chromid': not a chromosome, not a plasmid.
+Harrison PW1, Lower RP, Kim NK, Young JP.
+
+Chromids carry some core genes, and their nucleotide composition and codon usage are very similar to those of the chromosomes they are associated with.
+
+https://linkinghub.elsevier.com/retrieve/pii/S0966-842X(09)00269-8
+
+Chromid genes have a similar codon usage to chromosomal genes
+A large number of studies (reviewed by Lynn et al.[11]) have investigated synonymous codon usage and demonstrated that it is highly patterned. It is known that individual genomes have characteristic synonymous codon usage signatures [12]. Our analysis demonstrates that individual replicons also have distinct codon usage characteristics, and chromids are much more similar to chromosomes than to the plasmids that are found in the same organisms. For example, in the genome of Agrobacterium tumefaciens C58 the chromosome and chromid are very similar in average codon usage but rather distinct from the two plasmids (Figure 1). 
+
+https://www.ncbi.nlm.nih.gov/pubmed/19221094
+DNA Res. 2009 Apr;16(2):91-104. doi: 10.1093/dnares/dsp001. Epub 2009 Feb 15.
+Codon usages of genes on chromosome, and surprisingly, genes in plasmid are primarily affected by strand-specific mutational biases in Lawsonia intracellularis.
+Guo FB1, Yuan JB.
+
+https://www.ncbi.nlm.nih.gov/pubmed/18391244
+In Silico Biol. 2007;7(4-5):547-58.
+Analysis of codon usage patterns and predicted highly expressed genes for six phytopathogenic Xanthomonas genomes shows a high degree of conservation.
+Sen G1, Sur S, Bose D, Mondal U, Furnholm T, Bothra A, Tisa L, Sen A.
+
+https://www.ncbi.nlm.nih.gov/pubmed/14597394
+Gene. 2003 Nov 27;320:109-16.
+The strength of translational selection for codon usage varies in the three replicons of Sinorhizobium meliloti.
+Peixoto L1, Zavala A, Romero H, Musto H.
+
+https://www.ncbi.nlm.nih.gov/pubmed/9820537
+J Immunol. 1998 Nov 15;161(10):5594-9.
+Optimization of codon usage of plasmid DNA vaccine is required for the effective MHC class I-restricted T cell responses against an intracellular bacterium.
+Uchijima M1, Yoshida A, Nagata T, Koide Y.
+
+----------
+## virus
+
+https://github.com/haruosuz/microbe/blob/master/references/microbe.virus.md#coronavirus
+
+
+2020.01.25 SAT 09:00
+https://wired.jp/2020/01/25/wuhan-coronavirus-snake-flu-theory/
+新型コロナウイルスの感染源は、本当に「市場のヘビ」なのか？ 新たな論文を巡り波紋｜WIRED.jp
+
+タンパク質を構成するコドンの使用頻度の偏り（コドンバイアス）は、生物によって異なる。一部のウイルスは、新しい宿主のコドンバイアスを採用することで、新しい宿主に適応する。
+
+研究チームは、新型コロナウイルス（2019-nCoV）が好んで使うコドンと、宿主の可能性がある少数の生物（人間、コウモリ、ニワトリ、ハリネズミ、センザンコウ、2種類のヘビ）が好むコドンを比較した。そして新型コロナウイルス（2019-nCoV）のコドンバイアスが、タイワンコブラとアマガサヘビの2種類のヘビのコドンバイアスと最も重複していることがわかったと報告したのだ。
+
+これに対してシドニー大学のホームズは、北京大学の研究チームによるアプローチには多くの問題があると指摘する。例えば、コドンバイアスの比較は、動物の宿主を特定するには非常に間接的な手法だという。
+
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/31911390
+J Virol Methods. 2020 Mar;277:113806. doi: 10.1016/j.jviromet.2019.113806. Epub 2020 Jan 5.
+Analysis of preferred codon usage in the coronavirus N genes and their implications for genome evolution and vaccine design.
+Sheikh A1, Al-Taher A2, Al-Nazawi M2, Al-Mubarak AI3, Kandeel M4.
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/27278133
+Sci Rep. 2016 Jun 9;6:27546. doi: 10.1038/srep27546.
+Codon optimization of the adenoviral fiber negatively impacts structural protein expression and viral fitness.
+Villanueva E1, Martí-Solano M2, Fillat C1,3.
+
+https://www.ncbi.nlm.nih.gov/pubmed/22016848
+Mob Genet Elements. 2011 May;1(1):75-77.
+Codon bias, tRNA pools and horizontal gene transfer.
+Tuller T1.
+
+https://www.ncbi.nlm.nih.gov/pubmed/19888206
+Mol Syst Biol. 2009;5:311. doi: 10.1038/msb.2009.71. Epub 2009 Oct 13.
+Viral adaptation to host: a proteome-based analysis of codon usage and amino acid preferences.
+Bahir I1, Fromer M, Prat Y, Linial M.
+
+https://www.ncbi.nlm.nih.gov/pubmed/18463708
+PLoS Comput Biol. 2008 Feb 29;4(2):e1000001. doi: 10.1371/journal.pcbi.1000001.
+Genome landscapes and bacteriophage codon usage.
+Lucks JB1, Nelson DR, Kudla GR, Plotkin JB.
+
+----------
+## SARS-CoV-2
+
+### 2020-08-07
+
+https://www.biorxiv.org/content/10.1101/2020.04.01.019463v3
+Insights into The Codon Usage Bias of 13 Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Isolates from Different Geo-locations | bioRxiv
+Posted August 07, 2020.
+
+2.4 Relative Synonymous Codon Usage (RSCU)
+
+2.12 Relative Codon Deoptimization Index (RCDI)
+
+If the tested coding sequence of a virus has a similar codon usage pattern to the human genome, the RCDI value would be closer to or equal 1, which may indicate a high translation rate, as well as, a better adaptation to the host.
+
+3.6 Codon Adaptation Index (CAI)
+
+### 2020-07-02
+
+https://pubmed.ncbi.nlm.nih.gov/32294518/
+Comparative Study Virus Res
+. 2020 Jul 2;283:197976. doi: 10.1016/j.virusres.2020.197976. Epub 2020 Apr 12.
+A comprehensive analysis of genome composition and codon usage patterns of emerging coronaviruses
+Fernando L Tort 1, Matías Castells 1, Juan Cristina 2
+https://www.sciencedirect.com/science/article/abs/pii/S0168170220301684?via%3Dihub
+https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC7152894/
+
+Fig. 2
+Heatmaps of codon and amino acid usage in βCoV ORFs. Unit variance scaling was applied. Each column corresponds to a different βCoV strain, who’s host and virus type are shown in the upper part of the figures. Both rows and columns are clustered using correlation distance and average linkage. In (a) and (b) codon and amino acids usage is shown, respectively.
+
+3.5. Codon usage adaptation in SARS-CoV-2
+
+### 2020-05-14
+
+https://pubmed.ncbi.nlm.nih.gov/32431949/
+Virus Evol
+. 2020 May 14;6(1):veaa032. doi: 10.1093/ve/veaa032. eCollection 2020 Jan.
+Multivariate analyses of codon usage of SARS-CoV-2 and other betacoronaviruses
+Haogao Gu 1, Daniel K W Chu 1, Malik Peiris 1, Leo L M Poon 1
+https://academic.oup.com/ve/article/6/1/veaa032/5837024
+https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC7223271/
+Codon usage of viral genes are believed to be subjected to different selection pressures in different host environments. Previous studies on codon usage of influenza A viruses helped identify viral host origins and evolution trends, however, similar studies on coronaviruses are lacking. In this study, we compared the codon usage bias using global correspondence analysis (CA), within-group CA and between-group CA. 
+
+2.2 Global CA on codon usage
+
+The Pearson residuals were applied in the CA as input for singular value decomposition (Suzuki et al. 2008), and resulted eigenvalues were visualized and interpreted in the study. 
+
+2.3 Within-group CA and between-group CA
+In contrast to the previous global CA, the within-block CA (Benzécri 1983) (WCA) can segregate the effects of different codon compositions in different amino acids, by introducing a block structure into the analysis. WCA becomes ‘model of choice’ for analysing synonymous codon usage in recent years, as it is more robust than other traditional methods (e.g. CA with relative codon frequency or CA with relative synonymous codon usage values) (Perriere 2002; Suzuki et al. 2008). 
+
+### 2020-04-22
+
+https://f1000research.com/articles/9-190
+REVISED Identification Sus scrofa and Mus musculus as potential hosts of SARS-CoV-2 via phylogenetic and homologous recombination analysis [version 2; peer review: awaiting peer review]
+Xiaopeng Hu https://orcid.org/0000-0002-6533-80241,2, Weixin Li1, Zhendan He2, Fengxue Zhang3
+
+Figure 1. SARS-CoV-2 phylogeny analysis based on the codon usage.
+(A) Heat map of relative synonymous codon usage (RSCU) derived from the complete genome of SARS-CoV-2, as well as the mitochondrial genome of diverse animals (Sus scrofa, Mus musculus, Najaatra, Mustela Pulourius, Marmota flaviventris, Rhinolophus sinicus, Homo sapiens). (B)
+
+![](https://f1000researchdata.s3.amazonaws.com/manuscripts/25827/73f78433-12f9-4c87-8d72-3a0f47771405_figure1.gif)
+
+Latest published: 22 Apr 2020, 9:190 (https://doi.org/10.12688/f1000research.22627.2)
+
+7:06 AM · Mar 24, 2020
+https://twitter.com/wormmaps/status/1242211046443622401
+Colin J. Carlson, Ph.D. on Twitter: "This F1000 preprint argues based on codon use that pigs could plausibly be a better candidate for a SARS-CoV-2 reservoir, and even speculates about the human symptoms vs. porcine epidemic diarrhea virus, another corona. Can any virologists sense check? https://t.co/q4bZXe8htE https://t.co/hUXbYs1GWf" / Twitter
+
+### 2020-04
+
+https://pubmed.ncbi.nlm.nih.gov/31967321/
+J Med Virol
+. 2020 Apr;92(4):433-440. doi: 10.1002/jmv.25682.
+Cross-species transmission of the newly identified coronavirus 2019-nCoV
+Wei Ji 1, Wei Wang 2, Xiaofang Zhao 3, Junjie Zai 4, Xingguang Li 5
+https://onlinelibrary.wiley.com/doi/10.1002/jmv.25682
+https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC7138088/
+To investigate possible virus reservoir, we have carried out comprehensive sequence analysis and comparison in conjunction with relative synonymous codon usage (RSCU) bias among different animal species based on the 2019‐nCoV sequence.
+
+3.3. Relative synonymous codon usage analysis
+As parasitic microorganism, virus codon usage pattern resembles its host to some extent. The RSCU bias shows that the 2019‐nCoV, bat‐SL‐CoVZC45, and snakes from China have similar synonymous codon usage bias (Figure 3A, Table 1). 
+
+Figure 3
+Comparison of relative synonymous codon usage (RSCU) between 2019‐nCoV and its putative wildlife animal reservoir(s). A, 
+
+![](https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC7138088/bin/JMV-92-433-g003.jpg)
+
+![](https://onlinelibrary.wiley.com/cms/asset/4f3b18ab-36e4-42b2-a367-5e6633502fea/jmv25682-fig-0003-m.png)
+
+
+----------
+## database
+データベース
+
+https://integbio.jp/dbcatalog/record/nbdc00033
+Codon Usage Database - Integbio データベースカタログ
+http://www.kazusa.or.jp/codon/
+Codon Usage Database
+
+https://www.ncbi.nlm.nih.gov/pubmed/28865429
+BMC Bioinformatics. 2017 Sep 2;18(1):391. doi: 10.1186/s12859-017-1793-7.
+A new and updated resource for codon usage tables.
+Athey J1, Alexaki A1, Osipova E2, Rostovtsev A2, Santana-Quintero LV2, Katneni U1, Simonyan V2, Kimchi-Sarfaty C3.
+High-performance Integrated Virtual Environment-Codon Usage Tables (HIVE-CUTs)
+http://hive.biochemistry.gwu.edu/review/codon
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5581930/
+However, as plasmids are located in the same area as the genome, draw from the same tRNA pools, and use the same genetic code as the genome, plasmid coding sequences are not separated from the organism’s genomic codon usage table. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/22536831
+BMC Bioinformatics. 2012 Apr 26;13:62. doi: 10.1186/1471-2105-13-62.
+CBDB: the codon bias database.
+Hilterbrand A1, Saelens J, Putonti C.
+
+----------
+## tools
+ツール
+
+http://www.stevekellylab.com/codonmuse
+CodonMuSe - Steve Kelly Lab
+
+CodonMuSe
+CodonMuSe is a method for inferring the strength of selection acting on nucleotide sequences. It detects the strength of selection acting on the translation efficiency of the sequence and the strength of selection acting on biosyntheic cost of that sequence.
+
+Most amino acids are encoded by multiple synonymous codons. These codons are not equal. They cost different mount of resources to make and they have different numbers of cognate tRNAs floating about in the cell. Thus, different codons encoding the same amino acid have different biosynthetic costs and different translational efficiencies. CodonMuSe figures out how these two competing selective forces interact to shape the coding sequence of genes. It also considers background effects such as genome-wide mutation bias.
+
+If you want to know whether your gene has been under selection be cheap, efficient or both, ask CodonMuSe! It takes less than a second.
+
+You can download and install CodonMuSe here
+https://github.com/easeward/CodonMuSe
+
+
+
+https://github.com/enovoa/codonAutocorrelation
+Compute codon autocorrelation (aka codon covariation, codon reuse, codon pair usage) from fasta sequences.
+This code was used in the analyses of the manuscript 'Elucidation of codon usage signatures across the domains of life' (Novoa et al., Mol Biol Evol 2019), available here: https://doi.org/10.1093/molbev/msz124
+
+https://www.ncbi.nlm.nih.gov/pubmed/30738198
+Genomics. 2019 Feb 6. pii: S0888-7543(18)30608-6. doi: 10.1016/j.ygeno.2019.02.002. [Epub ahead of print]
+CodSeqGen: A tool for generating synonymous coding sequences with desired GC-contents.
+Al-Ssulami AM1, Azmi AM2, Hussain M3.
+Availability
+CodSeqGen executable is available for free download at: https://github.com/Abdulrakeeb/CodSeqGen
+
+https://www.ncbi.nlm.nih.gov/pubmed/17439967
+Nucleic Acids Res. 2007 Jul;35(Web Server issue):W126-31. Epub 2007 Apr 16.
+OPTIMIZER: a web server for optimizing the codon usage of DNA sequences.
+Puigbò P1, Guzmán E, Romeu A, Garcia-Vallvé S.
+
+https://www.ncbi.nlm.nih.gov/pubmed/15980527
+Nucleic Acids Res. 2005 Jul 1;33(Web Server issue):W526-31.
+JCat: a novel tool to adapt codon usage of a target gene to its potential expression host.
+Grote A1, Hiller K, Scheer M, Münch R, Nörtemann B, Hempel DC, Jahn D.
+
+http://codonw.sourceforge.net
+Correspondence Analysis of Codon Usage
+CodonW
+15/Apr/2005
+
+http://pbil.univ-lyon1.fr/datasets/charif04/
+Online Synonymous Codon Usage Analyses with the ade4 and seqinR packages
+2004
+
+http://bioinfo.ie.niigata-u.ac.jp/?Codon%20Usage%20Generator
+Codon Usage Generator (CUG) †
+本プログラムは，コドン組成を計算するためのソフトウェアです．
+
+
+----------
+## methods
+
+### RSCU
+relative synonymous codon usage
+
+https://www.megasoftware.net/web_help_7/rh_rscu.htm
+Many amino acids are coded by more than one codon; thus multiple codons for a given amino acid are synonymous. However, many genes display a non-random usage of synonymous codons for specific amino acids. A measure of the extent of this non-randomness is given by the Relative Synonymous Codon Usage (RSCU) (Sharp et al. 1986).
+
+http://www.lirmm.fr/~rivals/rscu/
+RSCURS: Measuring the bias in codon usage from ribosomal activity 
+Paulet et al. DNA Research 2017
+
+Elucidation of Codon Usage Signatures across the Domains of Life
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6759073/
+fig. 1.
+(A) Hierarchical clustering of the average relative synonymous codon usage (RSCU) for each species (n = 1,625). 
+
+https://www.bio.upenn.edu/sites/default/files/research/Plotkin/Plotkin_Kudla_NatRevGenetics_2011.pdf
+Figure 1 | Codon bias within and between genomes.
+
+https://www.ncbi.nlm.nih.gov/pubmed/21699680
+BMC Genomics. 2011 Jun 23;12:325. doi: 10.1186/1471-2164-12-325.
+Unresolved orthology and peculiar coding sequence properties of lamprey genes: the KCNA gene family as test case.
+Qiu H1, Hildebrand F, Kuraku S, Meyer A.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3141671/
+Synonymous codon usage was investigated by within-group correspondence analysis (WCA) of codon counts [22,23] and by correspondence analysis of relative synonymous codon usage (CA-RSCU). The latter is the most widely used method for codon usage analysis, whereas the former has been recently demonstrated to produce more unbiased results because it takes into account both amino acid composition and codon degeneracy information [48]. 
+
+最尤推定
+https://www.ncbi.nlm.nih.gov/pubmed/18495752
+Nucleic Acids Res. 2008 Jun;36(11):3819-27. doi: 10.1093/nar/gkn288. Epub 2008 May 21.
+SCUMBLE: a method for systematic and accurate detection of codon usage bias by maximum likelihood estimation.
+Kloster M1, Tang C.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2441815/
+The algorithm's; ability to detect weak biases is well illustrated by the genome of Helicobacter pylori, which has been claimed to contain no codon bias for highly expressed genes (31). 
+
+We found that SCUMBLE performs better than WCA or CA/RSCU in detecting GC or GT biases in prokaryote genomes. SCUMBLE is also able to detect far more biases in prokaryote genomes than a variety of other approaches using PCA (37) (Supplementary Tables S1 and S2). Unlike PCA, SCUMBLE shows a clear signature for the strength of the different biases: GC bias is most often the dominant bias, followed by expression bias and GT bias.
+
+
+
+
+----------
 
 ## updates
+
+
+## 2021
+
+### 2021-07-02
+
+https://pubmed.ncbi.nlm.nih.gov/34276633/
+Front Microbiol
+. 2021 Jul 2;12:699788. doi: 10.3389/fmicb.2021.699788. eCollection 2021.
+Edging on Mutational Bias, Induced Natural Selection From Host and Natural Reservoirs Predominates Codon Usage Evolution in Hantaan Virus
+Galal Ata 1, Hao Wang 1, Haoxiang Bai 1, Xiaoting Yao 2, Shiheng Tao 1
+https://www.frontiersin.org/articles/10.3389/fmicb.2021.699788/full
+https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC8283416/
+
+
+### 2021-04-22
+
+https://pubmed.ncbi.nlm.nih.gov/34025951/
+Review Comput Struct Biotechnol J
+. 2021 Apr 22;19:2646-2663. doi: 10.1016/j.csbj.2021.04.042. eCollection 2021.
+Codon-based indices for modeling gene expression and transcript evolution
+Shir Bahiri-Elitzur 1, Tamir Tuller 1 2
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8122159/
+Dmean (mean dissimilarity-based index)
+Ew (weighted sum of relative entropy)
+
+### Hall_2021
+
+https://www.biorxiv.org/content/10.1101/2021.04.10.439128v2
+Plasmid fitness costs are caused by specific genetic conflicts | bioRxiv
+7:11 PM · Apr 12, 2021
+https://twitter.com/jpjhall/status/1381550524974137346
+Jamie Hall on Twitter: "New preprint: "Plasmid fitness costs are caused by specific genetic conflicts" with @BrockhurstLab @ellieevolves @rctwright @2jamiewood @scottishwormboy" / Twitter
+https://twitter.com/jpjhall/status/1381550560046891009
+Jamie Hall on Twitter: "Others have found similar patterns — mutations that compensate plasmid cost tend to target specific genes, rather than reducing plasmid size, ameliorating codon biases, mass silencing, etc. https://t.co/wX3lzB0TR8 ; https://t.co/B3Ccj2WxBF ; https://t.co/HNU4VRtEqQ" / Twitter
+
+
+### 2021-03
+
+### Weissman_2021
+
+https://pubmed.ncbi.nlm.nih.gov/33723043/
+Proc Natl Acad Sci U S A
+. 2021 Mar 23;118(12):e2016810118. doi: 10.1073/pnas.2016810118.
+Estimating maximal microbial growth rates from cultures, metagenomes, and single cells via codon usage patterns
+Jake L Weissman 1, Shengwei Hou 2, Jed A Fuhrman 2
+https://www.pnas.org/content/118/12/e2016810118.long
+https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC8000110/
+MATERIALS AND METHODS
+All scripts used to generate figures and analysis, as well as predicted growth rates for various genomic datasets and the full EGGO database, are available at https://github.com/jlw-ecoevo/eggo. The gRodon package, including documentation and a vignette, can be downloaded at https://github.com/jlw-ecoevo/gRodon.
+
+
+
+
 
 ## 2020
 
@@ -443,6 +809,17 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6003480/
 
 ### 2017
 
+https://pubmed.ncbi.nlm.nih.gov/29155926/
+Review Ann Bot
+. 2017 Nov 28;120(6):893-909. doi: 10.1093/aob/mcx112.
+Codon usage and codon pair patterns in non-grass monocot genomes
+Purabi Mazumdar 1, RofinaYasmin Binti Othman 1 2, Katharina Mebus 1, N Ramakrishnan 3, Jennifer Ann Harikrishna 1 2
+https://academic.oup.com/aob/article/120/6/893/4636133
+https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC5710610/
+Table 2.Online computational tools for codon analysis
+
+
+
 https://www.ncbi.nlm.nih.gov/pubmed/28992099
 DNA Res. 2017 Dec 1;24(6):623-633. doi: 10.1093/dnares/dsx030.
 Co-adaption of tRNA gene copy number and amino acid usage influences translation rates in three life domains.
@@ -693,6 +1070,7 @@ Comput Struct Biotechnol J. 2015 May 4;13:352-7. doi: 10.1016/j.csbj.2015.04.005
 Homology-independent metrics for comparative genomics.
 Coutinho TJ1, Franco GR1, Lobo FP2.
 In this review we compile several sequence metrics that do not rely on homology inference and can be used to compare nucleotide sequences and extract biologically meaningful information from them. These metrics comprise several compositional parameters calculated from sequence data alone, such as GC content, dinucleotide odds ratio, and several codon bias metrics. 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4446528/
 
 https://www.ncbi.nlm.nih.gov/pubmed/26186290
 Mol Cell. 2015 Jul 16;59(2):149-61. doi: 10.1016/j.molcel.2015.05.035.
@@ -709,12 +1087,15 @@ Trends Genet. 2012 Nov;28(11):574-81. doi: 10.1016/j.tig.2012.07.006. Epub 2012 
 Speeding with control: codon usage, tRNAs, and ribosomes.
 Novoa EM1, Ribas de Pouplana L.
 
+### 2011
+### Plotkin_Kudla_2011
 http://www.ncbi.nlm.nih.gov/pubmed/21102527
 Nat Rev Genet. 2011 Jan;12(1):32-42. doi: 10.1038/nrg2899. Epub 2010 Nov 23.
 Synonymous but not the same: the causes and consequences of codon bias.
 Plotkin JB1, Kudla G.
 https://www.bio.upenn.edu/sites/default/files/research/Plotkin/Plotkin_Kudla_NatRevGenetics_2011.pdf
 
+### 2008
 https://www.ncbi.nlm.nih.gov/pubmed/18983258
 Annu Rev Genet. 2008;42:287-99. doi: 10.1146/annurev.genet.42.110807.091442.
 Selection on codon bias.
@@ -911,215 +1292,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/14594704
 Bioinformatics. 2003 Nov 1;19(16):2005-15.
 Codon adaptation index as a measure of dominating codon bias.
 Carbone A1, Zinovyev A, Képès F.
-
-----------
-
-## database
-データベース
-
-https://integbio.jp/dbcatalog/record/nbdc00033
-Codon Usage Database - Integbio データベースカタログ
-http://www.kazusa.or.jp/codon/
-Codon Usage Database
-
-https://www.ncbi.nlm.nih.gov/pubmed/28865429
-BMC Bioinformatics. 2017 Sep 2;18(1):391. doi: 10.1186/s12859-017-1793-7.
-A new and updated resource for codon usage tables.
-Athey J1, Alexaki A1, Osipova E2, Rostovtsev A2, Santana-Quintero LV2, Katneni U1, Simonyan V2, Kimchi-Sarfaty C3.
-High-performance Integrated Virtual Environment-Codon Usage Tables (HIVE-CUTs)
-http://hive.biochemistry.gwu.edu/review/codon
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5581930/
-However, as plasmids are located in the same area as the genome, draw from the same tRNA pools, and use the same genetic code as the genome, plasmid coding sequences are not separated from the organism’s genomic codon usage table. 
-
-https://www.ncbi.nlm.nih.gov/pubmed/22536831
-BMC Bioinformatics. 2012 Apr 26;13:62. doi: 10.1186/1471-2105-13-62.
-CBDB: the codon bias database.
-Hilterbrand A1, Saelens J, Putonti C.
-
-----------
-## tools
-ツール
-
-https://github.com/enovoa/codonAutocorrelation
-Compute codon autocorrelation (aka codon covariation, codon reuse, codon pair usage) from fasta sequences.
-This code was used in the analyses of the manuscript 'Elucidation of codon usage signatures across the domains of life' (Novoa et al., Mol Biol Evol 2019), available here: https://doi.org/10.1093/molbev/msz124
-
-https://www.ncbi.nlm.nih.gov/pubmed/30738198
-Genomics. 2019 Feb 6. pii: S0888-7543(18)30608-6. doi: 10.1016/j.ygeno.2019.02.002. [Epub ahead of print]
-CodSeqGen: A tool for generating synonymous coding sequences with desired GC-contents.
-Al-Ssulami AM1, Azmi AM2, Hussain M3.
-Availability
-CodSeqGen executable is available for free download at: https://github.com/Abdulrakeeb/CodSeqGen
-
-https://www.ncbi.nlm.nih.gov/pubmed/17439967
-Nucleic Acids Res. 2007 Jul;35(Web Server issue):W126-31. Epub 2007 Apr 16.
-OPTIMIZER: a web server for optimizing the codon usage of DNA sequences.
-Puigbò P1, Guzmán E, Romeu A, Garcia-Vallvé S.
-
-https://www.ncbi.nlm.nih.gov/pubmed/15980527
-Nucleic Acids Res. 2005 Jul 1;33(Web Server issue):W526-31.
-JCat: a novel tool to adapt codon usage of a target gene to its potential expression host.
-Grote A1, Hiller K, Scheer M, Münch R, Nörtemann B, Hempel DC, Jahn D.
-
-http://codonw.sourceforge.net
-Correspondence Analysis of Codon Usage
-CodonW
-15/Apr/2005
-
-http://pbil.univ-lyon1.fr/datasets/charif04/
-Online Synonymous Codon Usage Analyses with the ade4 and seqinR packages
-2004
-
-http://bioinfo.ie.niigata-u.ac.jp/?Codon%20Usage%20Generator
-Codon Usage Generator (CUG) †
-本プログラムは，コドン組成を計算するためのソフトウェアです．
-
-
-----------
-## methods
-
-### RSCU
-relative synonymous codon usage
-
-https://www.megasoftware.net/web_help_7/rh_rscu.htm
-Many amino acids are coded by more than one codon; thus multiple codons for a given amino acid are synonymous. However, many genes display a non-random usage of synonymous codons for specific amino acids. A measure of the extent of this non-randomness is given by the Relative Synonymous Codon Usage (RSCU) (Sharp et al. 1986).
-
-http://www.lirmm.fr/~rivals/rscu/
-RSCURS: Measuring the bias in codon usage from ribosomal activity 
-Paulet et al. DNA Research 2017
-
-Elucidation of Codon Usage Signatures across the Domains of Life
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6759073/
-fig. 1.
-(A) Hierarchical clustering of the average relative synonymous codon usage (RSCU) for each species (n = 1,625). 
-
-https://www.bio.upenn.edu/sites/default/files/research/Plotkin/Plotkin_Kudla_NatRevGenetics_2011.pdf
-Figure 1 | Codon bias within and between genomes.
-
-https://www.ncbi.nlm.nih.gov/pubmed/21699680
-BMC Genomics. 2011 Jun 23;12:325. doi: 10.1186/1471-2164-12-325.
-Unresolved orthology and peculiar coding sequence properties of lamprey genes: the KCNA gene family as test case.
-Qiu H1, Hildebrand F, Kuraku S, Meyer A.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3141671/
-Synonymous codon usage was investigated by within-group correspondence analysis (WCA) of codon counts [22,23] and by correspondence analysis of relative synonymous codon usage (CA-RSCU). The latter is the most widely used method for codon usage analysis, whereas the former has been recently demonstrated to produce more unbiased results because it takes into account both amino acid composition and codon degeneracy information [48]. 
-
-最尤推定
-https://www.ncbi.nlm.nih.gov/pubmed/18495752
-Nucleic Acids Res. 2008 Jun;36(11):3819-27. doi: 10.1093/nar/gkn288. Epub 2008 May 21.
-SCUMBLE: a method for systematic and accurate detection of codon usage bias by maximum likelihood estimation.
-Kloster M1, Tang C.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2441815/
-The algorithm's; ability to detect weak biases is well illustrated by the genome of Helicobacter pylori, which has been claimed to contain no codon bias for highly expressed genes (31). 
-
-We found that SCUMBLE performs better than WCA or CA/RSCU in detecting GC or GT biases in prokaryote genomes. SCUMBLE is also able to detect far more biases in prokaryote genomes than a variety of other approaches using PCA (37) (Supplementary Tables S1 and S2). Unlike PCA, SCUMBLE shows a clear signature for the strength of the different biases: GC bias is most often the dominant bias, followed by expression bias and GT bias.
-
-----------
-## mge
-Mobile genetic elements (MGEs)
-https://ja.wikipedia.org/wiki/可動遺伝因子
-
-### plasmids
-
-https://www.ncbi.nlm.nih.gov/pubmed/28206693
-Mol Ecol. 2017 Apr;26(7):1832-1847. doi: 10.1111/mec.14056. Epub 2017 Mar 13.
-Plasmid and clonal interference during post horizontal gene transfer evolution.
-Bedhomme S1,2, Perez Pantoja D3, Bravo IG2.
-KEYWORDS:
-antibiotic resistance; clonal interference; codon usage preferences; multilevel selection; plasmid
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5392415/
-Plasmid carriage costs are not the only costs to plasmid-mediated HGT. Another potentially important one is the mismatch in codon usage preferences between the transferred gene and the receiving genome (Baltrus 2013). Each species is indeed characterized by specific frequencies of use of the different codons within a synonymous codon family. An important evolutionary force shaping codon usage preferences is coevolution with the translation machinery: codon usage frequencies are strongly related with the copy number of corresponding tRNA genes, especially for highly expressed genes and for rapidly growing organisms (Rocha 2004). Genes transferred horizontally from a different organism can present a mismatch in codon usage preferences with the receiving genome, and such mismatch is known to affect translation accuracy and speed (Komar et al. 1999, Burgess-Brown et al. 2008). 
-
-and comparative approaches demonstrate that HGT is more likely to be successful between genomes with similar codon usage preferences (Tuller et al. 2011, Medrano-Soto 2004).
-
-The cost of plasmid carriage was quantified and we showed that mismatches in codon usage preferences generate differences in chloramphenicol resistance. 
-
-https://www.ncbi.nlm.nih.gov/pubmed/20369015
-PLoS Comput Biol. 2010 Apr 1;6(4):e1000732. doi: 10.1371/journal.pcbi.1000732.
-Why genes evolve faster on secondary chromosomes in bacteria.
-Cooper VS1, Vohr SH, Wrocklage SC, Hatcher PJ.
-
-Further, in every bacterial genome with multiple chromosomes that we studied, genes on secondary chromosomes exhibited significantly weaker codon usage bias than those on primary chromosomes. Faster evolution and reduced codon bias
-
-https://www.ncbi.nlm.nih.gov/pubmed/20080407
-Trends Microbiol. 2010 Apr;18(4):141-8. doi: 10.1016/j.tim.2009.12.010. Epub 2010 Jan 18.
-Introducing the bacterial 'chromid': not a chromosome, not a plasmid.
-Harrison PW1, Lower RP, Kim NK, Young JP.
-
-Chromids carry some core genes, and their nucleotide composition and codon usage are very similar to those of the chromosomes they are associated with.
-
-https://linkinghub.elsevier.com/retrieve/pii/S0966-842X(09)00269-8
-
-Chromid genes have a similar codon usage to chromosomal genes
-A large number of studies (reviewed by Lynn et al.[11]) have investigated synonymous codon usage and demonstrated that it is highly patterned. It is known that individual genomes have characteristic synonymous codon usage signatures [12]. Our analysis demonstrates that individual replicons also have distinct codon usage characteristics, and chromids are much more similar to chromosomes than to the plasmids that are found in the same organisms. For example, in the genome of Agrobacterium tumefaciens C58 the chromosome and chromid are very similar in average codon usage but rather distinct from the two plasmids (Figure 1). 
-
-https://www.ncbi.nlm.nih.gov/pubmed/19221094
-DNA Res. 2009 Apr;16(2):91-104. doi: 10.1093/dnares/dsp001. Epub 2009 Feb 15.
-Codon usages of genes on chromosome, and surprisingly, genes in plasmid are primarily affected by strand-specific mutational biases in Lawsonia intracellularis.
-Guo FB1, Yuan JB.
-
-https://www.ncbi.nlm.nih.gov/pubmed/18391244
-In Silico Biol. 2007;7(4-5):547-58.
-Analysis of codon usage patterns and predicted highly expressed genes for six phytopathogenic Xanthomonas genomes shows a high degree of conservation.
-Sen G1, Sur S, Bose D, Mondal U, Furnholm T, Bothra A, Tisa L, Sen A.
-
-https://www.ncbi.nlm.nih.gov/pubmed/14597394
-Gene. 2003 Nov 27;320:109-16.
-The strength of translational selection for codon usage varies in the three replicons of Sinorhizobium meliloti.
-Peixoto L1, Zavala A, Romero H, Musto H.
-
-https://www.ncbi.nlm.nih.gov/pubmed/9820537
-J Immunol. 1998 Nov 15;161(10):5594-9.
-Optimization of codon usage of plasmid DNA vaccine is required for the effective MHC class I-restricted T cell responses against an intracellular bacterium.
-Uchijima M1, Yoshida A, Nagata T, Koide Y.
-
-
-
-
-### virus
-
-https://github.com/haruosuz/microbe/blob/master/references/microbe.virus.md#coronavirus
-
-
-
-
-
-2020.01.25 SAT 09:00
-https://wired.jp/2020/01/25/wuhan-coronavirus-snake-flu-theory/
-新型コロナウイルスの感染源は、本当に「市場のヘビ」なのか？ 新たな論文を巡り波紋｜WIRED.jp
-
-タンパク質を構成するコドンの使用頻度の偏り（コドンバイアス）は、生物によって異なる。一部のウイルスは、新しい宿主のコドンバイアスを採用することで、新しい宿主に適応する。
-
-研究チームは、新型コロナウイルス（2019-nCoV）が好んで使うコドンと、宿主の可能性がある少数の生物（人間、コウモリ、ニワトリ、ハリネズミ、センザンコウ、2種類のヘビ）が好むコドンを比較した。そして新型コロナウイルス（2019-nCoV）のコドンバイアスが、タイワンコブラとアマガサヘビの2種類のヘビのコドンバイアスと最も重複していることがわかったと報告したのだ。
-
-これに対してシドニー大学のホームズは、北京大学の研究チームによるアプローチには多くの問題があると指摘する。例えば、コドンバイアスの比較は、動物の宿主を特定するには非常に間接的な手法だという。
-
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/31911390
-J Virol Methods. 2020 Mar;277:113806. doi: 10.1016/j.jviromet.2019.113806. Epub 2020 Jan 5.
-Analysis of preferred codon usage in the coronavirus N genes and their implications for genome evolution and vaccine design.
-Sheikh A1, Al-Taher A2, Al-Nazawi M2, Al-Mubarak AI3, Kandeel M4.
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/27278133
-Sci Rep. 2016 Jun 9;6:27546. doi: 10.1038/srep27546.
-Codon optimization of the adenoviral fiber negatively impacts structural protein expression and viral fitness.
-Villanueva E1, Martí-Solano M2, Fillat C1,3.
-
-https://www.ncbi.nlm.nih.gov/pubmed/22016848
-Mob Genet Elements. 2011 May;1(1):75-77.
-Codon bias, tRNA pools and horizontal gene transfer.
-Tuller T1.
-
-https://www.ncbi.nlm.nih.gov/pubmed/19888206
-Mol Syst Biol. 2009;5:311. doi: 10.1038/msb.2009.71. Epub 2009 Oct 13.
-Viral adaptation to host: a proteome-based analysis of codon usage and amino acid preferences.
-Bahir I1, Fromer M, Prat Y, Linial M.
-
-https://www.ncbi.nlm.nih.gov/pubmed/18463708
-PLoS Comput Biol. 2008 Feb 29;4(2):e1000001. doi: 10.1371/journal.pcbi.1000001.
-Genome landscapes and bacteriophage codon usage.
-Lucks JB1, Nelson DR, Kudla GR, Plotkin JB.
 
 
 
@@ -1792,7 +1964,18 @@ http://www.iste.co.uk/book.php?id=1403
 
 http://www.oxfordscholarship.com/view/10.1093/acprof:osobl/9780199601165.001.0001/acprof-9780199601165
 Codon Evolution: Mechanisms and Models - Oxford Scholarship
-http://wp.biota.utoronto.ca/chang/files/2016/02/Chang-et-al-Codon-Evolution-Chapter11.pdf
+
+https://www.oupjapan.co.jp/ja/products/detail/12976
+13. Measuring Codon Usage Bias
+
+https://search.lib.keio.ac.jp/permalink/81SOKEI_KEIO/188bto4/alma9926525584304034
+Codon evolution mechanisms and models / [electronic resource] : edited by Gina M. Cannarozzi, Adrian Schneider.
+Cannarozzi, Gina. Schneider, Adrian.
+Oxford : Oxford University Press, 2012.
+2012
+
+
+
 
 ### 2014-01-21
 
