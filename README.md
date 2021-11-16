@@ -145,26 +145,48 @@ Uchijima M1, Yoshida A, Nagata T, Koide Y.
 ----------
 ## virus
 
-https://github.com/haruosuz/microbe/blob/master/references/microbe.virus.md#coronavirus
+### 2020-06-19
 
+https://pubmed.ncbi.nlm.nih.gov/32670501/
+Review Comput Struct Biotechnol J
+. 2020 Jun 19;18:1605-1612. doi: 10.1016/j.csbj.2020.06.019. eCollection 2020.
+Computational approaches in viral ecology
+Varada Khot 1, Marc Strous 1, Alyse K Hawley 1
+https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC7334295/
+Host prediction approaches that do not use sequence homology include abundance profiles and oligonucleotide (k-mer) frequencies.
 
-2020.01.25 SAT 09:00
-https://wired.jp/2020/01/25/wuhan-coronavirus-snake-flu-theory/
-新型コロナウイルスの感染源は、本当に「市場のヘビ」なのか？ 新たな論文を巡り波紋｜WIRED.jp
+Fig. 2
+Percentage of correct hosts identified out of 820 assignments by four methods at the genus and species level. This figure was recreated using supplementary data provided by Edwards et al. [16].
 
-タンパク質を構成するコドンの使用頻度の偏り（コドンバイアス）は、生物によって異なる。一部のウイルスは、新しい宿主のコドンバイアスを採用することで、新しい宿主に適応する。
+### 2016-03
 
-研究チームは、新型コロナウイルス（2019-nCoV）が好んで使うコドンと、宿主の可能性がある少数の生物（人間、コウモリ、ニワトリ、ハリネズミ、センザンコウ、2種類のヘビ）が好むコドンを比較した。そして新型コロナウイルス（2019-nCoV）のコドンバイアスが、タイワンコブラとアマガサヘビの2種類のヘビのコドンバイアスと最も重複していることがわかったと報告したのだ。
+https://pubmed.ncbi.nlm.nih.gov/26657537/
+Review FEMS Microbiol Rev
+. 2016 Mar;40(2):258-72. doi: 10.1093/femsre/fuv048. Epub 2015 Dec 9.
+Computational approaches to predict bacteriophage-host relationships
+Robert A Edwards 1, Katelyn McNair 2, Karoline Faust 3, Jeroen Raes 3, Bas E Dutilh 4
+https://academic.oup.com/femsre/article/40/2/258/2570202
+https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC5831537/
 
-これに対してシドニー大学のホームズは、北京大学の研究チームによるアプローチには多くの問題があると指摘する。例えば、コドンバイアスの比較は、動物の宿主を特定するには非常に間接的な手法だという。
+Table 1.
+Computational signals to identify bacteriophage–host relationships. The column ‘Performance’ shows for how many of the 820 phages in our benchmarking dataset we could correctly predict the host species (see Fig. 4).
 
+Over time, phages ameliorate their nucleotide composition towards that of the host. This reflects intracellular nucleotide pools, codon usage and tRNA availability, and restriction-modification systems.
 
+Figure 1.
+ROC curves displaying the classification accuracy of computational phage–host prediction approaches. (A) Pearson correlation of phage and bacterial abundance profiles across environments; (B) overall alignment length of blastn hits between phage and bacterial genome sequences; (C) number of matching proteins in blastx search of phage DNA to bacterial proteins; (D) percent identity of CRISPR spacers aligned to phage genomes; (E) number of matching CRISPR spacers in phage genomes; (F) length of longest exact match between phage and bacterial genomes; (G) Pearson correlation of oligonucleotide usage profiles (tetramers, k = 4, for other lengths of k, see Fig. S2, Supporting Information); (H) similarity in codon usage profiles of phage and bacterial coding regions; (I) similarity in GC content between phage and bacterial genomes. Note that in some ROC plots, the TP and FP rates do not continue to FP rate = 1; TP rate = 1. In those cases, we used cutoffs for assignment of a hit.
+
+### 2020-03
 
 https://www.ncbi.nlm.nih.gov/pubmed/31911390
 J Virol Methods. 2020 Mar;277:113806. doi: 10.1016/j.jviromet.2019.113806. Epub 2020 Jan 5.
 Analysis of preferred codon usage in the coronavirus N genes and their implications for genome evolution and vaccine design.
 Sheikh A1, Al-Taher A2, Al-Nazawi M2, Al-Mubarak AI3, Kandeel M4.
+https://www.sciencedirect.com/science/article/pii/S0166093418305809?via%3Dihub
+https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC7119019/
+In this study, the variations in the N proteins among 13 different coronaviruses (CoVs) were analysed at the nucleotide and amino acid levels in an attempt to reveal how these viruses adapt to their hosts relative to their preferred codon usage in the N genes. 
 
+### 2016
 
 https://www.ncbi.nlm.nih.gov/pubmed/27278133
 Sci Rep. 2016 Jun 9;6:27546. doi: 10.1038/srep27546.
@@ -186,8 +208,13 @@ PLoS Comput Biol. 2008 Feb 29;4(2):e1000001. doi: 10.1371/journal.pcbi.1000001.
 Genome landscapes and bacteriophage codon usage.
 Lucks JB1, Nelson DR, Kudla GR, Plotkin JB.
 
+
 ----------
 ## SARS-CoV-2
+
+https://github.com/haruosuz/microbe/blob/master/references/microbe.virus.md#coronavirus
+
+https://github.com/haruosuz/microbe/blob/master/references/microbe.COVID-19.md
 
 ### 2020-08-07
 
@@ -274,6 +301,21 @@ Comparison of relative synonymous codon usage (RSCU) between 2019‐nCoV and its
 
 ![](https://onlinelibrary.wiley.com/cms/asset/4f3b18ab-36e4-42b2-a367-5e6633502fea/jmv25682-fig-0003-m.png)
 
+2020.01.25 SAT 09:00
+https://wired.jp/2020/01/25/wuhan-coronavirus-snake-flu-theory/
+新型コロナウイルスの感染源は、本当に「市場のヘビ」なのか？ 新たな論文を巡り波紋｜WIRED.jp
+
+そのひとつが、1月22日（米国時間）の夜に医学誌『Journal of Medical Virology』で発表された中国人研究者チームの論文だ。中国の国家対策委員会が公開したウイルスのゲノム配列から、今回のアウトブレイクの感染源はヘビの可能性が高いという理論を展開している。
+
+「ヘビ説」に反論が続出
+
+遺伝子の解析から見えてきたこと
+
+タンパク質を構成するコドンの使用頻度の偏り（コドンバイアス）は、生物によって異なる。一部のウイルスは、新しい宿主のコドンバイアスを採用することで、新しい宿主に適応する。
+
+研究チームは、新型コロナウイルス（2019-nCoV）が好んで使うコドンと、宿主の可能性がある少数の生物（人間、コウモリ、ニワトリ、ハリネズミ、センザンコウ、2種類のヘビ）が好むコドンを比較した。そして新型コロナウイルス（2019-nCoV）のコドンバイアスが、タイワンコブラとアマガサヘビの2種類のヘビのコドンバイアスと最も重複していることがわかったと報告したのだ。
+
+これに対してシドニー大学のホームズは、北京大学の研究チームによるアプローチには多くの問題があると指摘する。例えば、コドンバイアスの比較は、動物の宿主を特定するには非常に間接的な手法だという。
 
 ----------
 ## database
