@@ -297,8 +297,6 @@ As parasitic microorganism, virus codon usage pattern resembles its host to some
 Figure 3
 Comparison of relative synonymous codon usage (RSCU) between 2019‐nCoV and its putative wildlife animal reservoir(s). A, 
 
-![](https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC7138088/bin/JMV-92-433-g003.jpg)
-
 ![](https://onlinelibrary.wiley.com/cms/asset/4f3b18ab-36e4-42b2-a367-5e6633502fea/jmv25682-fig-0003-m.png)
 
 2020.01.25 SAT 09:00
