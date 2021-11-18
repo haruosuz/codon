@@ -664,6 +664,21 @@ https://mbio.asm.org/content/11/4/e00766-20.long
 
 ## 2019
 
+### 2019-11-26
+
+https://pubmed.ncbi.nlm.nih.gov/31712433/
+Proc Natl Acad Sci U S A
+. 2019 Nov 26;116(48):24075-24083. doi: 10.1073/pnas.1908052116. Epub 2019 Nov 11.
+mRNA structure regulates protein expression through changes in functional half-life
+David M Mauger 1, B Joseph Cabral 1, Vladimir Presnyak 1, Stephen V Su 1, David W Reid 1, Brooke Goodman 1, Kristian Link 1, Nikhil Khatwani 1, John Reynders 1, Melissa J Moore 2, Iain J McFadyen 1
+https://www.pnas.org/content/116/48/24075.long
+https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC6883848/
+Fig. 5.
+Half-life of computationally designed eGFP-degron mRNAs is determined by codon usage and mRNA structure. (A) Codon optimality (relative synonymous codon usage, y axis) versus secondary structure (energy of the predicted MFE structure, x axis) for sets of 150,000 generated eGFP sequence variants generated using codons chosen randomly (red), weighted in proportion to the human genome(blue), and using our algorithm (gray). Colored boxes show regions from which sequences were selected for further testing. (B) 
+
+![](https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC6883848/bin/pnas.1908052116fig05.jpg)
+
+
 ### Lopez_2019
 
 2:42 AM - 1 Jun 2019
