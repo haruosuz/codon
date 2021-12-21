@@ -437,8 +437,17 @@ We found that SCUMBLE performs better than WCA or CA/RSCU in detecting GC or GT 
 
 ## updates
 
-
 ## 2021
+
+### 2021-11-25
+
+https://pubmed.ncbi.nlm.nih.gov/34822069/
+Review Mol Biol Rep
+. 2021 Nov 25;1-27. doi: 10.1007/s11033-021-06749-4. Online ahead of print.
+Codon usage bias
+Sujatha Thankeswaran Parvathy 1, Varatharajalu Udayasuriyan 2, Vijaipal Bhadana 3
+https://link.springer.com/article/10.1007/s11033-021-06749-4
+https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC8613526/
 
 ### 2021-07-02
 
@@ -486,10 +495,6 @@ https://www.pnas.org/content/118/12/e2016810118.long
 https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC8000110/
 MATERIALS AND METHODS
 All scripts used to generate figures and analysis, as well as predicted growth rates for various genomic datasets and the full EGGO database, are available at https://github.com/jlw-ecoevo/eggo. The gRodon package, including documentation and a vignette, can be downloaded at https://github.com/jlw-ecoevo/gRodon.
-
-
-
-
 
 ## 2020
 
@@ -661,6 +666,25 @@ Codon Usage Optimization in the Prokaryotic Tree of Life: How Synonymous Codons 
 José Luis López # 1, Mauricio Javier Lozano # 1, María Laura Fabre 1, Antonio Lagares 2
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7374057/
 https://mbio.asm.org/content/11/4/e00766-20.long
+
+
+### 2020-04
+### Chen_2020
+
+https://pubmed.ncbi.nlm.nih.gov/32123323/
+Nat Ecol Evol
+. 2020 Apr;4(4):589-600. doi: 10.1038/s41559-020-1124-7. Epub 2020 Mar 2.
+Dissimilation of synonymous codon usage bias in virus-host coevolution due to translational selection
+Feng Chen 1 2 3, Peng Wu 2, Shuyun Deng 4, Heng Zhang 5, Yutong Hou 2, Zheng Hu 6, Jianzhi Zhang 7, Xiaoshu Chen 8 9, Jian-Rong Yang 10 11 12 13 14 15
+https://www.nature.com/articles/s41559-020-1124-7
+https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC7249751/
+Finally, using a manually curated list of viruses, natural hosts and symptomatic hosts, we found that virus CUB tended to be more similar to that of symptomatic hosts than that of natural hosts, supporting a general deleterious effect of excessive CUB similarity between viruses and hosts. 
+
+3:38 AM · Mar 20, 2020
+https://twitter.com/AbbeAtSea/status/1240709192836476930
+Abigail LaBella on Twitter: "If viral codon usage (CU) is too similar to a natural host then host translation efficiency is hampered. So viral CU evolves towards a sweet-spot. Interestingly, viral CU is more similar to symptomatic v natural hosts. https://t.co/z15X3gda0J @NatureEcoEvo @rokaslab #3rdbasethurs https://t.co/Z1B0HkuXpE" / Twitter
+
+----------
 
 ## 2019
 
@@ -1039,11 +1063,6 @@ https://www.nig.ac.jp/museum/evolution/04_c.html
 2.単細胞微生物のコドン選択の生物種による方言;
 　 大腸菌とサルモネラ菌ならびに酵母遺伝子に見られるコドン選択の偏りを例に
 c)　同一生物種の遺伝子間を比較した場合、多量にタンパク質を生産する遺伝子ほど方言がきつく、生産量が下がるにつれて、同質の方言を用いながらも、その方言の程度が緩くなります。図4では、生物ごとに、タンパク質生産量の高い遺伝子を左側に配置してあります。大腸菌のtufAB(ポリペプチド鎖延長因子)、ompC(外膜タンパク質)は多量にタンパク質を生産する遺伝子の例であり、trpやthrはアミノ酸合成系の遺伝子で、通常条件下では中程度ないしは少量のタンパク質しか生産していません。酵母のG3PDHやenolaseは解糖系の酵素で、最も多量に生産されるタンパク質であり、TRPやCYCは中程度ないしは比較的少量しか生産されない例に属します。生産量の高い遺伝子ほどコドン選択の偏りが顕著で(方言がきつい)、生産量の低い遺伝子では偏りの程度が緩くなります。この傾向は広範囲の遺伝子で成立することが判明しています。
-
-http://www.g-language.org/wiki/restgenomeanalysisjapanese#コドン使用の解析
-- 遺伝子発現量の予測
-- 翻訳選択 (Translational selection) の検出
-- コドン使用データの多変量解析
 
 https://www.ncbi.nlm.nih.gov/pubmed/18940873
 DNA Res. 2008 Dec;15(6):357-65. doi: 10.1093/dnares/dsn028. Epub 2008 Oct 21.
@@ -1475,23 +1494,6 @@ gbk）である。①時計の 0 時に相当する部分が複製開始点
 https://github.com/haruosuz/DS4GD/blob/master/2019/CaseStudy.md
 GC skew
 
-http://www.g-language.org/wiki/restgenomeanalysisenglish#replication_strand_analysis
-
-http://www.g-language.org/wiki/restgenomeanalysisjapanese#dna複製系の解析
-
-https://metacpan.org/pod/Bio::Glite
-```
-$gb->relocate_origin()
-
-Name: $gb->relocate_origin()   -   create a G instance starting at given position
- 
-Description:
-      Returns a G instance starting at given position, assuming circular
-      chromosome. All information, including the sequence and feature 
-      annotations are moved. Note that the given position is Perl position
-      and NOT GenBank position. GenBank position -1 equals Perl position.
-```
-
 - https://kotobank.jp/word/リーディング鎖-773894
 DNAの複製に際し，岡崎フラグメントで複製される方でなく，その反対の連続的に複製される側の鎖．ラギング鎖（lagging strand）の対語
 - https://kotobank.jp/word/ラギング鎖-773723
@@ -1603,6 +1605,17 @@ Singer GA1, Hickey DA.
 
 ----------
 ## people
+
+### AbbeAtSea
+
+https://twitter.com/AbbeAtSea
+Abigail LaBella (@AbbeAtSea) / Twitter
+
+2:11 AM · Apr 23, 2021
+https://twitter.com/AbbeAtSea/status/1385280013017223170
+Check out my latest manuscript which uses optimal codon usage to explore yeast metabolism and ecology.
+One of the coolest findings it that we were able to predict growth based on codon optimization alone!
+
 
 ### Abe
 ### Ikemura
@@ -1792,10 +1805,6 @@ rRNA	tRNA	ORF	i	ii	iii
 Gamma proteobacteria
 
     Sheone	9	100	4630	46	45	37	1.377	(0.313/−0.275)	983	AE014299	Shewenella oneidensis
-```
-
-http://www.g-language.org/data/g-language/lib/G/Seq/Codon.pm
-```
 ```
 
 https://www.ncbi.nlm.nih.gov/pubmed/10784043
