@@ -41,11 +41,155 @@
 - [book](#book)
 - [japanese](#japanese) 日本語
 - [correspondence analysis](#correspondence-analysis) 対応分析
+- [](#)
 - [database](#database)
 - [tools](#tools)
   - CodonMuSe
 - [methods](#methods)
+  - [tAI](#tai)
   - [RSCU](#rscu)
+  - [](#)
+- [](#)
+
+----------
+## database
+データベース
+
+https://integbio.jp/dbcatalog/record/nbdc00033
+Codon Usage Database - Integbio データベースカタログ
+http://www.kazusa.or.jp/codon/
+Codon Usage Database
+
+https://www.ncbi.nlm.nih.gov/pubmed/28865429
+BMC Bioinformatics. 2017 Sep 2;18(1):391. doi: 10.1186/s12859-017-1793-7.
+A new and updated resource for codon usage tables.
+Athey J1, Alexaki A1, Osipova E2, Rostovtsev A2, Santana-Quintero LV2, Katneni U1, Simonyan V2, Kimchi-Sarfaty C3.
+High-performance Integrated Virtual Environment-Codon Usage Tables (HIVE-CUTs)
+http://hive.biochemistry.gwu.edu/review/codon
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5581930/
+However, as plasmids are located in the same area as the genome, draw from the same tRNA pools, and use the same genetic code as the genome, plasmid coding sequences are not separated from the organism’s genomic codon usage table. 
+
+https://www.ncbi.nlm.nih.gov/pubmed/22536831
+BMC Bioinformatics. 2012 Apr 26;13:62. doi: 10.1186/1471-2105-13-62.
+CBDB: the codon bias database.
+Hilterbrand A1, Saelens J, Putonti C.
+
+----------
+## tools
+ツール
+
+http://www.stevekellylab.com/codonmuse
+CodonMuSe - Steve Kelly Lab
+
+CodonMuSe
+CodonMuSe is a method for inferring the strength of selection acting on nucleotide sequences. It detects the strength of selection acting on the translation efficiency of the sequence and the strength of selection acting on biosyntheic cost of that sequence.
+
+Most amino acids are encoded by multiple synonymous codons. These codons are not equal. They cost different mount of resources to make and they have different numbers of cognate tRNAs floating about in the cell. Thus, different codons encoding the same amino acid have different biosynthetic costs and different translational efficiencies. CodonMuSe figures out how these two competing selective forces interact to shape the coding sequence of genes. It also considers background effects such as genome-wide mutation bias.
+
+If you want to know whether your gene has been under selection be cheap, efficient or both, ask CodonMuSe! It takes less than a second.
+
+You can download and install CodonMuSe here
+https://github.com/easeward/CodonMuSe
+
+https://github.com/enovoa/codonAutocorrelation
+Compute codon autocorrelation (aka codon covariation, codon reuse, codon pair usage) from fasta sequences.
+This code was used in the analyses of the manuscript 'Elucidation of codon usage signatures across the domains of life' (Novoa et al., Mol Biol Evol 2019), available here: https://doi.org/10.1093/molbev/msz124
+
+https://www.ncbi.nlm.nih.gov/pubmed/30738198
+Genomics. 2019 Feb 6. pii: S0888-7543(18)30608-6. doi: 10.1016/j.ygeno.2019.02.002. [Epub ahead of print]
+CodSeqGen: A tool for generating synonymous coding sequences with desired GC-contents.
+Al-Ssulami AM1, Azmi AM2, Hussain M3.
+Availability
+CodSeqGen executable is available for free download at: https://github.com/Abdulrakeeb/CodSeqGen
+
+https://www.ncbi.nlm.nih.gov/pubmed/17439967
+Nucleic Acids Res. 2007 Jul;35(Web Server issue):W126-31. Epub 2007 Apr 16.
+OPTIMIZER: a web server for optimizing the codon usage of DNA sequences.
+Puigbò P1, Guzmán E, Romeu A, Garcia-Vallvé S.
+
+https://www.ncbi.nlm.nih.gov/pubmed/15980527
+Nucleic Acids Res. 2005 Jul 1;33(Web Server issue):W526-31.
+JCat: a novel tool to adapt codon usage of a target gene to its potential expression host.
+Grote A1, Hiller K, Scheer M, Münch R, Nörtemann B, Hempel DC, Jahn D.
+
+http://codonw.sourceforge.net
+Correspondence Analysis of Codon Usage
+CodonW
+15/Apr/2005
+
+http://pbil.univ-lyon1.fr/datasets/charif04/
+Online Synonymous Codon Usage Analyses with the ade4 and seqinR packages
+2004
+
+http://bioinfo.ie.niigata-u.ac.jp/?Codon%20Usage%20Generator
+Codon Usage Generator (CUG) †
+本プログラムは，コドン組成を計算するためのソフトウェアです．
+
+----------
+## methods
+
+### tAI
+
+https://github.com/mariodosreis/tai
+tRNA adaptation index (tAI)
+
+https://pubmed.ncbi.nlm.nih.gov/27797757/
+Bioinformatics
+. 2017 Feb 15;33(4):589-591. doi: 10.1093/bioinformatics/btw647.
+stAIcalc: tRNA adaptation index calculator based on species-specific weights
+Renana Sabi 1, Renana Volvovitch Daniel 1, Tamir Tuller 1 2
+https://academic.oup.com/bioinformatics/article/33/4/589/2593585
+
+https://www.ncbi.nlm.nih.gov/pubmed/15448185
+Nucleic Acids Res. 2004 Sep 24;32(17):5036-44. Print 2004.
+Solving the riddle of codon usage preferences: a test for translational selection.
+dos Reis M1, Savva R, Wernisch L.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC521650/
+As expected (Figure ​(Figure3),3), S.cerevisiae and E.coli show the highest S-values, C.elegans shows a moderate S-value, while H.pylori and H.sapiens show no sign of translational selection acting on their genomes.
+
+The tRNA adaptation index
+The tRNA adaptation index (tAI) (22) is a measure of the tRNA usage by coding sequences inspired by the codon adaptation index of Sharp and Li (23).
+
+### RSCU
+relative synonymous codon usage
+
+https://www.megasoftware.net/web_help_7/rh_rscu.htm
+Many amino acids are coded by more than one codon; thus multiple codons for a given amino acid are synonymous. However, many genes display a non-random usage of synonymous codons for specific amino acids. A measure of the extent of this non-randomness is given by the Relative Synonymous Codon Usage (RSCU) (Sharp et al. 1986).
+
+http://www.lirmm.fr/~rivals/rscu/
+RSCURS: Measuring the bias in codon usage from ribosomal activity 
+Paulet et al. DNA Research 2017
+
+Elucidation of Codon Usage Signatures across the Domains of Life
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6759073/
+fig. 1.
+(A) Hierarchical clustering of the average relative synonymous codon usage (RSCU) for each species (n = 1,625). 
+
+https://www.bio.upenn.edu/sites/default/files/research/Plotkin/Plotkin_Kudla_NatRevGenetics_2011.pdf
+Figure 1 | Codon bias within and between genomes.
+
+https://www.ncbi.nlm.nih.gov/pubmed/21699680
+BMC Genomics. 2011 Jun 23;12:325. doi: 10.1186/1471-2164-12-325.
+Unresolved orthology and peculiar coding sequence properties of lamprey genes: the KCNA gene family as test case.
+Qiu H1, Hildebrand F, Kuraku S, Meyer A.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3141671/
+Synonymous codon usage was investigated by within-group correspondence analysis (WCA) of codon counts [22,23] and by correspondence analysis of relative synonymous codon usage (CA-RSCU). The latter is the most widely used method for codon usage analysis, whereas the former has been recently demonstrated to produce more unbiased results because it takes into account both amino acid composition and codon degeneracy information [48]. 
+
+最尤推定
+https://www.ncbi.nlm.nih.gov/pubmed/18495752
+Nucleic Acids Res. 2008 Jun;36(11):3819-27. doi: 10.1093/nar/gkn288. Epub 2008 May 21.
+SCUMBLE: a method for systematic and accurate detection of codon usage bias by maximum likelihood estimation.
+Kloster M1, Tang C.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2441815/
+The algorithm's; ability to detect weak biases is well illustrated by the genome of Helicobacter pylori, which has been claimed to contain no codon bias for highly expressed genes (31). 
+
+We found that SCUMBLE performs better than WCA or CA/RSCU in detecting GC or GT biases in prokaryote genomes. SCUMBLE is also able to detect far more biases in prokaryote genomes than a variety of other approaches using PCA (37) (Supplementary Tables S1 and S2). Unlike PCA, SCUMBLE shows a clear signature for the strength of the different biases: GC bias is most often the dominant bias, followed by expression bias and GT bias.
+
+
+
+
+
+
 
 ----------
 ## video
@@ -314,124 +458,6 @@ https://wired.jp/2020/01/25/wuhan-coronavirus-snake-flu-theory/
 研究チームは、新型コロナウイルス（2019-nCoV）が好んで使うコドンと、宿主の可能性がある少数の生物（人間、コウモリ、ニワトリ、ハリネズミ、センザンコウ、2種類のヘビ）が好むコドンを比較した。そして新型コロナウイルス（2019-nCoV）のコドンバイアスが、タイワンコブラとアマガサヘビの2種類のヘビのコドンバイアスと最も重複していることがわかったと報告したのだ。
 
 これに対してシドニー大学のホームズは、北京大学の研究チームによるアプローチには多くの問題があると指摘する。例えば、コドンバイアスの比較は、動物の宿主を特定するには非常に間接的な手法だという。
-
-----------
-## database
-データベース
-
-https://integbio.jp/dbcatalog/record/nbdc00033
-Codon Usage Database - Integbio データベースカタログ
-http://www.kazusa.or.jp/codon/
-Codon Usage Database
-
-https://www.ncbi.nlm.nih.gov/pubmed/28865429
-BMC Bioinformatics. 2017 Sep 2;18(1):391. doi: 10.1186/s12859-017-1793-7.
-A new and updated resource for codon usage tables.
-Athey J1, Alexaki A1, Osipova E2, Rostovtsev A2, Santana-Quintero LV2, Katneni U1, Simonyan V2, Kimchi-Sarfaty C3.
-High-performance Integrated Virtual Environment-Codon Usage Tables (HIVE-CUTs)
-http://hive.biochemistry.gwu.edu/review/codon
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5581930/
-However, as plasmids are located in the same area as the genome, draw from the same tRNA pools, and use the same genetic code as the genome, plasmid coding sequences are not separated from the organism’s genomic codon usage table. 
-
-https://www.ncbi.nlm.nih.gov/pubmed/22536831
-BMC Bioinformatics. 2012 Apr 26;13:62. doi: 10.1186/1471-2105-13-62.
-CBDB: the codon bias database.
-Hilterbrand A1, Saelens J, Putonti C.
-
-----------
-## tools
-ツール
-
-http://www.stevekellylab.com/codonmuse
-CodonMuSe - Steve Kelly Lab
-
-CodonMuSe
-CodonMuSe is a method for inferring the strength of selection acting on nucleotide sequences. It detects the strength of selection acting on the translation efficiency of the sequence and the strength of selection acting on biosyntheic cost of that sequence.
-
-Most amino acids are encoded by multiple synonymous codons. These codons are not equal. They cost different mount of resources to make and they have different numbers of cognate tRNAs floating about in the cell. Thus, different codons encoding the same amino acid have different biosynthetic costs and different translational efficiencies. CodonMuSe figures out how these two competing selective forces interact to shape the coding sequence of genes. It also considers background effects such as genome-wide mutation bias.
-
-If you want to know whether your gene has been under selection be cheap, efficient or both, ask CodonMuSe! It takes less than a second.
-
-You can download and install CodonMuSe here
-https://github.com/easeward/CodonMuSe
-
-
-
-https://github.com/enovoa/codonAutocorrelation
-Compute codon autocorrelation (aka codon covariation, codon reuse, codon pair usage) from fasta sequences.
-This code was used in the analyses of the manuscript 'Elucidation of codon usage signatures across the domains of life' (Novoa et al., Mol Biol Evol 2019), available here: https://doi.org/10.1093/molbev/msz124
-
-https://www.ncbi.nlm.nih.gov/pubmed/30738198
-Genomics. 2019 Feb 6. pii: S0888-7543(18)30608-6. doi: 10.1016/j.ygeno.2019.02.002. [Epub ahead of print]
-CodSeqGen: A tool for generating synonymous coding sequences with desired GC-contents.
-Al-Ssulami AM1, Azmi AM2, Hussain M3.
-Availability
-CodSeqGen executable is available for free download at: https://github.com/Abdulrakeeb/CodSeqGen
-
-https://www.ncbi.nlm.nih.gov/pubmed/17439967
-Nucleic Acids Res. 2007 Jul;35(Web Server issue):W126-31. Epub 2007 Apr 16.
-OPTIMIZER: a web server for optimizing the codon usage of DNA sequences.
-Puigbò P1, Guzmán E, Romeu A, Garcia-Vallvé S.
-
-https://www.ncbi.nlm.nih.gov/pubmed/15980527
-Nucleic Acids Res. 2005 Jul 1;33(Web Server issue):W526-31.
-JCat: a novel tool to adapt codon usage of a target gene to its potential expression host.
-Grote A1, Hiller K, Scheer M, Münch R, Nörtemann B, Hempel DC, Jahn D.
-
-http://codonw.sourceforge.net
-Correspondence Analysis of Codon Usage
-CodonW
-15/Apr/2005
-
-http://pbil.univ-lyon1.fr/datasets/charif04/
-Online Synonymous Codon Usage Analyses with the ade4 and seqinR packages
-2004
-
-http://bioinfo.ie.niigata-u.ac.jp/?Codon%20Usage%20Generator
-Codon Usage Generator (CUG) †
-本プログラムは，コドン組成を計算するためのソフトウェアです．
-
-
-----------
-## methods
-
-### RSCU
-relative synonymous codon usage
-
-https://www.megasoftware.net/web_help_7/rh_rscu.htm
-Many amino acids are coded by more than one codon; thus multiple codons for a given amino acid are synonymous. However, many genes display a non-random usage of synonymous codons for specific amino acids. A measure of the extent of this non-randomness is given by the Relative Synonymous Codon Usage (RSCU) (Sharp et al. 1986).
-
-http://www.lirmm.fr/~rivals/rscu/
-RSCURS: Measuring the bias in codon usage from ribosomal activity 
-Paulet et al. DNA Research 2017
-
-Elucidation of Codon Usage Signatures across the Domains of Life
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6759073/
-fig. 1.
-(A) Hierarchical clustering of the average relative synonymous codon usage (RSCU) for each species (n = 1,625). 
-
-https://www.bio.upenn.edu/sites/default/files/research/Plotkin/Plotkin_Kudla_NatRevGenetics_2011.pdf
-Figure 1 | Codon bias within and between genomes.
-
-https://www.ncbi.nlm.nih.gov/pubmed/21699680
-BMC Genomics. 2011 Jun 23;12:325. doi: 10.1186/1471-2164-12-325.
-Unresolved orthology and peculiar coding sequence properties of lamprey genes: the KCNA gene family as test case.
-Qiu H1, Hildebrand F, Kuraku S, Meyer A.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3141671/
-Synonymous codon usage was investigated by within-group correspondence analysis (WCA) of codon counts [22,23] and by correspondence analysis of relative synonymous codon usage (CA-RSCU). The latter is the most widely used method for codon usage analysis, whereas the former has been recently demonstrated to produce more unbiased results because it takes into account both amino acid composition and codon degeneracy information [48]. 
-
-最尤推定
-https://www.ncbi.nlm.nih.gov/pubmed/18495752
-Nucleic Acids Res. 2008 Jun;36(11):3819-27. doi: 10.1093/nar/gkn288. Epub 2008 May 21.
-SCUMBLE: a method for systematic and accurate detection of codon usage bias by maximum likelihood estimation.
-Kloster M1, Tang C.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2441815/
-The algorithm's; ability to detect weak biases is well illustrated by the genome of Helicobacter pylori, which has been claimed to contain no codon bias for highly expressed genes (31). 
-
-We found that SCUMBLE performs better than WCA or CA/RSCU in detecting GC or GT biases in prokaryote genomes. SCUMBLE is also able to detect far more biases in prokaryote genomes than a variety of other approaches using PCA (37) (Supplementary Tables S1 and S2). Unlike PCA, SCUMBLE shows a clear signature for the strength of the different biases: GC bias is most often the dominant bias, followed by expression bias and GT bias.
-
-
-
 
 ----------
 
@@ -978,16 +1004,6 @@ Cooper VS1, Vohr SH, Wrocklage SC, Hatcher PJ.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2848543/
 
 ### 2004
-
-https://www.ncbi.nlm.nih.gov/pubmed/15448185
-Nucleic Acids Res. 2004 Sep 24;32(17):5036-44. Print 2004.
-Solving the riddle of codon usage preferences: a test for translational selection.
-dos Reis M1, Savva R, Wernisch L.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC521650/
-As expected (Figure ​(Figure3),3), S.cerevisiae and E.coli show the highest S-values, C.elegans shows a moderate S-value, while H.pylori and H.sapiens show no sign of translational selection acting on their genomes.
-
-
-
 
 ----------
 ## neutral
