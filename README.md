@@ -78,6 +78,18 @@ Hilterbrand A1, Saelens J, Putonti C.
 ## tools
 ツール
 
+
+https://pubmed.ncbi.nlm.nih.gov/35536198/
+Genetics
+. 2022 Jul 4;221(3):iyac079. doi: 10.1093/genetics/iyac079.
+BioKIT: a versatile toolkit for processing and analyzing diverse types of sequence data
+Jacob L Steenwyk 1 2, Thomas J Buida 3, Carla Gonçalves 1 2 4 5, Dayna C Goltz 6, Grace Morales 7, Matthew E Mead 1 2, Abigail L LaBella 1 2, Christina M Chavez 1 2, Jonathan E Schmitz 7, Maria Hadjifrangiskou 2 7, Yuanning Li 1, Antonis Rokas 1 2
+https://academic.oup.com/genetics/article-abstract/221/3/iyac079/6583183
+To demonstrate the utility of BioKIT, we conducted a comprehensive examination of relative synonymous codon usage across 171 fungal genomes that use alternative genetic codes, showed that the novel metric of gene-wise relative synonymous codon usage can accurately estimate gene-wise codon optimization, evaluated the quality and characteristics of 901 eukaryotic genome assemblies, and calculated alignment summary statistics for 10 phylogenomic data matrices. 
+
+BioKIT is freely available under the MIT license from GitHub (https://github.com/JLSteenwyk/BioKIT), PyPi (https://pypi.org/project/jlsteenwyk-biokit/), and the Anaconda Cloud (https://anaconda.org/jlsteenwyk/jlsteenwyk-biokit). Documentation, user tutorials, and instructions for requesting new features are available online (https://jlsteenwyk.com/BioKIT).
+
+
 http://www.stevekellylab.com/codonmuse
 CodonMuSe - Steve Kelly Lab
 
