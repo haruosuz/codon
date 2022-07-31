@@ -144,6 +144,10 @@ Codon Usage Generator (CUG) †
 https://github.com/mariodosreis/tai
 tRNA adaptation index (tAI)
 
+http://people.cryst.bbk.ac.uk/~fdosr01/tAI/
+
+https://www.g-language.org/documentation/1.9.1/lib/G/Seq/Codon.html
+
 https://pubmed.ncbi.nlm.nih.gov/27797757/
 Bioinformatics
 . 2017 Feb 15;33(4):589-591. doi: 10.1093/bioinformatics/btw647.
@@ -151,15 +155,28 @@ stAIcalc: tRNA adaptation index calculator based on species-specific weights
 Renana Sabi 1, Renana Volvovitch Daniel 1, Tamir Tuller 1 2
 https://academic.oup.com/bioinformatics/article/33/4/589/2593585
 
-https://www.ncbi.nlm.nih.gov/pubmed/15448185
-Nucleic Acids Res. 2004 Sep 24;32(17):5036-44. Print 2004.
-Solving the riddle of codon usage preferences: a test for translational selection.
-dos Reis M1, Savva R, Wernisch L.
+https://pubmed.ncbi.nlm.nih.gov/15448185/
+Nucleic Acids Res
+. 2004 Sep 24;32(17):5036-44. doi: 10.1093/nar/gkh834. Print 2004.
+Solving the riddle of codon usage preferences: a test for translational selection
+Mario dos Reis 1, Renos Savva, Lorenz Wernisch
+https://academic.oup.com/nar/article/32/17/5036/1333956
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC521650/
+
 As expected (Figure ​(Figure3),3), S.cerevisiae and E.coli show the highest S-values, C.elegans shows a moderate S-value, while H.pylori and H.sapiens show no sign of translational selection acting on their genomes.
 
 The tRNA adaptation index
 The tRNA adaptation index (tAI) (22) is a measure of the tRNA usage by coding sequences inspired by the codon adaptation index of Sharp and Li (23).
+
+https://pubmed.ncbi.nlm.nih.gov/14627830/
+Nucleic Acids Res
+. 2003 Dec 1;31(23):6976-85. doi: 10.1093/nar/gkg897.
+Unexpected correlations between gene expression and codon usage bias from microarray data for the whole Escherichia coli K-12 genome
+Mario dos Reis 1, Lorenz Wernisch, Renos Savva
+https://academic.oup.com/nar/article/31/23/6976/2904389
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC290265/
+In order to test for translational selection, we devised an index for tRNA usage, inspired by the CAI of Sharp and Li (24). 
+
 
 ### RSCU
 relative synonymous codon usage
