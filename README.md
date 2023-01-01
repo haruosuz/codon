@@ -55,6 +55,7 @@
 ----------
 ## temperature
 
+### 2018-10-19
 https://pubmed.ncbi.nlm.nih.gov/30341344/
 Sci Rep
 . 2018 Oct 19;8(1):15548. doi: 10.1038/s41598-018-33476-x.
@@ -73,12 +74,9 @@ Lobry et al. (2006) divulged thermophiles preferred GC-rich codon whereas, psych
 
 11. Zeldovich KB, Berezovsky IN, Shakhnovich EI. Protein and DNA sequence determinants of thermophilic adaptation. PLoS Comput. Biol. 2007;3:0062–0072. doi: 10.1371/journal.pcbi.0030062. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
 
-
-29. Frank AC, Lobry JR. Asymmetric substitution patterns: A review of possible underlying mutational or selective mechanisms. Gene. 1999;238:65–77. doi: 10.1016/S0378-1119(99)00297-8. [PubMed] [CrossRef] [Google Scholar]
-30. Grocock RJ, Sharp PM. Synonymous codon usage in Pseudomonas aeruginosa PA01. Gene. 2002;289:131–139. doi: 10.1016/S0378-1119(02)00503-6. [PubMed] [CrossRef] [Google Scholar]
 31. Lobry JR, Necşulea A. Synonymous codon usage and its potential link with optimal growth temperature in prokaryotes. Gene. 2006;385:128–136. doi: 10.1016/j.gene.2006.05.033. [PubMed] [CrossRef] [Google Scholar]
 
-
+### 2007-01-12
 https://pubmed.ncbi.nlm.nih.gov/17222055/
 PLoS Comput Biol
 . 2007 Jan 12;3(1):e5. doi: 10.1371/journal.pcbi.0030005. Epub 2006 Nov 30.
@@ -86,18 +84,24 @@ Protein and DNA sequence determinants of thermophilic adaptation
 Konstantin B Zeldovich 1, Igor N Berezovsky, Eugene I Shakhnovich
 https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030005
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1769408/
-On the other hand, the fraction of A + G in coding DNA is correlated with temperature, to a considerable extent, due to codon patterns of IVYWREL amino acids. Further, we found strong and independent correlation between OGT and the frequency with which pairs of A and G nucleotides appear as nearest neighbors in genome sequences. This adaptation is achieved via codon bias. These findings present a direct link between principles of proteins structure and stability and evolutionary mechanisms of thermophylic adaptation. On the nucleotide level, the analysis provides an example of how nature utilizes codon bias for evolutionary adaptation to extreme conditions.
-一方、コーディングDNA中のA + Gの割合は、IVYWRELアミノ酸のコドンパターンに起因して、かなりの程度、温度と相関があることがわかった。さらに、ゲノム配列においてAとGの塩基対が最近接として現れる頻度とOGTの間に強い独立した相関があることを見いだした。この適応はコドンの偏りによって達成される。これらの結果は、タンパク質の構造・安定性の原理と熱力学的適応の進化的メカニズムとの直接的なつながりを示している。また、ヌクレオチドレベルでは、自然界がコドンの偏りを利用して極限環境に適応していることを示す例として、解析が行われました。
 
-https://www.ncbi.nlm.nih.gov/pubmed/16989961
-Gene. 2006 Dec 30;385:128-36. 
-Synonymous codon usage and its potential link with optimal growth temperature in prokaryotes.
-Lobry JR1, Necşulea A.
+### 2006-12-30
+https://pubmed.ncbi.nlm.nih.gov/16989961/
+Gene
+. 2006 Dec 30;385:128-36. doi: 10.1016/j.gene.2006.05.033. Epub 2006 Aug 22.
+Synonymous codon usage and its potential link with optimal growth temperature in prokaryotes
+J R Lobry 1, A Necşulea
 
-https://www.ncbi.nlm.nih.gov/pubmed/12364606
-Nucleic Acids Res. 2002 Oct 1;30(19):4272-7.
-Synonymous codon usage is subject to selection in thermophilic bacteria.
-Lynn DJ1, Singer GA, Hickey DA.
+https://www.sciencedirect.com/science/article/abs/pii/S0378111906004835
+
+### 2002-10-01
+https://pubmed.ncbi.nlm.nih.gov/12364606/
+Nucleic Acids Res
+. 2002 Oct 1;30(19):4272-7. doi: 10.1093/nar/gkf546.
+Synonymous codon usage is subject to selection in thermophilic bacteria
+David J Lynn 1, Gregory A C Singer, Donal A Hickey
+https://academic.oup.com/nar/article/30/19/4272/2376087
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC140546/
 
 ----------
 ## metagenome
