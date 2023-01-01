@@ -19,8 +19,6 @@
 - [tRNA](#trna)
 - [tRNA gene cluster](#trna-gene-cluster)
 - [lifestyle](#lifestyle) ライフスタイル
-- [metagenome](#metagenome)
-- [temperature](#temperature) 温度
 - [replication](#replication) 複製
 - [people](#people)
 [Ikemura](#ikemura)
@@ -49,7 +47,140 @@
   - [tAI](#tai)
   - [RSCU](#rscu)
   - [](#)
+- [metagenome](#metagenome) メタゲノム
+- [temperature](#temperature) 温度
 - [](#)
+
+
+----------
+## temperature
+
+https://pubmed.ncbi.nlm.nih.gov/30341344/
+Sci Rep
+. 2018 Oct 19;8(1):15548. doi: 10.1038/s41598-018-33476-x.
+Deciphering the rationale behind specific codon usage pattern in extremophiles
+Mohd Faheem Khan 1, Sanjukta Patra 2
+https://www.nature.com/articles/s41598-018-33476-x
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6195531/
+
+Preference of codons in different organisms is further explained by Selection-Mutation-Drift theory3.
+
+Zeldovich et al. (2007) revealed that the codon usage pattern creates a direct link between principles of protein stability and evolutionary mechanisms of extremophilic adaptation11. 
+
+Lobry et al. (2006) divulged thermophiles preferred GC-rich codon whereas, psychrophiles and mesophiles preferred AT-rich31. Our finding of nucleotide composition of discriminating codons corroborated with that of Lobry et al. 
+
+3. Lynn DJ, Singer GAC, Hickey DA. Synonymous codon usage is subject to selection in thermophilic bacteria. Nucleic Acids Res. 2002;30:4272–4277. doi: 10.1093/nar/gkf546. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+
+11. Zeldovich KB, Berezovsky IN, Shakhnovich EI. Protein and DNA sequence determinants of thermophilic adaptation. PLoS Comput. Biol. 2007;3:0062–0072. doi: 10.1371/journal.pcbi.0030062. [PMC free article] [PubMed] [CrossRef] [Google Scholar]
+
+
+29. Frank AC, Lobry JR. Asymmetric substitution patterns: A review of possible underlying mutational or selective mechanisms. Gene. 1999;238:65–77. doi: 10.1016/S0378-1119(99)00297-8. [PubMed] [CrossRef] [Google Scholar]
+30. Grocock RJ, Sharp PM. Synonymous codon usage in Pseudomonas aeruginosa PA01. Gene. 2002;289:131–139. doi: 10.1016/S0378-1119(02)00503-6. [PubMed] [CrossRef] [Google Scholar]
+31. Lobry JR, Necşulea A. Synonymous codon usage and its potential link with optimal growth temperature in prokaryotes. Gene. 2006;385:128–136. doi: 10.1016/j.gene.2006.05.033. [PubMed] [CrossRef] [Google Scholar]
+
+
+https://pubmed.ncbi.nlm.nih.gov/17222055/
+PLoS Comput Biol
+. 2007 Jan 12;3(1):e5. doi: 10.1371/journal.pcbi.0030005. Epub 2006 Nov 30.
+Protein and DNA sequence determinants of thermophilic adaptation
+Konstantin B Zeldovich 1, Igor N Berezovsky, Eugene I Shakhnovich
+https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030005
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1769408/
+On the other hand, the fraction of A + G in coding DNA is correlated with temperature, to a considerable extent, due to codon patterns of IVYWREL amino acids. Further, we found strong and independent correlation between OGT and the frequency with which pairs of A and G nucleotides appear as nearest neighbors in genome sequences. This adaptation is achieved via codon bias. These findings present a direct link between principles of proteins structure and stability and evolutionary mechanisms of thermophylic adaptation. On the nucleotide level, the analysis provides an example of how nature utilizes codon bias for evolutionary adaptation to extreme conditions.
+一方、コーディングDNA中のA + Gの割合は、IVYWRELアミノ酸のコドンパターンに起因して、かなりの程度、温度と相関があることがわかった。さらに、ゲノム配列においてAとGの塩基対が最近接として現れる頻度とOGTの間に強い独立した相関があることを見いだした。この適応はコドンの偏りによって達成される。これらの結果は、タンパク質の構造・安定性の原理と熱力学的適応の進化的メカニズムとの直接的なつながりを示している。また、ヌクレオチドレベルでは、自然界がコドンの偏りを利用して極限環境に適応していることを示す例として、解析が行われました。
+
+https://www.ncbi.nlm.nih.gov/pubmed/16989961
+Gene. 2006 Dec 30;385:128-36. 
+Synonymous codon usage and its potential link with optimal growth temperature in prokaryotes.
+Lobry JR1, Necşulea A.
+
+https://www.ncbi.nlm.nih.gov/pubmed/12364606
+Nucleic Acids Res. 2002 Oct 1;30(19):4272-7.
+Synonymous codon usage is subject to selection in thermophilic bacteria.
+Lynn DJ1, Singer GA, Hickey DA.
+
+----------
+## metagenome
+
+
+https://pubmed.ncbi.nlm.nih.gov/32939027/
+ISME J
+. 2021 Jan;15(1):183-195. doi: 10.1038/s41396-020-00773-1. Epub 2020 Sep 16.
+Benchmarking microbial growth rate predictions from metagenomes
+Andrew M Long # 1, Shengwei Hou # 2, J Cesar Ignacio-Espinoza 2, Jed A Fuhrman 2
+https://www.nature.com/articles/s41396-020-00773-1
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7852909/
+Growth rate indices: codon usage bias and peak-to-trough ratio
+The maximum growth rate of each MAG was predicted using a customized growthpred v1.0.8 (available at https://hub.docker.com/r/shengwei/growthpred) in metagenome mode (-m) and with universal codons (-c 0). Blast-retrieved ribosomal protein sequences were used as the highly expressed genes (-b) and compared to all the coding sequences of each MAG (-g).
+
+PTR indices were calculated using iRep v1.10 [5], GRiD v1.3 [6], and DEMIC v1.0.2 [7].
+
+
+
+https://twitter.com/EvaMariaNovoa/status/1130910439817252864
+Eva Maria Novoa on Twitter: "Our paper is out! :-) Codon usage signatures across species are not just consequence of GC content - and these biases can be used for metagenomic binning! #codonusage #metagenome @manoliskellis https://t.co/fKZNIcWIll"
+2:57 PM - 21 May 2019
+https://www.ncbi.nlm.nih.gov/pubmed/31220870
+Mol Biol Evol. 2019 Oct 1;36(10):2328-2339. doi: 10.1093/molbev/msz124.
+Elucidation of Codon Usage Signatures across the Domains of Life.
+Novoa EM1,2,3,4, Jungreis I1,2, Jaillon O1,2,5, Kellis M1,2.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6759073/
+
+2019-05-02
+Anamaria Elek
+https://www.bioconductor.org/packages/devel/bioc/vignettes/coRdon/inst/doc/coRdon.html
+Codon usage (CU) analysis in R
+- This approach can be efficiently used to predict highly expressed genes in a single genome, but is especially useful at the higher level of an entire metagenome.
+
+https://www.ncbi.nlm.nih.gov/pubmed/29947757
+Bioinformatics. 2018 Jun 27. doi: 10.1093/bioinformatics/bty519. [Epub ahead of print]
+BMC3C: Binning Metagenomic Contigs using Codon usage, sequence Composition and read Coverage.
+Yu G1, Jiang Y1, Wang J1, Zhang H2, Luo H2.
+
+https://www.ncbi.nlm.nih.gov/pubmed/29742107
+PLoS One. 2018 May 9;13(5):e0195869. doi: 10.1371/journal.pone.0195869. eCollection 2018.
+Codon usage bias reveals genomic adaptations to environmental conditions in an acidophilic consortium.
+Hart A1, Cortés MP2,3, Latorre M2,3,4,5, Martinez S6.
+
+
+review
+https://www.ncbi.nlm.nih.gov/pubmed/26951112
+Microbiome. 2016 Mar 8;4:8. doi: 10.1186/s40168-016-0154-5.
+Recovering complete and draft population genomes from metagenome datasets.
+Sangwan N1,2, Xia F3, Gilbert JA4,5,6,7.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4782286/
+However, another framework for analysis relies on variation in codon bias to determine the genome-wide influence of in situ functional constraints on individual taxa. Since percentage codon bias variation analysis is a phylogenetically independent method that directly reflects the strength of selection and the translation efficiency of expressed genes [77, 78], it circumvents the need for reference genomes and can reveal the influence of in situ functional constraints over natural selection patterns. It is important to note that for complete genome sequences, codon use patterns are influenced by nucleotide composition (mutational biases) and horizontal gene transfer. However, because each gene in a reassembled genome represents the population with an even nucleotide composition, one can assume that these clonal isolate-based limitations will not skew codon usage.
+
+https://www.ncbi.nlm.nih.gov/pubmed/25680374
+Acta Biochim Pol. 2015;62(1):161-6. Epub 2015 Feb 13.
+The most widespread problems in the function-based microbial metagenomics.
+Felczykowska A1, Krajewska A1, Zielińska S1, Łoś JM1, Bloch SK1, Nejman-Faleńczyk B1.
+ Codon usage bias, internal cell accumulation, correct protein folding or presence of proper initiation factors are discussed and possible ways to overcome these problems are proposed. 
+http://www.actabp.pl/pdf/1_2015/2014_917.pdf
+
+
+https://www.ncbi.nlm.nih.gov/pubmed/27115650
+Methods Mol Biol. 2016;1415:509-31. doi: 10.1007/978-1-4939-3572-7_26.
+Big Data, Evolution, and Metagenomes: Predicting Disease from Gut Microbiota Codon Usage Profiles.
+Fabijanić M1, Vlahoviček K2.
+
+https://phylogenomics.blogspot.jp/2013/08/great-use-of-metagenomic-data-community.html
+August 09, 2013
+Great use of metagenomic data: community wide adaptation signatures
+
+https://www.ncbi.nlm.nih.gov/pubmed/23921637
+Nucleic Acids Res. 2013 Oct;41(19):8842-52.
+Environmental shaping of codon usage and functional adaptation across microbial communities.
+Roller M1, Lucić V, Nagy I, Perica T, Vlahovicek K.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3799439/
+Single bacterial species’ genomes and annotation
+Codon usage within metagenomes follows similar patterns as in single microbial genomes
+
+
+
+
+
+
 
 ----------
 ## database
@@ -491,6 +622,15 @@ https://wired.jp/2020/01/25/wuhan-coronavirus-snake-flu-theory/
 
 ## updates
 
+## 2022
+
+3:02 AM · Nov 11, 2022
+https://twitter.com/Lab_LaBella/status/1590766795224670209
+The Lab LaBella on Twitter: "Codon usage in Aspergillus mitochondria is gene (not genome) specific! Learn more about Aspergillus mitogenomes in this work from @annemakerofhats @RokasLab @Lab_LaBella https://t.co/VHzisVFMk2 #3rdBaseThurs @GeneticsGSA https://t.co/3s9xV1xZqL" / Twitter
+
+https://doi.org/10.1093/g3journal/jkac285
+Evolution and codon usage bias of mitochondrial and nuclear genomes in Aspergillus section Flavi | G3 Genes|Genomes|Genetics | Oxford Academic
+
 ## 2021
 
 ### 2021-11-25
@@ -513,7 +653,6 @@ Galal Ata 1, Hao Wang 1, Haoxiang Bai 1, Xiaoting Yao 2, Shiheng Tao 1
 https://www.frontiersin.org/articles/10.3389/fmicb.2021.699788/full
 https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC8283416/
 
-
 ### 2021-04-22
 
 https://pubmed.ncbi.nlm.nih.gov/34025951/
@@ -534,7 +673,6 @@ https://twitter.com/jpjhall/status/1381550524974137346
 Jamie Hall on Twitter: "New preprint: "Plasmid fitness costs are caused by specific genetic conflicts" with @BrockhurstLab @ellieevolves @rctwright @2jamiewood @scottishwormboy" / Twitter
 https://twitter.com/jpjhall/status/1381550560046891009
 Jamie Hall on Twitter: "Others have found similar patterns — mutations that compensate plasmid cost tend to target specific genes, rather than reducing plasmid size, ameliorating codon biases, mass silencing, etc. https://t.co/wX3lzB0TR8 ; https://t.co/B3Ccj2WxBF ; https://t.co/HNU4VRtEqQ" / Twitter
-
 
 ### 2021-03
 
@@ -622,8 +760,6 @@ DEEPLYESSENTIALと呼ばれる我々のアーキテクチャは、入力デー�
 https://twitter.com/Tyu_Shi/status/1116749787569672193
 Tyu_Shi on Twitter: "DeeplyEssential: A Deep Neural Network for Predicting Essential Genes in Microbes https://t.co/GbQ0522csF 配列の特徴のみ（遺伝子のコドン使用頻度や長さ、GC含量、アミノ酸使用頻度等）を特徴量として使っているようだ。でも本当に知りたいのは典型的では無いのに必須な遺伝子なんだよね…。"
 https://www.biorxiv.org/content/10.1101/607085v1
-
-
 
 ### Chen_2020
 
@@ -792,9 +928,7 @@ Lucía D'Andrea 1, Francisco-Javier Pérez-Rodríguez 1, Montserrat de Castellar
 https://academic.oup.com/gbe/article/11/9/2439/5530595
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6735747/
 
-
 ### 2019-08
-
 
 Posted August 09, 2019.
 https://www.biorxiv.org/content/10.1101/730473v1
@@ -1411,100 +1545,6 @@ Bioinformatics. 2003 Nov 1;19(16):2005-15.
 Codon adaptation index as a measure of dominating codon bias.
 Carbone A1, Zinovyev A, Képès F.
 
-
-
-----------
-## metagenome
-
-
-
-https://pubmed.ncbi.nlm.nih.gov/32939027/
-ISME J
-. 2021 Jan;15(1):183-195. doi: 10.1038/s41396-020-00773-1. Epub 2020 Sep 16.
-Benchmarking microbial growth rate predictions from metagenomes
-Andrew M Long # 1, Shengwei Hou # 2, J Cesar Ignacio-Espinoza 2, Jed A Fuhrman 2
-https://www.nature.com/articles/s41396-020-00773-1
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7852909/
-Growth rate indices: codon usage bias and peak-to-trough ratio
-The maximum growth rate of each MAG was predicted using a customized growthpred v1.0.8 (available at https://hub.docker.com/r/shengwei/growthpred) in metagenome mode (-m) and with universal codons (-c 0). Blast-retrieved ribosomal protein sequences were used as the highly expressed genes (-b) and compared to all the coding sequences of each MAG (-g).
-
-PTR indices were calculated using iRep v1.10 [5], GRiD v1.3 [6], and DEMIC v1.0.2 [7].
-
-
-
-https://twitter.com/EvaMariaNovoa/status/1130910439817252864
-Eva Maria Novoa on Twitter: "Our paper is out! :-) Codon usage signatures across species are not just consequence of GC content - and these biases can be used for metagenomic binning! #codonusage #metagenome @manoliskellis https://t.co/fKZNIcWIll"
-2:57 PM - 21 May 2019
-https://www.ncbi.nlm.nih.gov/pubmed/31220870
-Mol Biol Evol. 2019 Oct 1;36(10):2328-2339. doi: 10.1093/molbev/msz124.
-Elucidation of Codon Usage Signatures across the Domains of Life.
-Novoa EM1,2,3,4, Jungreis I1,2, Jaillon O1,2,5, Kellis M1,2.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6759073/
-
-2019-05-02
-Anamaria Elek
-https://www.bioconductor.org/packages/devel/bioc/vignettes/coRdon/inst/doc/coRdon.html
-Codon usage (CU) analysis in R
-- This approach can be efficiently used to predict highly expressed genes in a single genome, but is especially useful at the higher level of an entire metagenome.
-
-https://www.ncbi.nlm.nih.gov/pubmed/29947757
-Bioinformatics. 2018 Jun 27. doi: 10.1093/bioinformatics/bty519. [Epub ahead of print]
-BMC3C: Binning Metagenomic Contigs using Codon usage, sequence Composition and read Coverage.
-Yu G1, Jiang Y1, Wang J1, Zhang H2, Luo H2.
-
-https://www.ncbi.nlm.nih.gov/pubmed/29742107
-PLoS One. 2018 May 9;13(5):e0195869. doi: 10.1371/journal.pone.0195869. eCollection 2018.
-Codon usage bias reveals genomic adaptations to environmental conditions in an acidophilic consortium.
-Hart A1, Cortés MP2,3, Latorre M2,3,4,5, Martinez S6.
-
-
-review
-https://www.ncbi.nlm.nih.gov/pubmed/26951112
-Microbiome. 2016 Mar 8;4:8. doi: 10.1186/s40168-016-0154-5.
-Recovering complete and draft population genomes from metagenome datasets.
-Sangwan N1,2, Xia F3, Gilbert JA4,5,6,7.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4782286/
-However, another framework for analysis relies on variation in codon bias to determine the genome-wide influence of in situ functional constraints on individual taxa. Since percentage codon bias variation analysis is a phylogenetically independent method that directly reflects the strength of selection and the translation efficiency of expressed genes [77, 78], it circumvents the need for reference genomes and can reveal the influence of in situ functional constraints over natural selection patterns. It is important to note that for complete genome sequences, codon use patterns are influenced by nucleotide composition (mutational biases) and horizontal gene transfer. However, because each gene in a reassembled genome represents the population with an even nucleotide composition, one can assume that these clonal isolate-based limitations will not skew codon usage.
-
-https://www.ncbi.nlm.nih.gov/pubmed/25680374
-Acta Biochim Pol. 2015;62(1):161-6. Epub 2015 Feb 13.
-The most widespread problems in the function-based microbial metagenomics.
-Felczykowska A1, Krajewska A1, Zielińska S1, Łoś JM1, Bloch SK1, Nejman-Faleńczyk B1.
- Codon usage bias, internal cell accumulation, correct protein folding or presence of proper initiation factors are discussed and possible ways to overcome these problems are proposed. 
-http://www.actabp.pl/pdf/1_2015/2014_917.pdf
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/27115650
-Methods Mol Biol. 2016;1415:509-31. doi: 10.1007/978-1-4939-3572-7_26.
-Big Data, Evolution, and Metagenomes: Predicting Disease from Gut Microbiota Codon Usage Profiles.
-Fabijanić M1, Vlahoviček K2.
-
-https://phylogenomics.blogspot.jp/2013/08/great-use-of-metagenomic-data-community.html
-August 09, 2013
-Great use of metagenomic data: community wide adaptation signatures
-
-https://www.ncbi.nlm.nih.gov/pubmed/23921637
-Nucleic Acids Res. 2013 Oct;41(19):8842-52.
-Environmental shaping of codon usage and functional adaptation across microbial communities.
-Roller M1, Lucić V, Nagy I, Perica T, Vlahovicek K.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3799439/
-Single bacterial species’ genomes and annotation
-Codon usage within metagenomes follows similar patterns as in single microbial genomes
-
-
-
-----------
-## temperature
-
-https://www.ncbi.nlm.nih.gov/pubmed/16989961
-Gene. 2006 Dec 30;385:128-36. 
-Synonymous codon usage and its potential link with optimal growth temperature in prokaryotes.
-Lobry JR1, Necşulea A.
-
-https://www.ncbi.nlm.nih.gov/pubmed/12364606
-Nucleic Acids Res. 2002 Oct 1;30(19):4272-7.
-Synonymous codon usage is subject to selection in thermophilic bacteria.
-Lynn DJ1, Singer GA, Hickey DA.
 
 ----------
 ## replication
