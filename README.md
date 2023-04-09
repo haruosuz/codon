@@ -1188,13 +1188,6 @@ https://wired.jp/2020/01/25/wuhan-coronavirus-snake-flu-theory/
 これに対してシドニー大学のホームズは、北京大学の研究チームによるアプローチには多くの問題があると指摘する。例えば、コドンバイアスの比較は、動物の宿主を特定するには非常に間接的な手法だという。
 
 
-
-
-
-
-
-
-
 ----------
 ## neutral
 中立
@@ -1252,6 +1245,11 @@ Chi-squared tests: << and >> denote P < 0.001 and indicate the direction of the 
 ----------
 ## growth rate
 増殖速度
+
+https://github.com/haruosuz/mgsa/blob/master/references/mgsa.tools.md#growth-rate
+
+https://github.com/haruosuz/r4bioinfo/blob/master/R_codon/README.md#grodon
+
 ## translational selection
 翻訳選択
 ## gene expression
