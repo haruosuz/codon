@@ -994,10 +994,9 @@ Codon Usage Generator (CUG) †
 ### tAI
 tRNA adaptation index (tAI)
 
-http://people.cryst.bbk.ac.uk/~fdosr01/tAI/
+https://github.com/haruosuz/r4bioinfo/tree/master/R_codon
 
 https://www.g-language.org/documentation/1.9.1/lib/G/Seq/Codon.html
-
 
 https://pubmed.ncbi.nlm.nih.gov/37469707/
 Front Mol Biosci
