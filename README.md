@@ -7,14 +7,6 @@
 - [plasmids](#plasmids)
 - [virus](#virus)
   - [SARS-CoV-2](#sars-cov-2)
-- [updates](#updates)
-[2020](#2020)
-[2019](#2019)
-[2018](#2018)
-[2017](#2017)
-[2016](#2016)
-[2001](#2001)
-- [review](#review)
 - [heterologous gene expression](#heterologous-gene-expression)
 - [tRNA](#trna)
 - [tRNA gene cluster](#trna-gene-cluster)
@@ -50,12 +42,20 @@
 - [metagenome](#metagenome) メタゲノム
 - [temperature](#temperature) 温度
 - [](#)
+- [review](#review)
+- [updates](#updates)
+[2020](#2020)
+[2019](#2019)
+[2018](#2018)
+[2017](#2017)
+[2016](#2016)
+[2001](#2001)
+- [](#)
 
 ----------
 
 
 ----------
-
 
 
 ----------
@@ -101,9 +101,139 @@ https://www.biophys.jp/dl/journal/53-1.pdf
 御手洗菜美子　コペンハーゲン大学ニールス・ボーア研究所
 
 ----------
-## updates
+## HGT
 
-## 2025
+2011-06
+https://pubmed.ncbi.nlm.nih.gov/21343180/
+Nucleic Acids Res
+. 2011 Jun;39(11):4743-55. doi: 10.1093/nar/gkr054. Epub 2011 Feb 22.
+Association between translation efficiency and horizontal gene transfer within microbial communities
+Tamir Tuller 1, Yana Girshovich, Yael Sella, Avi Kreimer, Shiri Freilich, Martin Kupiec, Uri Gophna, Eytan Ruppin
+https://academic.oup.com/nar/article/39/11/4743/1144837?login=false
+https://pmc.ncbi.nlm.nih.gov/articles/PMC3113575/
+
+2011-05
+https://pubmed.ncbi.nlm.nih.gov/22016848/
+Mob Genet Elements
+. 2011 May;1(1):75-77. doi: 10.4161/mge.1.1.15400.
+Codon bias, tRNA pools and horizontal gene transfer
+Tamir Tuller 1
+https://www.tandfonline.com/doi/10.4161/mge.1.1.15400
+https://pmc.ncbi.nlm.nih.gov/articles/PMC3190281/
+
+----------
+## growth rate
+増殖速度
+
+https://github.com/haruosuz/mgsa/blob/master/references/mgsa.tools.md#growth-rate
+
+gRodon
+https://github.com/haruosuz/r4bioinfo/blob/master/R_codon/README.md#grodon
+
+## translational selection
+翻訳選択
+## gene expression
+遺伝子の発現量
+
+https://ja.wikipedia.org/wiki/コドン
+コドン出現頻度の違いは遺伝子の発現量やそのコドンに対応する tRNA の量と関係があることが知られている。発現量の多い遺伝子のコドン出現頻度の偏りは大きくなり、頻出するコドンに対応する tRNA は細胞内の存在量も多い。
+
+http://bioinfo.ie.niigata-u.ac.jp/?遺伝子発現量予測
+1. Z1軸の性質は長浜バイオ大学　池村淑道教授が整理した最適コドン決定規則 (tRNA量に基づいた翻訳効率と関わる最適コドンの決定法, 表1) により説明することができます[1-2,10-12]。したがって、最適コドン決定規則を用いることにより、情報科学的解析のみで種固有の最適コドンを推定することができる。
+2. リボソーム蛋白質遺伝子および翻訳伸長因子といういわゆる細胞内で常に発現量が高いと仮定される遺伝子のコドン使用が生物全体の遺伝子のコドン使用とは異なっていることがZ1軸における遺伝子の分布により観察することができた。
+
+https://www.nig.ac.jp/museum/evolution/04_c.html
+遺伝暗号(コドン）使用の種による多様性
+2.単細胞微生物のコドン選択の生物種による方言;
+　 大腸菌とサルモネラ菌ならびに酵母遺伝子に見られるコドン選択の偏りを例に
+c)　同一生物種の遺伝子間を比較した場合、多量にタンパク質を生産する遺伝子ほど方言がきつく、生産量が下がるにつれて、同質の方言を用いながらも、その方言の程度が緩くなります。図4では、生物ごとに、タンパク質生産量の高い遺伝子を左側に配置してあります。大腸菌のtufAB(ポリペプチド鎖延長因子)、ompC(外膜タンパク質)は多量にタンパク質を生産する遺伝子の例であり、trpやthrはアミノ酸合成系の遺伝子で、通常条件下では中程度ないしは少量のタンパク質しか生産していません。酵母のG3PDHやenolaseは解糖系の酵素で、最も多量に生産されるタンパク質であり、TRPやCYCは中程度ないしは比較的少量しか生産されない例に属します。生産量の高い遺伝子ほどコドン選択の偏りが顕著で(方言がきつい)、生産量の低い遺伝子では偏りの程度が緩くなります。この傾向は広範囲の遺伝子で成立することが判明しています。
+
+https://www.ncbi.nlm.nih.gov/pubmed/18940873
+DNA Res. 2008 Dec;15(6):357-65. doi: 10.1093/dnares/dsn028. Epub 2008 Oct 21.
+Comparison of correspondence analysis methods for synonymous codon usage in bacteria.
+Suzuki H1, Brown CJ, Forney LJ, Top EM.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2608848/
+- Thirdly, genes expressed at high levels in fast-growing bacteria tend to preferentially use translationally optimal codons that are recognized by the most abundant tRNAs. This presumably reflects natural selection for synonymous codons that are translated more efficiently and accurately.7,8 
+- Secondly, to analyze the correlation between scores of each of the three axes [Equation (4)] and levels of gene expression (Expression), we tested for the distribution of the axis scores for 40 genes expected to be expressed constitutively at high levels.10 This set included the genes encoding translation elongation factors Tu (tuf), Ts (tsf) and G (fus), and 37 of the larger ribosomal proteins (encoded by genes rplA-rplF, rplI-rplT, and rpsB-rpsT). In each axis, the score for each gene was standardized by subtracting the mean and dividing by the standard deviation of scores for all protein genes. For each axis, Expression was detected as the main source of variation among genes on the axis when the mean absolute standard score for the 40 highly expressed genes was >1.644854 (an interval in which theoretically only 5% of all protein genes are included).
+- The third feature, Expression, was detected as a major source of synonymous codon usage variation among genes in C. trachomatis D/UW-3/CX, C. perfringens 13, E. coli K12 MG1655 and H. influenzae Rd KW20, which is consistent with previous findings (Table 2).
+
+
+----------
+## metagenome
+
+
+2023-01-24
+https://pubmed.ncbi.nlm.nih.gov/36693851/
+NPJ Biofilms Microbiomes
+. 2023 Jan 24;9(1):5. doi: 10.1038/s41522-023-00372-w.
+Determinants of associations between codon and amino acid usage patterns of microbial communities and the environment inferred based on a cross-biome metagenomic analysis
+Arup Panda 1, Tamir Tuller 2
+https://www.nature.com/articles/s41522-023-00372-w
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9873608/
+
+2021-01
+https://pubmed.ncbi.nlm.nih.gov/32939027/
+ISME J
+. 2021 Jan;15(1):183-195. doi: 10.1038/s41396-020-00773-1. Epub 2020 Sep 16.
+Benchmarking microbial growth rate predictions from metagenomes
+Andrew M Long # 1, Shengwei Hou # 2, J Cesar Ignacio-Espinoza 2, Jed A Fuhrman 2
+https://www.nature.com/articles/s41396-020-00773-1
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7852909/
+Growth rate indices: codon usage bias and peak-to-trough ratio
+The maximum growth rate of each MAG was predicted using a customized growthpred v1.0.8 (available at https://hub.docker.com/r/shengwei/growthpred) in metagenome mode (-m) and with universal codons (-c 0). Blast-retrieved ribosomal protein sequences were used as the highly expressed genes (-b) and compared to all the coding sequences of each MAG (-g).
+
+PTR indices were calculated using iRep v1.10 [5], GRiD v1.3 [6], and DEMIC v1.0.2 [7].
+
+2019-05-02
+Anamaria Elek
+https://www.bioconductor.org/packages/devel/bioc/vignettes/coRdon/inst/doc/coRdon.html
+Codon usage (CU) analysis in R
+- This approach can be efficiently used to predict highly expressed genes in a single genome, but is especially useful at the higher level of an entire metagenome.
+
+2018-06-27
+https://www.ncbi.nlm.nih.gov/pubmed/29947757
+Bioinformatics. 2018 Jun 27. doi: 10.1093/bioinformatics/bty519. [Epub ahead of print]
+BMC3C: Binning Metagenomic Contigs using Codon usage, sequence Composition and read Coverage.
+Yu G1, Jiang Y1, Wang J1, Zhang H2, Luo H2.
+
+2018-05-09
+https://www.ncbi.nlm.nih.gov/pubmed/29742107
+PLoS One. 2018 May 9;13(5):e0195869. doi: 10.1371/journal.pone.0195869. eCollection 2018.
+Codon usage bias reveals genomic adaptations to environmental conditions in an acidophilic consortium.
+Hart A1, Cortés MP2,3, Latorre M2,3,4,5, Martinez S6.
+
+
+2016-03-08
+https://pubmed.ncbi.nlm.nih.gov/26951112/
+Review Microbiome
+. 2016 Mar 8:4:8. doi: 10.1186/s40168-016-0154-5.
+Recovering complete and draft population genomes from metagenome datasets
+Naseer Sangwan 1 2, Fangfang Xia 3, Jack A Gilbert 4 5 6 7
+
+
+2015
+https://www.ncbi.nlm.nih.gov/pubmed/25680374
+Acta Biochim Pol. 2015;62(1):161-6. Epub 2015 Feb 13.
+The most widespread problems in the function-based microbial metagenomics.
+Felczykowska A1, Krajewska A1, Zielińska S1, Łoś JM1, Bloch SK1, Nejman-Faleńczyk B1.
+ Codon usage bias, internal cell accumulation, correct protein folding or presence of proper initiation factors are discussed and possible ways to overcome these problems are proposed. 
+http://www.actabp.pl/pdf/1_2015/2014_917.pdf
+
+----------
+
+
+
+
+----------
+## review
+
+## 2025-11
+https://pubmed.ncbi.nlm.nih.gov/40394196/
+Review Nat Rev Genet
+. 2025 Nov;26(11):789-804. doi: 10.1038/s41576-025-00850-1. Epub 2025 May 20.
+Functional synonymous mutations and their evolutionary consequences
+Jianzhi Zhang 1, Wenfeng Qian 2 3
+https://www.nature.com/articles/s41576-025-00850-1
 
 11:11 PM · May 20, 2025
 https://x.com/NatureRevGenet/status/1924830257309483160
@@ -111,7 +241,171 @@ Nature Reviews Genetics on X: "New online! Functional synonymous mutations and t
 https://www.nature.com/articles/s41576-025-00850-1
 
 
+## 2024-07
+https://pubmed.ncbi.nlm.nih.gov/38134335/
+Review Annu Rev Biophys
+. 2024 Jul;53(1):87-108. doi: 10.1146/annurev-biophys-030722-020555. Epub 2024 Jun 28.
+The Effects of Codon Usage on Protein Structure and Folding
+McKenze J Moss 1, Laura M Chamness 1, Patricia L Clark 1
+https://www.annualreviews.org/content/journals/10.1146/annurev-biophys-030722-020555
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11227313/
+
+## 2024-03-28
+https://pubmed.ncbi.nlm.nih.gov/38605988/
+Review Front Bioeng Biotechnol
+. 2024 Mar 28:12:1371596. doi: 10.3389/fbioe.2024.1371596. eCollection 2024.
+Codon-optimization in gene therapy: promises, prospects and challenges
+Anastasiia Iu Paremskaia 1, Anna A Kogan 1, Anastasiia Murashkina 1, Daria A Naumova 1, Anakha Satish 1, Ivan S Abramov 1 2, Sofya G Feoktistova 1, Olga N Mityaeva 1, Andrei A Deviatkin # 1, Pavel Yu Volchkov # 1 2
+https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2024.1371596/full
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11007035/
+
+
+
+### 2022-04-21
+https://pubmed.ncbi.nlm.nih.gov/35452615/
+Review Mol Cell
+. 2022 Apr 21;82(8):1467-1476. doi: 10.1016/j.molcel.2022.03.032.
+Codon optimality-mediated mRNA degradation: Linking translational elongation to mRNA stability
+Haneui Bae 1, Jeff Coller 2
+https://www.cell.com/molecular-cell/fulltext/S1097-2765(22)00270-2
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10111967/
+https://www.sciencedirect.com/science/article/pii/S1097276522002702
+Codon optimality-mediated mRNA degradation (COMD)
+
+### 2022-01
+https://pubmed.ncbi.nlm.nih.gov/34822069/
+Review Mol Biol Rep
+. 2022 Jan;49(1):539-565. doi: 10.1007/s11033-021-06749-4. Epub 2021 Nov 25.
+Codon usage bias
+Sujatha Thankeswaran Parvathy 1, Varatharajalu Udayasuriyan 2, Vijaipal Bhadana 3
+https://link.springer.com/article/10.1007/s11033-021-06749-4
+Review
+Published: 25 November 2021
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8613526/
+
+### 2021-12
+https://pubmed.ncbi.nlm.nih.gov/34383106/
+Review J Mol Evol
+. 2021 Dec;89(9-10):589-593. doi: 10.1007/s00239-021-10027-z. Epub 2021 Aug 12.
+Codon Usage Bias: An Endless Tale
+Andrés Iriarte 1 2, Guillermo Lamolle 1, Héctor Musto 3
+https://link.springer.com/article/10.1007/s00239-021-10027-z
+Letter to the Editor
+Published: 12 August 2021
+
+
+
+### 2021-06-20
+https://pubmed.ncbi.nlm.nih.gov/33441035/
+Annu Rev Biochem
+. 2021 Jun 20:90:375-401. doi: 10.1146/annurev-biochem-071320-112701. Epub 2021 Jan 13.
+Synonymous but Not Silent: The Codon Usage Code for Gene Expression and Protein Folding
+Yi Liu 1, Qian Yang 1, Fangzhou Zhao 1
+https://www.annualreviews.org/content/journals/10.1146/annurev-biochem-071320-112701
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8284178/
+
+### 2021-04-22
+https://pubmed.ncbi.nlm.nih.gov/34025951/
+Review Comput Struct Biotechnol J
+. 2021 Apr 22;19:2646-2663. doi: 10.1016/j.csbj.2021.04.042. eCollection 2021.
+Codon-based indices for modeling gene expression and transcript evolution
+Shir Bahiri-Elitzur 1, Tamir Tuller 1 2
+https://www.sciencedirect.com/science/article/pii/S2001037021001549
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8122159/
+Dmean (mean dissimilarity-based index)
+Ew (weighted sum of relative entropy)
+
+
+
+### 2018-01
+https://pubmed.ncbi.nlm.nih.gov/29018283/
+Review Nat Rev Mol Cell Biol
+. 2018 Jan;19(1):20-30. doi: 10.1038/nrm.2017.91. Epub 2017 Oct 11.
+Codon optimality, bias and usage in translation and mRNA decay
+Gavin Hanson 1, Jeff Coller 1
+https://www.nature.com/articles/nrm.2017.91
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6594389/
+
+### 2015-07-16
+https://pubmed.ncbi.nlm.nih.gov/26186290/
+Review Mol Cell
+. 2015 Jul 16;59(2):149-61. doi: 10.1016/j.molcel.2015.05.035.
+Codon Bias as a Means to Fine-Tune Gene Expression
+Tessa E F Quax 1, Nico J Claassens 2, Dieter Söll 3, John van der Oost 4
+https://www.cell.com/molecular-cell/fulltext/S1097-2765(15)00402-5
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4794256/
+https://www.sciencedirect.com/science/article/pii/S1097276515004025
+
+### 2015-05-04
+https://pubmed.ncbi.nlm.nih.gov/26029354/
+Review Comput Struct Biotechnol J
+. 2015 May 4:13:352-7. doi: 10.1016/j.csbj.2015.04.005. eCollection 2015.
+Homology-independent metrics for comparative genomics
+Tarcisio José Domingos Coutinho 1, Glória Regina Franco 1, Francisco Pereira Lobo 2
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4446528/
+https://www.sciencedirect.com/science/article/pii/S2001037015000240
+Mini Review
+In this review we compile several sequence metrics that do not rely on homology inference and can be used to compare nucleotide sequences and extract biologically meaningful information from them. These metrics comprise several compositional parameters calculated from sequence data alone, such as GC content, dinucleotide odds ratio, and several codon bias metrics. 
+
+### 2013-02
+https://pubmed.ncbi.nlm.nih.gov/22889422/
+Review Biol Rev Camb Philos Soc
+. 2013 Feb;88(1):49-61. doi: 10.1111/j.1469-185X.2012.00242.x. Epub 2012 Aug 14.
+Codon usage bias: causative factors, quantification methods and genome-wide patterns: with emphasis on insect genomes
+Susanta K Behura 1, David W Severson
+https://onlinelibrary.wiley.com/doi/10.1111/j.1469-185X.2012.00242.x
+https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-185X.2012.00242.x
+Get access to the full version of this article.
+
+### 2012-11
+https://pubmed.ncbi.nlm.nih.gov/22921354/
+Review Trends Genet
+. 2012 Nov;28(11):574-81. doi: 10.1016/j.tig.2012.07.006. Epub 2012 Aug 23.
+Speeding with control: codon usage, tRNAs, and ribosomes
+Eva Maria Novoa 1, Lluís Ribas de Pouplana
+https://www.cell.com/trends/genetics/abstract/S0168-9525(12)00113-8
+
+### 2011-01
+https://pubmed.ncbi.nlm.nih.gov/21102527/
+Review Nat Rev Genet
+. 2011 Jan;12(1):32-42. doi: 10.1038/nrg2899. Epub 2010 Nov 23.
+Synonymous but not the same: the causes and consequences of codon bias
+Joshua B Plotkin 1, Grzegorz Kudla
+https://www.nature.com/articles/nrg2899
+https://pmc.ncbi.nlm.nih.gov/articles/PMC3074964/
+https://www.bio.upenn.edu/sites/default/files/research/Plotkin/Plotkin_Kudla_NatRevGenetics_2011.pdf
+
+### 2008
+https://pubmed.ncbi.nlm.nih.gov/18983258/
+Review Annu Rev Genet
+. 2008:42:287-99. doi: 10.1146/annurev.genet.42.110807.091442.
+Selection on codon bias
+Ruth Hershberg 1, Dmitri A Petrov
+https://www.annualreviews.org/content/journals/10.1146/annurev.genet.42.110807.091442
+
+### 2001-10
+https://pubmed.ncbi.nlm.nih.gov/11719972/
+Review Curr Issues Mol Biol
+. 2001 Oct;3(4):91-7.
+Synonymous codon usage in bacteria
+M D Ermolaeva 1
+https://www.mdpi.com/1467-3045/3/4/13
+
+
+----------
+## updates
+
+## 2025
+
 ## 2024
+
+https://pubmed.ncbi.nlm.nih.gov/38149940/
+Genome Biol Evol
+. 2024 Feb 1;16(2):evad232. doi: 10.1093/gbe/evad232.
+No Evidence that Selection on Synonymous Codon Usage Affects Patterns of Protein Evolution in Bacteria
+Ana Filipa Moutinho 1, Adam Eyre-Walker 1
+https://academic.oup.com/gbe/article/16/2/evad232/7501387?login=false
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10849182/
 
 ## 2023
 
@@ -142,15 +436,6 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10018363/
 https://twitter.com/kfuku0502/status/1637768721098854400
 Kenji Fukushima (福島 健児) on Twitter: "同義コドンを無作為化したRFPライブラリを大腸菌で発現させて、タンパク質発現レベルへの影響を検証。最初の８コドンの配列だけで大部分（ピアソンの相関係数で0.762）予測できてしまい、その肝はmRNAの二次構造。これがCodon Adaptation Indexよりも重要な要因になる。 https://t.co/aci5qigUVw" / Twitter
 
-## 2023-01-24
-https://pubmed.ncbi.nlm.nih.gov/36693851/
-NPJ Biofilms Microbiomes
-. 2023 Jan 24;9(1):5. doi: 10.1038/s41522-023-00372-w.
-Determinants of associations between codon and amino acid usage patterns of microbial communities and the environment inferred based on a cross-biome metagenomic analysis
-Arup Panda 1, Tamir Tuller 2
-https://www.nature.com/articles/s41522-023-00372-w
-https://pmc.ncbi.nlm.nih.gov/articles/PMC9873608/
-
 ## 2022
 
 3:02 AM · Nov 11, 2022
@@ -162,15 +447,6 @@ Evolution and codon usage bias of mitochondrial and nuclear genomes in Aspergill
 
 ## 2021
 
-### 2021-11-25
-
-https://pubmed.ncbi.nlm.nih.gov/34822069/
-Review Mol Biol Rep
-. 2021 Nov 25;1-27. doi: 10.1007/s11033-021-06749-4. Online ahead of print.
-Codon usage bias
-Sujatha Thankeswaran Parvathy 1, Varatharajalu Udayasuriyan 2, Vijaipal Bhadana 3
-https://link.springer.com/article/10.1007/s11033-021-06749-4
-https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC8613526/
 
 ### 2021-07-02
 
@@ -192,8 +468,7 @@ https://pmc.ncbi.nlm.nih.gov/articles/PMC8495750/
 Genomes were classified based on plant host and geographic origin; individual genes within each genome were classified based on gene function, strand, length, ortholog group, core vs accessory, and recombinant vs non-recombinant. GC content was calculated for each gene within each evaluated genome.
 The relationship between recombination and GC content varied between core and accessory genes. 
 
-### 2021-06
-
+### 2021-06-24
 https://pubmed.ncbi.nlm.nih.gov/34165421/
 Microb Genom
 . 2021 Jun;7(6):000587. doi: 10.1099/mgen.0.000587.
@@ -202,16 +477,7 @@ Martijn Callens 1, Celine Scornavacca 2, Stéphanie Bedhomme 1
 https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000587#tab2
 https://pmc.ncbi.nlm.nih.gov/articles/PMC8461475/
 
-### 2021-04-22
 
-https://pubmed.ncbi.nlm.nih.gov/34025951/
-Review Comput Struct Biotechnol J
-. 2021 Apr 22;19:2646-2663. doi: 10.1016/j.csbj.2021.04.042. eCollection 2021.
-Codon-based indices for modeling gene expression and transcript evolution
-Shir Bahiri-Elitzur 1, Tamir Tuller 1 2
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8122159/
-Dmean (mean dissimilarity-based index)
-Ew (weighted sum of relative entropy)
 
 ### Hall_2021
 
@@ -225,13 +491,16 @@ Jamie Hall on Twitter: "Others have found similar patterns — mutations that co
 
 ## 2020
 
-## 2020-12
+## 2020-12-08
 
 https://pubmed.ncbi.nlm.nih.gov/32609328/
 Bioinformatics
 . 2020 Dec 8;36(19):4876-4884. doi: 10.1093/bioinformatics/btaa603.
 Network analysis of synonymous codon usage
 Khalique Newaz 1 2 3, Gabriel Wright 1 3, Jacob Piland 1 2 3, Jun Li 4, Patricia L Clark 5, Scott J Emrich 6, Tijana Milenković 1 2 3
+https://academic.oup.com/bioinformatics/article/36/19/4876/5865853?login=false
+https://pmc.ncbi.nlm.nih.gov/articles/PMC7750956/
+Availability and implementation
 https://nd.edu/∼cone/CodonUsage/
 
 ## Hochberg_2020
@@ -242,6 +511,8 @@ Nature
 A hydrophobic ratchet entrenches molecular complexes
 Georg K A Hochberg 1, Yang Liu 2, Erik G Marklund 3, Brian P H Metzger 1, Arthur Laganowsky 2, Joseph W Thornton 4 5
 https://www.nature.com/articles/s41586-020-3021-2
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8168016/
+
 
 https://twitter.com/kfuku0502/status/1336938243720409088
 Kenji Fukushima on Twitter: "来週のラボミーティング当番、プログレスにしようと思ってたけどこれは論文紹介不可避やな。 https://t.co/gXLiFasV90" / Twitter
@@ -255,8 +526,8 @@ Nature
 . 2017 Sep 21;549(7672):409-413. doi: 10.1038/nature23902. Epub 2017 Sep 13.
 Alternative evolutionary histories in the sequence space of an ancient protein
 Tyler N Starr 1, Lora K Picton 2, Joseph W Thornton 2 3
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6214350/
 https://www.nature.com/articles/nature23902
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6214350/
 
 https://pubmed.ncbi.nlm.nih.gov/29967485/
 Nat Ecol Evol
@@ -266,37 +537,18 @@ Aarti Venkat 1, Matthew W Hahn 2 3, Joseph W Thornton 4 5
 https://www.nature.com/articles/s41559-018-0584-5
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6093625/
 
-
 ## 2020-09
 
-### Hasan_2020
-
+## 2020-09-30
 https://pubmed.ncbi.nlm.nih.gov/32998698/
 BMC Bioinformatics
 . 2020 Sep 30;21(Suppl 14):367. doi: 10.1186/s12859-020-03688-y.
 DeeplyEssential: a deep neural network for predicting essential genes in microbes
 Md Abid Hasan 1, Stefano Lonardi 2
 https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03688-y
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7525945/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC7525945/
 
-https://twitter.com/LibKot/status/1311686627077488643
-Ikemen Mas Kot on Twitter: "DeeplyEssential: a deep neural network for predicting essential genes in microbes https://t.co/2Q8YJJ5byb #maskotlib" / Twitter
-背景
-必須遺伝子とは、生物の生存に不可欠な遺伝子のことである。細菌の必須遺伝子を予測することで、新規抗生物質の設計や抗菌戦略のターゲットを提供することができます。
-研究成果
-本研究では、微生物の必須遺伝子を予測するためのディープニューラルネットワークを提案する。
-DEEPLYESSENTIALと呼ばれる我々のアーキテクチャは、入力データに対する仮定を最小限にして予測を実行する（すなわち、遺伝子の一次配列とそれに対応するタンパク質配列のみを使用する）ので、既存の予測器は構造的特徴やトポロジー的特徴を必要とするため、
-容易に利用できないかもしれないが、実用性を最大限に高めることができる。また、従来の分類器に影響を与えていた隠れた性能バイアスを明らかにし、研究を行った。
-広範囲にわたる結果は、学習セットのバランスをとるためにダウンサンプリングを採用したり、直交遺伝子の複数コピーを除外するためにクラスタリングを使用したりする既存の分類器よりもDEEPLYESSENTIALの方が優れていることを示している。
-結論
-ディープニューラルネットワークアーキテクチャは、微生物遺伝子の配列情報のみを用いて、微生物遺伝子が必須かどうか（必須でないかどうか）を効率的に予測することができます。
-
-2:07 AM · Apr 13, 2019
-https://twitter.com/Tyu_Shi/status/1116749787569672193
-Tyu_Shi on Twitter: "DeeplyEssential: A Deep Neural Network for Predicting Essential Genes in Microbes https://t.co/GbQ0522csF 配列の特徴のみ（遺伝子のコドン使用頻度や長さ、GC含量、アミノ酸使用頻度等）を特徴量として使っているようだ。でも本当に知りたいのは典型的では無いのに必須な遺伝子なんだよね…。"
-https://www.biorxiv.org/content/10.1101/607085v1
-
-### Chen_2020
+## 2020-04
 
 ウイルスと宿主の共進化における翻訳選択による同義コドン使用バイアスの解消
 https://pubmed.ncbi.nlm.nih.gov/32123323/
@@ -305,56 +557,12 @@ Nat Ecol Evol
 Dissimilation of synonymous codon usage bias in virus-host coevolution due to translational selection
 Feng Chen 1 2 3, Peng Wu 2, Shuyun Deng 4, Heng Zhang 5, Yutong Hou 2, Zheng Hu 6, Jianzhi Zhang 7, Xiaoshu Chen 8 9, Jian-Rong Yang 10 11 12 13 14 15
 https://www.nature.com/articles/s41559-020-1124-7
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7249751/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC7249751/
+
+## 2020-02
 
 
-### Brewer_2020
-
-https://pubmed.ncbi.nlm.nih.gov/31712737/
-ISME J
-. 2020 Feb;14(2):597-608. doi: 10.1038/s41396-019-0552-3. Epub 2019 Nov 11.
-Unlinked rRNA genes are widespread among bacteria and archaea
-Tess E Brewer 1 2, Mads Albertsen 3, Arwyn Edwards 4, Rasmus H Kirkegaard 3, Eduardo P C Rocha 5, Noah Fierer 6 7
-https://www.nature.com/articles/s41396-019-0552-3
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6976660/
-
-2019年12月23日に投稿
-https://qiita.com/nkjmu/items/3572c8883d8802c3edd5
-【論文紹介】メタゲノムでやってよかったよね感が出た面白い結果 - Qiita
-
-・codon usage proxy (ΔENC’)を用いると、minimum generation timeが推定できる。
-仮説的には、unlinked rRNA遺伝子を持つものは、growth rateが遅いというものがあるのでそれを検証した
-
-codon usage proxy
-初めて聞いた。論文調べてみると、"codon usage bias (ΔENC’)" って出てきますね。
-
-Nearly Neutrality and the Evolution of Codon Usage Bias in Eukaryotic Genomes (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2323827/)
-
-Fig.1Cに真核まで含めてプロットしたものがある。たしかに、generation timeの目安になりそう？
-
-細菌・古細菌間程度でもそれが通用するっていうのは、refを探してません。(論文中に書いてるのかな？)
-
-
-linked rRNAの場合、同一オペロンで制御することは、成長の早いバクテリア・アーキアでより強く現れるはず。(細胞内での主要なエネルギー消費はリボソーム合成)
-
-→ということでゲノムあたりのrRNAコピー数やmaximum growth rateを予測
-
-→コピー数は4.25vs2.72で有意にunlinkedの方が低かった。
-また、ΔENC'(先述)から予測したminimum generation timeはunlinkedなものが長い。
-
-(maximumなgrowth rateと、minimumなgeneration timeという、本文中のこの段落で2つ出てきて別のものを比べたようにみえるが、最大限速く成長する=世代時間は最小になるやろうということで根本的には同じ)
-
-→unlinkedな方がgeneration timeが長いし、rRNAのコピー数も少ない(つまり一気にたくさんribosomeを作れない？)ということで成長遅いだろう
-
-https://www.ncbi.nlm.nih.gov/pubmed/18430960
-Genetics. 2008 Apr;178(4):2429-32. doi: 10.1534/genetics.107.086405.
-Nearly neutrality and the evolution of codon usage bias in eukaryotic genomes.
-Subramanian S1.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2323827/
-Figure 1.—
-Relationship between codon usage bias and generation time of eukaryotes. 
-
-### Shenhav_2020
+## 2020-11-06
 
 https://pubmed.ncbi.nlm.nih.gov/33154134/
 Science
@@ -362,7 +570,7 @@ Science
 Resource conservation manifests in the genetic code
 Liat Shenhav # 1 2, David Zeevi # 3
 https://science.sciencemag.org/content/370/6517/683
-https://pubmed.ncbi.nlm.nih.gov/33154134/
+https://websites.umich.edu/~zhanglab/clubPaper/11_24_2020.pdf
 
 3:42 AM · Nov 11, 2020
 https://twitter.com/DaveZeevi/status/1326233738855018502
@@ -378,7 +586,7 @@ https://twitter.com/LiatShenhav/status/1187818150970085376
 Liat Shenhav on Twitter: "We uncover a strong purifying selective pressure across marine microbial life that is driven by resource conservation, and also demonstrate that it is a central driving force in selection processes guiding codon usage. https://t.co/S4P6DXNi03" / Twitter
  KEGG and eggNOG orthologies
 
-### 2020-07-21
+## 2020-07-21
 
 https://twitter.com/mbiojournal/status/1288247896874168322
 https://pubmed.ncbi.nlm.nih.gov/32694138/
@@ -394,8 +602,8 @@ Finally, analysis of the third position of codons (GC3) revealed that in genomes
 Intragenomic codon usage heterogeneities, however, are always present among different gene sets—i.e., between core genes that are shared throughout a given lineage and singletons (unique accessory genes) that are taxon and/or strain specific (17, 18). 
 
 
-### 2020-04
-### Chen_2020
+## 2020-04
+## Chen_2020
 
 https://pubmed.ncbi.nlm.nih.gov/32123323/
 Nat Ecol Evol
@@ -414,6 +622,7 @@ Abigail LaBella on Twitter: "If viral codon usage (CU) is too similar to a natur
 
 ## 2019
 
+
 ### 2019-11-26
 
 https://pubmed.ncbi.nlm.nih.gov/31712433/
@@ -427,6 +636,20 @@ Fig. 5.
 Half-life of computationally designed eGFP-degron mRNAs is determined by codon usage and mRNA structure. (A) Codon optimality (relative synonymous codon usage, y axis) versus secondary structure (energy of the predicted MFE structure, x axis) for sets of 150,000 generated eGFP sequence variants generated using codons chosen randomly (red), weighted in proportion to the human genome(blue), and using our algorithm (gray). Colored boxes show regions from which sequences were selected for further testing. (B) 
 
 ![](https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC6883848/bin/pnas.1908052116fig05.jpg)
+
+## 2019-10-01
+https://pubmed.ncbi.nlm.nih.gov/31220870/
+Mol Biol Evol
+. 2019 Oct 1;36(10):2328-2339. doi: 10.1093/molbev/msz124.
+Elucidation of Codon Usage Signatures across the Domains of Life
+Eva Maria Novoa 1 2 3 4, Irwin Jungreis 1 2, Olivier Jaillon 1 2 5, Manolis Kellis 1 2
+https://academic.oup.com/mbe/article/36/10/2328/5492082?login=true
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6759073/
+3:57 AM · May 22, 2019
+https://x.com/EvaMariaNovoa/status/1130910439817252864
+Eva Maria Novoa on X: "Our paper is out! :-) Codon usage signatures across species are not just consequence of GC content - and these biases can be used for metagenomic binning! #codonusage #metagenome @manoliskellis https://t.co/fKZNIcWIll" / X
+
+Very keen in hearing what others have to say about our section/findings on codon autocorrelation... we find it to be unrelated tRNA recycling!! Discussion/thoughts very welcome!
 
 ### 2019-05-28_Lopez
 
@@ -446,12 +669,6 @@ First, the average GC content calculated for the S. meliloti accessory plasmidom
 
 FIG 2.
 Density of singletons in the three S. meliloti replicons (A) and GC content of their core and singleton fractions in comparison to that of the cryptic plasmidome (B). 
-
-2:42 AM - 1 Jun 2019
-https://twitter.com/pacyc1841/status/1134711913265295360
-この論文関係あるかわからないけど、この前ほんとにコドンユーセージでOligonucleotide frequencyが説明できるか話題になった
-
-
 
 
 
@@ -619,15 +836,17 @@ Multiple Factors Confounding Phylogenetic Detection of Selection on Codon Usage.
 Laurin-Lemay S1, Philippe H1,2, Rodrigue N3.
 
 
+### 2018-05-22
 高度発現遺伝子群のコドンバイアスが、他の遺伝子群の翻訳に影響する。
-https://www.ncbi.nlm.nih.gov/pubmed/29735666
-Proc Natl Acad Sci U S A. 2018 May 22;115(21):E4940-E4949. doi: 10.1073/pnas.1719375115. Epub 2018 May 7.
-Codon usage of highly expressed genes affects proteome-wide translation efficiency.
-Frumkin I1, Lajoie MJ2, Gregg CJ2, Hornung G3, Church GM4, Pilpel Y5.
+https://pubmed.ncbi.nlm.nih.gov/29735666/
+Proc Natl Acad Sci U S A
+. 2018 May 22;115(21):E4940-E4949. doi: 10.1073/pnas.1719375115. Epub 2018 May 7.
+Codon usage of highly expressed genes affects proteome-wide translation efficiency
+Idan Frumkin 1, Marc J Lajoie 2, Christopher J Gregg 2, Gil Hornung 3, George M Church 4, Yitzhak Pilpel 5
+https://www.pnas.org/doi/10.1073/pnas.1719375115
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6003480/
 
 Interestingly, we could alleviate the observed phenotypes by increasing the supply of the tRNA for the highly demanded codon, thus demonstrating that the codon usage of highly expressed genes was selected in evolution to maintain the efficiency of global protein translation.
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6003480/
 
 ### 2017
 
@@ -719,16 +938,6 @@ Gould N1, Hendy O2, Papamichail D1.
 
 ### 2011
 
-2011-06
-https://pubmed.ncbi.nlm.nih.gov/21343180/
-Nucleic Acids Res
-. 2011 Jun;39(11):4743-55. doi: 10.1093/nar/gkr054. Epub 2011 Feb 22.
-Association between translation efficiency and horizontal gene transfer within microbial communities
-Tamir Tuller 1, Yana Girshovich, Yael Sella, Avi Kreimer, Shiri Freilich, Martin Kupiec, Uri Gophna, Eytan Ruppin
-https://academic.oup.com/nar/article/39/11/4743/1144837?login=false
-https://pmc.ncbi.nlm.nih.gov/articles/PMC3113575/
-
-
 ### 2010
 
 なぜ細菌の第二染色体上で遺伝子が速く進化するのか
@@ -793,86 +1002,6 @@ Synonymous codon usage is subject to selection in thermophilic bacteria
 David J Lynn 1, Gregory A C Singer, Donal A Hickey
 https://academic.oup.com/nar/article/30/19/4272/2376087
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC140546/
-
-----------
-## metagenome
-
-
-https://pubmed.ncbi.nlm.nih.gov/32939027/
-ISME J
-. 2021 Jan;15(1):183-195. doi: 10.1038/s41396-020-00773-1. Epub 2020 Sep 16.
-Benchmarking microbial growth rate predictions from metagenomes
-Andrew M Long # 1, Shengwei Hou # 2, J Cesar Ignacio-Espinoza 2, Jed A Fuhrman 2
-https://www.nature.com/articles/s41396-020-00773-1
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7852909/
-Growth rate indices: codon usage bias and peak-to-trough ratio
-The maximum growth rate of each MAG was predicted using a customized growthpred v1.0.8 (available at https://hub.docker.com/r/shengwei/growthpred) in metagenome mode (-m) and with universal codons (-c 0). Blast-retrieved ribosomal protein sequences were used as the highly expressed genes (-b) and compared to all the coding sequences of each MAG (-g).
-
-PTR indices were calculated using iRep v1.10 [5], GRiD v1.3 [6], and DEMIC v1.0.2 [7].
-
-
-
-https://twitter.com/EvaMariaNovoa/status/1130910439817252864
-Eva Maria Novoa on Twitter: "Our paper is out! :-) Codon usage signatures across species are not just consequence of GC content - and these biases can be used for metagenomic binning! #codonusage #metagenome @manoliskellis https://t.co/fKZNIcWIll"
-2:57 PM - 21 May 2019
-https://www.ncbi.nlm.nih.gov/pubmed/31220870
-Mol Biol Evol. 2019 Oct 1;36(10):2328-2339. doi: 10.1093/molbev/msz124.
-Elucidation of Codon Usage Signatures across the Domains of Life.
-Novoa EM1,2,3,4, Jungreis I1,2, Jaillon O1,2,5, Kellis M1,2.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6759073/
-
-2019-05-02
-Anamaria Elek
-https://www.bioconductor.org/packages/devel/bioc/vignettes/coRdon/inst/doc/coRdon.html
-Codon usage (CU) analysis in R
-- This approach can be efficiently used to predict highly expressed genes in a single genome, but is especially useful at the higher level of an entire metagenome.
-
-https://www.ncbi.nlm.nih.gov/pubmed/29947757
-Bioinformatics. 2018 Jun 27. doi: 10.1093/bioinformatics/bty519. [Epub ahead of print]
-BMC3C: Binning Metagenomic Contigs using Codon usage, sequence Composition and read Coverage.
-Yu G1, Jiang Y1, Wang J1, Zhang H2, Luo H2.
-
-https://www.ncbi.nlm.nih.gov/pubmed/29742107
-PLoS One. 2018 May 9;13(5):e0195869. doi: 10.1371/journal.pone.0195869. eCollection 2018.
-Codon usage bias reveals genomic adaptations to environmental conditions in an acidophilic consortium.
-Hart A1, Cortés MP2,3, Latorre M2,3,4,5, Martinez S6.
-
-
-review
-https://www.ncbi.nlm.nih.gov/pubmed/26951112
-Microbiome. 2016 Mar 8;4:8. doi: 10.1186/s40168-016-0154-5.
-Recovering complete and draft population genomes from metagenome datasets.
-Sangwan N1,2, Xia F3, Gilbert JA4,5,6,7.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4782286/
-However, another framework for analysis relies on variation in codon bias to determine the genome-wide influence of in situ functional constraints on individual taxa. Since percentage codon bias variation analysis is a phylogenetically independent method that directly reflects the strength of selection and the translation efficiency of expressed genes [77, 78], it circumvents the need for reference genomes and can reveal the influence of in situ functional constraints over natural selection patterns. It is important to note that for complete genome sequences, codon use patterns are influenced by nucleotide composition (mutational biases) and horizontal gene transfer. However, because each gene in a reassembled genome represents the population with an even nucleotide composition, one can assume that these clonal isolate-based limitations will not skew codon usage.
-
-https://www.ncbi.nlm.nih.gov/pubmed/25680374
-Acta Biochim Pol. 2015;62(1):161-6. Epub 2015 Feb 13.
-The most widespread problems in the function-based microbial metagenomics.
-Felczykowska A1, Krajewska A1, Zielińska S1, Łoś JM1, Bloch SK1, Nejman-Faleńczyk B1.
- Codon usage bias, internal cell accumulation, correct protein folding or presence of proper initiation factors are discussed and possible ways to overcome these problems are proposed. 
-http://www.actabp.pl/pdf/1_2015/2014_917.pdf
-
-
-https://www.ncbi.nlm.nih.gov/pubmed/27115650
-Methods Mol Biol. 2016;1415:509-31. doi: 10.1007/978-1-4939-3572-7_26.
-Big Data, Evolution, and Metagenomes: Predicting Disease from Gut Microbiota Codon Usage Profiles.
-Fabijanić M1, Vlahoviček K2.
-
-https://phylogenomics.blogspot.jp/2013/08/great-use-of-metagenomic-data-community.html
-August 09, 2013
-Great use of metagenomic data: community wide adaptation signatures
-
-https://www.ncbi.nlm.nih.gov/pubmed/23921637
-Nucleic Acids Res. 2013 Oct;41(19):8842-52.
-Environmental shaping of codon usage and functional adaptation across microbial communities.
-Roller M1, Lucić V, Nagy I, Perica T, Vlahovicek K.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3799439/
-Single bacterial species’ genomes and annotation
-Codon usage within metagenomes follows similar patterns as in single microbial genomes
-
-
-
 
 
 ----------
@@ -1096,39 +1225,57 @@ and comparative approaches demonstrate that HGT is more likely to be successful 
 
 The cost of plasmid carriage was quantified and we showed that mismatches in codon usage preferences generate differences in chloramphenicol resistance. 
 
-https://www.ncbi.nlm.nih.gov/pubmed/20369015
-PLoS Comput Biol. 2010 Apr 1;6(4):e1000732. doi: 10.1371/journal.pcbi.1000732.
-Why genes evolve faster on secondary chromosomes in bacteria.
-Cooper VS1, Vohr SH, Wrocklage SC, Hatcher PJ.
 
+2010-04-01
+https://pubmed.ncbi.nlm.nih.gov/20369015/
+PLoS Comput Biol
+. 2010 Apr 1;6(4):e1000732. doi: 10.1371/journal.pcbi.1000732.
+Why genes evolve faster on secondary chromosomes in bacteria
+Vaughn S Cooper 1, Samuel H Vohr, Sarah C Wrocklage, Philip J Hatcher
+https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000732
+https://pmc.ncbi.nlm.nih.gov/articles/PMC2848543/
 Further, in every bacterial genome with multiple chromosomes that we studied, genes on secondary chromosomes exhibited significantly weaker codon usage bias than those on primary chromosomes. Faster evolution and reduced codon bias
 
-https://www.ncbi.nlm.nih.gov/pubmed/20080407
-Trends Microbiol. 2010 Apr;18(4):141-8. doi: 10.1016/j.tim.2009.12.010. Epub 2010 Jan 18.
-Introducing the bacterial 'chromid': not a chromosome, not a plasmid.
-Harrison PW1, Lower RP, Kim NK, Young JP.
 
-Chromids carry some core genes, and their nucleotide composition and codon usage are very similar to those of the chromosomes they are associated with.
+2010-04
+https://pubmed.ncbi.nlm.nih.gov/20080407/
+Trends Microbiol
+. 2010 Apr;18(4):141-8. doi: 10.1016/j.tim.2009.12.010. Epub 2010 Jan 18.
+Introducing the bacterial 'chromid': not a chromosome, not a plasmid
+Peter W Harrison 1, Ryan P J Lower, Nayoung K D Kim, J Peter W Young
+https://www.cell.com/trends/microbiology/abstract/S0966-842X(09)00269-8
+https://search.lib.keio.ac.jp/permalink/81SOKEI_KEIO/uccs31/cdi_proquest_miscellaneous_745698360
+Elsevier ScienceDirect Journals Complete
 
-https://linkinghub.elsevier.com/retrieve/pii/S0966-842X(09)00269-8
 
-Chromid genes have a similar codon usage to chromosomal genes
-A large number of studies (reviewed by Lynn et al.[11]) have investigated synonymous codon usage and demonstrated that it is highly patterned. It is known that individual genomes have characteristic synonymous codon usage signatures [12]. Our analysis demonstrates that individual replicons also have distinct codon usage characteristics, and chromids are much more similar to chromosomes than to the plasmids that are found in the same organisms. For example, in the genome of Agrobacterium tumefaciens C58 the chromosome and chromid are very similar in average codon usage but rather distinct from the two plasmids (Figure 1). 
+2009-04
+https://pubmed.ncbi.nlm.nih.gov/19221094/
+DNA Res
+. 2009 Apr;16(2):91-104. doi: 10.1093/dnares/dsp001. Epub 2009 Feb 15.
+Codon usages of genes on chromosome, and surprisingly, genes in plasmid are primarily affected by strand-specific mutational biases in Lawsonia intracellularis
+Feng-Biao Guo 1, Jian-Bo Yuan
+https://academic.oup.com/dnaresearch/article/16/2/91/510591
+https://pmc.ncbi.nlm.nih.gov/articles/PMC2671203/
 
-https://www.ncbi.nlm.nih.gov/pubmed/19221094
-DNA Res. 2009 Apr;16(2):91-104. doi: 10.1093/dnares/dsp001. Epub 2009 Feb 15.
-Codon usages of genes on chromosome, and surprisingly, genes in plasmid are primarily affected by strand-specific mutational biases in Lawsonia intracellularis.
-Guo FB1, Yuan JB.
 
 https://www.ncbi.nlm.nih.gov/pubmed/18391244
 In Silico Biol. 2007;7(4-5):547-58.
 Analysis of codon usage patterns and predicted highly expressed genes for six phytopathogenic Xanthomonas genomes shows a high degree of conservation.
 Sen G1, Sur S, Bose D, Mondal U, Furnholm T, Bothra A, Tisa L, Sen A.
 
-https://www.ncbi.nlm.nih.gov/pubmed/14597394
-Gene. 2003 Nov 27;320:109-16.
-The strength of translational selection for codon usage varies in the three replicons of Sinorhizobium meliloti.
-Peixoto L1, Zavala A, Romero H, Musto H.
+
+
+2003-11-27
+https://pubmed.ncbi.nlm.nih.gov/14597394/
+Comparative Study Gene
+. 2003 Nov 27:320:109-16. doi: 10.1016/s0378-1119(03)00815-1.
+The strength of translational selection for codon usage varies in the three replicons of Sinorhizobium meliloti
+Lucía Peixoto 1, Alejandro Zavala, Héctor Romero, Héctor Musto
+https://www.sciencedirect.com/science/article/abs/pii/S0378111903008151?via%3Dihub
+https://search.lib.keio.ac.jp/permalink/81SOKEI_KEIO/uccs31/cdi_proquest_miscellaneous_71341668
+Elsevier ScienceDirect Journals Complete
+
+
 
 https://www.ncbi.nlm.nih.gov/pubmed/9820537
 J Immunol. 1998 Nov 15;161(10):5594-9.
@@ -1200,7 +1347,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/18463708
 PLoS Comput Biol. 2008 Feb 29;4(2):e1000001. doi: 10.1371/journal.pcbi.1000001.
 Genome landscapes and bacteriophage codon usage.
 Lucks JB1, Nelson DR, Kudla GR, Plotkin JB.
-
 
 ----------
 ## SARS-CoV-2
@@ -1363,42 +1509,6 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC148367/pdf/271642.pdf
 Table 1. Codon usage (RSCU values) in B.burgdorferi (Bb) and T.pallidum (Tp)
 Chi-squared tests: << and >> denote P < 0.001 and indicate the direction of the difference; 
 
-----------
-## growth rate
-増殖速度
-
-https://github.com/haruosuz/mgsa/blob/master/references/mgsa.tools.md#growth-rate
-
-gRodon
-https://github.com/haruosuz/r4bioinfo/blob/master/R_codon/README.md#grodon
-
-## translational selection
-翻訳選択
-## gene expression
-遺伝子の発現量
-
-https://ja.wikipedia.org/wiki/コドン
-コドン出現頻度の違いは遺伝子の発現量やそのコドンに対応する tRNA の量と関係があることが知られている。発現量の多い遺伝子のコドン出現頻度の偏りは大きくなり、頻出するコドンに対応する tRNA は細胞内の存在量も多い。
-
-http://bioinfo.ie.niigata-u.ac.jp/?遺伝子発現量予測
-1. Z1軸の性質は長浜バイオ大学　池村淑道教授が整理した最適コドン決定規則 (tRNA量に基づいた翻訳効率と関わる最適コドンの決定法, 表1) により説明することができます[1-2,10-12]。したがって、最適コドン決定規則を用いることにより、情報科学的解析のみで種固有の最適コドンを推定することができる。
-2. リボソーム蛋白質遺伝子および翻訳伸長因子といういわゆる細胞内で常に発現量が高いと仮定される遺伝子のコドン使用が生物全体の遺伝子のコドン使用とは異なっていることがZ1軸における遺伝子の分布により観察することができた。
-
-https://www.nig.ac.jp/museum/evolution/04_c.html
-遺伝暗号(コドン）使用の種による多様性
-2.単細胞微生物のコドン選択の生物種による方言;
-　 大腸菌とサルモネラ菌ならびに酵母遺伝子に見られるコドン選択の偏りを例に
-c)　同一生物種の遺伝子間を比較した場合、多量にタンパク質を生産する遺伝子ほど方言がきつく、生産量が下がるにつれて、同質の方言を用いながらも、その方言の程度が緩くなります。図4では、生物ごとに、タンパク質生産量の高い遺伝子を左側に配置してあります。大腸菌のtufAB(ポリペプチド鎖延長因子)、ompC(外膜タンパク質)は多量にタンパク質を生産する遺伝子の例であり、trpやthrはアミノ酸合成系の遺伝子で、通常条件下では中程度ないしは少量のタンパク質しか生産していません。酵母のG3PDHやenolaseは解糖系の酵素で、最も多量に生産されるタンパク質であり、TRPやCYCは中程度ないしは比較的少量しか生産されない例に属します。生産量の高い遺伝子ほどコドン選択の偏りが顕著で(方言がきつい)、生産量の低い遺伝子では偏りの程度が緩くなります。この傾向は広範囲の遺伝子で成立することが判明しています。
-
-https://www.ncbi.nlm.nih.gov/pubmed/18940873
-DNA Res. 2008 Dec;15(6):357-65. doi: 10.1093/dnares/dsn028. Epub 2008 Oct 21.
-Comparison of correspondence analysis methods for synonymous codon usage in bacteria.
-Suzuki H1, Brown CJ, Forney LJ, Top EM.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2608848/
-- Thirdly, genes expressed at high levels in fast-growing bacteria tend to preferentially use translationally optimal codons that are recognized by the most abundant tRNAs. This presumably reflects natural selection for synonymous codons that are translated more efficiently and accurately.7,8 
-- Secondly, to analyze the correlation between scores of each of the three axes [Equation (4)] and levels of gene expression (Expression), we tested for the distribution of the axis scores for 40 genes expected to be expressed constitutively at high levels.10 This set included the genes encoding translation elongation factors Tu (tuf), Ts (tsf) and G (fus), and 37 of the larger ribosomal proteins (encoded by genes rplA-rplF, rplI-rplT, and rpsB-rpsT). In each axis, the score for each gene was standardized by subtracting the mean and dividing by the standard deviation of scores for all protein genes. For each axis, Expression was detected as the main source of variation among genes on the axis when the mean absolute standard score for the 40 highly expressed genes was >1.644854 (an interval in which theoretically only 5% of all protein genes are included).
-- The third feature, Expression, was detected as a major source of synonymous codon usage variation among genes in C. trachomatis D/UW-3/CX, C. perfringens 13, E. coli K12 MG1655 and H. influenzae Rd KW20, which is consistent with previous findings (Table 2).
-
 
 ----------
 ## optimal codon
@@ -1452,60 +1562,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/6167728
 J Mol Biol. 1981 Feb 15;146(1):1-21.
 Correlation between the abundance of Escherichia coli transfer RNAs and the occurrence of the respective codons in its protein genes.
 Ikemura T.
-
-
-
-
-----------
-## review
-
-https://www.ncbi.nlm.nih.gov/pubmed/29018283
-Nat Rev Mol Cell Biol. 2017 Oct 11.
-Codon optimality, bias and usage in translation and mRNA decay.
-Hanson G1, Coller J1.
-
-review
-https://www.ncbi.nlm.nih.gov/pubmed/26029354
-Comput Struct Biotechnol J. 2015 May 4;13:352-7. doi: 10.1016/j.csbj.2015.04.005. eCollection 2015.
-Homology-independent metrics for comparative genomics.
-Coutinho TJ1, Franco GR1, Lobo FP2.
-In this review we compile several sequence metrics that do not rely on homology inference and can be used to compare nucleotide sequences and extract biologically meaningful information from them. These metrics comprise several compositional parameters calculated from sequence data alone, such as GC content, dinucleotide odds ratio, and several codon bias metrics. 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4446528/
-
-https://www.ncbi.nlm.nih.gov/pubmed/26186290
-Mol Cell. 2015 Jul 16;59(2):149-61. doi: 10.1016/j.molcel.2015.05.035.
-Codon Bias as a Means to Fine-Tune Gene Expression.
-Quax TE1, Claassens NJ2, Söll D3, van der Oost J4.
-
-https://www.ncbi.nlm.nih.gov/pubmed/22889422
-Biol Rev Camb Philos Soc. 2013 Feb;88(1):49-61. doi: 10.1111/j.1469-185X.2012.00242.x. Epub 2012 Aug 14.
-Codon usage bias: causative factors, quantification methods and genome-wide patterns: with emphasis on insect genomes.
-Behura SK1, Severson DW.
-
-https://www.ncbi.nlm.nih.gov/pubmed/22921354
-Trends Genet. 2012 Nov;28(11):574-81. doi: 10.1016/j.tig.2012.07.006. Epub 2012 Aug 23.
-Speeding with control: codon usage, tRNAs, and ribosomes.
-Novoa EM1, Ribas de Pouplana L.
-
-### 2011
-### Plotkin_Kudla_2011
-http://www.ncbi.nlm.nih.gov/pubmed/21102527
-Nat Rev Genet. 2011 Jan;12(1):32-42. doi: 10.1038/nrg2899. Epub 2010 Nov 23.
-Synonymous but not the same: the causes and consequences of codon bias.
-Plotkin JB1, Kudla G.
-https://www.bio.upenn.edu/sites/default/files/research/Plotkin/Plotkin_Kudla_NatRevGenetics_2011.pdf
-
-### 2008
-https://www.ncbi.nlm.nih.gov/pubmed/18983258
-Annu Rev Genet. 2008;42:287-99. doi: 10.1146/annurev.genet.42.110807.091442.
-Selection on codon bias.
-Hershberg R1, Petrov DA.
-
-https://www.ncbi.nlm.nih.gov/pubmed/11719972
-Curr Issues Mol Biol. 2001 Oct;3(4):91-7.
-Synonymous codon usage in bacteria.
-Ermolaeva MD1.
-
 
 
 ----------
@@ -1907,8 +1963,7 @@ Similarity of genes horizontally acquired by Escherichia coli and Salmonella ent
 Katherine A Karberg 1, Gary J Olsen, James J Davis
 https://www.pnas.org/doi/10.1073/pnas.1109451108
 https://pmc.ncbi.nlm.nih.gov/articles/PMC3250135/
-
-https://colil.dbcls.jp/browse/papers/22128332/1/100/year
+plasmid 7
 
 2011-01
 https://pubmed.ncbi.nlm.nih.gov/20679093/
@@ -1916,6 +1971,7 @@ Mol Biol Evol
 . 2011 Jan;28(1):211-21. doi: 10.1093/molbev/msq185. Epub 2010 Aug 2.
 Characterizing the native codon usages of a genome: an axis projection approach
 James J Davis 1, Gary J Olsen
+https://academic.oup.com/mbe/article/28/1/211/980009?login=false
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3002238/
 
 2010-04
@@ -1924,82 +1980,38 @@ Mol Biol Evol
 . 2010 Apr;27(4):800-10. doi: 10.1093/molbev/msp281. Epub 2009 Dec 17.
 Modal codon usage: assessing the typical codon usage of a genome
 James J Davis 1, Gary J Olsen
+https://academic.oup.com/mbe/article/27/4/800/978269?login=false
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2839124/
+plasmid 86
 
 ### Rocha
 
-https://www.ncbi.nlm.nih.gov/pubmed/31712737
-ISME J. 2020 Feb;14(2):597-608. doi: 10.1038/s41396-019-0552-3. Epub 2019 Nov 11.
-Unlinked rRNA genes are widespread among bacteria and archaea.
-Brewer TE1,2, Albertsen M3, Edwards A4, Kirkegaard RH3, Rocha EPC5, Fierer N6,7.
-https://www.nature.com/articles/s41396-019-0552-3
+2020-02
+https://pubmed.ncbi.nlm.nih.gov/31712737/
+ISME J
+. 2020 Feb;14(2):597-608. doi: 10.1038/s41396-019-0552-3. Epub 2019 Nov 11.
+Unlinked rRNA genes are widespread among bacteria and archaea
+Tess E Brewer 1 2, Mads Albertsen 3, Arwyn Edwards 4, Rasmus H Kirkegaard 3, Eduardo P C Rocha 5, Noah Fierer 6 7
+https://academic.oup.com/ismej/article/14/2/597/7474940?login=false
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6976660/
 
-rRNA/tRNA遺伝子コピー数が多いほど、
-rRNA遺伝子の複製起点からの距離が小さいほど、
-高発現遺伝子の同義コドン使用バイアスが強い（方言がきつい）ほど、
-原核生物の最小倍加時間が小さい（増殖速度が速い）
+2010-01-15
+https://pubmed.ncbi.nlm.nih.gov/20090831/
+PLoS Genet
+. 2010 Jan 15;6(1):e1000808. doi: 10.1371/journal.pgen.1000808.
+The systemic imprint of growth and its uses in ecological (meta)genomics
+Sara Vieira-Silva 1, Eduardo P C Rocha
+https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000808
+https://pmc.ncbi.nlm.nih.gov/articles/PMC2797632/
 
-https://www.ncbi.nlm.nih.gov/pubmed/20090831
-PLoS Genet. 2010 Jan 15;6(1):e1000808. doi: 10.1371/journal.pgen.1000808.
-The systemic imprint of growth and its uses in ecological (meta)genomics.
-Vieira-Silva S1, Rocha EP.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2797632/
-- Figure 1
-Genomic signatures correlated to minimum generation time (d) for 214 prokaryotes.
-Correlation between d and (A) the number of rRNA operons in the genome, (B) the relative distance from the origin of replication to rRNA genes (excluding species with no retrievable origin), 0.5 corresponds to half the replicon, (C,D) codon usage bias indices ΔENC′ [35] and S [46]. Spearman correlations are given (ρ) with all p-values<0.0001. Dashed lines represent the trend of the correlation.
-- As expected, we found an increase in copy number of rRNA (Figure 1) and tRNA genes (Figure S1) with decreasing minimal generation times (ρ = −0.59 and ρ = −0.51, all p-value<0.0001). 
-- As described above, gene dosage of highly expressed genes can be increased transiently when these genes are located near the origin of replication in fast growing cells. Indeed, a positive correlation was found between minimum generation time and the relative distance to the origin of replication of rRNA genes (ρ = 0.36, Figure 1), RNA polymerase genes (ρ = 0.42), ribosomal proteins coding genes (ρ = 0.42), tRNA (ρ = 0.35) and ubi-tRNA (ρ = 0.41) genes (Figure S2) (all p-values<0.0001).
-- Finally, two previously proposed indices of codon usage bias in highly expressed genes ΔENC′ [35] and S [46] correlate negatively with d (respectively, ρ = −0.64 and ρ = −0.54, p-value<0.0001, Figure 1). 
-- Following a previous work [35], we extracted from primary literature 214 minimal generation times (d) of species of bacteria and archaea (Table S1). 
-- We extracted from primary literature the minimal generation times (d) for the 214 species of bacteria and archaea (Table S1).
-- Table S1
-List of the 214 genomes composing our dataset and their characteristics. Generation times were retrieved from the literature. We defined the minimum generation time (Column “d”) as the smallest value reported (Column “d reference”) for one species. For very few bacteria the generation times for closely related species were used. The optimum growth temperature of the species (Column “OGT”) was retrieved from DSMZ database.
-```
-Species name	Ori	OGT	d (h)	d reference
-Clostridium acetobutylicum ATCC824	1808	37	0.58	[47]
-
-Clostridium perfringens 13	1784	37	0.2	[48]
-
-Clostridium tetani E88	50965	37	0.5	[49]
-
-Escherichia coli MG1655	3923657	37	0.35	[64]
-
-Geobacter sulfurreducens PCA	1368	30	6	[66]
-Mycobacterium leprae	1567	37	240	[101]
-Salmonella typhimurium LT2 	4083788	37	0.4	[64]
-Shewanella oneidensis MR-1	6419	30	0.66	[138]
-```
-
-- The resulting ΔENC′ and S values were then subject to principal components analysis, of which the first component (Fa) was compared with the one obtained from the whole genome.
-- Codon usage bias is the best determinant of minimum generation time
-- Figure 7
-Average predicted minimum generation time for 3 environmental metagenomes.
-- Figure 8
-Average predicted minimum generation time for the gut metagenomes of humans of different age groups.
-
-https://www.ncbi.nlm.nih.gov/pubmed/15479947
-Genome Res. 2004 Nov;14(11):2279-86. Epub 2004 Oct 12.
-Codon usage bias from tRNA's point of view: redundancy, specialization, and efficient decoding for translation optimization.
-Rocha EP1.
-- We show that as minimal generation times get shorter, the genomes contain more tRNA genes, but fewer anticodon species. 
-- It also provides new evidence that a selective force for the optimization of the translation machinery is the maximization of growth.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC525687/
-- Genome and tRNA data
-One hundred and two genomes, corresponding to 102 bacterial species, were retrieved from GenBank (see Supplemental Table 1 for a comprehensive listing). Minimal generation times were taken from the literature or obtained by personal communication with researchers in the field. 
+2004-11
+https://pubmed.ncbi.nlm.nih.gov/15479947/
+Genome Res
+. 2004 Nov;14(11):2279-86. doi: 10.1101/gr.2896904. Epub 2004 Oct 12.
+Codon usage bias from tRNA's point of view: redundancy, specialization, and efficient decoding for translation optimization
+Eduardo P C Rocha 1
 https://genome.cshlp.org/content/14/11/2279.long
-https://genome.cshlp.org/content/14/11/2279/suppl/DC1
-Supplemental Research Data
-https://genome.cshlp.org/content/suppl/2004/10/18/gr.2896904.DC1/tableA1.pdf
-Table A1- Data table with major results. 
-the growth rate class (μ). the optimal doubling time (1/μ).
-```
-Clostridium perfringens 13	F	0.2
-Escherichia coli K12	F	0.35
-Geobacter sulfurreducens PCA	S	6
-Mycobacterium leprae	S	12
-Salmonella typhimurium LT2	F	0.4
-Shewanella oneidensis MR-1	F	2
-```
+https://pmc.ncbi.nlm.nih.gov/articles/PMC525687/
 
 ### Sharp
 
@@ -2008,44 +2020,34 @@ https://www.era.lib.ed.ac.uk/handle/1842/4893
 Codon usage bias in Archaea
 Emery, Laura R.
 
-https://www.ncbi.nlm.nih.gov/pubmed/20308095
-Philos Trans R Soc Lond B Biol Sci. 2010 Apr 27;365(1544):1203-12. doi: 10.1098/rstb.2009.0305.
-Forces that influence the evolution of codon bias.
-Sharp PM1, Emery LR, Zeng K.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2871821/
-- Here we show that the strength of selected codon usage bias is highly correlated with bacterial growth rate, suggesting that selection has favoured translational efficiency. 
-- For example, C. perfringens has 10 rRNA operons and 96 tRNA genes and can replicate in only 7 min under ideal conditions (Labbe & Huang 1995).
-- To test this association with growth rate, we have used minimum generation time data for 76 of these 80 species, drawn from the compilations made by E.P.C. Rocha (Rocha 2004; Coutourier & Rocha 2006).
+2010-04-27
+https://pubmed.ncbi.nlm.nih.gov/20308095/
+Review Philos Trans R Soc Lond B Biol Sci
+. 2010 Apr 27;365(1544):1203-12. doi: 10.1098/rstb.2009.0305.
+Forces that influence the evolution of codon bias
+Paul M Sharp 1, Laura R Emery, Kai Zeng
+https://pmc.ncbi.nlm.nih.gov/articles/PMC2871821/
+rstb20090305.pdf
 
-https://www.ncbi.nlm.nih.gov/pubmed/17038449
-Mol Biol Evol. 2007 Jan;24(1):10-2. Epub 2006 Oct 12.
-Predicting gene expression level from codon usage bias.
-Henry I, Sharp PM.
-https://academic.oup.com/mbe/article/24/1/10/1070854
-- We outline a simple approach, first to check whether a genome shows evidence of selected codon usage bias and then to assess the strength of bias in genes as a guide to their likely expression level; we illustrate this with an analysis of Shewanella oneidensis.
-- As an example, we have analyzed Shewanella oneidensis, a member of the gamma proteobacteria (Heidelberg et al. 2002). Eighteen codons, for 15 amino acids, occur at significantly higher frequencies in highly expressed genes than in the genome as a whole (see Supplementary Material online). Importantly, these codons do not reflect any simple compositional bias, such as G + U richness due to location of the highly expressed genes on the leading strand of replication. Rather, they include many codons which would be expected to be optimal, either because they are decoded by the most abundant tRNA species (e.g., 6 of the 9 Arg tRNA genes match CGU) or because they are perfectly complementary to the only tRNA species for the amino acid (e.g., UUC, UAC, CAC, AAC, GAC, and GAA). 
+2007-01
+https://academic.oup.com/mbe/article/24/1/10/1070854?login=false
+Mol Biol Evol
+. 2007 Jan;24(1):10-2. doi: 10.1093/molbev/msl148. Epub 2006 Oct 12.
+Predicting gene expression level from codon usage bias
+Ian Henry, Paul M Sharp
+https://academic.oup.com/mbe/article/24/1/10/1070854?login=false
+msl148.pdf
 
-細菌の増殖速度、rRNAオペロン数、tRNA遺伝子コピー数、（翻訳の効率と正確度に関連する）高発現遺伝子の同義コドン使用バイアスの相関
-https://www.ncbi.nlm.nih.gov/pubmed/15728743
-Nucleic Acids Res. 2005 Feb 23;33(4):1141-53. Print 2005.
-Variation in the strength of selected codon usage bias among bacteria.
-Sharp PM1, Bailes E, Grocock RJ, Peden JF, Sockett RE.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549432/
-- These results are consistent with the hypothesis that species exposed to selection for rapid growth have more rRNA operons, more tRNA genes and more strongly selected codon usage bias. For example, Clostridium perfringens, the species with the highest value of S, can have a generation time as short as 7 min.
-- a set of 40 genes expected to be expressed constitutively at very high levels. This set included the genes encoding translation elongation factors Tu (tufA), Ts (tsf) and G (fusA), and 37 of the larger ribosomal proteins (encoded by genes rplA-rplF, rplI-rplT and rpsB-rpsT).
-- Inter-specific variation in bacterial growth rate appears to be positively correlated with the number of rRNA operons (42).
-- Information regarding the growth rate of bacteria in the wild is sparse, and so we have used the number of rRNA operons as a (very approximate) guide to the growth rate of species. Remarkably, C.perfringens, the species with the highest S-value (2.65) and 10 rRNA operons, can grow with a generation time under 7 min in specific laboratory conditions (55).
+2005-02-23
+https://pubmed.ncbi.nlm.nih.gov/15728743/
+Nucleic Acids Res
+. 2005 Feb 23;33(4):1141-53. doi: 10.1093/nar/gki242. Print 2005.
+Variation in the strength of selected codon usage bias among bacteria
+Paul M Sharp 1, Elizabeth Bailes, Russell J Grocock, John F Peden, R Elizabeth Sockett
+https://academic.oup.com/nar/article/33/4/1141/1521122
+https://pmc.ncbi.nlm.nih.gov/articles/PMC549432/
+gki242.pdf
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549432/table/tbl1/
-Table 1
-The 80 bacterial genome sequences analysed
-```
-Species codea	Gene numbersb	GC contentc	Sd	Randome	Nf	Accession nosg	Species
-rRNA	tRNA	ORF	i	ii	iii					
-Gamma proteobacteria
-
-    Sheone	9	100	4630	46	45	37	1.377	(0.313/−0.275)	983	AE014299	Shewenella oneidensis
-```
 
 https://www.ncbi.nlm.nih.gov/pubmed/10784043
 Microbiology. 2000 Apr;146 ( Pt 4):851-60.
@@ -2069,44 +2071,53 @@ Sharp PM, Tuohy TM, Mosurski KR.
 Cluster analysis on relative synonymous codon usage revealed two distinct groups of genes. 
 
 ----------
+## Vlahovicek
+## coRdon
+https://github.com/haruosuz/r4bioinfo/tree/master/R_codon#cordon
+
+
 ### Supek
+### 2016-12-01
+https://pubmed.ncbi.nlm.nih.gov/27915291/
+Nucleic Acids Res
+. 2016 Dec 1;44(21):10074-10090. doi: 10.1093/nar/gkw964. Epub 2016 Oct 24.
+The landscape of microbial phenotypic traits and associated genes
+Maria Brbić 1, Matija Piškorec 1, Vedrana Vidulin 1, Anita Kriško 2, Tomislav Šmuc 1, Fran Supek 3 4 5
+https://academic.oup.com/nar/article/44/21/10074/2290929
+https://pmc.ncbi.nlm.nih.gov/articles/PMC5137458/
 
-https://www.ncbi.nlm.nih.gov/pubmed/27915291
-Nucleic Acids Res. 2016 Dec 1;44(21):10074-10090. Epub 2016 Oct 24.
-The landscape of microbial phenotypic traits and associated genes.
-Brbić M1, Piškorec M1, Vidulin V1, Kriško A2, Šmuc T1, Supek F3,4,5.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5137458/
-- INTRODUCTION
-Statistical associations of genes to phenotypes can implicate certain proteins or pathways, providing insight into the mechanistic basis of phenotypic traits (3,4), as demonstrated for adaptation to stress (5,6), host-association (7,8), pathogenesis (9,10), drug resistance (11,12) and relevance to biotechnological applications (13,14).
-- RESULTS
-Systematic inference of phenotypes from codon adaptation
-Such genomic signatures of translation efficiency within certain gene families have been used to infer the adaptive value of individual genes to various environmental niches (6) and we thus hypothesized that the overall pattern of codon adaptation across many genes of an organism can predict its phenotype (Materials and Methods).
-- DISCUSSION
-Further generalizing this well-known gene content-based methodology, our work demonstrates how other comparative genomics approaches normally used to predict gene function—here, synteny patterns (58,59) and codon adaptation (6,70)—can be efficiently repurposed into phenotype predictors. 
+### 2016-01
+https://pubmed.ncbi.nlm.nih.gov/26538122/
+Review J Mol Evol
+. 2016 Jan;82(1):65-73. doi: 10.1007/s00239-015-9714-8. Epub 2015 Nov 4.
+The Code of Silence: Widespread Associations Between Synonymous Codon Biases and Gene Function
+Fran Supek 1 2 3
+https://link.springer.com/article/10.1007/s00239-015-9714-8
 
-https://www.ncbi.nlm.nih.gov/pubmed/26538122
-J Mol Evol. 2016 Jan;82(1):65-73. doi: 10.1007/s00239-015-9714-8. Epub 2015 Nov 4.
-The Code of Silence: Widespread Associations Between Synonymous Codon Biases and Gene Function.
-Supek F1,2,3.
-
+### 2014-03-03
 コドン適応の変化は（過酸化水素、熱、高塩分）ストレス耐性を増強する。好気性菌で複数遺伝子のコドン適応（翻訳効率）変化が、鉄とNAD(P)Hの量を調節し、酸化ストレス耐性を付与する証拠
-https://www.ncbi.nlm.nih.gov/pubmed/24580753
-Genome Biol. 2014 Mar 3;15(3):R44. doi: 10.1186/gb-2014-15-3-r44.
-Inferring gene function from evolutionary change in signatures of translation efficiency.
-Krisko A, Copic T, Gabaldón T, Lehner B, Supek F.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4054840/
+https://pubmed.ncbi.nlm.nih.gov/24580753/
+Genome Biol
+. 2014 Mar 3;15(3):R44. doi: 10.1186/gb-2014-15-3-r44.
+Inferring gene function from evolutionary change in signatures of translation efficiency
+Anita Krisko, Tea Copic, Toni Gabaldón, Ben Lehner, Fran Supek
+https://link.springer.com/article/10.1186/gb-2014-15-3-r44
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4054840/
 
-https://www.ncbi.nlm.nih.gov/pubmed/26451481
-Cell. 2015 Oct 8;163(2):292-300. doi: 10.1016/j.cell.2015.09.041.
-Pausing on Polyribosomes: Make Way for Elongation in Translational Control.
-Richter JD1, Coller J2.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4600128/
+### 2005-07-19
+https://pubmed.ncbi.nlm.nih.gov/16029499/
+Comparative Study BMC Bioinformatics
+. 2005 Jul 19:6:182. doi: 10.1186/1471-2105-6-182.
+Comparison of codon usage measures and their applicability in prediction of microbial gene expressivity
+Fran Supek 1, Kristian Vlahovicek
+https://link.springer.com/article/10.1186/1471-2105-6-182
+https://pmc.ncbi.nlm.nih.gov/articles/PMC1199580/
 
-https://www.ncbi.nlm.nih.gov/pubmed/25768907
-Cell. 2015 Mar 12;160(6):1111-24. doi: 10.1016/j.cell.2015.02.029.
-Codon optimality is a major determinant of mRNA stability.
-Presnyak V1, Alhusaini N1, Chen YH1, Martin S1, Morris N2, Kline N1, Olson S3, Weinberg D4, Baker KE1, Graveley BR3, Coller J5.
+----------
 
+
+
+----------
 ### Suzuki
 
 人工環境で同定された細菌のゲノムの特徴（ゲノムサイズ、GC含量、DNA複製鎖間の非対称度、コドン使用バイアス）
