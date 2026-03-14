@@ -236,10 +236,11 @@ Mizue Anda 1 2, Shun Yamanouchi 3, Salvatore Cosentino 4 3, Mitsuo Sakamoto 5, M
 https://www.nature.com/articles/s41467-023-42681-w
 https://pmc.ncbi.nlm.nih.gov/articles/PMC10645730/
 
-Differences among anticodons (i.e., tRNA isodecoder families) were also attributed to codon biases34 (Supplementary Fig. 8b). Minimal doubling time estimated using codon-usage bias39 was also significantly shorter than that of related species (Fig. 4c). These results suggest that bacteria whose rrn operon is only on a plasmid were under selection pressure leading to faster growth rates and increased effective numbers of rrn operons and tRNA genes.
+Differences among anticodons (i.e., tRNA isodecoder families) were also attributed to codon biases34 (Supplementary Fig. 8b).
 
 tRNA clusters and codon bias S
-A group of tRNA genes was considered a cluster if the tRNA genes were adjacent to each other at ≤500 bp. Spearman’s correlation coefficient between the numbers of tRNA genes on chromosomes and the amino-acid compositions of all CDSs were calculated. Codon bias S34 was calculated using a python script by referring to R-package v.2.24.0 sscu. The growth-rate potential was estimated using gRodon R-package v. 2.3.039. Forty highly expressed genes were selected according to a previous study34 and used for calculating codon bias S and growth-rate potential. Statistical significance was assessed using Mann-Whitney U-tests.
+|
+Codon bias S34 was calculated using a python script by referring to R-package v.2.24.0 sscu. The growth-rate potential was estimated using gRodon R-package v. 2.3.039. Forty highly expressed genes were selected according to a previous study34 and used for calculating codon bias S and growth-rate potential.
 
 ### 2017-10
 
