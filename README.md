@@ -223,6 +223,7 @@ http://www.actabp.pl/pdf/1_2015/2014_917.pdf
 ----------
 ## sscu
 
+R package
 https://github.com/haruosuz/r4bioinfo/blob/master/R_codon/README.md#sscu
 strength of selected codon usage bias (sscu, also named as s_index)
 
