@@ -240,7 +240,7 @@ Differences among anticodons (i.e., tRNA isodecoder families) were also attribut
 
 tRNA clusters and codon bias S
 |
-Codon bias S34 was calculated using a python script by referring to R-package v.2.24.0 sscu. The growth-rate potential was estimated using gRodon R-package v. 2.3.039. Forty highly expressed genes were selected according to a previous study34 and used for calculating codon bias S and growth-rate potential.
+Codon bias S34 was calculated using a python script by referring to R-package v.2.24.0 sscu.
 
 ### 2017-10
 
