@@ -268,11 +268,8 @@ Materials and Methods
 The strength of selection for codon adaptation (S)
 
 Genome S values
-The results of the S calculations are summarized in Table 4. S provides information on the strength of selection on those genes under selection as measured by the degree to which they differ from the overall genome codon usage.
 
 Table 4. Genomes with the Lowest and Highest S Coefficients.
-
-One difficulty with using just the psbA gene to calculate S is that, although it is the best gene to use in terms of codon adaptation, the amino acid composition pattern of this gene results in an invalid S in several genomes. Therefore, we repeated the analysis using psbA, rbcL and psbC as the high translation genes (Table 5) to generate a second S value that we call S3. 
 
 Table 5. Genomes with the Lowest and Highest S3 Coefficients1.
 
