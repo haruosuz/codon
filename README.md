@@ -50,6 +50,7 @@
 [2017](#2017)
 [2016](#2016)
 [2001](#2001)
+- [sscu](#sscu) strength of selected codon usage bias (sscu
 - [](#)
 
 ----------
@@ -220,9 +221,104 @@ Felczykowska A1, Krajewska A1, Zielińska S1, Łoś JM1, Bloch SK1, Nejman-Fale�
 http://www.actabp.pl/pdf/1_2015/2014_917.pdf
 
 ----------
+## sscu
 
+https://github.com/haruosuz/r4bioinfo/blob/master/R_codon/README.md#sscu
+strength of selected codon usage bias (sscu, also named as s_index)
 
+### 2017-10
 
+https://pubmed.ncbi.nlm.nih.gov/27540085/
+Genome Biol Evol
+. 2017 Oct 1;9(10):2560-2579. doi: 10.1093/gbe/evw201.
+Switches in Genomic GC Content Drive Shifts of Optimal Codons under Sustained Selection on Synonymous Sites
+Yu Sun 1, Daniel Tamarit 1, Siv G E Andersson 1
+https://academic.oup.com/gbe/article/9/10/2560/2669849
+https://pmc.ncbi.nlm.nih.gov/articles/PMC5629928/
+
+The strength of selected codon usage bias was estimated from the S index, which is used as a proxy for translational selection on individual genomes (Sharp et�al. 2005, 2010).
+
+fig. 2.—
+Phylogenetic relationships and genome features of Lactobacillus species.
+A schematic figure illustrates the variation in GC contents, selective constraints (S-value), genome sizes and number of tRNAs in the species selected for an in-depth analysis.
+
+In order to quantify the relative strength of selection, we calculated the S indexes for the genomes in this study (supplementary table S2, Supplementary Material online). The S index is inferred from the relative use of C-ending codons for Asn, Ile, Phe, Tyr (Sharp et�al. 2005),
+
+### 2019-01-28
+https://pubmed.ncbi.nlm.nih.gov/30691394/
+Comparative Study BMC Genomics
+. 2019 Jan 28;20(1):92. doi: 10.1186/s12864-018-5389-z.
+Comparative genomics of Bacteria commonly identified in the built environment
+Nancy Merino 1 2, Shu Zhang 3 4, Masaru Tomita 5 6, Haruo Suzuki 7 8
+https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-5389-z
+https://pmc.ncbi.nlm.nih.gov/articles/PMC6350394/
+Strength of selected codon usage bias (S value)
+
+### 2016-05-19
+https://pubmed.ncbi.nlm.nih.gov/27196606/
+PLoS One
+. 2016 May 19;11(5):e0154306. doi: 10.1371/journal.pone.0154306. eCollection 2016.
+Codon Adaptation of Plastid Genes
+Haruo Suzuki 1, Brian R Morton 2
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0154306
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4873144/
+
+Materials and Methods
+
+The strength of selection for codon adaptation (S)
+
+Genome S values
+The results of the S calculations are summarized in Table 4. S provides information on the strength of selection on those genes under selection as measured by the degree to which they differ from the overall genome codon usage.
+
+Table 4. Genomes with the Lowest and Highest S Coefficients.
+
+One difficulty with using just the psbA gene to calculate S is that, although it is the best gene to use in terms of codon adaptation, the amino acid composition pattern of this gene results in an invalid S in several genomes. Therefore, we repeated the analysis using psbA, rbcL and psbC as the high translation genes (Table 5) to generate a second S value that we call S3. 
+
+Table 5. Genomes with the Lowest and Highest S3 Coefficients1.
+
+### 2010-04-27
+https://pubmed.ncbi.nlm.nih.gov/20308095/
+Review Philos Trans R Soc Lond B Biol Sci
+. 2010 Apr 27;365(1544):1203-12. doi: 10.1098/rstb.2009.0305.
+Forces that influence the evolution of codon bias
+Paul M Sharp 1, Laura R Emery, Kai Zeng
+https://pmc.ncbi.nlm.nih.gov/articles/PMC2871821/
+rstb20090305.pdf
+3. Variation in the strength of selected codon usage bias among bacteria
+We have previously examined the strength of selected codon usage bias in 80 distinct bacterial species with genome sequences available (Sharp et al. 2005). To quantify the strength of selected codon usage bias, we modified a population genetic model (Bulmer 1991). 
+
+### 2007-01
+https://pubmed.ncbi.nlm.nih.gov/17038449/
+Mol Biol Evol
+. 2007 Jan;24(1):10-2. doi: 10.1093/molbev/msl148. Epub 2006 Oct 12.
+Predicting gene expression level from codon usage bias
+Ian Henry, Paul M Sharp
+https://academic.oup.com/mbe/article/24/1/10/1070854?login=false
+msl148.pdf
+
+The strength of selected codon usage bias varies widely among bacteria. In some species, 
+highly expressed genes have no discernible difference in codon usage from other genes. In a recent survey of 80 bacterial genomes, we found 30% to show no significant evidence of translationally selected codon usage bias (Sharp et al. 2005). 
+
+### 2005-02-23
+https://pubmed.ncbi.nlm.nih.gov/15728743/
+Nucleic Acids Res
+. 2005 Feb 23;33(4):1141-53. doi: 10.1093/nar/gki242. Print 2005.
+Variation in the strength of selected codon usage bias among bacteria
+Paul M Sharp 1, Elizabeth Bailes, Russell J Grocock, John F Peden, R Elizabeth Sockett
+https://academic.oup.com/nar/article/33/4/1141/1521122
+https://pmc.ncbi.nlm.nih.gov/articles/PMC549432/
+gki242.pdf
+The strength of selected codon usage bias, S, is found to vary substantially among species; in 30% of the genomes examined, there was no significant evidence that selection had been effective. Values of S are highly positively correlated with both the number of rRNA operons and the number of tRNA genes. These results are consistent with the hypothesis that species exposed to selection for rapid growth have more rRNA operons, more tRNA genes and more strongly selected codon usage bias. 
+
+METHODS
+Estimation of S
+
+This methodology was applied to codons for four amino acids (Phe, Tyr, Ile and Asn) where the nature of codon selection is expected to be the same in all species.
+
+Table 1.
+The 80 bacterial genome sequences analysed
+
+To represent genes under the weakest selection, the codon usage of the entire genome was used, on the assumption that the number of genes expressed at high levels is a very small fraction of the genome as a whole. To represent genes where codon usage would be expected to be subject to strong translational selection, codon usage was summed across a set of 40 genes expected to be expressed constitutively at very high levels. This set included the genes encoding translation elongation factors Tu (tufA), Ts (tsf) and G (fusA), and 37 of the larger ribosomal proteins (encoded by genes rplA-rplF, rplI-rplT and rpsB-rpsT). 
 
 ----------
 ## review
@@ -293,8 +389,6 @@ https://link.springer.com/article/10.1007/s00239-021-10027-z
 Letter to the Editor
 Published: 12 August 2021
 
-
-
 ### 2021-06-20
 https://pubmed.ncbi.nlm.nih.gov/33441035/
 Annu Rev Biochem
@@ -314,7 +408,6 @@ https://www.sciencedirect.com/science/article/pii/S2001037021001549
 https://pmc.ncbi.nlm.nih.gov/articles/PMC8122159/
 Dmean (mean dissimilarity-based index)
 Ew (weighted sum of relative entropy)
-
 
 
 ### 2018-01
@@ -353,9 +446,8 @@ Review Biol Rev Camb Philos Soc
 . 2013 Feb;88(1):49-61. doi: 10.1111/j.1469-185X.2012.00242.x. Epub 2012 Aug 14.
 Codon usage bias: causative factors, quantification methods and genome-wide patterns: with emphasis on insect genomes
 Susanta K Behura 1, David W Severson
-https://onlinelibrary.wiley.com/doi/10.1111/j.1469-185X.2012.00242.x
-https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-185X.2012.00242.x
-Get access to the full version of this article.
+https://search.lib.keio.ac.jp/permalink/81SOKEI_KEIO/uccs31/cdi_proquest_miscellaneous_1285102086
+Wiley Online Library Database Model 
 
 ### 2012-11
 https://pubmed.ncbi.nlm.nih.gov/22921354/
@@ -364,6 +456,9 @@ Review Trends Genet
 Speeding with control: codon usage, tRNAs, and ribosomes
 Eva Maria Novoa 1, Lluís Ribas de Pouplana
 https://www.cell.com/trends/genetics/abstract/S0168-9525(12)00113-8
+Get Access
+https://search.lib.keio.ac.jp/permalink/81SOKEI_KEIO/uccs31/cdi_proquest_miscellaneous_1746410987
+Elsevier ScienceDirect Journals Complete
 
 ### 2011-01
 https://pubmed.ncbi.nlm.nih.gov/21102527/
@@ -381,7 +476,8 @@ Review Annu Rev Genet
 . 2008:42:287-99. doi: 10.1146/annurev.genet.42.110807.091442.
 Selection on codon bias
 Ruth Hershberg 1, Dmitri A Petrov
-https://www.annualreviews.org/content/journals/10.1146/annurev.genet.42.110807.091442
+https://search.lib.keio.ac.jp/permalink/81SOKEI_KEIO/uccs31/cdi_proquest_miscellaneous_69748098
+Annual Reviews (Package archive)
 
 ### 2001-10
 https://pubmed.ncbi.nlm.nih.gov/11719972/
@@ -863,24 +959,6 @@ https://www.ncbi.nlm.nih.gov/pubmed/28992099
 DNA Res. 2017 Dec 1;24(6):623-633. doi: 10.1093/dnares/dsx030.
 Co-adaption of tRNA gene copy number and amino acid usage influences translation rates in three life domains.
 Du MZ1, Wei W1, Qin L1, Liu S1, Zhang AY1,2, Zhang Y1,2, Zhou H1,2, Guo FB1,2,3.
-
-### 2017-10
-
-https://pubmed.ncbi.nlm.nih.gov/27540085/
-Genome Biol Evol
-. 2017 Oct 1;9(10):2560-2579. doi: 10.1093/gbe/evw201.
-Switches in Genomic GC Content Drive Shifts of Optimal Codons under Sustained Selection on Synonymous Sites
-Yu Sun 1, Daniel Tamarit 1, Siv G E Andersson 1
-https://academic.oup.com/gbe/article/9/10/2560/2669849
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5629928/
-
-The strength of selected codon usage bias was estimated from the S index, which is used as a proxy for translational selection on individual genomes (Sharp et�al. 2005, 2010).
-
-fig. 2.—
-Phylogenetic relationships and genome features of Lactobacillus species.
-A schematic figure illustrates the variation in GC contents, selective constraints (S-value), genome sizes and number of tRNAs in the species selected for an in-depth analysis.
-
-In order to quantify the relative strength of selection, we calculated the S indexes for the genomes in this study (supplementary table S2, Supplementary Material online). The S index is inferred from the relative use of C-ending codons for Asn, Ile, Phe, Tyr (Sharp et�al. 2005),
 
 ### 2017-02-10
 
@@ -2013,40 +2091,12 @@ Eduardo P C Rocha 1
 https://genome.cshlp.org/content/14/11/2279.long
 https://pmc.ncbi.nlm.nih.gov/articles/PMC525687/
 
-### Sharp
+## Sharp
 
 2011
 https://www.era.lib.ed.ac.uk/handle/1842/4893
 Codon usage bias in Archaea
 Emery, Laura R.
-
-2010-04-27
-https://pubmed.ncbi.nlm.nih.gov/20308095/
-Review Philos Trans R Soc Lond B Biol Sci
-. 2010 Apr 27;365(1544):1203-12. doi: 10.1098/rstb.2009.0305.
-Forces that influence the evolution of codon bias
-Paul M Sharp 1, Laura R Emery, Kai Zeng
-https://pmc.ncbi.nlm.nih.gov/articles/PMC2871821/
-rstb20090305.pdf
-
-2007-01
-https://academic.oup.com/mbe/article/24/1/10/1070854?login=false
-Mol Biol Evol
-. 2007 Jan;24(1):10-2. doi: 10.1093/molbev/msl148. Epub 2006 Oct 12.
-Predicting gene expression level from codon usage bias
-Ian Henry, Paul M Sharp
-https://academic.oup.com/mbe/article/24/1/10/1070854?login=false
-msl148.pdf
-
-2005-02-23
-https://pubmed.ncbi.nlm.nih.gov/15728743/
-Nucleic Acids Res
-. 2005 Feb 23;33(4):1141-53. doi: 10.1093/nar/gki242. Print 2005.
-Variation in the strength of selected codon usage bias among bacteria
-Paul M Sharp 1, Elizabeth Bailes, Russell J Grocock, John F Peden, R Elizabeth Sockett
-https://academic.oup.com/nar/article/33/4/1141/1521122
-https://pmc.ncbi.nlm.nih.gov/articles/PMC549432/
-gki242.pdf
 
 
 https://www.ncbi.nlm.nih.gov/pubmed/10784043
@@ -2074,7 +2124,6 @@ Cluster analysis on relative synonymous codon usage revealed two distinct groups
 ## Vlahovicek
 ## coRdon
 https://github.com/haruosuz/r4bioinfo/tree/master/R_codon#cordon
-
 
 ### Supek
 ### 2016-12-01
